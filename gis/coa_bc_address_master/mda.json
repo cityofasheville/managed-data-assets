@@ -1,0 +1,8 @@
+{
+  "name": "coa_bc_address_master",
+  "description": "Master address table",
+  "etl": {
+    "type": "fme",
+    "file": "edit2wh-bc_location.fmw"
+  }
+}
