@@ -1,6 +1,6 @@
 SET search_path TO amd, public, topology, sde;
 
-DROP TABLE coa_bc_address_master;
+DROP TABLE IF EXISTS coa_bc_address_master;
 
 CREATE TABLE coa_bc_address_master
 (
