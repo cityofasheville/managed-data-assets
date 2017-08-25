@@ -1,5 +1,5 @@
 -- Update river district
-UPDATE ericjackson.coa_bc_address_master
+UPDATE amd.coa_bc_address_master
 SET 
   river_district = riverupdate.river_district
 FROM (
@@ -13,13 +13,13 @@ FROM (
                 when districts = 'RIVER' THEN 'Yes'
                 else 'No'
               end as river_district
-            from coagis.bc_property prop
+            from amd.bc_property prop
             left join (
               select districts, shape as rshape
-              from coagis.coa_districts_zoning
+              from amd.coa_districts_zoning
               where districts = 'RIVER'
             ) as river
             on (st_intersects(river.rshape, prop.shape))
   ) as a
 ) as riverupdate
-where ericjackson.coa_bc_address_master.property_pin = riverupdate.pin;
+where amd.coa_bc_address_master.property_pin = riverupdate.pin;

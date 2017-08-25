@@ -1,5 +1,7 @@
 {
   "depends": [],
+  "create": [],
+  "distribute": [],
   "tasks": [
     {
       "type": "sql",
@@ -17,19 +19,19 @@
       "type": "sql",
       "file": "2-add_water_districts.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "3-add_trashday.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "4-update_river_district.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     }
   ]
 }
