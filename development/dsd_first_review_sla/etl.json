@@ -1,0 +1,13 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "dsd_first_review_sla.fmw",
+      "db": "datastore1",
+      "active": true
+    }
+  ]
+}
