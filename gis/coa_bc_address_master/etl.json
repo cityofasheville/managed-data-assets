@@ -7,31 +7,37 @@
       "type": "sql",
       "file": "0-create-coa_bc_address_master-table.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "1-coa_bc_address_master_base.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "2-add_water_districts.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "3-add_trashday.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "4-update_river_district.sql",
       "db": "datastore1",
-      "active": false
+      "active": true
+    },
+    {
+      "type": "sql",
+      "file": "5-update_zoning.sql",
+      "db": "datastore1",
+      "active": true
     }
   ]
 }
