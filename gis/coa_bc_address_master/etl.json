@@ -1,8 +1,6 @@
 {
   "depends": [],
-  "create": [],
-  "distribute": [],
-  "tasks": [
+  "create": [
     {
       "type": "sql",
       "file": "0-create-coa_bc_address_master-table.sql",
@@ -39,5 +37,7 @@
       "db": "datastore1",
       "active": true
     }
-  ]
+  ],
+  "distribute": [],
+  "tasks": []
 }
