@@ -1,0 +1,2 @@
+REINDEX TABLE amd.coa_bc_address_master
+ANALYZE amd.coa_bc_address_master

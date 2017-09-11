@@ -1,3 +1,5 @@
+truncate amd.coa_bc_address_master;
+
 insert into amd.coa_bc_address_master (
   objectid,
   civicaddress_id,

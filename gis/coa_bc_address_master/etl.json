@@ -2,10 +2,11 @@
   "depends": [],
   "create": [
     {
+      "note": "This was to create table originally - do not use",
       "type": "sql",
       "file": "0-create-coa_bc_address_master-table.sql",
       "db": "datastore1",
-      "active": true
+      "active": false
     },
     {
       "type": "sql",
@@ -36,6 +37,13 @@
       "file": "5-update_zoning.sql",
       "db": "datastore1",
       "active": true
+    },
+    {
+      "note": "I don't think we actually need this. Def. not index. Maybe not analyze",
+      "type": "sql",
+      "file": "6-reindex.sql",
+      "db": "datastore1",
+      "active": false
     }
   ],
   "distribute": [],
