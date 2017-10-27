@@ -26,6 +26,8 @@ CREATE TABLE coa_bc_address_master
     mrc character varying(8) COLLATE pg_catalog."default",
     water_district character varying(8) COLLATE pg_catalog."default",
     trash_pickup_day character varying(10) COLLATE pg_catalog."default",
+    recycling_pickup_district character varying(2) COLLATE pg_catalog."default",
+    recycling_pickup_day character varying(10) COLLATE pg_catalog."default",
     jurisdiction_type character varying(150) COLLATE pg_catalog."default",
 -- Added overlays
     zoning character varying(200),

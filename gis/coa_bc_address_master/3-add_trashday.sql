@@ -1,11 +1,15 @@
 -- Update trash pickup day
 UPDATE amd.coa_bc_address_master
 SET 
- trash_pickup_day = public_works_districts.truckday
+ trash_pickup_day = public_works_districts.truckday,
+ recycling_pickup_district = public_works_districts.recdistrict,
+ recycling_pickup_day = public_works_districts.recday
  FROM (
     SELECT DISTINCT
       amd.bc_location.location_id, 
-      amd.coa_districts_public_works.truckday
+      amd.coa_districts_public_works.truckday,
+      amd.coa_districts_public_works.recdistrict,
+      amd.coa_districts_public_works.recday
     FROM
       amd.bc_location
     LEFT JOIN 
