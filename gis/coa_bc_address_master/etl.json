@@ -37,13 +37,6 @@
       "file": "5-update_zoning.sql",
       "db": "datastore1",
       "active": true
-    },
-    {
-      "note": "I don't think we actually need this. Def. not index. Maybe not analyze",
-      "type": "sql",
-      "file": "6-reindex.sql",
-      "db": "datastore1",
-      "active": false
     }
   ],
   "distribute": [],
