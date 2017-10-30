@@ -1,8 +1,0 @@
-{
-  "name": "bc_location",
-  "description": "Location data for all points",
-  "etl": {
-    "type": "fme",
-    "file": "edit2wh-bc_location.fmw"
-  }
-}
