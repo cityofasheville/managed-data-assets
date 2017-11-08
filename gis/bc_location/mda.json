@@ -1,0 +1,10 @@
+{
+  "name": "bc_location",
+  "description": "Locations table from County",
+  "violation": [
+    {
+      "type": "one-to-one",
+      "comment": "We have to copy directly from county because multipoint"
+    }
+  ]
+}
