@@ -1,5 +1,15 @@
 {
-  "depends": ["bc_property"],
+  "depends": [
+    "bc_property.ds1",
+    "bc_civicaddress_table.ds1",
+    "bc_location.ds1",
+    "bc_property_pinnum_formatted_owner_names.ds1",
+    "coa_zip_code.ds1",
+    "coa_active_jurisdictions.ds1",
+    "coa_districts_water.ds1",
+    "coa_districts_public_works.ds1",
+    "coa_districts_zoning.ds1"
+  ],
   "create": [
     {
       "note": "This was to create table originally - do not use",

@@ -1,0 +1,12 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bc2wh-bc_location.fmw",
+      "active": true
+    }
+  ]
+}
