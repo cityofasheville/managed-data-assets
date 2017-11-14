@@ -1,0 +1,11 @@
+{
+  "name": "coa_districts_zoning",
+  "description": "Asheville zoning districts",
+  "constraints": [
+    {
+      "type": "spatial-tolerance",
+      "value": 0.00002,
+      "comment": "When setting up table in ArcMap do not use default tolerance. Also 0.00001 resolution"
+    }
+  ]
+}
