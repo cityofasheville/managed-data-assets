@@ -1,0 +1,12 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bc_property_account_master.fmw",
+      "active": true
+    }
+  ]
+}

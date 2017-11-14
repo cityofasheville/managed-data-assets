@@ -8,7 +8,8 @@
     "coa_active_jurisdictions.ds1",
     "coa_districts_water.ds1",
     "coa_districts_public_works.ds1",
-    "coa_districts_zoning.ds1"
+    "coa_districts_zoning.ds1",
+    "bc_property_account_master"
   ],
   "create": [
     {
