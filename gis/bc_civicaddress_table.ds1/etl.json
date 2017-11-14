@@ -1,0 +1,12 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "edit2wh-bc_civicaddress_table.fmw",
+      "active": true
+    }
+  ]
+}
