@@ -1,3 +1,0 @@
-ALTER TABLE amd.coa_active_jurisdictions DROP CONSTRAINT enforce_srid_shape;
-SELECT UpdateGeometrySRID('amd', 'coa_active_jurisdictions', 'shape', 2264);
-ALTER TABLE amd.coa_active_jurisdictions ADD CONSTRAINT enforce_srid_shape CHECK (st_srid(shape) = 2264);
