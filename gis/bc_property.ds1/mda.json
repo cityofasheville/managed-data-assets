@@ -1,4 +1,5 @@
 {
   "name": "bc_property.ds1",
+  "type": "table",
   "description": "Property table from County"
 }

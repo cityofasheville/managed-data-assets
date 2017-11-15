@@ -1,4 +1,5 @@
 {
   "name": "bc_property_pinnum_formatted_owner_names",
+  "type": "table",
   "description": "Preprocessed owner names"
 }

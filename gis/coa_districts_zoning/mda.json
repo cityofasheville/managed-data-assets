@@ -1,5 +1,6 @@
 {
   "name": "coa_districts_zoning",
+  "type": "table",
   "description": "Asheville zoning districts",
   "constraints": [
     {

@@ -1,4 +1,5 @@
 {
   "name": "coa_districts_water",
+  "type": "table",
   "description": "Asheville water districts"
 }

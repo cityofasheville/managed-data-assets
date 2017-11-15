@@ -103,3 +103,8 @@ CREATE INDEX search
 GRANT SELECT ON TABLE coa_bc_address_master TO sde;
 
 GRANT INSERT, SELECT, UPDATE, DELETE, TRUNCATE ON TABLE coa_bc_address_master TO ericjackson;
+
+CREATE INDEX search
+    ON amd.coa_bc_address_master USING btree
+    (address_number, address_street_name COLLATE pg_catalog."default", address_street_type COLLATE pg_catalog."default", address_street_prefix COLLATE pg_catalog."default", address_zipcode, address_commcode COLLATE pg_catalog."default", address_unit COLLATE pg_catalog."default")
+    TABLESPACE pg_default;

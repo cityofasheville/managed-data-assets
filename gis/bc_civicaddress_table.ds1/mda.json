@@ -1,4 +1,5 @@
 {
   "name": "bc_civicaddress_table.ds1",
+  "type": "table",
   "description": "Civic address table from County"
 }

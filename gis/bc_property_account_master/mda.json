@@ -1,4 +1,5 @@
 {
   "name": "bc_property_account_master",
+  "type": "table",
   "description": "Warehouse copy of amaccountmaster in Buncombe County"
 }

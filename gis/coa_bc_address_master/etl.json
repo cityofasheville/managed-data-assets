@@ -13,13 +13,6 @@
   ],
   "create": [
     {
-      "note": "This was to create table originally - do not use",
-      "type": "sql",
-      "file": "0-create-coa_bc_address_master-table.sql",
-      "db": "datastore1",
-      "active": false
-    },
-    {
       "type": "sql",
       "file": "1-coa_bc_address_master_base.sql",
       "db": "datastore1",

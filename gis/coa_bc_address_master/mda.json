@@ -1,4 +1,10 @@
 {
   "name": "coa_bc_address_master",
-  "description": "Master address table"
+  "type": "table",
+  "description": "Master address table",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "create-coa_bc_address_master-table.sql"
+  }
 }
