@@ -1,0 +1,14 @@
+{
+  "depends": [
+    "mda_permits"
+  ],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela2wh-mda_permit_comments.fmw",
+      "active": true
+    }
+  ]
+}
