@@ -1,0 +1,12 @@
+{
+  "name": "v_mda_permits_xy",
+  "type": "view",
+  "description": "View that adds X, Y values of address in both state plane and WGS",
+  "notes": [
+    "Depends on mda_permits and coa_bc_address_master"
+  ],
+  "schema": {
+    "type": "sql",
+    "file": "create_v_mda_permits_xy_view.sql"
+  }
+}
