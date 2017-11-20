@@ -1,0 +1,12 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bc_public_incident_data.fmw",
+      "active": true
+    }
+  ]
+}

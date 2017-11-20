@@ -1,0 +1,5 @@
+{
+  "name": "bc_public_incident_data",
+  "type": "table",
+  "description": "Crime incident data from RMS"
+}
