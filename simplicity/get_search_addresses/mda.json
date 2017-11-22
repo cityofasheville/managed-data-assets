@@ -5,6 +5,6 @@
   "notes": [],
   "schema": {
     "type": "sql",
-    "file": "create_get_search_addresses_function.sql"
+    "file": "get_search_addresses.sql"
   }
 }
