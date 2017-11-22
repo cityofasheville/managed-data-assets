@@ -1,9 +1,17 @@
-CREATE OR REPLACE FUNCTION amd.get_properties_along_streets(cid integer[], ldist number)
-    RETURNS SETOF amd.v_simplicity_properties
+-- FUNCTION: amd.get_properties_along_streets(numeric[], numeric)
+
+-- DROP FUNCTION amd.get_properties_along_streets(numeric[], numeric);
+
+CREATE OR REPLACE FUNCTION amd.get_properties_along_streets(
+	cid numeric[],
+	ldist numeric)
+RETURNS SETOF amd.v_simplicity_properties 
     LANGUAGE 'plpgsql'
-    VOLATILE
-    COST 100.0ROWS 1000.0
-AS $function$DECLARE
+    COST 100.0
+    VOLATILE 
+    ROWS 1000.0
+AS $function$
+DECLARE
     r amd.v_simplicity_properties%rowtype;
 BEGIN
 	for i in 1..array_length(cid,1) loop
@@ -15,12 +23,13 @@ BEGIN
                    A.lattitude, A.longitude, A.zoning, A.owner_address
             FROM amd.v_simplicity_properties AS A
             LEFT JOIN amd.bc_street AS B
-            ON ST_DWithin(B.shape, A.shape, number)
-            WHERE B.civicaddress_id = cid[i]
+            ON ST_DWithin(B.shape, A.shape, ldist)
+            WHERE B.centerline_id = cid[i]
 		LOOP
 			RETURN NEXT r; -- return current row of SELECT
         END LOOP;
     END LOOP;
     RETURN;
 END
+
 $function$;
