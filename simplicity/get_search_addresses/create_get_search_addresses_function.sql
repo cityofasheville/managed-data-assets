@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION amd.get_properties_along_streets(cid integer[], ldist number)
+CREATE OR REPLACE FUNCTION amd.get_search_addresses(lnumber integer[], lstreetname character varying[], ltype character varying[], lprefix character varying[], lunit character varying[], lzipcode integer[], lcity character varying[])
     RETURNS SETOF amd.coa_bc_address_master
     LANGUAGE 'plpgsql'
     VOLATILE
