@@ -1,10 +1,10 @@
 {
-  "name": "get_search_addresses",
+  "name": "get_properties_along_streets",
   "type": "function",
-  "description": "PLPGSQL Function to pull list of address matches from search",
+  "description": "PLPGSQL Function to get properties along a set of streets",
   "notes": [],
   "schema": {
     "type": "sql",
-    "file": "create_get_search_addresses_function.sql"
+    "file": "get_properties_along_streets.sql"
   }
 }
