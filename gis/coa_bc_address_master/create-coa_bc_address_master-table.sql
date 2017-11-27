@@ -86,8 +86,8 @@ CREATE TABLE coa_bc_address_master
     owner_zipcode character varying(50) COLLATE pg_catalog."default",
     owner_account_number character varying(50) COLLATE pg_catalog."default",
     shape geometry,
-    longitude double precision,
-    lattitude double precision,
+    longitude_wgs double precision,
+    latitude_wgs double precision,
     CONSTRAINT enforce_geotype_shape CHECK (geometrytype(shape) = 'POINT'::text OR shape IS NULL)
 )
 WITH (

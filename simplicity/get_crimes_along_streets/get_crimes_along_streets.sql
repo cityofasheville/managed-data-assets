@@ -24,7 +24,7 @@ BEGIN
                 A.offense_group_short_description, A.offense_group_long_description
             FROM amd.v_simplicity_crimes AS A
             LEFT JOIN amd.bc_street AS B
-            ON ST_DWithin(B.shape, ST_SetSRID(ST_Point(A.x, A.y),2264), 5000)
+            ON ST_DWithin(B.shape, ST_SetSRID(ST_Point(A.x, A.y),2264), ldist)
             WHERE B.centerline_id = cid[i]
 		LOOP
 			RETURN NEXT r; -- return current row of SELECT
