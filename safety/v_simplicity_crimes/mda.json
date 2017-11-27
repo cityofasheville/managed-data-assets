@@ -1,0 +1,10 @@
+{
+  "name": "v_simplicity_crimes",
+  "type": "view",
+  "description": "Standard crimes query with X, Y in WGS projection",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "v_simplicity_crimes.sql"
+  }
+}
