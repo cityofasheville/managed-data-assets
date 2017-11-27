@@ -1,7 +1,10 @@
 {
   "name": "v_simplicity_crimes",
   "type": "view",
-  "description": "Standard crimes query with X, Y in WGS projection",
+  "depends": [
+    "coa_apd_public_incidents_view"
+  ],
+  "description": "Standard SimpliCity crimes query (adds WGS x, y)",
   "notes": [],
   "schema": {
     "type": "sql",
