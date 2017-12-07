@@ -1,5 +1,4 @@
 -- FUNCTION: amd.get_permits_along_streets(numeric[], numeric)
-
 -- DROP FUNCTION amd.get_permits_along_streets(numeric[], numeric);
 
 CREATE OR REPLACE FUNCTION amd.get_permits_along_streets(
@@ -11,6 +10,7 @@ RETURNS SETOF amd.v_simplicity_permits
     VOLATILE 
     ROWS 1000.0
 AS $function$
+
 DECLARE
     r amd.v_simplicity_permits%rowtype;
 BEGIN
@@ -24,7 +24,7 @@ BEGIN
                     A.comment_seq_number, A.comment_date, A.comments
             FROM amd.v_simplicity_permits AS A
             LEFT JOIN amd.bc_street AS B
-            ON ST_DWithin(B.shape, ST_SetSRID(ST_Point(A.x, A.y),2264), ldist)
+            ON ST_DWithin(B.shape, ST_Transform(ST_SetSRID(ST_Point(A.x, A.y),4326),2264), ldist)
             WHERE B.centerline_id = cid[i]
 		LOOP
 			RETURN NEXT r; -- return current row of SELECT
@@ -32,5 +32,6 @@ BEGIN
     END LOOP;
     RETURN;
 END
+
 $function$;
 

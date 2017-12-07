@@ -11,6 +11,7 @@ RETURNS SETOF amd.v_simplicity_properties
     VOLATILE 
     ROWS 1000.0
 AS $function$
+
 DECLARE
     r amd.v_simplicity_properties%rowtype;
 BEGIN
@@ -20,7 +21,7 @@ BEGIN
                    A.cityname, A.zipcode, A.totalmarketvalue, A.appraisedvalue, A.taxvalue,
                    A.landvalue, A.buildingvalue, A.propcard, A.deedurl, A.platurl,
                    A.appraisalarea, A.neighborhoodcode, A.shape, A.civicaddress_id,
-                   A.lattitude, A.longitude, A.zoning, A.owner_address
+                   A.lattitude, A.longitude, A.zoning, A.owner_address, A.polygon
             FROM amd.v_simplicity_properties AS A
             LEFT JOIN amd.bc_street AS B
             ON ST_DWithin(B.shape, A.shape, ldist)
@@ -33,3 +34,4 @@ BEGIN
 END
 
 $function$;
+
