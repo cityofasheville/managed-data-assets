@@ -1,5 +1,7 @@
 {
   "name": "coa_districts_public_works",
+  "active": true,
   "type": "table",
-  "description": "Public works districts"
+  "description": "Public works districts",
+  "depends": []
 }

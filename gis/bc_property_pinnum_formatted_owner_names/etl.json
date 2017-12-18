@@ -1,8 +1,4 @@
 {
-  "depends": [
-    "bc_property",
-    "bc_property_account_master"
-  ],
   "create": [],
   "distribute": [],
   "tasks": [

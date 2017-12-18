@@ -1,7 +1,9 @@
 {
   "name": "bc_location.ds1",
+  "active": true,
   "type": "table",
   "description": "Locations table from County",
+  "depends": [],
   "violation": [
     {
       "type": "one-to-one",

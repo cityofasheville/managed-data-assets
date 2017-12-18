@@ -1,5 +1,10 @@
 {
   "name": "bc_property_pinnum_formatted_owner_names",
+  "active": true,
   "type": "table",
-  "description": "Preprocessed owner names"
+  "description": "Preprocessed owner names",
+  "depends": [
+    "bc_property.ds1",
+    "bc_property_account_master"
+  ]
 }
