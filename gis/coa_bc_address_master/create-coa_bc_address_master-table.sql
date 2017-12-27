@@ -11,6 +11,7 @@ CREATE TABLE coa_bc_address_master
     address_full character varying(40) COLLATE pg_catalog."default",
     address_number integer,
     address_unit character varying(4) COLLATE pg_catalog."default",
+    unit_type integer,
     address_street_prefix character varying(2) COLLATE pg_catalog."default",
     address_street_name character varying(30) COLLATE pg_catalog."default",
     address_street_type character varying(4) COLLATE pg_catalog."default",
