@@ -6,12 +6,12 @@ CREATE OR REPLACE VIEW amd.v_simplicity_properties AS
  SELECT a.pin,
     a.pinext,
     a.pinnum,
-    a.address,
+    b.address_full as address,
     a.exempt,
     a.acreage,
     a.owner,
-    a.cityname,
-    a.zipcode,
+    b.address_city as cityname,
+    b.address_zipcode as zipcode,
     a.totalmarketvalue,
     a.appraisedvalue,
     a.taxvalue,
@@ -24,11 +24,13 @@ CREATE OR REPLACE VIEW amd.v_simplicity_properties AS
     a.neighborhoodcode,
     a.shape,
     b.civicaddress_id,
-    b.lattitude,
-    b.longitude,
+    b.latitude_wgs,
+    b.longitude_wgs,
     b.zoning,
     b.owner_address,
+    b.location_type,
     st_astext(st_transform(a.shape, 4326)) AS polygon
    FROM amd.bc_property a
-     LEFT JOIN amd.coa_bc_address_master b ON a.pin::text = b.property_pin::text AND a.pinext::text = b.property_pinext::text;
+     LEFT JOIN amd.coa_bc_address_master b ON a.pin::text = b.property_pin::text AND a.pinext::text = b.property_pinext::text
+   WHERE b.location_type = 1
 
