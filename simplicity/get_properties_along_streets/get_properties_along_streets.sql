@@ -17,11 +17,33 @@ DECLARE
 BEGIN
 	for i in 1..array_length(cid,1) loop
     	FOR r IN
-    		SELECT A.pin, A.pinext, A.pinnum, A.address, A.exempt, A.acreage, A.owner,
-                   A.cityname, A.zipcode, A.totalmarketvalue, A.appraisedvalue, A.taxvalue,
-                   A.landvalue, A.buildingvalue, A.propcard, A.deedurl, A.platurl,
-                   A.appraisalarea, A.neighborhoodcode, A.shape, A.civicaddress_id,
-                   A.lattitude, A.longitude, A.zoning, A.owner_address, A.polygon
+    		SELECT A.pin,
+                    A.pinext,
+                    A.pinnum,
+                    A.address,
+                    A.exempt,
+                    A.acreage,
+                    A.owner,
+                    A.cityname,
+                    A.zipcode,
+                    A.totalmarketvalue,
+                    A.appraisedvalue,
+                    A.taxvalue,
+                    A.landvalue,
+                    A.buildingvalue,
+                    A.propcard,
+                    A.deedurl,
+                    A.platurl,
+                    A.appraisalarea,
+                    A.neighborhoodcode,
+                    A.shape,
+                    A.civicaddress_id,
+                    A.latitude_wgs,
+                    A.longitude_wgs,
+                    A.zoning,
+                    A.owner_address,
+                    A.location_type,
+                    A.polygon
             FROM amd.v_simplicity_properties AS A
             LEFT JOIN amd.bc_street AS B
             ON ST_DWithin(B.shape, A.shape, ldist)
@@ -34,4 +56,3 @@ BEGIN
 END
 
 $function$;
-
