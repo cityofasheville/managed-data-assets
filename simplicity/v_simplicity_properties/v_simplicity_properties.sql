@@ -32,5 +32,7 @@ CREATE OR REPLACE VIEW amd.v_simplicity_properties AS
     st_astext(st_transform(a.shape, 4326)) AS polygon
    FROM amd.bc_property a
      LEFT JOIN amd.coa_bc_address_master b ON a.pin::text = b.property_pin::text AND a.pinext::text = b.property_pinext::text
-   WHERE b.location_type = 1
+   WHERE b.location_type = 1 OR b.location_type = 0
+   
+
 
