@@ -1,0 +1,10 @@
+{
+  "name": "v_coa_simple_street_maintenance",
+  "type": "view",
+  "description": "Creates a simplified version of street maintenance with LineStrings instead of MultiLineStrings",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "v_coa_simple_street_maintenance.sql"
+  }
+}
