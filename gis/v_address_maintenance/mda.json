@@ -1,0 +1,10 @@
+{
+  "name": "v_address_maintenance",
+  "type": "view",
+  "description": "Maintenance entity(entities) for addresses",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "v_address_maintenance.sql"
+  }
+}
