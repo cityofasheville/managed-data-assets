@@ -14,5 +14,5 @@ CREATE OR REPLACE VIEW amd.v_address_maintenance AS
             m.maintenance_entity,
             m.shape
            FROM amd.v_coa_simple_street_maintenance m
-             LEFT JOIN amd.coa_bc_address_master a ON m.centerline_id = a.centerline_id AND st_dwithin(m.shape, a.shape, 250::double precision)) address_maintenance
-  WHERE address_maintenance.location <> 0::double precision AND address_maintenance.location <> 1::double precision;
+             LEFT JOIN amd.coa_bc_address_master a ON m.centerline_id = a.centerline_id AND st_dwithin(m.shape, a.shape, 250::double precision)) address_maintenance;
+
