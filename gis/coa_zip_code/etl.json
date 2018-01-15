@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "edit2wh-coa_zip_code.fmw",
+      "file": "edit2wh-coa_zip_code2.fmw",
       "active": true
     }
   ]

@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "bc2wh-bc_location.fmw",
+      "file": "bc2wh-bc_location2.fmw",
       "active": true
     }
   ]
