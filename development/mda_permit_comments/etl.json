@@ -1,7 +1,4 @@
 {
-  "depends": [
-    "mda_permits"
-  ],
   "create": [],
   "distribute": [],
   "tasks": [

@@ -1,5 +1,9 @@
 {
   "name": "mda_permit_comments",
   "type": "table",
-  "description": "Permit comments data"
+  "active": true,
+  "description": "Permit comments data",
+  "depends": [
+    "mda_permits"
+  ]
 }

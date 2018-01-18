@@ -1,5 +1,7 @@
 {
   "name": "mda_permits",
   "type": "table",
-  "description": "Permits data"
+  "active": true,
+  "description": "Permits data",
+  "depends": []  
 }
