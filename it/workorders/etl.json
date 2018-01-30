@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "accela2wh-mda_permits.fmw",
+      "file": "trackit2wh.fmw",
       "active": true
     }
   ]
