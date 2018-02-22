@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "edit2wh-bc_property2.fmw",
+      "active": true
+    }
+  ]
+}
