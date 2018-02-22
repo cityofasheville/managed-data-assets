@@ -1,7 +1,7 @@
 {
-  "name": "bc_property.ds1",
+  "name": "ad_info",
   "active": true,
   "type": "table",
-  "description": "Property table from County",
+  "description": "AD information for employees",
   "depends": []
 }
