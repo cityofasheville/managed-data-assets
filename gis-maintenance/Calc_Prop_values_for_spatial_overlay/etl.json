@@ -1,0 +1,12 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "sql",
+      "file": "xx.sql",
+      "db": "datastore1",
+      "active": true
+    }
+  ]
+}
