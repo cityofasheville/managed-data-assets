@@ -1,0 +1,9 @@
+{
+  "name": "bc_property_buffer_1_foot_less",
+  "active": false,
+  "type": "table",
+  "description": "TBD",
+  "depends": [
+    "bc_property.ds1"
+  ]  
+}
