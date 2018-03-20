@@ -7,10 +7,10 @@ CREATE OR REPLACE FUNCTION amd.get_properties_along_streets(
 	ldist numeric)
 RETURNS SETOF amd.v_simplicity_properties 
     LANGUAGE 'plpgsql'
-    COST 100.0
+    COST 100
     VOLATILE 
-    ROWS 1000.0
-AS $function$
+    ROWS 1000
+AS $BODY$
 
 DECLARE
     r amd.v_simplicity_properties%rowtype;
@@ -41,6 +41,7 @@ BEGIN
                     A.latitude_wgs,
                     A.longitude_wgs,
                     A.zoning,
+					A.jurisdiction_type,
                     A.owner_address,
                     A.location_type,
                     A.polygon
@@ -55,4 +56,5 @@ BEGIN
     RETURN;
 END
 
-$function$;
+$BODY$;
+

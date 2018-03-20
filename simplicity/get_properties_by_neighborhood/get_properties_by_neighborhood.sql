@@ -1,14 +1,15 @@
--- FUNCTION: amd.get_properties_by_neighborhood(numeric[])
+-- FUNCTION: amd.get_properties_by_neighborhood(character varying[])
+
 -- DROP FUNCTION amd.get_properties_by_neighborhood(character varying[]);
 
 CREATE OR REPLACE FUNCTION amd.get_properties_by_neighborhood(
 	cid character varying[])
 RETURNS SETOF amd.v_simplicity_properties 
     LANGUAGE 'plpgsql'
-    COST 100.0
+    COST 100
     VOLATILE 
-    ROWS 1000.0
-AS $function$
+    ROWS 1000
+AS $BODY$
 
 DECLARE
     r amd.v_simplicity_properties%rowtype;
@@ -39,6 +40,7 @@ BEGIN
                 A.latitude_wgs,
                 A.longitude_wgs,
                 A.zoning,
+				A.jurisdiction_type,
                 A.owner_address,
                 A.location_type,
                 A.polygon
@@ -54,6 +56,5 @@ BEGIN
     RETURN;
 END
 
-$function$;
-
+$BODY$;
 

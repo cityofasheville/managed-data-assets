@@ -1,9 +1,8 @@
-sql:
 -- TRUNCATE TABLE coagis.accella_parcel_attr_cache 
 TRUNCATE TABLE coagis.accella_parcel_attr_cache ;
 -- insert PINNUMBER
 INSERT INTO coagis.accella_parcel_attr_cache(SELECT 1::int as source_seq_nbr_PATT,civicaddress_id::varchar(25) as L1_parcel_nbr_PATT, 'PINNUMBER'::Varchar(30) as L1_attrib_temp_name, 'PINNUMBER'::Varchar(30)as L1_attrib_name, property_pinnum::varchar(200)as L1_attrib_value FROM coagis.coa_bc_address_master WHERE jurisdiction_type != 'Buncombe County' );
--- insert JURISDICTION
+-- insert JURISDICTION // NOTE: Probably should be deleted See Warehouse Job Questions, row 2.
 INSERT INTO coagis.accella_parcel_attr_cache( SELECT 1::int as source_seq_nbr_PATT, "1"::varchar(25) as L1_parcel_nbr_PATT, 'JURISDICTION'::Varchar(30) as L1_attrib_temp_name, 'JURISDICTION'::Varchar(30)as L1_attrib_name, "31"::varchar(200)as L1_attrib_value FROM  coagis.coa_muniscpfinput as m LEFT JOIN coagis.bc_civicaddress_table civ ON civ.civicaddress_id::varchar(25) = m."1" LEFT JOIN coagis.bc_location_table as loc ON loc.location_id = civ.location_id LEFT JOIN coagis.bc_property as prop ON loc.parcel_id || civ.pinext::varchar(50) = prop.pinnum WHERE "31" <> 'Buncombe County');  
 -- insert ZONING DISTRICT 
 INSERT INTO coagis.accella_parcel_attr_cache( SELECT 1::int as source_seq_nbr_PATT, "1"::varchar(25) as L1_parcel_nbr_PATT, 'ZONING DISTRICT'::Varchar(30) as L1_attrib_temp_name, 'ZONING DISTRICT'::Varchar(30)as L1_attrib_name, (CASE WHEN length( coalesce ((SELECT coagis.textcat_all(districts || ',') FROM coagis.coa_districts_zoning b WHERE st_intersects(b.shape,prop.shape)),'No Zoning'))>0 then coalesce ((SELECT coagis.textcat_all(districts || ',') FROM coagis.coa_districts_zoning b WHERE st_intersects(b.shape,prop.shape)),'No Zoning') else 'No Zoning' END) ::varchar(200)   as L1_attrib_value FROM  coagis.coa_muniscpfinput as m LEFT JOIN coagis.bc_civicaddress_table civ ON civ.civicaddress_id::varchar(25) = m."1" LEFT JOIN coagis.bc_location_table as loc ON loc.location_id = civ.location_id LEFT JOIN coagis.bc_property_buffer_1_foot_less as prop ON loc.parcel_id || civ.pinext::varchar(50) = prop.pinnum WHERE "31" <> 'Buncombe County'); 

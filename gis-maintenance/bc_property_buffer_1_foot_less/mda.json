@@ -3,7 +3,10 @@
   "active": false,
   "type": "table",
   "description": "TBD",
+  "notes": [
+    "See WJQ 3 - maybe not needed any more?"
+  ],
   "depends": [
     "bc_property.ds1"
-  ]  
+  ]
 }
