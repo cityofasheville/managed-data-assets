@@ -3,5 +3,11 @@
   "active": false,
   "type": "table",
   "description": "TBD",
-  "depends": []  
+  "depends": [
+    "coa_bc_address_master",
+    "bc_civicaddress_table.ds1",
+    "bc_location_table????",
+    "bc_property",
+    "coa_muniscpfinput-SEE WJQ 2"
+  ]  
 }
