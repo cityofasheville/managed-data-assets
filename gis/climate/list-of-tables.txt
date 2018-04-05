@@ -1,0 +1,7 @@
+amd.climate_risk_commercial_flood
+amd.climate_risk_critical_infrastructure_flood
+amd.climate_risk_critical_infrastructure_landslide
+amd.climate_risk_industrial_flood
+amd.climate_risk_residential_flood
+amd.climate_risk_residential_landslide
+amd.climate_risk_residential_wildfire
