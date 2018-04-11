@@ -5,56 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets\finance\gl_budget\munis2wh-gl_budget.fmw
+#    "C:\Program Files\FME\fme.exe" C:\COA\managed-data-assets\finance\gl_budget\munis2wh-gl_budget.fmw
 #          --SourceDataset_MSSQL_ADO "<at>coamunisdb1<solidus>mu_live"
 #          --DestDataset_POSTGRES "datastore1"
 #    
 #    
-#!   SOURCE_ROUTING_FILE=""
-#!   PASSWORD=""
-#!   END_PYTHON=""
-#!   REQUIREMENTS_KEYWORD=""
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   VIEW_POSITION="-62.5006 100.001"
-#!   DESTINATION="NONE"
-#!   SOURCE="NONE"
-#!   WORKSPACE_VERSION="1"
-#!   FME_REPROJECTION_ENGINE="FME"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   TERMINATE_REJECTED="YES"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   ZOOM_SCALE="100"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   MAX_LOG_FEATURES="200"
-#!   IGNORE_READER_FAILURE="No"
-#!   FME_DOCUMENT_GUID="ab83de87-27d7-4ead-97f9-e6e6b9ee50a2"
-#!   TITLE=""
-#!   BEGIN_PYTHON=""
-#!   LOG_FILE=""
 #!   DESTINATION_ROUTING_FILE=""
-#!   DESCRIPTION=""
-#!   REQUIREMENTS=""
-#!   LAST_SAVE_DATE="2018-04-05T08:09:33"
-#!   DOC_EXTENTS="2275.9 1e-05"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   END_TCL=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   SHOW_INFO_NODES="true"
+#!   LOG_FILE=""
+#!   ZOOM_SCALE="100"
+#!   VIEW_POSITION="-62.5006 100.001"
 #!   BEGIN_TCL=""
-#!   FME_DOCUMENT_PRIORGUID=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.2.0 (20171213 - Build 17722 - WIN64)"
+#!   LAST_SAVE_DATE="2018-04-11T17:11:18"
+#!   IGNORE_READER_FAILURE="No"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   USAGE=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   FME_BUILD_NUM="16716"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - WIN32)"
-#!   FME_SERVER_SERVICES=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   PYTHON_COMPATIBILITY="27"
-#!   SHOW_ANNOTATIONS="true"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   DOC_TOP_LEFT="100 -230"
+#!   SOURCE="NONE"
 #!   HISTORY=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_INFO_NODES="true"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   FME_BUILD_NUM="17722"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   WORKSPACE_VERSION="1"
+#!   END_TCL=""
+#!   BEGIN_PYTHON=""
+#!   DOC_TOP_LEFT="100 -276.875"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   TERMINATE_REJECTED="YES"
 #!   CATEGORY=""
+#!   TITLE=""
+#!   FME_DOCUMENT_GUID="e627575d-e258-4d7d-9725-151dc0a3bd80"
+#!   DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   USE_MARKDOWN=""
+#!   PASSWORD=""
+#!   FME_SERVER_SERVICES=""
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   DESTINATION="NONE"
+#!   MAX_LOG_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   DOC_EXTENTS="1079.02 46.8755"
+#!   END_PYTHON=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,45 +70,53 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="mssql_sql_statement &quot;&quot; mssql_where_clause &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_full_id integer multi_reader_id integer fme_text_string char(50) multi_reader_type char(50) fme_color char(50) fme_basename char(50) fme_geometry fme_char(50) multi_reader_keyword char(50) fme_secondary_axis float fme_rotation float fme_fill_color char(50) fme_feature_type char(50) fme_dataset char(50) fme_text_size float fme_sweep_angle float fme_type char(50) fme_start_angle float fme_primary_axis float db_type char(254)"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP mssql_table_setings_group mssql_where_clause%mssql_sql_statement Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_where_clause  WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_sql_statement     SELECT Statement&quot; &quot;&quot; "
-#!   ATTR_INDEX_TYPES="indexed indexed_not_null unique unique_clustered clustered clustered_not_null not_null primary_key"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float multi_reader_id integer fme_basename char(50) multi_reader_full_id integer fme_text_size float fme_feature_type char(50) db_type char(254) multi_reader_type char(50) fme_primary_axis float fme_geometry fme_char(50) fme_start_angle float fme_color char(50) fme_type char(50) fme_text_string char(50) fme_rotation float multi_reader_keyword char(50) fme_secondary_axis float fme_fill_color char(50) fme_dataset char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP mssql_table_setings_group mssql_where_clause%mssql_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_where_clause WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_sql_statement SELECT Statement&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="Indexed IndexedNotNull Unique UniqueClustered Clustered ClusteredNotNull NotNull PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
 #!   ENABLED="true"
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
-#!   GENERATE_FME_BUILD_NUM="16716"
+#!   GENERATE_FME_BUILD_NUM="17722"
 #!   START_FEATURE=""
-#!   FEATURE_TYPES=""
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES=""
 #!   COORDSYS=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   MAX_FEATURES=""
-#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="ATTRIBUTE_READING"
 #!   VALUE="DEFLINE_ATTRS"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="MSSQL_ADO_IN_READ_CACHE_SIZE MSSQL_ADO_OUT_BULK_INSERT MSSQL_ADO_OUT_TRANSACTION_INTERVAL MSSQL_ADO_OUT_BEGIN_SQL{0} MSSQL_ADO_OUT_END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -124,46 +132,58 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_dataset char(50) fme_feature_type char(50) fme_start_angle float8 fme_color char(50) fme_db_operation char(8) fme_text_size float8 fme_basename char(50) fme_text_string char(50) fme_primary_axis float8 fme_sweep_angle float8 postgres_type char(50) fme_geometry fme_char(50) fme_type char(50) fme_secondary_axis float8 fme_rotation float8"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
-#!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#!   EXPOSABLE_ATTRS="fme_primary_axis float8 postgres_type char(50) fme_sweep_angle float8 fme_feature_type char(50) fme_type char(50) fme_start_angle float8 fme_text_size float8 fme_geometry fme_char(50) fme_fill_color char(50) fme_basename char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_dataset char(50) fme_db_operation char(8)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
+#!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
 #!   ENABLED="true"
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
-#!   GENERATE_FME_BUILD_NUM="16716"
-#!   COORDSYS=""
-#!   FANOUT_GROUP="NO"
+#!   GENERATE_FME_BUILD_NUM="17722"
 #!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#!   COORDSYS=""
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
-#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING_HISTORIC"
+#!   VALUE="ALL"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="POSTGRES_IN_FEATURES_PER_FETCH POSTGRES_IN_BEGIN_SQL POSTGRES_IN_END_SQL POSTGRES_OUT_BULK_COPY POSTGRES_OUT_TRANSACTION_INTERVAL POSTGRES_OUT_BEGIN_SQL POSTGRES_OUT_END_SQL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -392,13 +412,19 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
@@ -746,9 +772,9 @@
 #!   IS_SOURCE="true"
 #!   NODE_NAME="amd.gl_budget"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="amd"
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
-#!   IDENTIFIER="1"
+#!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="db_none"
 #!   POSITION="100 -230"
 #!   BOUNDING_RECT="100 -230 -1 -1"
@@ -758,96 +784,96 @@
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   HIDDEN_USER_ATTRS=""
-#!   READ_SELECT_ATTRS="false"
+#!   READ_SELECT_ATTRS="true"
 #!   MERGE_FILTER=""
 #!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
 #!   MERGE_FILTER_CASE_SENSITIVE="true"
 #!   DYNAMIC_SCHEMA="false"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="account_type" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="account_status" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fund_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="function_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="department_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="division_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="costcenter_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="function_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="grant_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="organization_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="object_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="project_name" ATTR_TYPE="varchar(35)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="year" ATTR_TYPE="smallint" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="proposed_budget" ATTR_TYPE="numeric(13,2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="adopted_budget" ATTR_TYPE="numeric(13,2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_uid" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="organization_id" ATTR_TYPE="varchar(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="object_id" ATTR_TYPE="varchar(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fund_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="function_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="department_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="division_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="cost_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="function_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="costcenter_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="grant_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="organization_id" ATTR_TYPE="varchar(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="object_id" ATTR_TYPE="varchar(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="project_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_status" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="mssql_table_setings_group" PARM_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="mssql_sql_statement" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mssql_table_setings_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="mssql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
 #!   NODE_NAME="amd.gl_budget"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="amd"
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
-#!   IDENTIFIER="2"
+#!   IDENTIFIER="3"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="2375.9 -230"
-#!   BOUNDING_RECT="2375.9 -230 -1 -1"
+#!   POSITION="1179.02 -276.875"
+#!   BOUNDING_RECT="1179.02 -276.875 -1 -1"
 #!   ORDER="5e+14"
-#!   COLLAPSED="true"
+#!   COLLAPSED="false"
 #!   KEYWORD="POSTGRES_1"
-#!   PARMS_EDITED="true"
+#!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="account_type" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="account_status" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fund_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="function_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="department_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="division_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="costcenter_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="function_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="grant_name" ATTR_TYPE="varchar(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="organization_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="object_name" ATTR_TYPE="char(30)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="project_name" ATTR_TYPE="varchar(35)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="year" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="proposed_budget" ATTR_TYPE="numeric(13,2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="adopted_budget" ATTR_TYPE="numeric(13,2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_uid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="organization_id" ATTR_TYPE="varchar(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="object_id" ATTR_TYPE="varchar(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fund_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="function_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="department_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="division_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="cost_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="function_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="costcenter_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="grant_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="organization_id" ATTR_TYPE="varchar(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="object_id" ATTR_TYPE="varchar(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="project_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="account_status" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -874,9 +900,9 @@
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="3"
-#!   SOURCE_NODE="1"
-#!   TARGET_NODE="2"
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
@@ -895,7 +921,7 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
-GUI IGNORE SourceDataset_MSSQL_ADO_1,MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1,MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1,MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1,MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1,DestDataset_POSTGRES_1,POSTGRES_OUT_START_TRANSACTION_POSTGRES_1,POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1,POSTGRES_OUT_BULK_COPY_POSTGRES_1,POSTGRES_OUT_BEGIN_SQL_POSTGRES_1,POSTGRES_OUT_END_SQL_POSTGRES_1
+GUI IGNORE SourceDataset_MSSQL_ADO_1,MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1,MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1,MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1,MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1,MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1,DestDataset_POSTGRES_1,POSTGRES_OUT_ADVANCED_POSTGRES_1,POSTGRES_OUT_BULK_COPY_POSTGRES_1,POSTGRES_OUT_START_TRANSACTION_POSTGRES_1,POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1,POSTGRES_OUT_BEGIN_SQL_POSTGRES_1,POSTGRES_OUT_END_SQL_POSTGRES_1
 DEFAULT_MACRO SourceDataset_MSSQL_ADO <at>coamunisdb1<solidus>mu_live
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_MSSQL_ADO FMT:MSSQL_ADO%FAMILY:Microsoft<space>SQL<space>Server Connection:
 DEFAULT_MACRO DestDataset_POSTGRES datastore1
@@ -906,7 +932,7 @@ INCLUDE [ if {{$(DestDataset_POSTGRES)} == {}} { puts_real {Parameter 'DestDatas
 #! START_WB_HEADER
 READER_TYPE MSSQL_ADO
 READER_KEYWORD MSSQL_ADO_1
-READER_GEN_DIRECTIVES COMMAND_TIMEOUT,30,_MERGE_SCHEMAS,YES,EXPOSE_ATTRS_GROUP,,MSSQL_ADO_EXPOSE_FORMAT_ATTRS,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,WHERE_CLAUSE,,FME_CONNECTION_GROUP,,TABLELIST,amd.gl_budget,NAMED_CONNECTION,<lt>at<gt>coamunisdb1<lt>solidus<gt>mu_live
+READER_GEN_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,WHERE_CLAUSE,,FME_CONNECTION_GROUP,,READ_CACHE_SIZE,10,COMMAND_TIMEOUT,30,MSSQL_ADO_EXPOSE_FORMAT_ATTRS,,TABLELIST,amd.gl_budget,NAMED_CONNECTION,<lt>at<gt>coamunisdb1<lt>solidus<gt>mu_live,_MERGE_SCHEMAS,YES,EXPOSE_ATTRS_GROUP,,ADVANCED,
 
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
@@ -944,16 +970,18 @@ MSSQL_ADO_1_WHERE_CLAUSE "$(MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1)"
 GUI OPTIONAL TEXT MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1 WHERE Clause:
 DEFAULT_MACRO MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1 
 MSSQL_ADO_1_EXPOSE_ATTRS_GROUP "$(MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1)"
-GUI DISCLOSUREGROUP MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1 MSSQL_ADO_EXPOSE_FORMAT_ATTRS Schema Attributes
-# ===========================================================================
-DEFAULT_MACRO MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1 DEFLINE_ATTRS
-MSSQL_ADO_1_ATTRIBUTE_READING "$(MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1)"
+GUI OPTIONAL DISCLOSUREGROUP MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1 MSSQL_ADO_IN_MSSQL_ADO_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1 
+GUI OPTIONAL DISCLOSUREGROUP MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1 MSSQL_ADO_IN_READ_CACHE_SIZE Advanced
 # ============================================================================
 # This keyword controls how many records to retrieve at one time into local
 # memory from the provider
 DEFAULT_MACRO MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1 10
-GUI OPTIONAL TEXT MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1 Number Of Records To Fetch At A Time:
-MSSQL_ADO_1_READ_CACHE_SIZE $(MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1)
+MSSQL_ADO_1_READ_CACHE_SIZE "$(MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1)"
+GUI OPTIONAL TEXT MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1 Number Of Records To Fetch At A Time
+# ===========================================================================
+DEFAULT_MACRO MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1 DEFLINE_ATTRS
+MSSQL_ADO_1_ATTRIBUTE_READING "$(MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1)"
 MSSQL_ADO_1_DATASET "$(SourceDataset_MSSQL_ADO_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
@@ -970,22 +998,23 @@ INCLUDE [ if {"$(DestDataset)" != ""} {                          \
 #! START_DEST_HEADER POSTGRES POSTGRES_1
 DEFAULT_MACRO DestDataset_POSTGRES_1 $(DestDataset_POSTGRES)
 GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGRES_1 FMT:POSTGRES Connection:
-DEFAULT_MACRO POSTGRES_OUT_WRITER_MODE_POSTGRES_1 INSERT
-DEFAULT_MACRO POSTGRES_OUT_START_TRANSACTION_POSTGRES_1 0
-GUI TEXT POSTGRES_OUT_START_TRANSACTION_POSTGRES_1 Starting Feature:
-POSTGRES_1_START_TRANSACTION $(POSTGRES_OUT_START_TRANSACTION_POSTGRES_1)
-DEFAULT_MACRO POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1 1000
-GUI TEXT POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1 Features Per Transaction:
-POSTGRES_1_TRANSACTION_INTERVAL $(POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1)
+DEFAULT_MACRO POSTGRES_OUT_ADVANCED_POSTGRES_1 
+GUI OPTIONAL DISCLOSUREGROUP POSTGRES_OUT_ADVANCED_POSTGRES_1 POSTGRES_OUT_BULK_COPY_POSTGRES_1%POSTGRES_OUT_START_TRANSACTION_POSTGRES_1%POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1%POSTGRES_OUT_BEGIN_SQL_POSTGRES_1%POSTGRES_OUT_END_SQL_POSTGRES_1 Advanced
 DEFAULT_MACRO POSTGRES_OUT_BULK_COPY_POSTGRES_1 YES
-GUI CHOICE POSTGRES_OUT_BULK_COPY_POSTGRES_1 YES%NO Bulk Insert:
-POSTGRES_1_BULK_COPY $(POSTGRES_OUT_BULK_COPY_POSTGRES_1)
+POSTGRES_1_BULK_COPY "$(POSTGRES_OUT_BULK_COPY_POSTGRES_1)"
+GUI CHOICE POSTGRES_OUT_BULK_COPY_POSTGRES_1 YES%NO Bulk Insert
+DEFAULT_MACRO POSTGRES_OUT_START_TRANSACTION_POSTGRES_1 0
+POSTGRES_1_START_TRANSACTION "$(POSTGRES_OUT_START_TRANSACTION_POSTGRES_1)"
+GUI TEXT POSTGRES_OUT_START_TRANSACTION_POSTGRES_1 Starting Feature:
+DEFAULT_MACRO POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1 1000
+POSTGRES_1_TRANSACTION_INTERVAL "$(POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1)"
+GUI TEXT POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_1 Features Per Transaction
 DEFAULT_MACRO POSTGRES_OUT_BEGIN_SQL_POSTGRES_1 
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_OUT_BEGIN_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL Statement to Execute Before Translation:
 POSTGRES_1_BEGIN_SQL "$(POSTGRES_OUT_BEGIN_SQL_POSTGRES_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_OUT_BEGIN_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL To Run Before Write
 DEFAULT_MACRO POSTGRES_OUT_END_SQL_POSTGRES_1 
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_OUT_END_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL Statement to Execute After Translation:
 POSTGRES_1_END_SQL "$(POSTGRES_OUT_END_SQL_POSTGRES_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_OUT_END_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL To Run After Write
 POSTGRES_1_DATASET "$(DestDataset_POSTGRES_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
@@ -1019,7 +1048,7 @@ MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD MSSQL_ADO_1   INPUT FEATURE_TYPE *    ROUTE MSSQL_ADO MSSQL_ADO_1::amd.gl_budget TO FME_GENERIC ::amd.gl_budget ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::amd.gl_budget EXACT amd.gl_budget DEFLINE mssql_sql_statement,,mssql_where_clause,
+MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::amd.gl_budget EXACT amd.gl_budget DEFLINE mssql_sql_statement,,mssql_where_clause,,account_type,char<openparen>1<closeparen>,account_status,char<openparen>1<closeparen>,fund_name,varchar<openparen>30<closeparen>,function_name,varchar<openparen>30<closeparen>,department_name,varchar<openparen>30<closeparen>,division_name,varchar<openparen>30<closeparen>,costcenter_name,varchar<openparen>30<closeparen>,grant_name,varchar<openparen>30<closeparen>,organization_name,char<openparen>30<closeparen>,object_name,char<openparen>30<closeparen>,project_name,varchar<openparen>35<closeparen>,year,smallint,proposed_budget,numeric<openparen>13<comma>2<closeparen>,adopted_budget,numeric<openparen>13<comma>2<closeparen>,fund_id,varchar<openparen>10<closeparen>,function_id,varchar<openparen>10<closeparen>,department_id,varchar<openparen>10<closeparen>,division_id,varchar<openparen>10<closeparen>,costcenter_id,varchar<openparen>10<closeparen>,grant_id,varchar<openparen>10<closeparen>,organization_id,varchar<openparen>8<closeparen>,object_id,varchar<openparen>6<closeparen>,project_id,varchar<openparen>10<closeparen>,full_account_id,char<openparen>55<closeparen>,charcode_name,varchar<openparen>20<closeparen>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "amd.gl_budget (MSSQL_ADO_1) Splitter"    INPUT FEATURE_TYPE amd.gl_budget    OUTPUT FEATURE_TYPE amd.gl_budget_MSSQL_ADO_1
@@ -1032,4 +1061,4 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF amd.gl_budget   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   account_type                 char(1)   account_name                 char(30)   fund_name                    varchar(30)   department_name              varchar(30)   division_name                varchar(30)   costcenter_name              varchar(30)   function_name                varchar(30)   charcode_name                varchar(20)   organization_name            char(30)   object_name                  char(30)   year                         int2   proposed_budget              numeric(13,2)   adopted_budget               numeric(13,2)   full_account_id              char(55)   account_uid                  int4   organization_id              varchar(8)   object_id                    varchar(6)   fund_id                      varchar(10)   department_id                varchar(10)   division_id                  varchar(10)   cost_id                      varchar(10)   function_id                  varchar(10)   charcode                     char(2)   project_id                   varchar(10)   account_status               char(1)
+POSTGRES_1_DEF amd.gl_budget   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   account_type                 char(1)   account_status               char(1)   fund_name                    varchar(30)   function_name                varchar(30)   department_name              varchar(30)   division_name                varchar(30)   costcenter_name              varchar(30)   grant_name                   varchar(30)   organization_name            char(30)   object_name                  char(30)   project_name                 varchar(35)   year                         int2   proposed_budget              numeric(13,2)   adopted_budget               numeric(13,2)   fund_id                      varchar(10)   function_id                  varchar(10)   department_id                varchar(10)   division_id                  varchar(10)   costcenter_id                varchar(10)   grant_id                     varchar(10)   organization_id              varchar(8)   object_id                    varchar(6)   project_id                   varchar(10)   full_account_id              char(55)   charcode_name                varchar(20)
