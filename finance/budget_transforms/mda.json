@@ -1,0 +1,37 @@
+{
+  "name": "Budget Transforms",
+  "type": "multi-table",
+  "active": true,
+  "description": "Category and section mappings, exclusions, etc. for GL data for budget",
+  "depends": [],
+  "assets": [
+    {
+      "name": "budget_categories",
+      "description": "categories"
+    },
+    {
+      "name": "deptdiv_mappings",
+      "description": "deptdiv_mappings"
+    },
+    {
+      "name": "budget_sections",
+      "description": "budget_sections"
+    },
+    {
+      "name": "budget_category_mapping",
+      "description": "budget_category_mapping"
+    },
+    {
+      "name": "budget_section_mapping",
+      "description": "budget_section_mapping"
+    },
+    {
+      "name": "budget_exclusions",
+      "description": "budget_exclusions"
+    },
+    {
+      "name": "interfund_transfers",
+      "description": "interfund_transfers"
+    }
+  ]
+}
