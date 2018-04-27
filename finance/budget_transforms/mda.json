@@ -10,8 +10,8 @@
       "description": "categories"
     },
     {
-      "name": "deptdiv_mappings",
-      "description": "deptdiv_mappings"
+      "name": "budget_deptdiv_mappings",
+      "description": "budget_deptdiv_mappings"
     },
     {
       "name": "budget_sections",
@@ -30,8 +30,8 @@
       "description": "budget_exclusions"
     },
     {
-      "name": "interfund_transfers",
-      "description": "interfund_transfers"
+      "name": "budget_interfund_transfers",
+      "description": "budget_interfund_transfers"
     }
   ]
 }
