@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "munis2wh_pcard_transaction_no_receipt.fmw",
+      "active": true
+    }
+  ]
+}

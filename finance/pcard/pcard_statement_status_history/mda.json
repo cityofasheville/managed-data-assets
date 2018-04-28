@@ -1,0 +1,7 @@
+{
+  "name": "pcard_statement_status_history",
+  "active": true,
+  "type": "table",
+  "description": "PCard transactions and status",
+  "depends": []  
+}
