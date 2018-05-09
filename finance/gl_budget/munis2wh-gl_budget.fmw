@@ -5,56 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\COA\managed-data-assets\finance\gl_budget\munis2wh-gl_budget.fmw
+#    C:\FME2017\fme.exe C:\COA\managed-data-assets\finance\gl_budget\munis2wh-gl_budget.fmw
 #          --SourceDataset_MSSQL_ADO "<at>coamunisdb1<solidus>mu_live"
 #          --DestDataset_POSTGRES "datastore1"
 #    
 #    
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   DESTINATION_ROUTING_FILE=""
+#!   LAST_SAVE_DATE="2018-05-09T12:25:26"
+#!   END_PYTHON=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   TERMINATE_REJECTED="YES"
+#!   VIEW_POSITION="-59.3756 100.001"
+#!   FME_DOCUMENT_PRIORGUID="e627575d-e258-4d7d-9725-151dc0a3bd80"
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_DOCUMENT_GUID="36f6d841-9618-4f15-b0b3-905f3af42c32"
+#!   MAX_LOG_FEATURES="200"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   TITLE=""
+#!   BEGIN_PYTHON=""
 #!   LOG_FILE=""
-#!   ZOOM_SCALE="100"
-#!   VIEW_POSITION="-62.5006 100.001"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   BEGIN_TCL=""
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.2.0 (20171213 - Build 17722 - WIN64)"
-#!   LAST_SAVE_DATE="2018-04-11T17:11:18"
-#!   IGNORE_READER_FAILURE="No"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   ZOOM_SCALE="100"
+#!   PASSWORD=""
+#!   MARKDOWN_USAGE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   CATEGORY=""
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_BUILD_NUM="17652"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   END_TCL=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   USE_MARKDOWN=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DOC_EXTENTS="1079.02 46.875"
+#!   DESTINATION_ROUTING_FILE=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   FME_SERVER_SERVICES=""
+#!   DOC_TOP_LEFT="100 -276.875"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   USAGE=""
 #!   SOURCE="NONE"
-#!   HISTORY=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   SHOW_INFO_NODES="true"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_BUILD_NUM="17722"
-#!   SHOW_ANNOTATIONS="true"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   WORKSPACE_VERSION="1"
-#!   END_TCL=""
-#!   BEGIN_PYTHON=""
-#!   DOC_TOP_LEFT="100 -276.875"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   TERMINATE_REJECTED="YES"
-#!   CATEGORY=""
-#!   TITLE=""
-#!   FME_DOCUMENT_GUID="e627575d-e258-4d7d-9725-151dc0a3bd80"
-#!   DESCRIPTION=""
-#!   MARKDOWN_USAGE=""
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   USE_MARKDOWN=""
-#!   PASSWORD=""
-#!   FME_SERVER_SERVICES=""
-#!   FME_DOCUMENT_PRIORGUID=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   DESTINATION="NONE"
-#!   MAX_LOG_FEATURES="200"
-#!   MARKDOWN_DESCRIPTION=""
-#!   DOC_EXTENTS="1079.02 46.8755"
-#!   END_PYTHON=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   HISTORY=""
+#!   SHOW_INFO_NODES="true"
+#!   IGNORE_READER_FAILURE="No"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="mssql_sql_statement &quot;&quot; mssql_where_clause &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float multi_reader_id integer fme_basename char(50) multi_reader_full_id integer fme_text_size float fme_feature_type char(50) db_type char(254) multi_reader_type char(50) fme_primary_axis float fme_geometry fme_char(50) fme_start_angle float fme_color char(50) fme_type char(50) fme_text_string char(50) fme_rotation float multi_reader_keyword char(50) fme_secondary_axis float fme_fill_color char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id integer multi_reader_type char(50) fme_primary_axis float fme_type char(50) fme_start_angle float fme_secondary_axis float fme_dataset char(50) fme_feature_type char(50) fme_rotation float fme_text_size float fme_text_string char(50) fme_basename char(50) multi_reader_id integer multi_reader_keyword char(50) fme_geometry fme_char(50) fme_fill_color char(50) fme_sweep_angle float db_type char(254) fme_color char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP mssql_table_setings_group mssql_where_clause%mssql_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_where_clause WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_sql_statement SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed IndexedNotNull Unique UniqueClustered Clustered ClusteredNotNull NotNull PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -80,30 +80,18 @@
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="17722"
 #!   START_FEATURE=""
-#!   MIN_FEATURES=""
-#!   MAX_FEATURES=""
 #!   COORDSYS=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="ATTRIBUTE_READING"
-#!   VALUE="DEFLINE_ATTRS"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
 #!   VALUE="YES"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
+#!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -111,8 +99,20 @@
 #!   VALUE="MSSQL_ADO_IN_READ_CACHE_SIZE MSSQL_ADO_OUT_BULK_INSERT MSSQL_ADO_OUT_TRANSACTION_INTERVAL MSSQL_ADO_OUT_BEGIN_SQL{0} MSSQL_ADO_OUT_END_SQL{0}"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_NAME"
 #!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -132,7 +132,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 postgres_type char(50) fme_sweep_angle float8 fme_feature_type char(50) fme_type char(50) fme_start_angle float8 fme_text_size float8 fme_geometry fme_char(50) fme_fill_color char(50) fme_basename char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_dataset char(50) fme_db_operation char(8)"
+#!   EXPOSABLE_ATTRS="fme_db_operation char(8) postgres_type char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_size float8 fme_text_string char(50) fme_color char(50) fme_type char(50) fme_primary_axis float8 fme_sweep_angle float8 fme_start_angle float8 fme_dataset char(50) fme_feature_type char(50) fme_fill_color char(50) fme_basename char(50) fme_geometry fme_char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -141,22 +141,10 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="17722"
+#!   COORDSYS=""
 #!   FANOUT_EXPRESSION=""
 #!   FANOUT_GROUP="NO"
-#!   COORDSYS=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="ATTRIBUTE_READING"
-#!   VALUE="DEFLINE_ATTRS"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
 #!   VALUE="YES"
@@ -166,20 +154,32 @@
 #!   VALUE="ALL"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
 #!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="ADVANCED_PARMS"
 #!   VALUE="POSTGRES_IN_FEATURES_PER_FETCH POSTGRES_IN_BEGIN_SQL POSTGRES_IN_END_SQL POSTGRES_OUT_BULK_COPY POSTGRES_OUT_TRANSACTION_INTERVAL POSTGRES_OUT_BEGIN_SQL POSTGRES_OUT_END_SQL"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_NAME"
 #!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -816,8 +816,8 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="mssql_sql_statement" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="mssql_table_setings_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="mssql_where_clause" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mssql_table_setings_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
@@ -830,7 +830,7 @@
 #!   POSITION="1179.02 -276.875"
 #!   BOUNDING_RECT="1179.02 -276.875 -1 -1"
 #!   ORDER="5e+14"
-#!   COLLAPSED="false"
+#!   COLLAPSED="true"
 #!   KEYWORD="POSTGRES_1"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -861,19 +861,19 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="project_id" ATTR_TYPE="varchar(10)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="full_account_id" ATTR_TYPE="char(55)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="charcode_name" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>

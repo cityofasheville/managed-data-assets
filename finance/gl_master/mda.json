@@ -1,0 +1,7 @@
+{
+  "name": "gl_master",
+  "active": true,
+  "type": "table",
+  "description": "Master general ledger history",
+  "depends": []  
+}
