@@ -1,0 +1,7 @@
+{
+  "name": "pcard_transactions",
+  "active": true,
+  "type": "table",
+  "description": "PCard transactions",
+  "depends": []  
+}

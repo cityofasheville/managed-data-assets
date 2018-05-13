@@ -1,7 +1,0 @@
-{
-  "name": "pcard_transaction_no_receipt",
-  "active": true,
-  "type": "table",
-  "description": "PCard transactions without receipts",
-  "depends": []  
-}
