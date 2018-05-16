@@ -3,5 +3,8 @@
   "active": true,
   "type": "table",
   "description": "Master general ledger history",
-  "depends": []  
+  "depends": [],
+  "comments": [
+    "We assume that cy_encumbrances, and all lifetime budget values are 0 except for the current year"
+  ]
 }
