@@ -1,0 +1,14 @@
+{
+    "name": "gl_master_cip_view",
+    "type": "view",
+    "depends": [
+      "gl_master"
+    ],
+    "description": "Select gl_master data for CIP projects summed over all years",
+    "notes": [],
+    "schema": {
+      "type": "sql",
+      "file": "gl_master_cip_view.sql"
+    }
+  }
+  
