@@ -1,0 +1,13 @@
+{
+    "name": "cip_ltd_view",
+    "type": "view",
+    "depends": [
+      "gl_master_cip_view"
+    ],
+    "description": "Sum gl_master_cip financial data over all accountsotes": [],
+    "schema": {
+      "type": "sql",
+      "file": "cip_ltd_view.sql"
+    }
+  }
+  
