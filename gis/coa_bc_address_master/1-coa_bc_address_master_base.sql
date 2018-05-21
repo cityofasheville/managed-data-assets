@@ -198,18 +198,24 @@ FROM
         WHERE amd.bc_civicaddress_table.civicaddress_id != 0
 ) as address_locations
 -- Get the pin from bc_property spatially if an address location is contained by the property boundary.
--- (The parcel_id field in bc_location should be the same is the pin in bc_property, but is not consistent, so we need to use the pin from bc_property instead. )
+-- (The parcel_id field in bc_location should be the same is the pin in bc_property, but is not consistent, 
+-- so we need to use the pin from bc_property instead. )
+-- 5/20/2018: adding the row_number() bit to pick only the first, if there are multiple matches. There seem
+-- to be a couple properties overlapping other properties.
 LEFT JOIN
 (
-        SELECT DISTINCT
-                amd.bc_location.location_id,
-                amd.bc_property.pin
-        FROM
-                amd.bc_location
-        LEFT JOIN
-                amd.bc_property
-        ON
-                st_contains(amd.bc_property.shape,amd.bc_location.shape)
+        SELECT location_id, pin, rn from (
+                SELECT DISTINCT
+                        amd.bc_location.location_id,
+                        amd.bc_property.pin,
+                        row_number() over (partition by location_id ORDER BY pin) as rn
+                FROM
+                        amd.bc_location
+                LEFT JOIN
+                        amd.bc_property
+                ON
+                        st_contains(amd.bc_property.shape,amd.bc_location.shape)
+        ) AS tmp WHERE rn = 1
 ) as property_location -- 133258 rows retrieved, 102508 distinct pins
 ON
         address_locations.location_id = property_location.location_id
