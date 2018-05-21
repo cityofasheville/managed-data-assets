@@ -4,7 +4,7 @@
     "depends": [
       "gl_master_cip_view"
     ],
-    "description": "Sum gl_master_cip financial data over all accountsotes": [],
+    "description": "Sum gl_master_cip financial data over all accounts",
     "schema": {
       "type": "sql",
       "file": "cip_ltd_view.sql"
