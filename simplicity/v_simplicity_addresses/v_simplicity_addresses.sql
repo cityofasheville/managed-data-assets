@@ -26,8 +26,14 @@ CREATE OR REPLACE VIEW amd.v_simplicity_addresses AS
     coa_bc_address_master.property_pinext,
     coa_bc_address_master.centerline_id,
     coa_bc_address_master.jurisdiction_type,
-    coa_bc_address_master.shape
+    coa_bc_address_master.shape,
+	coa_bc_address_master.brushweek,
+	coa_bc_address_master.nbrhd_id,
+	coa_bc_address_master.nbrhd_name
    FROM amd.coa_bc_address_master
   WHERE coa_bc_address_master.location_type = 1 OR coa_bc_address_master.location_type = 4;
+
+ALTER TABLE amd.v_simplicity_addresses
+    OWNER TO coapgdbo;
 
 

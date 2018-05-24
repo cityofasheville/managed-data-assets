@@ -58,3 +58,6 @@ END
 
 $BODY$;
 
+ALTER FUNCTION amd.get_properties_by_neighborhood(character varying[])
+    OWNER TO coapgdbo;
+

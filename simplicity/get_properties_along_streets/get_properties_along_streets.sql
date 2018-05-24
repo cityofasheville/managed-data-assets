@@ -58,3 +58,6 @@ END
 
 $BODY$;
 
+ALTER FUNCTION amd.get_properties_along_streets(numeric[], numeric)
+    OWNER TO coapgdbo;
+
