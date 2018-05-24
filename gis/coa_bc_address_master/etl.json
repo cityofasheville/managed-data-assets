@@ -29,6 +29,12 @@
       "file": "5-update_zoning.sql",
       "db": "datastore1",
       "active": true
+    },
+    {
+      "type": "sql",
+      "file": "6-update_neighborhood.sql",
+      "db": "datastore1",
+      "active": true
     }
   ],
   "distribute": [],
