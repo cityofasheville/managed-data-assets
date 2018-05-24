@@ -200,8 +200,11 @@ FROM
 -- Get the pin from bc_property spatially if an address location is contained by the property boundary.
 -- (The parcel_id field in bc_location should be the same is the pin in bc_property, but is not consistent, 
 -- so we need to use the pin from bc_property instead. )
--- 5/20/2018: adding the row_number() bit to pick only the first, if there are multiple matches. There seem
--- to be a couple properties overlapping other properties.
+-- 5/20/2018: adding the row_number() bit to pick only the first, if there are multiple matches. Due to an
+-- error at the County, there were a couple properties overlapping other properties. Note that there WILL
+-- be multiple matches in the below BECAUSE of the row_number() - all matches with same pin, different pinext.
+-- To test whether there are actual errors, delete the row_number() and see if there are distinct pins for the
+-- same location_id (this is a validation test in the bc_property MDA).
 LEFT JOIN
 (
         SELECT location_id, pin, rn from (
