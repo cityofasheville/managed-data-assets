@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets\cip\cip_master_sheet\google2wh-cip_master_sheet.fmw
+#    C:\FME\fme.exe C:\COA\managed-data-assets\googlesheets\capital_projects_master\google2wh-capital_projects_master.fmw
 #    
 #    
 #!   SOURCE_ROUTING_FILE=""
@@ -52,7 +52,7 @@
 #!   END_PYTHON=""
 #!   FME_BUILD_NUM="16716"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   LAST_SAVE_DATE="2018-06-05T09:22:07"
+#!   LAST_SAVE_DATE="2018-06-05T09:22:58"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -1355,7 +1355,7 @@ GEODATABASE_SDE_1_DATASET "$(DestDataset_GEODATABASE_SDE_1)"
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)google2wh-cip_master_sheet.log"
+LOG_FILENAME "$(FME_MF_DIR)google2wh-capital_projects_master.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1376,7 +1376,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME google2wh-cip_master_sheet
+MACRO WORKSPACE_NAME google2wh-capital_projects_master
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 

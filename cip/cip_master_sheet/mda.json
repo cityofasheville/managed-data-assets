@@ -1,6 +1,6 @@
 {
   "name": "coa_cip_projects",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Capital project information",
   "depends": []  
