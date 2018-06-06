@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>Data about the data</resTitle>
+			<date>
+				<pubDate>2018-05-17</pubDate>
+			</date>
+		<citRespParty>
+        <rpOrgName>City of Asheville, North Carolina</rpOrgName>
+        <role>
+          <RoleCd value="002" />
+        </role>
+        </citRespParty>
+        <presForm>
+        <PresFormCd value="005" Sync="TRUE" />
+        </presForm>
+		</idCitation>
+		<idAbs>Data about the data.</idAbs>
+		<idPurp>Metadata process for COA.</idPurp>
+		<dataLang>
+			<languageCode value="eng"/>
+		</dataLang>
+		<dataChar>
+			<CharSetCd value="004"/>
+		</dataChar>
+		<idStatus>
+			<ProgCd value="004"/>
+		</idStatus>
+		<tpCat>
+			<TopicCatCd value='005'/>
+		</tpCat>
+		<searchKeys>
+			<keyword>metadata data</keyword>
+		</searchKeys>
+		<themeKeys>
+            <keyword>metadata data Asheville North Carolina</keyword>
+        </themeKeys>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009"/>
+			</maintFreq>
+			<maintCont>
+				<rpOrgName>City of Asheville, North Carolina</rpOrgName>
+				<role>
+					<RoleCd value="007"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress>
+						<delPoint>70 Court Plaza</delPoint>
+						<city>Asheville</city>
+						<adminArea>North Carolina</adminArea>
+						<postCode>28802</postCode>
+						<country>US</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>data.ashevillenc.gov</linkage>
+					</cntOnlineRes>
+					<cntHours>From 8:30 to 5:00</cntHours>
+					<cntInstr>Contact by website or email</cntInstr>
+				</rpCntInfo>
+			</maintCont>
+		</resMaint>
+		<resConst>
+			<Consts>
+				<useLimit>&lt;span style=&apos;color: rgb(38, 50, 56); font-family: arial, sans-serif; font-size: 13px;&apos;&gt;Please visit this link for Licensing Information:&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&apos;https://www.google.com/url?q=http://opendatacommons.org/licenses/pddl/1.0/&amp;amp;sa=D&amp;amp;ust=1518279500730000&amp;amp;usg=AFQjCNHNQaX15PFIcNiXcUhaaIm0XUDSfQ&apos; style=&apos;unicode-bidi: isolate; outline: none; color: rgb(38, 50, 56); font-family: arial, sans-serif; font-size: 13px;&apos; target=&apos;_blank&apos;&gt;http://opendatacommons.org/licenses/pddl/1.0/&lt;/a&gt;</useLimit>
+			</Consts>
+		</resConst>
+	</dataIdInfo>
+	<dqInfo>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>Process description</stepDesc>
+			</prcStep>
+		</dataLineage>
+		<dqScope>
+          <scpLvl>
+            <ScopeCd value="005" />
+          </scpLvl>
+        </dqScope>
+	</dqInfo>
+	<mdHrLv>
+    <ScopeCd value="005" Sync="TRUE" />
+    </mdHrLv>
+    <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+	    <distFormat>
+            <formatVer>10.4.1</formatVer>
+        </distFormat>
+		<distTranOps>
+			<onLineSrc>
+				<linkage>https://arcgis.ashevillenc.gov/arcgis/rest/services/metadata_template</linkage>
+			</onLineSrc>
+		</distTranOps>
+	</distInfo>
+	<mdDateSt>2018-05-17</mdDateSt>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdContact>
+		<rpOrgName>City of Asheville, North Carolina</rpOrgName>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+</metadata>
