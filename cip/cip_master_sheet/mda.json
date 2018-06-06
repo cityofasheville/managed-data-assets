@@ -1,7 +1,0 @@
-{
-  "name": "coa_cip_projects",
-  "active": false,
-  "type": "table",
-  "description": "Capital project information",
-  "depends": []  
-}
