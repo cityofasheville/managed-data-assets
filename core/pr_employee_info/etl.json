@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "munis2wh-pr_employee_info.fmw",
+      "active": true
+    }
+  ]
+}
