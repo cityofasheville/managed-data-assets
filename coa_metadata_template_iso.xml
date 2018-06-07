@@ -69,7 +69,7 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Data about the data</gco:CharacterString>
+            <gco:CharacterString>{{md_title}}</gco:CharacterString>
           </title>
           <date>
             <CI_Date>

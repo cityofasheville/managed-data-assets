@@ -1,0 +1,10 @@
+{
+  "name": "employee_main",
+  "type": "view",
+  "description": "Join of ad_info and pr_employee_info tables",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "employee_main.sql"
+  }
+}
