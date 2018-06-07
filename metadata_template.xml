@@ -4,7 +4,7 @@
 		<idCitation>
 			<resTitle>{{md_title}}</resTitle>
 			<date>
-				<pubDate>2018-05-17</pubDate>
+				<pubDate>{{md_publication_date}}</pubDate>
 			</date>
 			<citRespParty>
         <rpOrgName>City of Asheville, North Carolina</rpOrgName>

@@ -11,6 +11,7 @@ CREATE OR REPLACE VIEW amd.v_simplicity_addresses AS
     coa_bc_address_master.address_unit,
     coa_bc_address_master.address_street_prefix,
     coa_bc_address_master.address_street_name,
+    coa_bc_address_master.address_street_type,
     coa_bc_address_master.latitude_wgs,
     coa_bc_address_master.longitude_wgs,
     coa_bc_address_master.trash_pickup_day,
@@ -27,9 +28,9 @@ CREATE OR REPLACE VIEW amd.v_simplicity_addresses AS
     coa_bc_address_master.centerline_id,
     coa_bc_address_master.jurisdiction_type,
     coa_bc_address_master.shape,
-	coa_bc_address_master.brushweek,
-	coa_bc_address_master.nbrhd_id,
-	coa_bc_address_master.nbrhd_name
+    coa_bc_address_master.brushweek,
+    coa_bc_address_master.nbrhd_id,
+    coa_bc_address_master.nbrhd_name
    FROM amd.coa_bc_address_master
   WHERE coa_bc_address_master.location_type = 1 OR coa_bc_address_master.location_type = 4;
 

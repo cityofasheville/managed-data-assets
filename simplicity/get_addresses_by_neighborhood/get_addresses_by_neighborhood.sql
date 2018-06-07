@@ -17,7 +17,7 @@ BEGIN
 	for i in 1..array_length(cid,1) loop
     	FOR r IN
     		SELECT  A.civicaddress_id, A.address_full, A.address_city, A.address_zipcode, 
-                A.address_number, A.address_unit, A.address_street_prefix, A.address_street_name, 
+                A.address_number, A.address_unit, A.address_street_prefix, A.address_street_name, A.address_street_type,
                 A.latitude_wgs, A.longitude_wgs,
                 A.trash_pickup_day, A.recycling_pickup_district, A.recycling_pickup_day, 
                 A.zoning, A.owner_name, A.owner_address, A.owner_cityname, A.owner_state, 
