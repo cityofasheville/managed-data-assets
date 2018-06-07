@@ -2,19 +2,19 @@
 <metadata xml:lang="en">
 	<dataIdInfo>
 		<idCitation>
-			<resTitle>Data about the data</resTitle>
+			<resTitle>{{md_title}}</resTitle>
 			<date>
 				<pubDate>2018-05-17</pubDate>
 			</date>
-		<citRespParty>
+			<citRespParty>
         <rpOrgName>City of Asheville, North Carolina</rpOrgName>
         <role>
           <RoleCd value="002" />
         </role>
-        </citRespParty>
-        <presForm>
-        <PresFormCd value="005" Sync="TRUE" />
-        </presForm>
+      </citRespParty>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE" />
+			</presForm>
 		</idCitation>
 		<idAbs>Data about the data.</idAbs>
 		<idPurp>Metadata process for COA.</idPurp>
