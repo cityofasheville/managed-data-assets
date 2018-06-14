@@ -1,0 +1,7 @@
+{
+  "name": "capital_projects_master_owh",
+  "active": true,
+  "type": "table",
+  "description": "Capital projects information",
+  "depends": []  
+}
