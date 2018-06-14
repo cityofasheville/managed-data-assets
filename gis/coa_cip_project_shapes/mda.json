@@ -1,0 +1,21 @@
+{
+  "name": "coa_cip_project_shapes",
+  "type": "multi-table",
+  "active": true,
+  "description": "Point, line and polygon shapes for CIP projects",
+  "depends": [],
+  "assets": [
+    {
+      "name": "coa_cip_project_points",
+      "description": "CIP point shapes"
+    },
+    {
+      "name": "coa_cip_project_lines",
+      "description": "CIP line shapes"
+    },
+    {
+      "name": "coa_cip_project_polygons",
+      "description": "CIP polygon shapes"
+    }
+  ]
+}
