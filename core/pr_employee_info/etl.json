@@ -6,6 +6,12 @@
       "type": "fme",
       "file": "munis2wh-pr_employee_info.fmw",
       "active": true
+    },
+    {
+      "type": "sql",
+      "file": "create_bpt_testusers.sql",
+      "db": "datastore1",
+      "active": false
     }
   ]
 }
