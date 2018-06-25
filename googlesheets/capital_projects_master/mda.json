@@ -1,7 +1,17 @@
 {
-  "name": "capital_projects_master",
+  "name": "Capital Projects Master",
   "active": true,
-  "type": "table",
+  "type": "multi-table",
   "description": "Capital projects information",
-  "depends": []  
+  "depends": [],
+  "assets": [
+    {
+      "name": "capital_projects_master",
+      "description": "Capital projects information"
+    },
+    {
+      "name": "capital_projects_master_categories",
+      "description": "Capital project categories & display order"
+    }
+  ]
 }
