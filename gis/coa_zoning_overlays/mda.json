@@ -1,0 +1,7 @@
+{
+  "name": "coa_zoning_overlays",
+  "active": true,
+  "type": "table",
+  "description": "Asheville zoning overlays",
+  "depends": []
+}
