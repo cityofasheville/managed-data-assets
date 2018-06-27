@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "edit2wh-coa_local_historic_landmarks.fmw",
+      "active": true
+    }
+  ]
+}
