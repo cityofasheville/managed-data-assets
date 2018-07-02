@@ -1,0 +1,7 @@
+{
+  "name": "general_ledger_parameters",
+  "active": true,
+  "type": "table",
+  "description": "Various GL parameters, especially budget year",
+  "depends": []  
+}
