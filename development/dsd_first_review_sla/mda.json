@@ -1,4 +1,7 @@
 {
   "name": "dsd_first_review_sla",
-  "description": "DSD first-review SLA performance"
+  "type": "table",
+  "active": true,
+  "description": "DSD first-review SLA performance",
+  "depends": []  
 }
