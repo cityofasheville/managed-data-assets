@@ -1,0 +1,9 @@
+{
+  "name": "permit_contractors",
+  "type": "table",
+  "active": true,
+  "description": "Permit contractors data",
+  "depends": [
+    "permits"
+  ]
+}

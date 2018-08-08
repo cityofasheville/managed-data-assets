@@ -1,0 +1,7 @@
+{
+  "name": "permits",
+  "type": "table",
+  "active": true,
+  "description": "Permits data",
+  "depends": []  
+}

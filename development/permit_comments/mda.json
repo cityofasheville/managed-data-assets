@@ -1,0 +1,9 @@
+{
+  "name": "permit_comments",
+  "type": "table",
+  "active": true,
+  "description": "Permit comments data",
+  "depends": [
+    "permits"
+  ]
+}

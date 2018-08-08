@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela2wh-permit_comments.fmw",
+      "active": true
+    }
+  ]
+}

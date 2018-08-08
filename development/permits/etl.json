@@ -1,0 +1,12 @@
+{
+  "depends": [],
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela2wh-permits.fmw",
+      "active": true
+    }
+  ]
+}
