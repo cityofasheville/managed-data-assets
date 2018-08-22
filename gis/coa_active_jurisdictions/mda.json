@@ -3,5 +3,8 @@
   "active": true,
   "type": "table",
   "description": "Asheville corporate limits",
-  "depends": []  
+  "depends": [],
+  "title": "Asheville Corporate Limits",
+  "publication_date": "2018-07-28",
+  "responsible_party": "City of Asheville"
 }

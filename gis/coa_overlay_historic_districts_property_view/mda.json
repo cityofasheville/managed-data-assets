@@ -1,0 +1,10 @@
+{
+  "name": "coa_overlay_historic_districts_property_view",
+  "type": "view",
+  "description": "Historic districts overlays for properties",
+  "notes": [],
+  "schema": {
+    "type": "sql",
+    "file": "coa_overlay_historic_districts_property_view.sql"
+  }
+}
