@@ -1,7 +1,6 @@
 SET search_path TO amd, public, topology, sde;
 
 DROP TABLE IF EXISTS coa_bc_address_master;
-
 -- Table: amd.coa_bc_address_master
 
 -- DROP TABLE amd.coa_bc_address_master;
@@ -95,6 +94,8 @@ CREATE TABLE amd.coa_bc_address_master
     nbrhd_id character varying(10) COLLATE pg_catalog."default",
     nbrhd_name character varying(25) COLLATE pg_catalog."default",
     brushweek character varying(2) COLLATE pg_catalog."default",
+    historic_district character varying(100) COLLATE pg_catalog."default",
+    local_landmark character varying(50) COLLATE pg_catalog."default",
     CONSTRAINT enforce_srid_shape CHECK (st_srid(shape) = 2264)
 )
 WITH (
@@ -136,4 +137,3 @@ CREATE INDEX search
     ON amd.coa_bc_address_master USING btree
     (address_number, address_street_name COLLATE pg_catalog."default", address_street_type COLLATE pg_catalog."default", address_street_prefix COLLATE pg_catalog."default", address_zipcode, address_commcode COLLATE pg_catalog."default", address_unit COLLATE pg_catalog."default")
     TABLESPACE pg_default;
-    

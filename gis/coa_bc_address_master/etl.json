@@ -35,6 +35,12 @@
       "file": "6-update_neighborhood.sql",
       "db": "datastore1",
       "active": true
+    },
+    {
+      "type": "sql",
+      "file": "7-update_historic.sql",
+      "db": "datastore1",
+      "active": true
     }
   ],
   "distribute": [],
