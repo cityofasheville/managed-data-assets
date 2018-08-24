@@ -13,6 +13,5 @@ FROM (
             on (a.property_pinnum = land.new_pin)
             LEFT OUTER JOIN amd.coa_overlay_historic_districts_property_view as hist
             on (a.property_pinnum = hist.pinnum)
-            limit 1
 ) as h
 where amd.coa_bc_address_master.civicaddress_id = h.civicaddress_id;
