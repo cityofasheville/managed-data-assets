@@ -2,8 +2,14 @@
   "name": "coa_active_jurisdictions",
   "active": true,
   "depends": [],
-  "source": "gis-edit",
-  "target": "mda-datastore",
+  "source": {
+    "system": "gis-edit",
+    "resource": "coagis.coa_active_jurisdictions"
+  },
+  "target": {
+    "system": "mda-datastore",
+    "resource": "public.coa_active_jurisdictions"
+  },
   "type": "canonical",
   "representation": "table",
   "standard-metadata": {
