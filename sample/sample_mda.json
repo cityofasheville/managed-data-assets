@@ -33,8 +33,23 @@
         "active": true
       }
     ]
+  },
+  "schema": {
+    "type": "sql",
+    "dialect": "postresql",
+    "file": "coa_active_jurisdictions.sql"
   }
 }
+
+## General comments
+
+This version moves ETL jobs into the main JSON file for convenience of presentation. 
+For the time being it will remain a separate file (and is a separate table in
+the database representation of these assets).
+
+The "schema" field is basically a way to create the table. I'd like to be able
+to run a script that reads all the MDA information and generates all the tables
+and views in a new database.
 
 ## Notes: 
 
