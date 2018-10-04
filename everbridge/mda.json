@@ -1,0 +1,7 @@
+{
+  "name": "everbridge",
+  "active": true,
+  "type": "table",
+  "description": "Load employees and water customers to Everbridge",
+  "depends": []
+}

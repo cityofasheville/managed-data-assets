@@ -1,0 +1,10 @@
+
+lcd "C:\jon\managed-data-assets-jon\everbridge\"
+
+open 453003085611891@sftp-us2e.everbridge.net
+
+cd replace
+
+put "avl.PR_City_Employees_Everbridge.csv"
+
+
