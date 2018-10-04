@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "exe",
+      "file": "run_loaddb.bat",
+      "active": true
+    }
+  ]
+}
