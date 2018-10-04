@@ -1,5 +1,5 @@
 
-lcd "C:\jon\managed-data-assets-jon\everbridge\"
+lcd "C:\coa\managed-data-assets\everbridge\"
 
 open 453003085611891@sftp-us2e.everbridge.net
 
