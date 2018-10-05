@@ -4,12 +4,12 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "everbridge_city_employees_ftp.fmw",
+      "file": "everbridge_city_employees_ftp2016.fmw",
       "active": true
     },
     {
       "type": "fme",
-      "file": "everbridge_water_customers_ftp.fmw",
+      "file": "everbridge_water_customers_ftp2016.fmw",
       "active": true
     },
     {
