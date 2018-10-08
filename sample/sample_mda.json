@@ -31,6 +31,11 @@
     "metadata-creation-date": "8/31/2018 - see note 4",
     "contact-role-code": "See note 5"
   },
+  "schema": {
+    "type": "sql",
+    "dialect": "postresql",
+    "file": "coa_active_jurisdictions.sql"
+  },
   "etl": {
     "tasks": [
       {
@@ -39,11 +44,6 @@
         "active": true
       }
     ]
-  },
-  "schema": {
-    "type": "sql",
-    "dialect": "postresql",
-    "file": "coa_active_jurisdictions.sql"
   }
 }
 
