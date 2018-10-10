@@ -2,10 +2,6 @@
   "name": "coa_active_jurisdictions",
   "active": true,
   "depends": [],
-  "source": {
-    "system": "gis-edit",
-    "resource": "coagis.coa_active_jurisdictions"
-  },
   "target": {
     "system": "mda-datastore",
     "resource": "public.coa_active_jurisdictions"
