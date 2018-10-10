@@ -5,54 +5,54 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets\gis\coa_active_jurisdictions\edit2wh-coa_active_jurisdictions2.fmw
-#          --DestDataset_POSTGIS "coa-pg-db1"
+#    C:\FME\fme.exe C:\COA\managed-data-assets-2\gis\coa_active_jurisdictions\edit2wh-coa_active_jurisdictions.fmw
+#          --DestDataset_POSTGIS "mda-store-1"
 #    
 #    
-#!   LAST_SAVE_DATE="2018-01-15T08:54:15"
-#!   DESCRIPTION=""
-#!   END_TCL=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   BEGIN_TCL=""
-#!   SHOW_ANNOTATIONS="true"
-#!   DOC_EXTENTS="1550.9 1e-05"
-#!   END_PYTHON=""
-#!   ZOOM_SCALE="100"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   REQUIREMENTS=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   DOC_TOP_LEFT="100 -230"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   HISTORY=""
 #!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - WIN32)"
-#!   IGNORE_READER_FAILURE="No"
-#!   REQUIREMENTS_KEYWORD=""
-#!   TERMINATE_REJECTED="YES"
-#!   SOURCE_ROUTING_FILE=""
-#!   BEGIN_PYTHON=""
-#!   CATEGORY=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   MAX_LOG_FEATURES="200"
-#!   SOURCE="NONE"
-#!   USAGE=""
 #!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   SHOW_ANNOTATIONS="true"
 #!   DESTINATION="NONE"
-#!   VIEW_POSITION="-6.25006 18.7502"
 #!   PASSWORD=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   SHOW_INFO_NODES="true"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_DOCUMENT_GUID="e6456f48-ae83-4419-992d-0da325458e44"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   WORKSPACE_VERSION="1"
-#!   FME_BUILD_NUM="16716"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   LOG_FILE=""
-#!   FME_DOCUMENT_PRIORGUID="dcf5fdb1-ef1f-44ea-8f87-f6c72fad64c0,98341457-abe7-42ea-b5a1-879456f14efd,607b2b7c-4515-4c07-aad2-b7c7f086ab2a,134a5a4f-7d7e-4eff-8df9-35bf27d0b90b,d268a442-6347-46a2-8123-63699ea756d1,9c599a24-3e53-4aaf-b990-adc1cce8bacf"
-#!   TITLE=""
+#!   SOURCE="NONE"
+#!   REQUIREMENTS=""
+#!   VIEW_POSITION="-40.6254 -196.877"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   SOURCE_ROUTING_FILE=""
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   ZOOM_SCALE="100"
+#!   WORKSPACE_VERSION="1"
+#!   REQUIREMENTS_KEYWORD=""
+#!   LOG_FILE=""
+#!   DESCRIPTION=""
+#!   DOC_TOP_LEFT="196.876 -376.001"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   PYTHON_COMPATIBILITY="27"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   HISTORY=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   MAX_LOG_FEATURES="200"
+#!   END_PYTHON=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   BEGIN_PYTHON=""
+#!   TERMINATE_REJECTED="YES"
+#!   LEGAL_TERMS_CONDITIONS=""
+#!   END_TCL=""
+#!   CATEGORY=""
+#!   FME_DOCUMENT_GUID="2801c933-4698-4a23-88c4-00221c8a0f22"
+#!   DOC_EXTENTS="2473.65 71"
+#!   TITLE=""
+#!   USAGE=""
+#!   FME_BUILD_NUM="16716"
+#!   FME_DOCUMENT_PRIORGUID="dcf5fdb1-ef1f-44ea-8f87-f6c72fad64c0,98341457-abe7-42ea-b5a1-879456f14efd,607b2b7c-4515-4c07-aad2-b7c7f086ab2a,134a5a4f-7d7e-4eff-8df9-35bf27d0b90b,d268a442-6347-46a2-8123-63699ea756d1"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_DATE="2018-09-05T09:03:15"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   BEGIN_TCL=""
 #!   FME_SERVER_SERVICES=""
 #! >
 #! <DATASETS>
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geodb_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geodb_feature_has_relationships boolean geodb_dim_end_dimension_z double geodb_rel_origin_oid integer geodb_text_leader_line char(254) geodb_edge_feature_count integer geodb_text_lc_textbox_y2 double geodb_text_lc_accent_bar_color char(50) geodb_dim_text_z double geodb_dim_end_dimension_x double geodb_text_lc_margin_left double geodb_text_color char(254) geodb_text_lc_gap double geodb_text_ref_scale double geodb_dim_line_z double geodb_text_lc_textbox_y3 double fme_text_string char(50) multi_reader_type char(50) geodb_text_string char(254) geodb_text_size double geodb_dim_using_custom_length boolean geodb_subtype_name char(254) fme_color char(50) multi_reader_keyword char(50) geodb_from_junction_element_id integer geodb_text_scale boolean geodb_type char(25) geodb_sweep_angle double geodb_element_id integer geodb_secondary_axis double geodb_right_to_left boolean geodb_edge_element_count integer geodb_text_lc_textbox_x1 double geodb_dim_length double geodb_text_lc_textbox_y1 double geodb_text_leader_line_tolerance double geodb_text_leader_line_color char(50) fme_text_size double geodb_dim_begin_dimension_z double fme_rotation double geodb_dim_style_id integer geodb_raster_pyramid_level integer fme_secondary_axis double geodb_raster_pyramid_resample_type char(100) fme_dataset char(50) multi_reader_full_id integer geodb_text_char_spacing double geodb_dim_line_x double geodb_h_align char(50) geodb_oid integer geodb_text_lc_margin_right double fme_primary_axis double fme_type char(50) geodb_text_point_scale_factor double geodb_text_lc_textbox_x4 double geodb_text_character_width double geodb_font_strikethrough boolean geodb_text_lc_style char(20) geodb_font_weight smallint geodb_text_x_offset double geodb_rel_destination_oid integer fme_fill_color char(50) geodb_feature_class_alias char(254) geodb_metadata_string char(254) geodb_text_line_spacing double geodb_symbol_id integer geodb_text_string_with_format_tags char(254) geodb_font_name char(254) geodb_junction_element_count integer geodb_feature_dataset char(254) geodb_linked_feature_id integer geodb_primary_axis double geodb_dim_extn_line_angle double fme_basename char(50) geodb_dim_begin_dimension_x double geodb_dim_line_display smallint geodb_text_lc_margin_top double geodb_text_lc_accent_bar_width double fme_start_angle double geodb_start_angle double fme_feature_type char(50) geodb_feature_is_simple boolean geodb_raster_compression_type char(100) geodb_junction_feature_count integer geodb_font_bold boolean fme_geometry fme_char(50) geodb_measures char(254) geodb_font_italic boolean geodb_element_index integer geodb_font_size double geodb_dim_type smallint geodb_dim_begin_dimension_y double geodb_raster_compression_quality integer fme_sweep_angle double geodb_text_y_offset double geodb_text_lc_textbox_x3 double multi_reader_id integer geodb_font_charset smallint geodb_text_leader_line_width double geodb_dim_marker_display smallint geodb_text_lc_textbox_x2 double geodb_text_part_count integer geodb_anno_class_id integer geodb_font_underline boolean geodb_to_junction_element_id integer geodb_rotation double geodb_dim_extn_line_display smallint geodb_dim_text_y double geodb_dim_text_angle double geodb_text_lc_margin_bottom double geodb_text_leader_line_anchor_point char(254) geodb_text_clip boolean geodb_dim_end_dimension_y double geodb_v_align char(50) geodb_color char(50) geodb_dim_custom_length double geodb_text_angle double geodb_topological_configuration char(6) geodb_dim_line_y double geodb_text_word_spacing double geodb_text_break_char integer geodb_dim_text_x double geodb_text_lc_textbox_y4 double geodb_ancillary_role char(7)"
+#!   EXPOSABLE_ATTRS="geodb_v_align char(50) geodb_dim_end_dimension_y double geodb_edge_element_count integer geodb_rotation double geodb_dim_style_id integer geodb_dim_extn_line_angle double geodb_font_strikethrough boolean geodb_sweep_angle double geodb_text_lc_textbox_x3 double geodb_text_word_spacing double geodb_raster_pyramid_resample_type char(100) geodb_text_lc_textbox_x4 double fme_primary_axis double geodb_text_ref_scale double geodb_text_char_spacing double geodb_dim_line_x double geodb_text_lc_gap double geodb_raster_compression_type char(100) geodb_text_leader_line_anchor_point char(254) geodb_subtype_name char(254) geodb_text_line_spacing double geodb_dim_begin_dimension_y double geodb_text_part_count integer geodb_font_name char(254) geodb_font_underline boolean geodb_text_lc_margin_left double fme_color char(50) geodb_font_size double geodb_dim_text_x double geodb_text_lc_margin_bottom double geodb_raster_compression_quality integer geodb_dim_custom_length double geodb_text_lc_textbox_x1 double geodb_dim_line_z double geodb_text_x_offset double geodb_dim_extn_line_display smallint geodb_dim_text_z double geodb_text_lc_margin_right double geodb_text_scale boolean fme_type char(50) multi_reader_type char(50) geodb_feature_dataset char(254) fme_text_string char(50) geodb_text_lc_accent_bar_width double geodb_text_lc_margin_top double fme_text_size double geodb_text_lc_textbox_y3 double geodb_to_junction_element_id integer geodb_text_clip boolean geodb_text_leader_line_color char(50) geodb_font_weight smallint fme_sweep_angle double geodb_dim_marker_display smallint geodb_right_to_left boolean geodb_feature_has_relationships boolean geodb_text_string_with_format_tags char(254) geodb_ancillary_role char(7) geodb_rel_destination_oid integer geodb_linked_feature_id integer fme_secondary_axis double geodb_dim_length double fme_basename char(50) geodb_metadata_string char(254) geodb_junction_element_count integer geodb_text_lc_textbox_x2 double fme_fill_color char(50) geodb_start_angle double fme_start_angle double geodb_dim_begin_dimension_x double geodb_dim_text_angle double geodb_text_string char(254) geodb_text_lc_style char(20) geodb_dim_end_dimension_z double geodb_text_point_scale_factor double geodb_dim_line_y double geodb_color char(50) geodb_dim_end_dimension_x double geodb_primary_axis double geodb_edge_feature_count integer geodb_dim_begin_dimension_z double fme_rotation double geodb_font_italic boolean geodb_dim_text_y double geodb_text_size double fme_dataset char(50) geodb_measures char(254) geodb_text_color char(254) geodb_topological_configuration char(6) fme_feature_type char(50) multi_reader_full_id integer geodb_rel_origin_oid integer geodb_feature_class_alias char(254) geodb_text_angle double geodb_text_break_char integer geodb_text_lc_textbox_y1 double geodb_dim_using_custom_length boolean geodb_text_lc_accent_bar_color char(50) geodb_secondary_axis double geodb_dim_line_display smallint geodb_text_leader_line char(254) geodb_text_leader_line_width double geodb_element_index integer geodb_text_y_offset double geodb_text_lc_textbox_y4 double geodb_feature_is_simple boolean geodb_dim_type smallint geodb_h_align char(50) geodb_junction_feature_count integer geodb_font_charset smallint geodb_font_bold boolean geodb_element_id integer multi_reader_id integer fme_geometry fme_char(50) geodb_symbol_id integer geodb_text_lc_textbox_y2 double multi_reader_keyword char(50) geodb_anno_class_id integer geodb_oid integer geodb_raster_pyramid_level integer geodb_type char(25) geodb_text_leader_line_tolerance double geodb_from_junction_element_id integer geodb_text_character_width double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,20 +78,24 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="NONE"
 #!   GENERATE_FME_BUILD_NUM="16716"
-#!   START_FEATURE=""
-#!   MAX_FEATURES=""
-#!   FEATURE_TYPES=""
-#!   COORDSYS="EPSG:2264"
-#!   MIN_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   COORDSYS="EPSG:2264"
+#!   START_FEATURE=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
 #! >
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="FeatureClass1"
-#! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Feature Class or Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Specify the Esri ArcSDE Geodatabase Dataset"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
@@ -110,16 +114,12 @@
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Feature Class or Table"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
 #!   VALUE="YES"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Specify the Esri ArcSDE Geodatabase Dataset"
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="FeatureClass1"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
@@ -139,7 +139,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type {FME_GEN_GEOMETRY} postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="postgis_collection_id int4 fme_primary_axis float8 fme_text_size float8 fme_type char(50) fme_dataset char(50) fme_geometry fme_char(50) fme_basename char(50) fme_feature_type char(50) postgis_collection_part_id int4 fme_text_string char(50) postgis_type char(50) fme_color char(50) fme_start_angle float8 fme_secondary_axis float8 fme_sweep_angle float8 fme_rotation float8 fme_db_operation char(8) fme_fill_color char(50)"
+#!   EXPOSABLE_ATTRS="postgis_collection_id int4 fme_text_size float8 fme_basename char(50) fme_db_operation char(8) fme_primary_axis float8 fme_secondary_axis float8 fme_sweep_angle float8 fme_rotation float8 fme_type char(50) fme_start_angle float8 fme_dataset char(50) fme_text_string char(50) postgis_type char(50) fme_feature_type char(50) fme_color char(50) fme_fill_color char(50) fme_geometry fme_char(50) postgis_collection_part_id int4"
 #!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; shape &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -149,16 +149,16 @@
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="16716"
 #!   FANOUT_GROUP="NO"
-#!   COORDSYS="EPSG:2264"
+#!   COORDSYS=""
 #!   FANOUT_EXPRESSION=""
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -173,8 +173,8 @@
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -857,10 +857,10 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="1"
 #!   FEAT_GEOMTYPE="geodb_polygon"
-#!   POSITION="100 -230"
-#!   BOUNDING_RECT="100 -230 -1 -1"
+#!   POSITION="196.876 -305.001"
+#!   BOUNDING_RECT="196.876 -305.001 818.759 71"
 #!   ORDER="5e+14"
-#!   COLLAPSED="true"
+#!   COLLAPSED="false"
 #!   KEYWORD="GEODATABASE_SDE_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -884,14 +884,14 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="amd.coa_active_jurisdictions"
+#!   NODE_NAME="public.coa_active_jurisdictions"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="amd"
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="true"
-#!   IDENTIFIER="3"
-#!   FEAT_GEOMTYPE="&lt;Unused&gt;"
-#!   POSITION="1650.9 -230"
-#!   BOUNDING_RECT="1650.9 -230 -1 -1"
+#!   IDENTIFIER="4"
+#!   FEAT_GEOMTYPE="postgis_multipolygon"
+#!   POSITION="1666.49 -305.001"
+#!   BOUNDING_RECT="1666.49 -305.001 1004.04 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_1"
@@ -901,33 +901,34 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="objectid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="areaname" ATTR_TYPE="varchar(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="acres" ATTR_TYPE="numeric(38,8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="sqmiles" ATTR_TYPE="numeric(38,8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="acres" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="sqmiles" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="cityname" ATTR_TYPE="varchar(9)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="edit_date" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="edit_by" ATTR_TYPE="varchar(100)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="jurisdiction_type" ATTR_TYPE="varchar(150)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="label" ATTR_TYPE="varchar(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gdb_geomattr_data" ATTR_TYPE="bytea" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="st_area_shape_" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="st_length_shape_" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_update_geometry" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_spatial_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="shape"/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_spatial_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -935,7 +936,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="coa-pg-db1"
+#!   DEFAULT_VALUE="mda-store-1"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -949,9 +950,9 @@
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="4"
+#!   IDENTIFIER="5"
 #!   SOURCE_NODE="1"
-#!   TARGET_NODE="3"
+#!   TARGET_NODE="4"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
@@ -963,6 +964,20 @@
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
+#! <ATTR_LINK
+#!   IDENTIFIER="65541"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="9"
+#!   TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131077"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="10"
+#!   TARGET_PORT_DESC="10"
+#! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
 #! </SUBDOCUMENTS>
@@ -971,7 +986,7 @@
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
 GUI IGNORE GEODATABASE_SDE_IN_CONNECTION_FILE_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_REMOVE_TABLE_QUALIFIER_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_WHERE_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_TRANSLATE_SPATIAL_DATA_ONLY_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_RESOLVE_DOMAINS_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_RESOLVE_SUBTYPE_NAMES_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_IGNORE_NETWORK_INFO_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_IGNORE_RELATIONSHIP_INFO_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SPLIT_COMPLEX_EDGES_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SPLIT_MULTI_PART_ANNOS_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_EXPOSE_ATTRS_GROUP_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_ENVELOPE_MINX_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_ENVELOPE_MINY_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_ENVELOPE_MAXX_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_ENVELOPE_MAXY_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_CLIP_TO_ENVELOPE_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_GEODB_SDE_RDR_ADV_PARM_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SPLIT_COMPLEX_ANNOS_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_CACHE_MULTIPATCH_TEXTURES_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_FEATURE_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_ORDER_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_SEARCH_METHOD_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_CHILD_VERSION_NAME_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_ARCHIVE_WHERE_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_CHECK_SIMPLE_GEOM_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_MERGE_FEAT_LINKED_ANNOS_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_PERSISTENT_CONNECTION_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_BEGIN_SQL{0}_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_END_SQL{0}_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_USERID_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_PASSWORD_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_VERSION_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_HISTORICAL_VERSION_NAME_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_HISTORICAL_VERSION_TIMESTAMP_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_READ_VERSION_DIFFERENCES_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_COMPARE_TRANSACTIONAL_VERSION_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_COMPARE_HISTORICAL_VERSION_NAME_GEODATABASE_SDE_1,GEODATABASE_SDE_IN_COMPARE_HISTORICAL_VERSION_TIMESTAMP_GEODATABASE_SDE_1,_GEODB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GEODATABASE_SDE_1,_GEODB_IN_ALIAS_MODE_GEODATABASE_SDE_1,DestDataset_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1
-DEFAULT_MACRO DestDataset_POSTGIS coa-pg-db1
+DEFAULT_MACRO DestDataset_POSTGIS mda-store-1
 GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 INCLUDE [ if {{$(DestDataset_POSTGIS)} == {}} { puts_real {Parameter 'DestDataset_POSTGIS' must be given a value.}; exit 1; }; ]
 #! START_HEADER
@@ -1280,7 +1295,7 @@ POSTGIS_1_DATASET "$(DestDataset_POSTGIS_1)"
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)edit2wh-coa_active_jurisdictions2.log"
+LOG_FILENAME "$(FME_MF_DIR)edit2wh-coa_active_jurisdictions.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1298,12 +1313,11 @@ GEODATABASE_SDE_1_READER_META_ATTRIBUTES fme_feature_type
 # -------------------------------------------------------------------------
 
 GEODATABASE_SDE_1_COORDINATE_SYSTEM EPSG:2264
-POSTGIS_1_COORDINATE_SYSTEM EPSG:2264
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME edit2wh-coa_active_jurisdictions2
+MACRO WORKSPACE_NAME edit2wh-coa_active_jurisdictions
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
@@ -1315,10 +1329,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "coagis.coa_active_jurisdictions (GEODA
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC coagis.coa_active_jurisdictions_GEODATABASE_SDE_1 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>amd.coa_active_jurisdictions<closeparen> COORDINATE_SYSTEM EPSG:2264 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC coagis.coa_active_jurisdictions_GEODATABASE_SDE_1 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>st_area_shape_<comma>st_area<lt>openparen<gt>shape<lt>closeparen<gt><comma>st_length_shape_<comma>st_length<lt>openparen<gt>shape<lt>closeparen<gt><closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.coa_active_jurisdictions<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF amd.coa_active_jurisdictions   postgis_type                 <Unused>   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geometry   postgis_spatial_column       shape   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objectid                     int4   areaname                     varchar(50)   acres                        numeric(38,8)   sqmiles                      numeric(38,8)   cityname                     varchar(9)   edit_date                    timestamp   edit_by                      varchar(100)   jurisdiction_type            varchar(150)   label                        varchar(50)   gdb_geomattr_data            bytea
+POSTGIS_1_DEF public.coa_active_jurisdictions   postgis_type                 postgis_multipolygon   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geometry   postgis_spatial_column       shape   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objectid                     int4   areaname                     varchar(50)   acres                        float8   sqmiles                      float8   cityname                     varchar(9)   edit_date                    timestamp   edit_by                      varchar(100)   jurisdiction_type            varchar(150)   label                        varchar(50)   st_area_shape_               float8   st_length_shape_             float8

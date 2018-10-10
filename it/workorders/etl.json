@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "trackit2wh.fmw",
+      "file": "trackitTOwh.fmw",
       "active": true
     }
   ]

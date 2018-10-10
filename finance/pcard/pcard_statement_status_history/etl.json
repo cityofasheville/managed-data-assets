@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "munis2wh_pcard_statement_status_history.fmw",
+      "file": "munisTOwh_pcard_statement_status_history.fmw",
       "active": true
     }
   ]

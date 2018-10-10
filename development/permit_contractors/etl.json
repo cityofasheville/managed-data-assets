@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "accela2wh-permit_contractors.fmw",
+      "file": "accelaTOwh-permit_contractors.fmw",
       "active": true
     }
   ]

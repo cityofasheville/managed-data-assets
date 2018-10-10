@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "munis2wh_pcard_transactions.fmw",
+      "file": "munisTOwh_pcard_transactions.fmw",
       "active": true
     }
   ]

@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "edit2wh-coa_national_register_properties.fmw",
+      "file": "editTOwh-coa_national_register_properties.fmw",
       "active": true
     }
   ]

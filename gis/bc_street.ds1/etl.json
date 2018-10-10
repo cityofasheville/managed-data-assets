@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "edit2wh-bc_street.fmw",
+      "file": "editTOwh-bc_street.fmw",
       "active": true
     }
   ]

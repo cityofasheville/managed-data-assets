@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "munis2wh-general_ledger_parameters.fmw",
+      "file": "munisTOwh-general_ledger_parameters.fmw",
       "active": true
     }
   ]

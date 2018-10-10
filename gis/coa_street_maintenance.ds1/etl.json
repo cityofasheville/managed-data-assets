@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "edit2wh-coa_street_maintenance.fmw",
+      "file": "editTOwh-coa_street_maintenance.fmw",
       "active": true
     }
   ]

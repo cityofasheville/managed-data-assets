@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "accela2wh-permits.fmw",
+      "file": "accelaTOwh-permits.fmw",
       "active": true
     }
   ]

@@ -4,7 +4,7 @@
   "tasks": [
     {
       "type": "fme",
-      "file": "google2owh-capital_projects_master.fmw",
+      "file": "googleTOowh-capital_projects_master.fmw",
       "active": true
     }
   ]

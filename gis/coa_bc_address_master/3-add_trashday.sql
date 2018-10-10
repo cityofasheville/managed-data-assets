@@ -1,5 +1,5 @@
 -- Update trash pickup day
-UPDATE amd.coa_bc_address_master
+UPDATE public.coa_bc_address_master
 SET 
  trash_pickup_day = public_works_districts.truckday,
  recycling_pickup_district = public_works_districts.recdistrict,
@@ -7,7 +7,7 @@ SET
  brushweek = public_works_districts.brushweek
  FROM (
     SELECT DISTINCT
-      amd.bc_location.location_id, 
+      public.bc_location.location_id, 
       pw.truckday,
       pw.recdistrict,
       pw.recday,
@@ -18,11 +18,11 @@ SET
         ELSE pw.recdistrict
       END as brushweek
     FROM
-      amd.bc_location
+      public.bc_location
     LEFT JOIN 
-      amd.coa_districts_public_works as pw
+      public.coa_districts_public_works as pw
     ON
-      st_contains(pw.shape,amd.bc_location.shape)
+      st_contains(pw.shape,public.bc_location.shape)
   ) as public_works_districts 
-WHERE amd.coa_bc_address_master.location_id = public_works_districts.location_id
+WHERE public.coa_bc_address_master.location_id = public_works_districts.location_id
 
