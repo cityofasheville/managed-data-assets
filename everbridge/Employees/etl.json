@@ -8,18 +8,8 @@
       "active": true
     },
     {
-      "type": "fme",
-      "file": "everbridge_water_customers_ftp.fmw",
-      "active": true
-    },
-    {
       "type": "bash",
       "file": "emp.sh",
-      "active": true
-    },
-    {
-      "type": "bash",
-      "file": "cust.sh",
       "active": true
     }
   ]
