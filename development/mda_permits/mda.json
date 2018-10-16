@@ -1,7 +1,0 @@
-{
-  "name": "mda_permits",
-  "type": "table",
-  "active": true,
-  "description": "Permits data",
-  "depends": []  
-}
