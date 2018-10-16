@@ -1,0 +1,7 @@
+{
+  "name": "everbridge_emps",
+  "active": true,
+  "type": "table",
+  "description": "Load employees to Everbridge",
+  "depends": []
+}
