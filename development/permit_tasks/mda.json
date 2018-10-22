@@ -1,0 +1,7 @@
+{
+  "name": "permit_tasks",
+  "type": "table",
+  "active": true,
+  "description": "Permit tasks data",
+  "depends": []  
+}

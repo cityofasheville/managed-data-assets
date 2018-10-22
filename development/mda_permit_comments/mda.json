@@ -1,9 +1,0 @@
-{
-  "name": "mda_permit_comments",
-  "type": "table",
-  "active": true,
-  "description": "Permit comments data",
-  "depends": [
-    "mda_permits"
-  ]
-}
