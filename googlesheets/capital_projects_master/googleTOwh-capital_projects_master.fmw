@@ -5,55 +5,55 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets-2\googlesheets\capital_projects_master\googleTOwh-capital_projects_master.fmw
+#    C:\FME2017\fme.exe C:\jon\managed-data-assets\googlesheets\capital_projects_master\googleTOwh-capital_projects_master.fmw
 #          --DestDataset_POSTGRES_3 "mda-store-1"
 #    
 #    
-#!   TITLE=""
-#!   BEGIN_PYTHON=""
-#!   MAX_LOG_FEATURES="200"
-#!   SHOW_ANNOTATIONS="true"
-#!   FME_DOCUMENT_GUID="b99c9665-140e-4f39-a32e-46a51bd79d5b"
-#!   LAST_SAVE_DATE="2018-09-07T08:40:23"
-#!   REQUIREMENTS_KEYWORD=""
-#!   WORKSPACE_VERSION="1"
-#!   DESCRIPTION=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   DESTINATION="NONE"
-#!   FME_DOCUMENT_PRIORGUID="cb3ec169-a144-4b3e-9c21-fd8c8e01e082,adc47323-9272-4052-b26f-c4886928acfd,732e71aa-7719-47af-a48f-9c4b9d922c0b,6a3ffabc-fe42-40c5-81cd-31d53735daaa,dfbe25f3-5cf5-4f1b-9bf1-4898323bf804,5e2c1ef7-4914-47e7-9d38-f8e6f69da66c,c7ef7334-d2b2-495f-bc52-b4e158ee9d39"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - WIN32)"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   SOURCE="NONE"
-#!   FME_SERVER_SERVICES=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   SOURCE_ROUTING_FILE=""
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   PASSWORD=""
-#!   TERMINATE_REJECTED="YES"
-#!   IGNORE_READER_FAILURE="No"
-#!   VIEW_POSITION="-503.13 981.26"
-#!   FME_BUILD_NUM="16716"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   HISTORY=""
-#!   SHOW_INFO_NODES="true"
-#!   USAGE=""
-#!   BEGIN_TCL=""
-#!   DOC_EXTENTS="2636.15 462.128"
-#!   PYTHON_COMPATIBILITY="27"
-#!   REQUIREMENTS=""
-#!   DOC_TOP_LEFT="103.125 -182.748"
-#!   LOG_FILE=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   CATEGORY=""
-#!   END_PYTHON=""
-#!   ZOOM_SCALE="100"
-#!   ATTR_TYPE_ENCODING="SDF"
+#!   DESCRIPTION=""
+#!   USE_MARKDOWN=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   TITLE=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   BEGIN_TCL=""
+#!   FME_DOCUMENT_GUID="fad9b758-f4a5-49fc-bdf3-eb35bc4d7798"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   END_TCL=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   DOC_TOP_LEFT="103.125 -182.748"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   DESTINATION="NONE"
+#!   MAX_LOG_FEATURES="200"
+#!   VIEW_POSITION="-500.005 981.26"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SOURCE_ROUTING_FILE=""
+#!   SHOW_ANNOTATIONS="true"
+#!   DESTINATION_ROUTING_FILE=""
+#!   END_PYTHON=""
+#!   FME_DOCUMENT_PRIORGUID="cb3ec169-a144-4b3e-9c21-fd8c8e01e082,adc47323-9272-4052-b26f-c4886928acfd,732e71aa-7719-47af-a48f-9c4b9d922c0b,6a3ffabc-fe42-40c5-81cd-31d53735daaa,dfbe25f3-5cf5-4f1b-9bf1-4898323bf804,5e2c1ef7-4914-47e7-9d38-f8e6f69da66c,c7ef7334-d2b2-495f-bc52-b4e158ee9d39,b99c9665-140e-4f39-a32e-46a51bd79d5b"
+#!   ZOOM_SCALE="100"
+#!   BEGIN_PYTHON=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   SHOW_INFO_NODES="true"
+#!   PASSWORD=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   USAGE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   DOC_EXTENTS="2636.15 462.128"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   LAST_SAVE_DATE="2018-10-23T09:55:27"
+#!   HISTORY=""
+#!   WORKSPACE_VERSION="1"
+#!   FME_BUILD_NUM="17652"
+#!   SOURCE="NONE"
+#!   PYTHON_COMPATIBILITY="27"
+#!   TERMINATE_REJECTED="YES"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_SERVER_SERVICES=""
+#!   LOG_FILE=""
+#!   MARKDOWN_USAGE=""
+#!   IGNORE_READER_FAILURE="No"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,8 +69,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="googlesheets_start_row &quot;&quot; googlesheets_end_row &quot;&quot; googlesheets_evaluate_formulas &quot;Yes&quot; googlesheets_field_names_row &quot;1&quot; googlesheets_start_column &quot;&quot; googlesheets_end_column &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_keyword text fme_text_string text multi_reader_full_id text fme_color text fme_basename text googlesheets_type text fme_text_size text multi_reader_id text fme_geometry fme_char(50) fme_primary_axis text fme_rotation text fme_type text fme_dataset text multi_reader_type text fme_feature_type text fme_secondary_axis text googlesheets_row_number number fme_sweep_angle text fme_start_angle text fme_fill_color text"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP googlesheets_reader_group googlesheets_start_row%googlesheets_end_row%googlesheets_evaluate_formulas Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_start_row Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_end_row End Row:&quot; &quot;&quot; &quot;GUI CHOICE googlesheets_evaluate_formulas Yes%No Evaluate Formulas:&quot; Yes "
+#!   EXPOSABLE_ATTRS="fme_basename text fme_primary_axis text fme_type text googlesheets_type text multi_reader_id text multi_reader_type text fme_rotation text fme_geometry fme_char(50) multi_reader_full_id text fme_sweep_angle text fme_secondary_axis text fme_text_size text fme_color text fme_feature_type text fme_fill_color text googlesheets_row_number number fme_dataset text multi_reader_keyword text fme_text_string text fme_start_angle text"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP googlesheets_reader_group googlesheets_start_row%googlesheets_end_row%googlesheets_evaluate_formulas Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_start_row Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_end_row End Row:&quot; &quot;&quot; &quot;GUI CHOICE googlesheets_evaluate_formulas Yes%No Evaluate Formulas:&quot; Yes "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -78,13 +78,21 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="NONE"
 #!   GENERATE_FME_BUILD_NUM="16716"
-#!   MAX_FEATURES=""
-#!   MIN_FEATURES=""
 #!   START_FEATURE=""
-#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
 #!   COORDSYS=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Sheet1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
@@ -96,14 +104,6 @@
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Sheet"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Sheet1"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -119,8 +119,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="googlesheets_start_row &quot;&quot; googlesheets_end_row &quot;&quot; googlesheets_evaluate_formulas &quot;Yes&quot; googlesheets_field_names_row &quot;1&quot; googlesheets_start_column &quot;&quot; googlesheets_end_column &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_keyword text fme_text_string text multi_reader_full_id text fme_color text fme_basename text googlesheets_type text fme_text_size text multi_reader_id text fme_geometry fme_char(50) fme_primary_axis text fme_rotation text fme_type text fme_dataset text multi_reader_type text fme_feature_type text fme_secondary_axis text googlesheets_row_number number fme_sweep_angle text fme_start_angle text fme_fill_color text"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP googlesheets_reader_group googlesheets_start_row%googlesheets_end_row%googlesheets_evaluate_formulas Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_start_row Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_end_row End Row:&quot; &quot;&quot; &quot;GUI CHOICE googlesheets_evaluate_formulas Yes%No Evaluate Formulas:&quot; Yes "
+#!   EXPOSABLE_ATTRS="fme_basename text fme_primary_axis text fme_type text googlesheets_type text multi_reader_id text multi_reader_type text fme_rotation text fme_geometry fme_char(50) multi_reader_full_id text fme_sweep_angle text fme_secondary_axis text fme_text_size text fme_color text fme_feature_type text fme_fill_color text googlesheets_row_number number fme_dataset text multi_reader_keyword text fme_text_string text fme_start_angle text"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP googlesheets_reader_group googlesheets_start_row%googlesheets_end_row%googlesheets_evaluate_formulas Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_start_row Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER googlesheets_end_row End Row:&quot; &quot;&quot; &quot;GUI CHOICE googlesheets_evaluate_formulas Yes%No Evaluate Formulas:&quot; Yes "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -128,13 +128,21 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="NONE"
 #!   GENERATE_FME_BUILD_NUM="16716"
-#!   MAX_FEATURES=""
-#!   MIN_FEATURES=""
 #!   START_FEATURE=""
-#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
 #!   COORDSYS=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Sheet1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
@@ -146,14 +154,6 @@
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Sheet"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Sheet1"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -169,8 +169,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_secondary_axis float8 fme_rotation float8 fme_db_operation char(8) fme_start_angle float8 fme_color char(50) fme_text_string char(50) fme_type char(50) fme_feature_type char(50) fme_text_size float8 postgres_type char(50) fme_primary_axis float8 fme_fill_color char(50) fme_geometry fme_char(50) fme_sweep_angle float8 fme_basename char(50)"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
+#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_feature_type char(50) fme_color char(50) fme_primary_axis float8 fme_fill_color char(50) fme_secondary_axis float8 fme_sweep_angle float8 fme_type char(50) fme_geometry fme_char(50) fme_start_angle float8 fme_basename char(50) fme_text_string char(50) fme_db_operation char(8) fme_text_size float8 postgres_type char(50) fme_rotation float8"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -178,10 +178,22 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="16716"
-#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
 #!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
@@ -191,24 +203,12 @@
 #!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_PROXY"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
 #!   VALUE="BEGIN_SQL{0} END_SQL{0}"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -383,13 +383,19 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
@@ -547,6 +553,18 @@
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
 #! </DATA_TYPES>
@@ -781,9 +799,9 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Communication Plan" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Photo URL" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Project Updates" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="googlesheets_start_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_evaluate_formulas" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_reader_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlesheets_start_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_end_row" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
@@ -809,16 +827,16 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Category Name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Display Order" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="googlesheets_start_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_evaluate_formulas" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_reader_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlesheets_start_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="googlesheets_end_row" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.capital_projects_master"
+#!   NODE_NAME="capital_projects_master"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="public"
+#!   FEATURE_TYPE_NAME_QUALIFIER="internal"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="9"
 #!   FEAT_GEOMTYPE="All"
@@ -858,25 +876,25 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="communication_plan" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="photo_url" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="project_updates" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.capital_projects_master_categories"
+#!   NODE_NAME="capital_projects_master_categories"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="public"
+#!   FEATURE_TYPE_NAME_QUALIFIER="internal"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="10"
 #!   FEAT_GEOMTYPE="All"
@@ -891,19 +909,19 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="category_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="display_order" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -951,53 +969,74 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#!   IDENTIFIER="1703948"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="7"
-#!   TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="458764"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="4"
-#!   TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1245196"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="9"
-#!   TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="917516"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="26"
-#!   TARGET_PORT_DESC="26"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1114124"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="15"
-#!   TARGET_PORT_DESC="15"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1441804"
+#!   IDENTIFIER="393228"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="5"
 #!   TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="1179660"
+#!   IDENTIFIER="1310732"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="25"
+#!   TARGET_PORT_DESC="25"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="458764"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="13"
 #!   TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1179660"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="2"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1441804"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="10"
+#!   TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1703948"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="12"
+#!   TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="983052"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="16"
+#!   TARGET_PORT_DESC="16"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1507340"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="8"
+#!   TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="851980"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="1"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="786444"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="24"
+#!   TARGET_PORT_DESC="24"
 #! />
 #! <ATTR_LINK
 #!   IDENTIFIER="524300"
@@ -1007,151 +1046,130 @@
 #!   TARGET_PORT_DESC="11"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="720908"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="3"
-#!   TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="786444"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="20"
-#!   TARGET_PORT_DESC="20"
-#! />
-#! <ATTR_LINK
 #!   IDENTIFIER="327692"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="19"
-#!   TARGET_PORT_DESC="19"
+#!   SOURCE_PORT_DESC="15"
+#!   TARGET_PORT_DESC="15"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="1376268"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="24"
-#!   TARGET_PORT_DESC="24"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1048588"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="1"
-#!   TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1507340"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="18"
-#!   TARGET_PORT_DESC="18"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1572876"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="16"
-#!   TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="196620"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="6"
-#!   TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="393228"
+#!   IDENTIFIER="1114124"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="21"
 #!   TARGET_PORT_DESC="21"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="655372"
+#!   IDENTIFIER="196620"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="2"
-#!   TARGET_PORT_DESC="2"
+#!   SOURCE_PORT_DESC="9"
+#!   TARGET_PORT_DESC="9"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="1769484"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="23"
-#!   TARGET_PORT_DESC="23"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="262156"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="25"
-#!   TARGET_PORT_DESC="25"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="851980"
+#!   IDENTIFIER="1376268"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="17"
 #!   TARGET_PORT_DESC="17"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="131084"
+#!   IDENTIFIER="262156"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="10"
-#!   TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="983052"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="8"
-#!   TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1638412"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="0"
-#!   TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="1310732"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="14"
-#!   TARGET_PORT_DESC="14"
+#!   SOURCE_PORT_DESC="26"
+#!   TARGET_PORT_DESC="26"
 #! />
 #! <ATTR_LINK
 #!   IDENTIFIER="589836"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="12"
-#!   TARGET_PORT_DESC="12"
+#!   SOURCE_PORT_DESC="3"
+#!   TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="65548"
+#!   IDENTIFIER="1769484"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="22"
 #!   TARGET_PORT_DESC="22"
 #! />
 #! <ATTR_LINK
+#!   IDENTIFIER="917516"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="18"
+#!   TARGET_PORT_DESC="18"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1245196"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="23"
+#!   TARGET_PORT_DESC="23"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1638412"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="14"
+#!   TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1048588"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="6"
+#!   TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131084"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="4"
+#!   TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1572876"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="720908"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="19"
+#!   TARGET_PORT_DESC="19"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65548"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="7"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="655372"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="20"
+#!   TARGET_PORT_DESC="20"
+#! />
+#! <ATTR_LINK
 #!   IDENTIFIER="131083"
 #!   SOURCE_NODE="4"
 #!   TARGET_NODE="10"
-#!   SOURCE_PORT_DESC="0"
-#!   TARGET_PORT_DESC="0"
+#!   SOURCE_PORT_DESC="1"
+#!   TARGET_PORT_DESC="1"
 #! />
 #! <ATTR_LINK
 #!   IDENTIFIER="65547"
 #!   SOURCE_NODE="4"
 #!   TARGET_NODE="10"
-#!   SOURCE_PORT_DESC="1"
-#!   TARGET_PORT_DESC="1"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="0"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -1207,7 +1225,7 @@ GOOGLESHEETS_1_CELLS_PER_REQUEST "$(GOOGLESHEETS_IN_CELLS_PER_REQUEST_GOOGLESHEE
 GUI INTEGER GOOGLESHEETS_IN_CELLS_PER_REQUEST_GOOGLESHEETS_1 Cells Per Request:
 DEFAULT_MACRO GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_1 
 GOOGLESHEETS_1_EXPOSE_ATTRS_GROUP "$(GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_1)"
-GUI DISCLOSUREGROUP GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_1 GOOGLESHEETS_EXPOSE_FORMAT_ATTRS Schema Attributes
+GUI OPTIONAL DISCLOSUREGROUP GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_1 GOOGLESHEETS_EXPOSE_FORMAT_ATTRS Schema Attributes
 # ===========================================================================
 DEFAULT_MACRO GOOGLESHEETS_IN_ATTRIBUTE_READING_GOOGLESHEETS_1 ALL
 GOOGLESHEETS_1_ATTRIBUTE_READING "$(GOOGLESHEETS_IN_ATTRIBUTE_READING_GOOGLESHEETS_1)"
@@ -1243,7 +1261,7 @@ GOOGLESHEETS_2_CELLS_PER_REQUEST "$(GOOGLESHEETS_IN_CELLS_PER_REQUEST_GOOGLESHEE
 GUI INTEGER GOOGLESHEETS_IN_CELLS_PER_REQUEST_GOOGLESHEETS_2 Cells Per Request:
 DEFAULT_MACRO GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_2 
 GOOGLESHEETS_2_EXPOSE_ATTRS_GROUP "$(GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_2)"
-GUI DISCLOSUREGROUP GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_2 GOOGLESHEETS_EXPOSE_FORMAT_ATTRS Schema Attributes
+GUI OPTIONAL DISCLOSUREGROUP GOOGLESHEETS_IN_EXPOSE_ATTRS_GROUP_GOOGLESHEETS_2 GOOGLESHEETS_EXPOSE_FORMAT_ATTRS Schema Attributes
 # ===========================================================================
 DEFAULT_MACRO GOOGLESHEETS_IN_ATTRIBUTE_READING_GOOGLESHEETS_2 ALL
 GOOGLESHEETS_2_ATTRIBUTE_READING "$(GOOGLESHEETS_IN_ATTRIBUTE_READING_GOOGLESHEETS_2)"
@@ -1325,19 +1343,19 @@ GOOGLESHEETS_1_MERGE_DEF "GOOGLESHEETS_1::General Project Information" EXACT Gen
 GOOGLESHEETS_2_MERGE_DEF GOOGLESHEETS_2::Categories EXACT Categories DEFLINE googlesheets_start_row,,googlesheets_end_row,,googlesheets_evaluate_formulas,Yes,googlesheets_field_names_row,1,googlesheets_start_column,,googlesheets_end_column,,Category<space>Name,text,Display<space>Order,text
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "General Project Information (GOOGLESHEETS_1) Splitter"    INPUT FEATURE_TYPE "General Project Information"    OUTPUT FEATURE_TYPE "General Project Information_GOOGLESHEETS_1"
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Categories (GOOGLESHEETS_2) Splitter"    INPUT FEATURE_TYPE Categories    OUTPUT FEATURE_TYPE Categories_GOOGLESHEETS_2
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Categories (GOOGLESHEETS_2) Splitter"    INPUT FEATURE_TYPE Categories    OUTPUT FEATURE_TYPE Categories_GOOGLESHEETS_2
+FACTORY_DEF * TeeFactory    FACTORY_NAME "General Project Information (GOOGLESHEETS_1) Splitter"    INPUT FEATURE_TYPE "General Project Information"    OUTPUT FEATURE_TYPE "General Project Information_GOOGLESHEETS_1"
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Categories_GOOGLESHEETS_2 TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>category_name<comma>Category<lt>space<gt>Name<comma>display_order<comma>Display<lt>space<gt>Order<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.capital_projects_master_categories<closeparen> GEOMETRY    ROUTE FME_GENERIC "General Project Information_GOOGLESHEETS_1" TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>gis_id<comma>GIS_ID<comma>munis_project_number<comma>MUNIS<lt>space<gt>Project<lt>space<gt>Number<comma>project<comma>Project<comma>display_name<comma>Display<lt>space<gt>Name<comma>location_details<comma>Location<lt>space<gt>Details<comma>zip_code<comma>Zip<lt>space<gt>Code<comma>type<comma>Type<comma>category<comma>Category<comma>coa_contact<comma>COA<lt>space<gt>Contact<comma>phone_number<comma>Phone<lt>space<gt>Number<comma>email_address<comma>Email<lt>space<gt>Address<comma>owner_department<comma>Owner<lt>space<gt>Department<comma>administering_department<comma>Administering<lt>space<gt>Department<comma>project_description<comma>Project<lt>space<gt>Description<comma>map_tab<comma>Map<lt>space<gt>Tab<comma>status<comma>Status<comma>total_project_funding__budget_document_<comma>Total<lt>space<gt>Project<lt>space<gt>Funding<lt>space<gt><lt>openparen<gt>Budget<lt>space<gt>Document<lt>closeparen<gt><comma>target_construction_start<comma>Target<lt>space<gt>Construction<lt>space<gt>Start<comma>target_construction_end<comma>Target<lt>space<gt>Construction<lt>space<gt>End<comma>actual_construction_end<comma>Actual<lt>space<gt>Construction<lt>space<gt>End<comma>amount_behind_schedule<comma>Amount<lt>space<gt>behind<lt>space<gt>Schedule<comma>estimated_construction_duration<comma>Estimated<lt>space<gt>Construction<lt>space<gt>Duration<comma>project_folder<comma>Project<lt>space<gt>Folder<comma>project_webpage__more_information_<comma>Project<lt>space<gt>Webpage<lt>space<gt><lt>openparen<gt>more<lt>space<gt>information<lt>closeparen<gt><comma>communication_plan<comma>Communication<lt>space<gt>Plan<comma>photo_url<comma>Photo<lt>space<gt>URL<comma>project_updates<comma>Project<lt>space<gt>Updates<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.capital_projects_master<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC "General Project Information_GOOGLESHEETS_1" TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>gis_id<comma>GIS_ID<comma>munis_project_number<comma>MUNIS<lt>space<gt>Project<lt>space<gt>Number<comma>project<comma>Project<comma>display_name<comma>Display<lt>space<gt>Name<comma>location_details<comma>Location<lt>space<gt>Details<comma>zip_code<comma>Zip<lt>space<gt>Code<comma>type<comma>Type<comma>category<comma>Category<comma>coa_contact<comma>COA<lt>space<gt>Contact<comma>phone_number<comma>Phone<lt>space<gt>Number<comma>email_address<comma>Email<lt>space<gt>Address<comma>owner_department<comma>Owner<lt>space<gt>Department<comma>administering_department<comma>Administering<lt>space<gt>Department<comma>project_description<comma>Project<lt>space<gt>Description<comma>map_tab<comma>Map<lt>space<gt>Tab<comma>status<comma>Status<comma>total_project_funding__budget_document_<comma>Total<lt>space<gt>Project<lt>space<gt>Funding<lt>space<gt><lt>openparen<gt>Budget<lt>space<gt>Document<lt>closeparen<gt><comma>target_construction_start<comma>Target<lt>space<gt>Construction<lt>space<gt>Start<comma>target_construction_end<comma>Target<lt>space<gt>Construction<lt>space<gt>End<comma>actual_construction_end<comma>Actual<lt>space<gt>Construction<lt>space<gt>End<comma>amount_behind_schedule<comma>Amount<lt>space<gt>behind<lt>space<gt>Schedule<comma>estimated_construction_duration<comma>Estimated<lt>space<gt>Construction<lt>space<gt>Duration<comma>project_folder<comma>Project<lt>space<gt>Folder<comma>project_webpage__more_information_<comma>Project<lt>space<gt>Webpage<lt>space<gt><lt>openparen<gt>more<lt>space<gt>information<lt>closeparen<gt><comma>communication_plan<comma>Communication<lt>space<gt>Plan<comma>photo_url<comma>Photo<lt>space<gt>URL<comma>project_updates<comma>Project<lt>space<gt>Updates<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>internal.capital_projects_master<closeparen> GEOMETRY    ROUTE FME_GENERIC Categories_GOOGLESHEETS_2 TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>category_name<comma>Category<lt>space<gt>Name<comma>display_order<comma>Display<lt>space<gt>Order<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>internal.capital_projects_master_categories<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF public.capital_projects_master_categories   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   category_name                text   display_order                text
+POSTGRES_1_DEF internal.capital_projects_master   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   gis_id                       text   munis_project_number         text   project                      text   display_name                 text   location_details             text   zip_code                     text   type                         text   category                     text   coa_contact                  text   phone_number                 text   email_address                text   owner_department             text   administering_department     text   project_description          text   map_tab                      text   status                       text   total_project_funding__budget_document_ text   target_construction_start    text   target_construction_end      text   actual_construction_end      text   amount_behind_schedule       text   estimated_construction_duration text   project_folder               text   project_webpage__more_information_ text   communication_plan           text   photo_url                    text   project_updates              text
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF public.capital_projects_master   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   gis_id                       text   munis_project_number         text   project                      text   display_name                 text   location_details             text   zip_code                     text   type                         text   category                     text   coa_contact                  text   phone_number                 text   email_address                text   owner_department             text   administering_department     text   project_description          text   map_tab                      text   status                       text   total_project_funding__budget_document_ text   target_construction_start    text   target_construction_end      text   actual_construction_end      text   amount_behind_schedule       text   estimated_construction_duration text   project_folder               text   project_webpage__more_information_ text   communication_plan           text   photo_url                    text   project_updates              text
+POSTGRES_1_DEF internal.capital_projects_master_categories   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   category_name                text   display_order                text

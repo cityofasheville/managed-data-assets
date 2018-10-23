@@ -5,56 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets-2\gis\bc_street.ds1\editTOwh-bc_street.fmw
+#    C:\FME2017\fme.exe C:\jon\managed-data-assets\gis\bc_street.ds1\editTOwh-bc_street.fmw
 #          --SourceDataset_POSTGIS "coa-gis-edit1b"
 #          --DestDataset_POSTGRES "mda-store-1"
 #    
 #    
-#!   VIEW_POSITION="-2071.9 1700.02"
-#!   SHOW_INFO_NODES="true"
-#!   DOC_TOP_LEFT="-1984.03 1499.52"
-#!   BEGIN_PYTHON=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   SOURCE="NONE"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   USAGE=""
-#!   PASSWORD=""
-#!   DESTINATION="NONE"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - WIN32)"
-#!   FME_DOCUMENT_GUID="e180225b-a289-41a6-9dc3-90415f465de4"
-#!   TERMINATE_REJECTED="NO"
-#!   REQUIREMENTS_KEYWORD=""
-#!   DOC_EXTENTS="2539.88 131"
-#!   IGNORE_READER_FAILURE="No"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   LAST_SAVE_DATE="2018-09-06T11:54:52"
-#!   TITLE=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   SOURCE_ROUTING_FILE=""
-#!   DESCRIPTION=""
-#!   FME_DOCUMENT_PRIORGUID="5cedc29e-d4bb-4fd8-a9fb-0b46909073e9,b9862765-a485-4eae-8708-f5c73a3c039b,b5baa3ba-11c0-4245-b04c-52c36ac0999a,601af47f-0b2b-4663-9e5e-473bcf3e049f,148bc5ac-f8f0-474c-a5cc-fd511d9d20a6,1fe254e2-0a12-46a4-a489-c6fe1344a0ec,a3f70e09-e66e-4ee3-8944-e29b62cfaa80,9c392d7b-86c3-4be9-bc1b-a771f01fdc5b,e8b206de-3a62-441d-8ab1-a2d863fc865c,858966a9-d7e9-4e6b-a283-1d0f72371180"
-#!   DESTINATION_ROUTING_FILE=""
-#!   MAX_LOG_FEATURES="200"
-#!   HISTORY=""
-#!   FME_BUILD_NUM="16716"
-#!   PYTHON_COMPATIBILITY="27"
-#!   CATEGORY=""
-#!   LOG_FILE="C:\jobs\bc_street.log"
-#!   END_PYTHON=""
 #!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   END_TCL=""
-#!   ZOOM_SCALE="100"
-#!   REQUIREMENTS=""
-#!   FME_SERVER_SERVICES=""
-#!   BEGIN_TCL=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   SHOW_ANNOTATIONS="true"
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_DATE="2018-10-23T09:12:20"
+#!   FME_DOCUMENT_PRIORGUID="5cedc29e-d4bb-4fd8-a9fb-0b46909073e9,b9862765-a485-4eae-8708-f5c73a3c039b,b5baa3ba-11c0-4245-b04c-52c36ac0999a,601af47f-0b2b-4663-9e5e-473bcf3e049f,148bc5ac-f8f0-474c-a5cc-fd511d9d20a6,1fe254e2-0a12-46a4-a489-c6fe1344a0ec,a3f70e09-e66e-4ee3-8944-e29b62cfaa80,9c392d7b-86c3-4be9-bc1b-a771f01fdc5b,e8b206de-3a62-441d-8ab1-a2d863fc865c,858966a9-d7e9-4e6b-a283-1d0f72371180,e180225b-a289-41a6-9dc3-90415f465de4"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   CATEGORY=""
+#!   FME_BUILD_NUM="17652"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   WORKSPACE_VERSION="1"
+#!   END_PYTHON=""
+#!   DOC_EXTENTS="2539.88 131"
+#!   FME_SERVER_SERVICES=""
+#!   MARKDOWN_USAGE=""
+#!   FME_DOCUMENT_GUID="f24846a8-fba9-4879-8c17-98a20b90c124"
+#!   DESCRIPTION=""
+#!   DOC_TOP_LEFT="-1984.03 1499.52"
+#!   MAX_LOG_FEATURES="200"
+#!   END_TCL=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   ZOOM_SCALE="100"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE_ROUTING_FILE=""
+#!   DESTINATION="NONE"
+#!   BEGIN_PYTHON=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   VIEW_POSITION="-2071.9 1700.02"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LOG_FILE="C:\jobs\bc_street.log"
+#!   USAGE=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SHOW_ANNOTATIONS="true"
+#!   HISTORY=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   TITLE=""
+#!   BEGIN_TCL=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   PASSWORD=""
+#!   TERMINATE_REJECTED="NO"
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   USE_MARKDOWN=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) multi_reader_keyword char(50) postgis_collection_id int4 postgis_type char(50) fme_feature_type char(50) fme_primary_axis float8 fme_type char(50) fme_sweep_angle float8 multi_reader_type char(50) multi_reader_full_id int4 fme_color char(50) fme_geometry fme_char(50) fme_text_size float8 postgres_oid int4 fme_fill_color char(50) postgis_collection_part_id int4 fme_start_angle float8 fme_dataset char(50) fme_rotation float8 fme_basename char(50) fme_secondary_axis float8 multi_reader_id int4"
+#!   EXPOSABLE_ATTRS="fme_primary_axis float8 multi_reader_type char(50) postgis_type char(50) fme_basename char(50) postgres_oid int4 fme_type char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_feature_type char(50) fme_text_string char(50) fme_color char(50) fme_start_angle float8 postgis_collection_id int4 fme_geometry fme_char(50) fme_text_size float8 fme_sweep_angle float8 fme_fill_color char(50) multi_reader_full_id int4 fme_rotation float8 fme_dataset char(50) postgis_collection_part_id int4 fme_secondary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -79,15 +79,19 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="15515"
-#!   START_FEATURE=""
-#!   MIN_FEATURES=""
-#!   FEATURE_TYPES=""
-#!   COORDSYS=""
 #!   MAX_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   FEATURE_TYPES=""
+#!   COORDSYS=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -101,10 +105,6 @@
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -120,8 +120,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_type char(50) fme_rotation float8 fme_secondary_axis float8 fme_sweep_angle float8 fme_db_operation char(8) postgres_type char(50) fme_dataset char(50) fme_color char(50) fme_start_angle float8 fme_text_size float8 fme_feature_type char(50) fme_text_string char(50) fme_primary_axis float8 fme_basename char(50) fme_fill_color char(50)"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
+#!   EXPOSABLE_ATTRS="fme_text_size float8 fme_sweep_angle float8 fme_basename char(50) fme_db_operation char(8) fme_start_angle float8 fme_feature_type char(50) fme_dataset char(50) fme_text_string char(50) fme_fill_color char(50) fme_rotation float8 fme_primary_axis float8 fme_geometry fme_char(50) postgres_type char(50) fme_type char(50) fme_secondary_axis float8 fme_color char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -130,11 +130,23 @@
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="16716"
 #!   COORDSYS=""
-#!   FANOUT_GROUP="NO"
 #!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -142,20 +154,8 @@
 #!   VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
-#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_NAME"
 #!   VALUE="Table"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="NETWORK_AUTHENTICATION"
-#!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -190,13 +190,19 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGIS"
 #! />
@@ -354,6 +360,18 @@
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
@@ -394,13 +412,19 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
@@ -558,6 +582,18 @@
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
 #! </DATA_TYPES>
@@ -806,7 +842,7 @@
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="coagis.bc_street"
+#!   NODE_NAME="bc_street"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER="coagis"
 #!   IS_EDITABLE="false"
@@ -861,9 +897,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.bc_street"
+#!   NODE_NAME="bc_street"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="public"
+#!   FEATURE_TYPE_NAME_QUALIFIER="internal"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="8"
 #!   FEAT_GEOMTYPE="All"
@@ -907,19 +943,19 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="mrc" ATTR_TYPE="varchar(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="min_range" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="max_range" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -987,10 +1023,10 @@
 #!     <XFORM_ATTR ATTR_NAME="min_range" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="max_range" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MeasureRemover"/>
-#!     <XFORM_PARM PARM_NAME="MEASURE_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ALL" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MEASURE_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1070,7 +1106,7 @@ DEFAULT_MACRO POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1 yes
 POSTGIS_1_USE_TRUE_POSTGIS_TYPES "$(POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1)"
 DEFAULT_MACRO POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 
 POSTGIS_1_EXPOSE_ATTRS_GROUP "$(POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1)"
-GUI DISCLOSUREGROUP POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 POSTGIS_EXPOSE_FORMAT_ATTRS Schema Attributes
+GUI OPTIONAL DISCLOSUREGROUP POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 POSTGIS_EXPOSE_FORMAT_ATTRS Schema Attributes
 # Include this file in source setting section to add native search envelope processing
 # Zero as a default means we don't do any search -- this makes workbench happier
 # ===========================================================================
@@ -1187,10 +1223,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME MeasureRemover    INPUT  FEATURE_TYPE c
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC MeasureRemover_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.bc_street<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC MeasureRemover_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>internal.bc_street<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF public.bc_street   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objectid                     int4,PRIKEY   centerline_id                numeric(38,8)   road_class                   int4   street_prefix                varchar(2)   street_name                  varchar(30)   street_type                  varchar(4)   street_postdirection         varchar(2)   street_dupe                  varchar(1)   full_street_name             varchar(32)   speed_limit                  int4   lane_count                   int4   left_from_address            int4   left_to_address              int4   right_from_address           int4   right_to_address             int4   user_id                      varchar(8)   create_date                  timestamp   change_date                  timestamp   lesn                         int2   resn                         int2   lzip                         int4   rzip                         int4   lcommcode                    varchar(4)   rcommcode                    varchar(4)   route_id                     varchar(20)   maximo_type                  varchar(30)   maximo_seq_num               int4   asset_code                   varchar(50)   mrc                          varchar(8)   min_range                    int4   max_range                    int4
+POSTGRES_1_DEF internal.bc_street   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objectid                     int4,PRIKEY   centerline_id                numeric(38,8)   road_class                   int4   street_prefix                varchar(2)   street_name                  varchar(30)   street_type                  varchar(4)   street_postdirection         varchar(2)   street_dupe                  varchar(1)   full_street_name             varchar(32)   speed_limit                  int4   lane_count                   int4   left_from_address            int4   left_to_address              int4   right_from_address           int4   right_to_address             int4   user_id                      varchar(8)   create_date                  timestamp   change_date                  timestamp   lesn                         int2   resn                         int2   lzip                         int4   rzip                         int4   lcommcode                    varchar(4)   rcommcode                    varchar(4)   route_id                     varchar(20)   maximo_type                  varchar(30)   maximo_seq_num               int4   asset_code                   varchar(50)   mrc                          varchar(8)   min_range                    int4   max_range                    int4

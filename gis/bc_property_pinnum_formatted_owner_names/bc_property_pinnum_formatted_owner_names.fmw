@@ -5,55 +5,55 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\FME\fme.exe C:\COA\managed-data-assets-2\gis\bc_property_pinnum_formatted_owner_names\bc_property_pinnum_formatted_owner_names.fmw
+#    C:\FME2017\fme.exe C:\jon\managed-data-assets\gis\bc_property_pinnum_formatted_owner_names\bc_property_pinnum_formatted_owner_names.fmw
 #          --DestDataset_POSTGRES_3 "mda-store-1"
 #    
 #    
+#!   BEGIN_PYTHON=""
+#!   MARKDOWN_USAGE=""
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   DESTINATION_ROUTING_FILE=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   REDIRECT_TERMINATORS="NONE"
 #!   LOG_MAX_RECORDED_FEATURES="200"
-#!   LOG_FILE=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_BUILD_NUM="16716"
-#!   DESTINATION="NONE"
-#!   LAST_SAVE_BUILD="FME(R) 2016.1.3.1 (20161207 - Build 16716 - WIN32)"
+#!   IGNORE_READER_FAILURE="No"
+#!   ZOOM_SCALE="100"
+#!   FME_SERVER_SERVICES=""
+#!   WORKSPACE_VERSION="1"
+#!   SOURCE="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   TITLE=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   END_TCL=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   USAGE=""
+#!   FME_DOCUMENT_GUID="81a5c14a-ae6c-4830-9da2-8e5d01aafa4b"
+#!   DESCRIPTION=""
+#!   END_PYTHON=""
 #!   PASSWORD=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_DOCUMENT_PRIORGUID="e962ba79-faf5-47e1-bd7d-a96fcfd5bb32,a5f8f2ae-1c5e-41ff-9cc9-eb52df1b19a0,8c43a4e7-29f9-4e01-9068-a2ac42f485b8"
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   LOG_FILE=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   LAST_SAVE_DATE="2018-10-23T09:11:54"
+#!   DOC_EXTENTS="2181.65 129.373"
+#!   SHOW_INFO_NODES="true"
+#!   FME_BUILD_NUM="17652"
+#!   USE_MARKDOWN=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   CATEGORY=""
+#!   HISTORY=""
+#!   BEGIN_TCL=""
+#!   SOURCE_ROUTING_FILE=""
+#!   DOC_TOP_LEFT="626.381 -647.878"
 #!   VIEW_POSITION="-178.127 0"
 #!   TERMINATE_REJECTED="YES"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   END_TCL=""
-#!   DOC_EXTENTS="2181.65 129.373"
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_DOCUMENT_PRIORGUID="e962ba79-faf5-47e1-bd7d-a96fcfd5bb32,a5f8f2ae-1c5e-41ff-9cc9-eb52df1b19a0"
-#!   REQUIREMENTS=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   IGNORE_READER_FAILURE="No"
-#!   REQUIREMENTS_KEYWORD=""
-#!   USAGE=""
-#!   SHOW_INFO_NODES="true"
-#!   TITLE=""
-#!   FME_DOCUMENT_GUID="8c43a4e7-29f9-4e01-9068-a2ac42f485b8"
-#!   LAST_SAVE_DATE="2018-09-04T12:00:37"
-#!   SHOW_ANNOTATIONS="true"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   CATEGORY=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   MAX_LOG_FEATURES="200"
-#!   END_PYTHON=""
-#!   SOURCE="NONE"
-#!   DESCRIPTION=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   LEGAL_TERMS_CONDITIONS=""
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   ZOOM_SCALE="100"
-#!   BEGIN_TCL=""
-#!   HISTORY=""
-#!   DOC_TOP_LEFT="626.381 -647.878"
-#!   BEGIN_PYTHON=""
-#!   WORKSPACE_VERSION="1"
-#!   FME_SERVER_SERVICES=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,8 +69,8 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_db_operation char(8) fme_color char(50) fme_text_string char(50) fme_fill_color char(50) fme_text_size float8 fme_feature_type char(50) fme_secondary_axis float8 fme_dataset char(50) fme_geometry fme_char(50) fme_basename char(50) fme_type char(50) fme_primary_axis float8 fme_rotation float8 fme_sweep_angle float8 postgres_type char(50) fme_start_angle float8"
-#!   DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
+#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_color char(50) fme_geometry fme_char(50) fme_feature_type char(50) fme_basename char(50) fme_primary_axis float8 postgres_type char(50) fme_text_size float8 fme_type char(50) fme_dataset char(50) fme_db_operation char(8) fme_rotation float8 fme_secondary_axis float8 fme_start_angle float8 fme_sweep_angle float8 fme_text_string char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
 #!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
@@ -78,37 +78,37 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="DATABASE"
 #!   GENERATE_FME_BUILD_NUM="16716"
+#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
 #!   FANOUT_EXPRESSION=""
-#!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="NETWORK_AUTHENTICATION"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
 #!   VALUE="BEGIN_SQL{0} END_SQL{0}"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="NETWORK_PROXY"
 #!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -139,13 +139,19 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
@@ -305,6 +311,18 @@
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="POSTGRES"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -401,9 +419,9 @@
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.bc_property_pinnum_formatted_owner_names"
+#!   NODE_NAME="bc_property_pinnum_formatted_owner_names"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="public"
+#!   FEATURE_TYPE_NAME_QUALIFIER="internal"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="5"
 #!   FEAT_GEOMTYPE="All"
@@ -418,19 +436,19 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="formatted_owner_name" ATTR_TYPE="varchar(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="pinnum" ATTR_TYPE="varchar(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="TRUNCATE_EXISTING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -468,17 +486,21 @@
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="formatted_owner_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="pinnum" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="POSTGRES_NAMED_CONNECTION" PARM_VALUE="coa-pg-db1"/>
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="coa-pg-db1"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Connection:,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="SELECT&lt;space&gt;property_owner_accounts.pinnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;array_to_string&lt;openparen&gt;array_agg&lt;openparen&gt;property_owner_accounts.owner_name&lt;space&gt;ORDER&lt;space&gt;BY&lt;space&gt;property_owner_accounts.accountnum&lt;space&gt;ASC&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;amp&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;formatted_owner_name&lt;lf&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;unnestedaccounts.pinnum&lt;comma&gt;&lt;space&gt;unnestedaccounts.accountnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;array_to_string&lt;openparen&gt;array_remove&lt;openparen&gt;ARRAY&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_last_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_name_suffix::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_first_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_middle_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;owner_name&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;amd.bc_property_account_master&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;amd.bc_property.pinnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;unnest&lt;openparen&gt;regexp_split_to_array&lt;openparen&gt;amd.bc_property.accountnumber::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;semicolon&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;accountnum&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;amd.bc_property&lt;space&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;unnestedaccounts&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;WHERE&lt;space&gt;unnestedaccounts.accountnum&lt;space&gt;=&lt;space&gt;amd.bc_property_account_master.am_account_no::text&lt;space&gt;order&lt;space&gt;by&lt;space&gt;accountnum&lt;space&gt;ASC&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;property_owner_accounts&lt;space&gt;&lt;lf&gt;&lt;space&gt;GROUP&lt;space&gt;BY&lt;space&gt;property_owner_accounts.pinnum&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE="amd"/>
-#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="formatted_owner_name,pinnum"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLCreator"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="formatted_owner_name,pinnum"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="SELECT&lt;space&gt;property_owner_accounts.pinnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;array_to_string&lt;openparen&gt;array_agg&lt;openparen&gt;property_owner_accounts.owner_name&lt;space&gt;ORDER&lt;space&gt;BY&lt;space&gt;property_owner_accounts.accountnum&lt;space&gt;ASC&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;amp&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;formatted_owner_name&lt;lf&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;unnestedaccounts.pinnum&lt;comma&gt;&lt;space&gt;unnestedaccounts.accountnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;array_to_string&lt;openparen&gt;array_remove&lt;openparen&gt;ARRAY&lt;openbracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_last_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_name_suffix::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_first_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;btrim&lt;openparen&gt;amd.bc_property_account_master.am_middle_name::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;owner_name&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;amd.bc_property_account_master&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;amd.bc_property.pinnum&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;unnest&lt;openparen&gt;regexp_split_to_array&lt;openparen&gt;amd.bc_property.accountnumber::text&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;semicolon&gt;&lt;apos&gt;::text&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;accountnum&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;amd.bc_property&lt;space&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;unnestedaccounts&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;WHERE&lt;space&gt;unnestedaccounts.accountnum&lt;space&gt;=&lt;space&gt;amd.bc_property_account_master.am_account_no::text&lt;space&gt;order&lt;space&gt;by&lt;space&gt;accountnum&lt;space&gt;ASC&lt;closeparen&gt;&lt;space&gt;AS&lt;space&gt;property_owner_accounts&lt;space&gt;&lt;lf&gt;&lt;space&gt;GROUP&lt;space&gt;BY&lt;space&gt;property_owner_accounts.pinnum&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Connection:,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE="amd"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_NAMED_CONNECTION" PARM_VALUE="coa-pg-db1"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -581,20 +603,20 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 MACRO SQLCreator_DIRECTIVES NAMED_CONNECTION coa-pg-db1 SCHEMAS_FOR_TABLE_LISTING amd QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes
 
 FACTORY_DEF * CreationFactory    FACTORY_NAME SQLCreator_Creator    OUTPUT FEATURE_TYPE _____CREATED______
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLCreator    INPUT FEATURE_TYPE _____CREATED______    QUERY_SQL            SELECT<space>property_owner_accounts.pinnum<comma><lf><space><space>array_to_string<openparen>array_agg<openparen>property_owner_accounts.owner_name<space>ORDER<space>BY<space>property_owner_accounts.accountnum<space>ASC<closeparen><comma><space><apos><space><amp><space><apos>::text<closeparen><space>AS<space>formatted_owner_name<lf><space><space>FROM<space><openparen>SELECT<space>unnestedaccounts.pinnum<comma><space>unnestedaccounts.accountnum<comma><lf><space><space><space><space><space><space><space><space><space><space><space>array_to_string<openparen>array_remove<openparen>ARRAY<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_last_name::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_name_suffix::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_first_name::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_middle_name::text<comma><space><apos><space><apos>::text<closeparen><closebracket><comma><space><apos><apos>::text<closeparen><comma><space><apos><space><apos>::text<closeparen><space>AS<space>owner_name<lf><space><space><space><space><space><space><space><space><space><space>FROM<space>amd.bc_property_account_master<comma><lf><space><space><space><space><space><space><space><space><space><space><space><openparen>SELECT<space>amd.bc_property.pinnum<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>unnest<openparen>regexp_split_to_array<openparen>amd.bc_property.accountnumber::text<comma><space><apos><semicolon><apos>::text<closeparen><closeparen><space>AS<space>accountnum<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>FROM<space>amd.bc_property<space><closeparen><space>as<space>unnestedaccounts<lf><space><space><space><space><space><space><space><space><space>WHERE<space>unnestedaccounts.accountnum<space>=<space>amd.bc_property_account_master.am_account_no::text<space>order<space>by<space>accountnum<space>ASC<closeparen><space>AS<space>property_owner_accounts<space><lf><space>GROUP<space>BY<space>property_owner_accounts.pinnum<space>    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     RESULT_ONLY    READER_TYPE          POSTGRES    READER_DATASET       "coa-pg-db1"    READER_PARAMS        $(SQLCreator_DIRECTIVES)    CONTINUE_ON_READER_ERROR YES    OUTPUT RESULT FEATURE_TYPE SQLCreator_RESULT        @SupplyAttributes(fme_feature_type,SQLCreator)    OUTPUT READER_ERROR FEATURE_TYPE SQLCreator_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLCreator    INPUT FEATURE_TYPE _____CREATED______    QUERY_SQL            SELECT<space>property_owner_accounts.pinnum<comma><lf><space><space>array_to_string<openparen>array_agg<openparen>property_owner_accounts.owner_name<space>ORDER<space>BY<space>property_owner_accounts.accountnum<space>ASC<closeparen><comma><space><apos><space><amp><space><apos>::text<closeparen><space>AS<space>formatted_owner_name<lf><space><space>FROM<space><openparen>SELECT<space>unnestedaccounts.pinnum<comma><space>unnestedaccounts.accountnum<comma><lf><space><space><space><space><space><space><space><space><space><space><space>array_to_string<openparen>array_remove<openparen>ARRAY<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_last_name::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_name_suffix::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_first_name::text<comma><space><apos><space><apos>::text<closeparen><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space>btrim<openparen>amd.bc_property_account_master.am_middle_name::text<comma><space><apos><space><apos>::text<closeparen><closebracket><comma><space><apos><apos>::text<closeparen><comma><space><apos><space><apos>::text<closeparen><space>AS<space>owner_name<lf><space><space><space><space><space><space><space><space><space><space>FROM<space>amd.bc_property_account_master<comma><lf><space><space><space><space><space><space><space><space><space><space><space><openparen>SELECT<space>amd.bc_property.pinnum<comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>unnest<openparen>regexp_split_to_array<openparen>amd.bc_property.accountnumber::text<comma><space><apos><semicolon><apos>::text<closeparen><closeparen><space>AS<space>accountnum<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>FROM<space>amd.bc_property<space><closeparen><space>as<space>unnestedaccounts<lf><space><space><space><space><space><space><space><space><space>WHERE<space>unnestedaccounts.accountnum<space>=<space>amd.bc_property_account_master.am_account_no::text<space>order<space>by<space>accountnum<space>ASC<closeparen><space>AS<space>property_owner_accounts<space><lf><space>GROUP<space>BY<space>property_owner_accounts.pinnum<space>    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     RESULT_ONLY    READER_TYPE          POSTGRES    READER_DATASET       "coa-pg-db1"    READER_PARAMS        $(SQLCreator_DIRECTIVES)    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    CONTINUE_ON_READER_ERROR YES    OUTPUT RESULT FEATURE_TYPE SQLCreator_RESULT        @SupplyAttributes(fme_feature_type,SQLCreator)    OUTPUT READER_ERROR FEATURE_TYPE SQLCreator_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLCreator <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLCreator_<REJECTED>
 FACTORY_DEF * BranchingFactory   FACTORY_NAME "SQLCreator_RESULT Brancher -1 6"   INPUT FEATURE_TYPE SQLCreator_RESULT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("SQLCreator_RESULT Brancher -1 6".BranchingFactory.Count)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLCreator_<Rejected> INPUT FEATURE_TYPE SQLCreator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLCreator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLCreator_<Rejected> INPUT FEATURE_TYPE SQLCreator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLCreator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLCreator_RESULT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.bc_property_pinnum_formatted_owner_names<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLCreator_RESULT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>internal.bc_property_pinnum_formatted_owner_names<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF public.bc_property_pinnum_formatted_owner_names   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   formatted_owner_name         varchar(200)   pinnum                       varchar(200)
+POSTGRES_1_DEF internal.bc_property_pinnum_formatted_owner_names   postgres_type                All   postgres_sql_key_columns     ""   postgres_drop_table          ""   postgres_truncate_table      ""   postgres_mode                ""   fme_feature_operation        INSERT   fme_table_handling           TRUNCATE_EXISTING   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   formatted_owner_name         varchar(200)   pinnum                       varchar(200)
