@@ -1,11 +1,11 @@
 SET search_path TO public;
 
 DROP TABLE IF EXISTS coa_bc_address_master;
--- Table: public.coa_bc_address_master
+-- Table: internal.coa_bc_address_master
 
--- DROP TABLE public.coa_bc_address_master;
+-- DROP TABLE internal.coa_bc_address_master;
 
-CREATE TABLE public.coa_bc_address_master
+CREATE TABLE internal.coa_bc_address_master
 (
     objectid integer NOT NULL,
     civicaddress_id integer,
@@ -103,37 +103,37 @@ WITH (
 )
 TABLESPACE pg_default;
 
-ALTER TABLE public.coa_bc_address_master
+ALTER TABLE internal.coa_bc_address_master
     OWNER to public;
 
-GRANT SELECT ON TABLE public.coa_bc_address_master TO sde;
+GRANT SELECT ON TABLE internal.coa_bc_address_master TO sde;
 
-GRANT ALL ON TABLE public.coa_bc_address_master TO public;
+GRANT ALL ON TABLE internal.coa_bc_address_master TO public;
 
 -- Index: a23_ix1
 
--- DROP INDEX public.a23_ix1;
+-- DROP INDEX internal.a23_ix1;
 
 CREATE INDEX a23_ix1
-    ON public.coa_bc_address_master USING gist
+    ON internal.coa_bc_address_master USING gist
     (shape)
     TABLESPACE pg_default;
 
 -- Index: r31_sde_rowid_uk
 
--- DROP INDEX public.r31_sde_rowid_uk;
+-- DROP INDEX internal.r31_sde_rowid_uk;
 
 CREATE UNIQUE INDEX r31_sde_rowid_uk
-    ON public.coa_bc_address_master USING btree
+    ON internal.coa_bc_address_master USING btree
     (objectid)
     WITH (FILLFACTOR=75)
     TABLESPACE pg_default;
 
 -- Index: search
 
--- DROP INDEX public.search;
+-- DROP INDEX internal.search;
 
 CREATE INDEX search
-    ON public.coa_bc_address_master USING btree
+    ON internal.coa_bc_address_master USING btree
     (address_number, address_street_name COLLATE pg_catalog."default", address_street_type COLLATE pg_catalog."default", address_street_prefix COLLATE pg_catalog."default", address_zipcode, address_commcode COLLATE pg_catalog."default", address_unit COLLATE pg_catalog."default")
     TABLESPACE pg_default;
