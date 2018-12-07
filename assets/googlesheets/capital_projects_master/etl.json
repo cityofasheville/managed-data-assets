@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "googleTOwh-capital_projects_master.fmw",
+      "active": true
+    }
+  ]
+}

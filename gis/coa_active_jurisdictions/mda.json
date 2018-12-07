@@ -1,7 +1,0 @@
-{
-  "name": "coa_active_jurisdictions.ds1",
-  "active": true,
-  "type": "table",
-  "description": "Asheville corporate limits",
-  "depends": []  
-}

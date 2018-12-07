@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOwh-coa_districts_water2.fmw",
+      "active": true
+    }
+  ]
+}

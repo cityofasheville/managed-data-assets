@@ -1,0 +1,100 @@
+2018-12-07 04:22:03|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|FME_HOME is 'c:\FME2017\'
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|Permanent License.
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|START - ProcessID: 1016, peak process memory usage: 31368 kB, current process memory usage: 31352 kB
+2018-12-07 04:22:03|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `c:\FME2017\fme' `C:\jon\bedrock\working_directory\assets\core\ad_info/munisTOwh-ad_info.fmw'
+2018-12-07 04:22:04|   0.2|  0.1|INFORM|Shared folders for formats are : c:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for transformers are : c:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MSSQL_ADO_1'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MSSQL_ADO'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\jon\bedrock\working_directory\assets\core\ad_info'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp', set from environment variable `TEMP'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `c:\FME2017\'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\jon\bedrock\working_directory\assets\core\ad_info/'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'munisTOwh-ad_info.fmw'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|System Status: 116.53 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp)
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Platform: WIN32
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Locale: en_US
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2018-12-07 04:22:04|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2018-12-07 04:22:04|   0.3|  0.1|INFORM|Creating writer for format: 
+2018-12-07 04:22:05|   1.8|  1.5|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2018-12-07 04:22:05|   1.8|  0.0|INFORM|FME Configuration: Using Named Connection values from 'munis-prod' for MSSQL_ADO_1
+2018-12-07 04:22:05|   1.8|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2018-12-07 04:22:05|   1.8|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'c:\FME2017\plugins/FME_ADO.dll'
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Read 1 DEF line(s).  Found 0 attribute(s)
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `munprod' for read operation
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-12-07 04:22:05|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Now reading features from table amd.ad_info, 10 record(s) at a time
+2018-12-07 04:22:06|   2.1|  0.3|INFORM|FME Configuration: Using Named Connection values from 'mda-store-1' for POSTGRES_1
+2018-12-07 04:22:06|   2.1|  0.0|INFORM|Creating writer for format: PostgreSQL
+2018-12-07 04:22:06|   2.2|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|Loaded module 'POSTGRES' from file 'c:\FME2017\plugins/POSTGIS.dll'
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:22:06|   2.2|  0.0|INFORM|Opening POSTGRES writer for dataset 'mdastore1'...
+2018-12-07 04:22:07|   3.3|  1.1|INFORM|PostGIS client encoding: 'UTF8'
+2018-12-07 04:22:07|   3.3|  0.0|INFORM|PostgreSQL 10.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit
+2018-12-07 04:22:07|   3.3|  0.0|INFORM|Testing for the existence of table 'internal.ad_info'...
+2018-12-07 04:22:07|   3.3|  0.0|INFORM|Truncating existing table 'internal.ad_info'...
+2018-12-07 04:22:07|   3.3|  0.0|INFORM|Using existing table 'internal.ad_info'
+2018-12-07 04:22:08|   3.3|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'internal.ad_info'
+2018-12-07 04:22:08|   3.5|  0.2|INFORM|Committed transaction at feature '1000'
+2018-12-07 04:22:08|   3.6|  0.1|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 1512 feature(s)
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|Emptying factory pipeline
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 1512 input feature(s), wrote 1512 output feature(s): 1512 matched merge filters, 1512 were routed to output, 0 could not be routed.
+2018-12-07 04:22:08|   3.6|  0.0|STATS |amd.ad_info (MSSQL_ADO_1) Splitter(TeeFactory): Cloned 1512 input feature(s) into 1512 output feature(s)
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 1512 input feature(s), wrote 1512 output feature(s): 0 matched merge filters, 1512 were routed to output, 0 could not be routed.
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|Successfully closed POSTGRES database writer
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |                               Features Written
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |internal.ad_info                                                          1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |==============================================================================
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Total Features Written                                                    1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |                            Features Read Summary
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |amd.ad_info                                                               1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |==============================================================================
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Total Features Read                                                       1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |                           Features Written Summary
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|STATS |internal.ad_info                                                          1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |==============================================================================
+2018-12-07 04:22:08|   3.6|  0.0|STATS |Total Features Written                                                    1512
+2018-12-07 04:22:08|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `munprod' . Read operation complete
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (1512 feature(s) output)
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|FME Session Duration: 4.7 seconds. (CPU: 2.9s user, 0.6s system)
+2018-12-07 04:22:08|   3.6|  0.0|INFORM|END - ProcessID: 1016, peak process memory usage: 81012 kB, current process memory usage: 80844 kB

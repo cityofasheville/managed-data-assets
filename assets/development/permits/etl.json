@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accelaTOwh-permits.fmw",
+      "active": true
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "name": "bc_public_incident_data",
-  "type": "table",
-  "active": true,
-  "description": "Crime incident data from RMS",
-  "depends": []  
-}

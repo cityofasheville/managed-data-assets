@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOwh-coa_zip_code2.fmw",
+      "active": true
+    }
+  ]
+}

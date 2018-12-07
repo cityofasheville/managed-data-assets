@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOwh-bc_civicaddress_table.fmw",
+      "active": true
+    }
+  ]
+}

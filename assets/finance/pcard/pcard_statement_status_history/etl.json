@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "munisTOwh_pcard_statement_status_history.fmw",
+      "active": true
+    }
+  ]
+}

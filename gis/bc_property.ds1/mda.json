@@ -1,7 +1,0 @@
-{
-  "name": "bc_property.ds1",
-  "active": true,
-  "type": "table",
-  "description": "Property table from County",
-  "depends": []
-}

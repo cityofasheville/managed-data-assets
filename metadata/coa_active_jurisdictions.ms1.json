@@ -1,0 +1,70 @@
+{
+<<<<<<< HEAD
+   "name": "coa_active_jurisdictions.ms1",
+   "title": "Asheville Corporate Limits",
+   "publication_date": "2018-07-28",
+   "responsible_party": "City of Asheville",
+   "responsible_party_role": "Custodian",
+   "url": "http:/arcgis.ashevillenc.gov/arcgis/rest/service/",
+   "abstract": "Asheville corporate limits polygon.",
+   "status": "ongoing",
+   "update-frequency": "daily",
+   "keywords": [
+       "gis",
+       "Asheville"
+   ],
+   "use-constraints": "None",
+   "topic-category": [
+       "boundaries"
+   ],
+   "geographic-extent": {
+       "XMin":"-82.65",
+       "XMax":"-82.47",
+       "YMin":"35.47",
+       "YMax":"35.47"
+   },
+   "temporal_extent": "Calculated - see note 2",
+   "feature-catalog": "See note 3",
+   "process-description": [
+       "This is original information maintained by City staff."
+   ],
+   "spatial-reference": "SRID: 4326",
+   "metadata-creation-date": "8/31/2018 - see note 4",
+   "contact-role-code": "See note 5"   
+=======
+    "name": "coa_active_jurisdictions.ms1",
+    "title": "Asheville Corporate Limits",
+    "publication_date": "2018-07-28",
+    "responsible_party": "City of Asheville",
+    "responsible_party_role": "Custodian",
+    "url": "http:/arcgis.ashevillenc.gov/arcgis/rest/service/",
+    "abstract": "Asheville corporate limits polygon.",
+    "status": "ongoing",
+    "update-frequency": "daily",
+    "keywords": [
+        "gis",
+        "Asheville"
+    ],
+    "use-constraints": "None",
+    "topic-category": [
+        "boundaries"
+    ],
+    "geographic-extent": {
+        "XMin":"-82.65",
+        "XMax":"-82.47",
+        "YMin":"35.47",
+        "YMax:":"35.65"
+    },
+    "temporal_extent": {
+        "begin_date_time": "2018-11-29T15:16:15Z",
+        "end_date_time": "2018-11-29T15:16:15Z"
+    },
+    "feature-catalog": "See note 3",
+    "process-description": [
+        "This is original information maintained by City staff."
+    ],
+    "spatial-reference": "SRID: 4326",
+    "metadata-creation-date": "8/31/2018 - see note 4",
+    "contact-role-code": "See note 5"
+>>>>>>> 4a3011e4add01b315c6c147c957520213006b202
+}

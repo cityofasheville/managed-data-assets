@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bcTOwh-bc_location2.fmw",
+      "active": true
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "name": "workorders",
-  "active": true,
-  "type": "table",
-  "description": "TrackIT workorder data",
-  "depends": []
-}

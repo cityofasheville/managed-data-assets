@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "coa_cip_project_shapes.fmw",
+      "active": true
+    }
+  ]
+}

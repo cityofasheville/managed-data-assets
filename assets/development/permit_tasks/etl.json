@@ -1,0 +1,11 @@
+{
+  "create": [],
+  "distribute": [],
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela_to_wh-permit_tasks.fmw",
+      "active": true
+    }
+  ]
+}

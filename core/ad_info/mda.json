@@ -1,7 +1,0 @@
-{
-  "name": "ad_info",
-  "active": true,
-  "type": "table",
-  "description": "AD information for employees",
-  "depends": []
-}

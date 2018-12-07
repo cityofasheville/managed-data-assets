@@ -1,0 +1,27 @@
+{
+    "name": "bc_street",
+    "title": "Asheville Corporate Limits",
+    "publication_date": "2018-07-28",
+    "responsible_party": "City of Asheville",
+    "url": "See note 1",
+    "abstract": "Asheville corporate limits polygon.",
+    "status": "ongoing",
+    "update-frequency": "daily",
+    "keywords": [
+        "gis",
+        "Asheville"
+    ],
+    "use-constraints": "None",
+    "topic-category": [
+        "boundaries"
+    ],
+    "geographic-extent": "Calculated - see note 2",
+    "temporal_extent": "Calculated - see note 2",
+    "feature-catalog": "See note 3",
+    "process-description": [
+        "This is original information maintained by City staff."
+    ],
+    "spatial-reference": "SRID: 4326",
+    "metadata-creation-date": "8/31/2018 - see note 4",
+    "contact-role-code": "See note 5"
+}

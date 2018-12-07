@@ -1,0 +1,365 @@
+2018-12-07 04:30:04|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|FME_HOME is 'c:\FME2017\'
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|Permanent License.
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|START - ProcessID: 5144, peak process memory usage: 32172 kB, current process memory usage: 32156 kB
+2018-12-07 04:30:04|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `c:\FME2017\fme' `C:\jon\bedrock\working_directory\assets\development\permit_contractors/accelaTOwh-permit_contractors.fmw'
+2018-12-07 04:30:04|   0.2|  0.1|INFORM|Shared folders for formats are : c:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for transformers are : c:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MSSQL_ADO_1'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MSSQL_ADO'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\jon\bedrock\working_directory\assets\development\permit_contractors'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp', set from environment variable `TEMP'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `c:\FME2017\'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\jon\bedrock\working_directory\assets\development\permit_contractors/'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'accelaTOwh-permit_contractors.fmw'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|System Status: 116.53 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp)
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Platform: WIN32
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Locale: en_US
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2018-12-07 04:30:04|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2018-12-07 04:30:04|   0.3|  0.1|INFORM|Creating writer for format: 
+2018-12-07 04:30:05|   1.5|  1.3|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2018-12-07 04:30:05|   1.5|  0.0|INFORM|FME Configuration: Using Named Connection values from '@coa-dscdb/accelaprod' for MSSQL_ADO_1
+2018-12-07 04:30:05|   1.5|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2018-12-07 04:30:05|   1.6|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'c:\FME2017\plugins/FME_ADO.dll'
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Read 1 DEF line(s).  Found 0 attribute(s)
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `accelaprod' for read operation
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-12-07 04:30:05|   1.6|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-12-07 04:30:07|   1.6|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Now reading features from table amd.permit_contractors, 10 record(s) at a time
+2018-12-07 04:30:07|   1.9|  0.3|INFORM|FME Configuration: Using Named Connection values from 'mda-store-1' for POSTGRES_1
+2018-12-07 04:30:07|   1.9|  0.0|INFORM|Creating writer for format: PostgreSQL
+2018-12-07 04:30:07|   2.0|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|Loaded module 'POSTGRES' from file 'c:\FME2017\plugins/POSTGIS.dll'
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2018-12-07 04:30:07|   2.0|  0.0|INFORM|Opening POSTGRES writer for dataset 'mdastore1'...
+2018-12-07 04:30:09|   3.1|  1.1|INFORM|PostGIS client encoding: 'UTF8'
+2018-12-07 04:30:09|   3.1|  0.0|INFORM|PostgreSQL 10.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit
+2018-12-07 04:30:09|   3.1|  0.0|INFORM|Testing for the existence of table 'internal.permit_contractors'...
+2018-12-07 04:30:09|   3.1|  0.0|INFORM|Truncating existing table 'internal.permit_contractors'...
+2018-12-07 04:30:09|   3.1|  0.0|INFORM|Using existing table 'internal.permit_contractors'
+2018-12-07 04:30:09|   3.1|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'internal.permit_contractors'
+2018-12-07 04:30:09|   3.2|  0.1|INFORM|Committed transaction at feature '1000'
+2018-12-07 04:30:10|   3.3|  0.1|INFORM|Committed transaction at feature '2000'
+2018-12-07 04:30:10|   3.4|  0.1|INFORM|Reading source feature # 2500
+2018-12-07 04:30:10|   3.5|  0.1|INFORM|Committed transaction at feature '3000'
+2018-12-07 04:30:10|   3.6|  0.1|INFORM|Committed transaction at feature '4000'
+2018-12-07 04:30:10|   3.7|  0.1|INFORM|Reading source feature # 5000
+2018-12-07 04:30:10|   3.7|  0.0|INFORM|Committed transaction at feature '5000'
+2018-12-07 04:30:10|   3.8|  0.1|INFORM|Committed transaction at feature '6000'
+2018-12-07 04:30:11|   3.9|  0.1|INFORM|Committed transaction at feature '7000'
+2018-12-07 04:30:11|   4.0|  0.1|INFORM|Reading source feature # 7500
+2018-12-07 04:30:11|   4.1|  0.1|INFORM|Committed transaction at feature '8000'
+2018-12-07 04:30:11|   4.2|  0.1|INFORM|Committed transaction at feature '9000'
+2018-12-07 04:30:11|   4.3|  0.1|INFORM|Reading source feature # 10000
+2018-12-07 04:30:11|   4.3|  0.0|INFORM|Committed transaction at feature '10000'
+2018-12-07 04:30:11|   4.4|  0.1|INFORM|Committed transaction at feature '11000'
+2018-12-07 04:30:11|   4.5|  0.1|INFORM|Committed transaction at feature '12000'
+2018-12-07 04:30:12|   4.6|  0.1|INFORM|Reading source feature # 12500
+2018-12-07 04:30:12|   4.7|  0.1|INFORM|Committed transaction at feature '13000'
+2018-12-07 04:30:12|   4.8|  0.1|INFORM|Committed transaction at feature '14000'
+2018-12-07 04:30:12|   4.9|  0.1|INFORM|Reading source feature # 15000
+2018-12-07 04:30:12|   4.9|  0.0|INFORM|Committed transaction at feature '15000'
+2018-12-07 04:30:12|   5.0|  0.2|INFORM|Committed transaction at feature '16000'
+2018-12-07 04:30:12|   5.2|  0.1|INFORM|Committed transaction at feature '17000'
+2018-12-07 04:30:12|   5.2|  0.1|INFORM|Reading source feature # 17500
+2018-12-07 04:30:12|   5.3|  0.0|INFORM|Committed transaction at feature '18000'
+2018-12-07 04:30:13|   5.4|  0.1|INFORM|Committed transaction at feature '19000'
+2018-12-07 04:30:13|   5.5|  0.1|INFORM|Reading source feature # 20000
+2018-12-07 04:30:13|   5.5|  0.0|INFORM|Committed transaction at feature '20000'
+2018-12-07 04:30:13|   5.6|  0.1|INFORM|Committed transaction at feature '21000'
+2018-12-07 04:30:13|   5.7|  0.1|INFORM|Committed transaction at feature '22000'
+2018-12-07 04:30:13|   5.8|  0.1|INFORM|Reading source feature # 22500
+2018-12-07 04:30:13|   5.9|  0.1|INFORM|Committed transaction at feature '23000'
+2018-12-07 04:30:14|   6.0|  0.1|INFORM|Committed transaction at feature '24000'
+2018-12-07 04:30:14|   6.1|  0.1|INFORM|Reading source feature # 25000
+2018-12-07 04:30:14|   6.1|  0.0|INFORM|Committed transaction at feature '25000'
+2018-12-07 04:30:14|   6.3|  0.1|INFORM|Committed transaction at feature '26000'
+2018-12-07 04:30:14|   6.4|  0.1|INFORM|Committed transaction at feature '27000'
+2018-12-07 04:30:14|   6.4|  0.1|INFORM|Reading source feature # 27500
+2018-12-07 04:30:14|   6.5|  0.1|INFORM|Committed transaction at feature '28000'
+2018-12-07 04:30:15|   6.6|  0.1|INFORM|Committed transaction at feature '29000'
+2018-12-07 04:30:15|   6.8|  0.2|INFORM|Reading source feature # 30000
+2018-12-07 04:30:15|   6.8|  0.0|INFORM|Committed transaction at feature '30000'
+2018-12-07 04:30:15|   7.0|  0.2|INFORM|Committed transaction at feature '31000'
+2018-12-07 04:30:15|   7.1|  0.1|INFORM|Committed transaction at feature '32000'
+2018-12-07 04:30:15|   7.1|  0.1|INFORM|Reading source feature # 32500
+2018-12-07 04:30:15|   7.2|  0.0|INFORM|Committed transaction at feature '33000'
+2018-12-07 04:30:16|   7.3|  0.1|INFORM|Committed transaction at feature '34000'
+2018-12-07 04:30:16|   7.4|  0.1|INFORM|Reading source feature # 35000
+2018-12-07 04:30:16|   7.4|  0.0|INFORM|Committed transaction at feature '35000'
+2018-12-07 04:30:16|   7.5|  0.1|INFORM|Committed transaction at feature '36000'
+2018-12-07 04:30:16|   7.7|  0.1|INFORM|Committed transaction at feature '37000'
+2018-12-07 04:30:16|   7.8|  0.1|INFORM|Reading source feature # 37500
+2018-12-07 04:30:16|   7.8|  0.1|INFORM|Committed transaction at feature '38000'
+2018-12-07 04:30:17|   8.0|  0.2|INFORM|Committed transaction at feature '39000'
+2018-12-07 04:30:17|   8.1|  0.1|INFORM|Reading source feature # 40000
+2018-12-07 04:30:17|   8.1|  0.0|INFORM|Committed transaction at feature '40000'
+2018-12-07 04:30:17|   8.2|  0.1|INFORM|Committed transaction at feature '41000'
+2018-12-07 04:30:17|   8.3|  0.1|INFORM|Committed transaction at feature '42000'
+2018-12-07 04:30:17|   8.4|  0.1|INFORM|Reading source feature # 42500
+2018-12-07 04:30:17|   8.5|  0.1|INFORM|Committed transaction at feature '43000'
+2018-12-07 04:30:17|   8.6|  0.1|INFORM|Committed transaction at feature '44000'
+2018-12-07 04:30:18|   8.7|  0.1|INFORM|Reading source feature # 45000
+2018-12-07 04:30:18|   8.7|  0.0|INFORM|Committed transaction at feature '45000'
+2018-12-07 04:30:18|   8.8|  0.1|INFORM|Committed transaction at feature '46000'
+2018-12-07 04:30:18|   9.0|  0.1|INFORM|Committed transaction at feature '47000'
+2018-12-07 04:30:18|   9.0|  0.1|INFORM|Reading source feature # 47500
+2018-12-07 04:30:18|   9.1|  0.1|INFORM|Committed transaction at feature '48000'
+2018-12-07 04:30:18|   9.3|  0.2|INFORM|Committed transaction at feature '49000'
+2018-12-07 04:30:19|   9.4|  0.1|INFORM|Reading source feature # 50000
+2018-12-07 04:30:19|   9.4|  0.0|INFORM|Committed transaction at feature '50000'
+2018-12-07 04:30:19|   9.5|  0.1|INFORM|Committed transaction at feature '51000'
+2018-12-07 04:30:19|   9.7|  0.1|INFORM|Committed transaction at feature '52000'
+2018-12-07 04:30:19|   9.7|  0.0|INFORM|Reading source feature # 52500
+2018-12-07 04:30:19|   9.8|  0.1|INFORM|Committed transaction at feature '53000'
+2018-12-07 04:30:19|   9.9|  0.1|INFORM|Committed transaction at feature '54000'
+2018-12-07 04:30:20|  10.0|  0.1|INFORM|Reading source feature # 55000
+2018-12-07 04:30:20|  10.0|  0.0|INFORM|Committed transaction at feature '55000'
+2018-12-07 04:30:21|  10.1|  0.1|INFORM|Committed transaction at feature '56000'
+2018-12-07 04:30:21|  10.3|  0.1|INFORM|Committed transaction at feature '57000'
+2018-12-07 04:30:21|  10.3|  0.1|INFORM|Reading source feature # 57500
+2018-12-07 04:30:21|  10.4|  0.1|INFORM|Committed transaction at feature '58000'
+2018-12-07 04:30:22|  10.5|  0.1|INFORM|Committed transaction at feature '59000'
+2018-12-07 04:30:22|  10.6|  0.1|INFORM|Reading source feature # 60000
+2018-12-07 04:30:22|  10.6|  0.0|INFORM|Committed transaction at feature '60000'
+2018-12-07 04:30:22|  10.7|  0.1|INFORM|Committed transaction at feature '61000'
+2018-12-07 04:30:22|  10.8|  0.1|INFORM|Committed transaction at feature '62000'
+2018-12-07 04:30:22|  10.9|  0.1|INFORM|Reading source feature # 62500
+2018-12-07 04:30:22|  11.0|  0.1|INFORM|Committed transaction at feature '63000'
+2018-12-07 04:30:22|  11.1|  0.1|INFORM|Committed transaction at feature '64000'
+2018-12-07 04:30:23|  11.2|  0.1|INFORM|Reading source feature # 65000
+2018-12-07 04:30:23|  11.2|  0.0|INFORM|Committed transaction at feature '65000'
+2018-12-07 04:30:23|  11.3|  0.1|INFORM|Committed transaction at feature '66000'
+2018-12-07 04:30:23|  11.4|  0.1|INFORM|Committed transaction at feature '67000'
+2018-12-07 04:30:23|  11.5|  0.1|INFORM|Reading source feature # 67500
+2018-12-07 04:30:23|  11.5|  0.1|INFORM|Committed transaction at feature '68000'
+2018-12-07 04:30:24|  11.7|  0.2|INFORM|Committed transaction at feature '69000'
+2018-12-07 04:30:24|  11.8|  0.1|INFORM|Reading source feature # 70000
+2018-12-07 04:30:24|  11.8|  0.0|INFORM|Committed transaction at feature '70000'
+2018-12-07 04:30:24|  11.9|  0.1|INFORM|Committed transaction at feature '71000'
+2018-12-07 04:30:24|  12.1|  0.1|INFORM|Committed transaction at feature '72000'
+2018-12-07 04:30:24|  12.1|  0.0|INFORM|Reading source feature # 72500
+2018-12-07 04:30:24|  12.2|  0.1|INFORM|Committed transaction at feature '73000'
+2018-12-07 04:30:25|  12.3|  0.1|INFORM|Committed transaction at feature '74000'
+2018-12-07 04:30:25|  12.4|  0.1|INFORM|Reading source feature # 75000
+2018-12-07 04:30:25|  12.4|  0.0|INFORM|Committed transaction at feature '75000'
+2018-12-07 04:30:25|  12.5|  0.1|INFORM|Committed transaction at feature '76000'
+2018-12-07 04:30:25|  12.6|  0.1|INFORM|Committed transaction at feature '77000'
+2018-12-07 04:30:25|  12.7|  0.1|INFORM|Reading source feature # 77500
+2018-12-07 04:30:26|  12.7|  0.0|INFORM|Committed transaction at feature '78000'
+2018-12-07 04:30:26|  12.8|  0.1|INFORM|Committed transaction at feature '79000'
+2018-12-07 04:30:26|  13.0|  0.1|INFORM|Reading source feature # 80000
+2018-12-07 04:30:26|  13.0|  0.0|INFORM|Committed transaction at feature '80000'
+2018-12-07 04:30:26|  13.1|  0.1|INFORM|Committed transaction at feature '81000'
+2018-12-07 04:30:26|  13.2|  0.1|INFORM|Committed transaction at feature '82000'
+2018-12-07 04:30:26|  13.2|  0.0|INFORM|Reading source feature # 82500
+2018-12-07 04:30:26|  13.3|  0.1|INFORM|Committed transaction at feature '83000'
+2018-12-07 04:30:27|  13.4|  0.1|INFORM|Committed transaction at feature '84000'
+2018-12-07 04:30:27|  13.5|  0.1|INFORM|Reading source feature # 85000
+2018-12-07 04:30:27|  13.5|  0.0|INFORM|Committed transaction at feature '85000'
+2018-12-07 04:30:27|  13.6|  0.1|INFORM|Committed transaction at feature '86000'
+2018-12-07 04:30:27|  13.8|  0.2|INFORM|Committed transaction at feature '87000'
+2018-12-07 04:30:27|  13.8|  0.1|INFORM|Reading source feature # 87500
+2018-12-07 04:30:27|  13.9|  0.0|INFORM|Committed transaction at feature '88000'
+2018-12-07 04:30:27|  14.0|  0.1|INFORM|Committed transaction at feature '89000'
+2018-12-07 04:30:28|  14.1|  0.1|INFORM|Reading source feature # 90000
+2018-12-07 04:30:28|  14.1|  0.0|INFORM|Committed transaction at feature '90000'
+2018-12-07 04:30:28|  14.3|  0.2|INFORM|Committed transaction at feature '91000'
+2018-12-07 04:30:28|  14.4|  0.1|INFORM|Committed transaction at feature '92000'
+2018-12-07 04:30:28|  14.5|  0.1|INFORM|Reading source feature # 92500
+2018-12-07 04:30:28|  14.5|  0.1|INFORM|Committed transaction at feature '93000'
+2018-12-07 04:30:28|  14.7|  0.1|INFORM|Committed transaction at feature '94000'
+2018-12-07 04:30:29|  14.8|  0.1|INFORM|Reading source feature # 95000
+2018-12-07 04:30:29|  14.8|  0.0|INFORM|Committed transaction at feature '95000'
+2018-12-07 04:30:29|  14.9|  0.1|INFORM|Committed transaction at feature '96000'
+2018-12-07 04:30:29|  15.0|  0.1|INFORM|Committed transaction at feature '97000'
+2018-12-07 04:30:29|  15.1|  0.1|INFORM|Reading source feature # 97500
+2018-12-07 04:30:29|  15.2|  0.1|INFORM|Committed transaction at feature '98000'
+2018-12-07 04:30:29|  15.3|  0.1|INFORM|Committed transaction at feature '99000'
+2018-12-07 04:30:29|  15.4|  0.1|INFORM|Reading source feature # 100000
+2018-12-07 04:30:30|  15.4|  0.0|INFORM|Committed transaction at feature '100000'
+2018-12-07 04:30:30|  15.5|  0.1|INFORM|Committed transaction at feature '101000'
+2018-12-07 04:30:30|  15.7|  0.1|INFORM|Committed transaction at feature '102000'
+2018-12-07 04:30:30|  15.7|  0.1|INFORM|Reading source feature # 102500
+2018-12-07 04:30:30|  15.8|  0.1|INFORM|Committed transaction at feature '103000'
+2018-12-07 04:30:30|  16.0|  0.1|INFORM|Committed transaction at feature '104000'
+2018-12-07 04:30:30|  16.1|  0.1|INFORM|Reading source feature # 105000
+2018-12-07 04:30:31|  16.1|  0.0|INFORM|Committed transaction at feature '105000'
+2018-12-07 04:30:31|  16.2|  0.1|INFORM|Committed transaction at feature '106000'
+2018-12-07 04:30:31|  16.4|  0.2|INFORM|Committed transaction at feature '107000'
+2018-12-07 04:30:31|  16.5|  0.0|INFORM|Reading source feature # 107500
+2018-12-07 04:30:31|  16.5|  0.1|INFORM|Committed transaction at feature '108000'
+2018-12-07 04:30:31|  16.6|  0.1|INFORM|Committed transaction at feature '109000'
+2018-12-07 04:30:31|  16.8|  0.1|INFORM|Reading source feature # 110000
+2018-12-07 04:30:31|  16.8|  0.0|INFORM|Committed transaction at feature '110000'
+2018-12-07 04:30:32|  16.9|  0.1|INFORM|Committed transaction at feature '111000'
+2018-12-07 04:30:32|  17.0|  0.1|INFORM|Committed transaction at feature '112000'
+2018-12-07 04:30:32|  17.1|  0.1|INFORM|Reading source feature # 112500
+2018-12-07 04:30:32|  17.2|  0.1|INFORM|Committed transaction at feature '113000'
+2018-12-07 04:30:32|  17.3|  0.1|INFORM|Committed transaction at feature '114000'
+2018-12-07 04:30:32|  17.5|  0.1|INFORM|Reading source feature # 115000
+2018-12-07 04:30:33|  17.5|  0.0|INFORM|Committed transaction at feature '115000'
+2018-12-07 04:30:33|  17.6|  0.1|INFORM|Committed transaction at feature '116000'
+2018-12-07 04:30:33|  17.7|  0.1|INFORM|Committed transaction at feature '117000'
+2018-12-07 04:30:33|  17.8|  0.1|INFORM|Reading source feature # 117500
+2018-12-07 04:30:33|  17.9|  0.1|INFORM|Committed transaction at feature '118000'
+2018-12-07 04:30:33|  18.0|  0.1|INFORM|Committed transaction at feature '119000'
+2018-12-07 04:30:33|  18.1|  0.1|INFORM|Reading source feature # 120000
+2018-12-07 04:30:33|  18.1|  0.0|INFORM|Committed transaction at feature '120000'
+2018-12-07 04:30:34|  18.2|  0.1|INFORM|Committed transaction at feature '121000'
+2018-12-07 04:30:34|  18.3|  0.1|INFORM|Committed transaction at feature '122000'
+2018-12-07 04:30:34|  18.4|  0.1|INFORM|Reading source feature # 122500
+2018-12-07 04:30:34|  18.5|  0.1|INFORM|Committed transaction at feature '123000'
+2018-12-07 04:30:34|  18.6|  0.1|INFORM|Committed transaction at feature '124000'
+2018-12-07 04:30:35|  18.7|  0.1|INFORM|Reading source feature # 125000
+2018-12-07 04:30:35|  18.7|  0.0|INFORM|Committed transaction at feature '125000'
+2018-12-07 04:30:35|  18.8|  0.1|INFORM|Committed transaction at feature '126000'
+2018-12-07 04:30:35|  18.9|  0.1|INFORM|Committed transaction at feature '127000'
+2018-12-07 04:30:35|  19.0|  0.1|INFORM|Reading source feature # 127500
+2018-12-07 04:30:35|  19.1|  0.1|INFORM|Committed transaction at feature '128000'
+2018-12-07 04:30:35|  19.2|  0.1|INFORM|Committed transaction at feature '129000'
+2018-12-07 04:30:36|  19.3|  0.1|INFORM|Reading source feature # 130000
+2018-12-07 04:30:36|  19.3|  0.0|INFORM|Committed transaction at feature '130000'
+2018-12-07 04:30:36|  19.4|  0.1|INFORM|Committed transaction at feature '131000'
+2018-12-07 04:30:36|  19.5|  0.1|INFORM|Committed transaction at feature '132000'
+2018-12-07 04:30:36|  19.6|  0.1|INFORM|Reading source feature # 132500
+2018-12-07 04:30:36|  19.7|  0.1|INFORM|Committed transaction at feature '133000'
+2018-12-07 04:30:36|  19.8|  0.1|INFORM|Committed transaction at feature '134000'
+2018-12-07 04:30:36|  20.0|  0.1|INFORM|Reading source feature # 135000
+2018-12-07 04:30:37|  20.0|  0.0|INFORM|Committed transaction at feature '135000'
+2018-12-07 04:30:37|  20.1|  0.1|INFORM|Committed transaction at feature '136000'
+2018-12-07 04:30:37|  20.2|  0.1|INFORM|Committed transaction at feature '137000'
+2018-12-07 04:30:37|  20.2|  0.1|INFORM|Reading source feature # 137500
+2018-12-07 04:30:37|  20.3|  0.1|INFORM|Committed transaction at feature '138000'
+2018-12-07 04:30:37|  20.4|  0.1|INFORM|Committed transaction at feature '139000'
+2018-12-07 04:30:37|  20.5|  0.1|INFORM|Reading source feature # 140000
+2018-12-07 04:30:37|  20.5|  0.0|INFORM|Committed transaction at feature '140000'
+2018-12-07 04:30:38|  20.6|  0.1|INFORM|Committed transaction at feature '141000'
+2018-12-07 04:30:38|  20.8|  0.1|INFORM|Committed transaction at feature '142000'
+2018-12-07 04:30:38|  20.8|  0.1|INFORM|Reading source feature # 142500
+2018-12-07 04:30:38|  20.9|  0.1|INFORM|Committed transaction at feature '143000'
+2018-12-07 04:30:38|  21.0|  0.1|INFORM|Committed transaction at feature '144000'
+2018-12-07 04:30:38|  21.2|  0.1|INFORM|Reading source feature # 145000
+2018-12-07 04:30:38|  21.2|  0.0|INFORM|Committed transaction at feature '145000'
+2018-12-07 04:30:38|  21.3|  0.1|INFORM|Committed transaction at feature '146000'
+2018-12-07 04:30:39|  21.4|  0.1|INFORM|Committed transaction at feature '147000'
+2018-12-07 04:30:39|  21.5|  0.1|INFORM|Reading source feature # 147500
+2018-12-07 04:30:39|  21.5|  0.0|INFORM|Committed transaction at feature '148000'
+2018-12-07 04:30:39|  21.7|  0.1|INFORM|Committed transaction at feature '149000'
+2018-12-07 04:30:39|  21.8|  0.2|INFORM|Reading source feature # 150000
+2018-12-07 04:30:39|  21.8|  0.0|INFORM|Committed transaction at feature '150000'
+2018-12-07 04:30:39|  22.0|  0.2|INFORM|Committed transaction at feature '151000'
+2018-12-07 04:30:40|  22.1|  0.1|INFORM|Committed transaction at feature '152000'
+2018-12-07 04:30:40|  22.1|  0.0|INFORM|Reading source feature # 152500
+2018-12-07 04:30:40|  22.2|  0.1|INFORM|Committed transaction at feature '153000'
+2018-12-07 04:30:40|  22.3|  0.1|INFORM|Committed transaction at feature '154000'
+2018-12-07 04:30:40|  22.5|  0.1|INFORM|Reading source feature # 155000
+2018-12-07 04:30:40|  22.5|  0.0|INFORM|Committed transaction at feature '155000'
+2018-12-07 04:30:40|  22.6|  0.2|INFORM|Committed transaction at feature '156000'
+2018-12-07 04:30:41|  22.8|  0.2|INFORM|Committed transaction at feature '157000'
+2018-12-07 04:30:41|  22.9|  0.1|INFORM|Reading source feature # 157500
+2018-12-07 04:30:41|  22.9|  0.1|INFORM|Committed transaction at feature '158000'
+2018-12-07 04:30:41|  23.1|  0.1|INFORM|Committed transaction at feature '159000'
+2018-12-07 04:30:41|  23.2|  0.1|INFORM|Reading source feature # 160000
+2018-12-07 04:30:41|  23.2|  0.0|INFORM|Committed transaction at feature '160000'
+2018-12-07 04:30:41|  23.3|  0.1|INFORM|Committed transaction at feature '161000'
+2018-12-07 04:30:42|  23.4|  0.1|INFORM|Committed transaction at feature '162000'
+2018-12-07 04:30:42|  23.5|  0.1|INFORM|Reading source feature # 162500
+2018-12-07 04:30:42|  23.6|  0.1|INFORM|Committed transaction at feature '163000'
+2018-12-07 04:30:42|  23.7|  0.1|INFORM|Committed transaction at feature '164000'
+2018-12-07 04:30:42|  23.8|  0.1|INFORM|Reading source feature # 165000
+2018-12-07 04:30:42|  23.8|  0.0|INFORM|Committed transaction at feature '165000'
+2018-12-07 04:30:42|  24.0|  0.1|INFORM|Committed transaction at feature '166000'
+2018-12-07 04:30:43|  24.1|  0.2|INFORM|Committed transaction at feature '167000'
+2018-12-07 04:30:43|  24.2|  0.1|INFORM|Reading source feature # 167500
+2018-12-07 04:30:43|  24.3|  0.1|INFORM|Committed transaction at feature '168000'
+2018-12-07 04:30:43|  24.4|  0.1|INFORM|Committed transaction at feature '169000'
+2018-12-07 04:30:43|  24.5|  0.1|INFORM|Reading source feature # 170000
+2018-12-07 04:30:43|  24.5|  0.0|INFORM|Committed transaction at feature '170000'
+2018-12-07 04:30:43|  24.6|  0.1|INFORM|Committed transaction at feature '171000'
+2018-12-07 04:30:44|  24.8|  0.1|INFORM|Committed transaction at feature '172000'
+2018-12-07 04:30:44|  24.8|  0.1|INFORM|Reading source feature # 172500
+2018-12-07 04:30:44|  24.9|  0.1|INFORM|Committed transaction at feature '173000'
+2018-12-07 04:30:44|  25.0|  0.1|INFORM|Committed transaction at feature '174000'
+2018-12-07 04:30:44|  25.1|  0.1|INFORM|Reading source feature # 175000
+2018-12-07 04:30:44|  25.1|  0.0|INFORM|Committed transaction at feature '175000'
+2018-12-07 04:30:44|  25.3|  0.1|INFORM|Committed transaction at feature '176000'
+2018-12-07 04:30:44|  25.4|  0.1|INFORM|Committed transaction at feature '177000'
+2018-12-07 04:30:44|  25.4|  0.1|INFORM|Reading source feature # 177500
+2018-12-07 04:30:45|  25.5|  0.0|INFORM|Committed transaction at feature '178000'
+2018-12-07 04:30:45|  25.6|  0.1|INFORM|Committed transaction at feature '179000'
+2018-12-07 04:30:45|  25.7|  0.1|INFORM|Reading source feature # 180000
+2018-12-07 04:30:45|  25.7|  0.0|INFORM|Committed transaction at feature '180000'
+2018-12-07 04:30:45|  25.8|  0.1|INFORM|Committed transaction at feature '181000'
+2018-12-07 04:30:45|  26.0|  0.1|INFORM|Committed transaction at feature '182000'
+2018-12-07 04:30:45|  26.0|  0.1|INFORM|Reading source feature # 182500
+2018-12-07 04:30:46|  26.1|  0.1|INFORM|Committed transaction at feature '183000'
+2018-12-07 04:30:46|  26.2|  0.1|INFORM|Committed transaction at feature '184000'
+2018-12-07 04:30:46|  26.4|  0.1|INFORM|Reading source feature # 185000
+2018-12-07 04:30:46|  26.4|  0.0|INFORM|Committed transaction at feature '185000'
+2018-12-07 04:30:46|  26.5|  0.1|INFORM|Committed transaction at feature '186000'
+2018-12-07 04:30:46|  26.6|  0.1|INFORM|Committed transaction at feature '187000'
+2018-12-07 04:30:46|  26.7|  0.1|INFORM|Reading source feature # 187500
+2018-12-07 04:30:46|  26.8|  0.1|INFORM|Committed transaction at feature '188000'
+2018-12-07 04:30:47|  26.9|  0.2|INFORM|Committed transaction at feature '189000'
+2018-12-07 04:30:47|  27.0|  0.1|INFORM|Reading source feature # 190000
+2018-12-07 04:30:47|  27.0|  0.0|INFORM|Committed transaction at feature '190000'
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 190274 feature(s)
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Emptying factory pipeline
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 190274 input feature(s), wrote 190274 output feature(s): 190274 matched merge filters, 190274 were routed to output, 0 could not be routed.
+2018-12-07 04:30:47|  27.1|  0.0|STATS |amd.permit_contractors (MSSQL_ADO_1) Splitter(TeeFactory): Cloned 190274 input feature(s) into 190274 output feature(s)
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 190274 input feature(s), wrote 190274 output feature(s): 0 matched merge filters, 190274 were routed to output, 0 could not be routed.
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Successfully closed POSTGRES database writer
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |                               Features Written
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |internal.permit_contractors                                             190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |==============================================================================
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Total Features Written                                                  190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |                            Features Read Summary
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |amd.permit_contractors                                                  190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |==============================================================================
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Total Features Read                                                     190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |                           Features Written Summary
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|STATS |internal.permit_contractors                                             190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |==============================================================================
+2018-12-07 04:30:47|  27.1|  0.0|STATS |Total Features Written                                                  190274
+2018-12-07 04:30:47|  27.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `accelaprod' . Read operation complete
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (190274 feature(s) output)
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|FME Session Duration: 43.5 seconds. (CPU: 26.5s user, 0.5s system)
+2018-12-07 04:30:47|  27.1|  0.0|INFORM|END - ProcessID: 5144, peak process memory usage: 81440 kB, current process memory usage: 80976 kB
