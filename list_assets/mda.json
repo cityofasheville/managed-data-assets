@@ -1,7 +1,0 @@
-{
-  "name": "list_assets",
-  "active": true,
-  "type": "table",
-  "description": "Load list of managed data assets to database",
-  "depends": []
-}
