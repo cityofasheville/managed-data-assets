@@ -1,0 +1,45 @@
+{
+  "name": "ad_info",
+  "location": "mdastore1",
+  "active": true,
+  "type": "table",
+  "description": "Active Directory info",
+  "depends": [],
+  "category": "another",
+  "tags": [
+    "Cinderella",
+    "Dumbo"
+  ],
+  "schema": "ad_info",
+  "title": "Active D.",
+  "publication_date": "2018-12-18T05:00:00.000Z",
+  "responsible_party": "Asheville IT",
+  "responsible_party_role": "Master of Universe",
+  "url": "yahoo.com",
+  "abstract": "This is the time and this is the record of the time.",
+  "status": "rockin",
+  "update_frequency": "daily",
+  "keywords": [],
+  "use_constraints": "barbeque",
+  "metadata_constraints": [
+    "richard iii",
+    "henry iv"
+  ],
+  "resource_constraints": "jacks",
+  "topic_category": [
+    "bosnia",
+    "botulism",
+    "bodiddley"
+  ],
+  "geographic_extent" : {
+      "east": "",
+      "west": "-85.01",
+      "north": "0",
+      "south": "35.01933"
+  },
+  "feature_catalog": "mini-me",
+  "process_description": "scooby-do",
+  "spatial_reference": "barbie-ken",
+  "metadata_creation_date": "1776-06-03T04:00:00.000Z",
+  "contact_role_code": "AZ-Zaa"
+}

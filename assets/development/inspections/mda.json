@@ -1,8 +1,0 @@
-{
-  "name": "inspections",
-  "location": "mdastore1",
-  "active": true,
-  "type": "table",
-  "description": "Inspections data",
-  "depends": []
-}
