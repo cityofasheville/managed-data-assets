@@ -24,5 +24,5 @@ SET
     ON
       st_contains(pw.shape,internal.bc_location.shape)
   ) as public_works_districts 
-WHERE internal.coa_bc_address_master.location_id = public_works_districts.location_id
+WHERE internal.coa_bc_address_master.location_id = public_works_districts.location_id;
 

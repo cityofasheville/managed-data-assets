@@ -7,20 +7,23 @@
   "depends": [
     "bc_civicaddress_table.ms1",
     "bc_location.ms1",
-    "bc_property_account_master",
     "bc_property.ms1",
-    "bc_property_pinnum_formatted_owner_names",
     "coa_active_jurisdictions.ms1",
     "coa_districts_public_works",
     "coa_districts_water",
+    "bc_property_pinnum_formatted_owner_names",
     "coa_districts_zoning",
+    "bc_property_account_master",
     "coa_zip_code"
   ],
+  "objects": [],
+  "id": 8542,
   "category": "",
   "tags": [],
+  "tag_len": 0,
   "schema": "",
   "title": "",
-  "publication_date": "",
+  "publication_date": null,
   "responsible_party": "",
   "responsible_party_role": "",
   "url": "",
@@ -32,15 +35,15 @@
   "metadata_constraints": [],
   "resource_constraints": "",
   "topic_category": [],
-  "geographic_extent" : {
-      "east": "",
-      "west": "",
-      "north": "",
-      "south": ""
+  "geographic_extent": {
+    "east": null,
+    "west": null,
+    "north": null,
+    "south": null
   },
   "feature_catalog": "",
   "process_description": "",
   "spatial_reference": "",
-  "metadata_creation_date": "",
+  "metadata_creation_date": null,
   "contact_role_code": ""
 }

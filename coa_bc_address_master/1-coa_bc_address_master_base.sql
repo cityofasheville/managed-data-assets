@@ -255,4 +255,4 @@ LEFT JOIN
 ) as active_jurisdictions
 ON
         address_locations.location_id = active_jurisdictions.location_id
-order by objectid asc
+order by objectid asc;
