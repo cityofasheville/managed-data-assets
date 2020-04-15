@@ -2,7 +2,7 @@
     "run_group": "daily",
     "tasks": [
       {
-        "type": "none",
+        "type": "noop",
         "file": "",
         "db": null,
         "active": true
