@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bc_property_account_master.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

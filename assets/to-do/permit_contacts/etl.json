@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela_to_wh-permit_contacts.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

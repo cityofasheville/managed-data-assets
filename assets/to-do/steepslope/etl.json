@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "steepslope_warehouseTOpubrec.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

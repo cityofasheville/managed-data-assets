@@ -1,0 +1,458 @@
+2019-07-02 09:03:06|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|FME_HOME is 'C:\FME2017\'
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|Permanent License.
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|START - ProcessID: 1624, peak process memory usage: 29644 kB, current process memory usage: 29632 kB
+2019-07-02 09:03:06|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\FME2017\fme.exe' `C:/COA/bedrock/working_directory/utility_billing_services\wb-xlate-1562072579783_4648' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{1bc530a5-b556-474e-bd83-ed0ad40b2552}'
+2019-07-02 09:03:06|   0.2|  0.1|INFORM|Shared folders for formats are : C:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `NULL_SOURCE'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Reader type is `NULL'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\utility_billing_services'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp\1', set from environment variable `TEMP'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\FME2017\'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\utility_billing_services/'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'MunisTOwh-utility_billing_services.fmw'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|System Status: 107.47 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp\1)
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Platform: WIN32
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Locale: en_US
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2019-07-02 09:03:06|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2019-07-02 09:03:07|   0.3|  0.1|INFORM|Creating writer for format: 
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\FME2017\plugins/NULL.dll'
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-07-02 09:03:07|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2019-07-02 09:03:07|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\FME2017\plugins/LogCount_func.dll'
+2019-07-02 09:03:07|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2019-07-02 09:03:07|   0.4|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\FME2017\plugins/QueryFactory.dll'
+2019-07-02 09:03:07|   0.4|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20170315)
+2019-07-02 09:03:07|   0.4|  0.0|INFORM|Emptying factory pipeline
+2019-07-02 09:03:08|   2.0|  1.6|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2019-07-02 09:03:08|   2.0|  0.0|INFORM|FME Configuration: Using Named Connection values from 'munis-prod' for R_1
+2019-07-02 09:03:08|   2.0|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2019-07-02 09:03:08|   2.2|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2019-07-02 09:03:08|   2.2|  0.0|WARN  |Error prepending '<FME_HOME>/plugins/' to path environment variable.  The addition may not exist, or on Windows the resulting path may be longer than 2047 characters
+2019-07-02 09:03:08|   2.2|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'C:\FME2017\plugins/FME_ADO.dll'
+2019-07-02 09:03:08|   2.2|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2019-07-02 09:03:08|   2.2|  0.0|INFORM|Performing query against MSSQL_ADO dataset `munis-prod'
+2019-07-02 09:03:08|   2.2|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `munprod' for read operation
+2019-07-02 09:03:08|   2.2|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2019-07-02 09:03:10|   2.5|  0.3|INFORM|FME Configuration: Using Named Connection values from 'coa-gis-warehouse1' for POSTGRES_1
+2019-07-02 09:03:10|   2.5|  0.0|INFORM|Creating writer for format: PostgreSQL
+2019-07-02 09:03:10|   2.6|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Loaded module 'POSTGRES' from file 'C:\FME2017\plugins/POSTGIS.dll'
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Opening POSTGRES writer for dataset 'coagiswarehouse'...
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|PostgreSQL 9.6.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23), 64-bit
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Testing for the existence of table 'coagis.munis_utility_billing_services_etl_table'...
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Truncating existing table 'coagis.munis_utility_billing_services_etl_table'...
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|Using existing table 'coagis.munis_utility_billing_services_etl_table'
+2019-07-02 09:03:10|   2.7|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'coagis.munis_utility_billing_services_etl_table'
+2019-07-02 09:03:12|   3.4|  0.8|INFORM|Committed transaction at feature '1000'
+2019-07-02 09:03:12|   4.0|  0.6|INFORM|Committed transaction at feature '2000'
+2019-07-02 09:03:13|   4.7|  0.7|INFORM|Committed transaction at feature '3000'
+2019-07-02 09:03:14|   5.5|  0.8|INFORM|Committed transaction at feature '4000'
+2019-07-02 09:03:15|   6.2|  0.7|INFORM|Committed transaction at feature '5000'
+2019-07-02 09:03:15|   6.7|  0.6|INFORM|Committed transaction at feature '6000'
+2019-07-02 09:03:16|   7.3|  0.6|INFORM|Committed transaction at feature '7000'
+2019-07-02 09:03:17|   8.0|  0.6|INFORM|Committed transaction at feature '8000'
+2019-07-02 09:03:17|   8.7|  0.7|INFORM|Committed transaction at feature '9000'
+2019-07-02 09:03:18|   9.4|  0.7|INFORM|Committed transaction at feature '10000'
+2019-07-02 09:03:19|  10.1|  0.8|INFORM|Committed transaction at feature '11000'
+2019-07-02 09:03:20|  10.8|  0.6|INFORM|Committed transaction at feature '12000'
+2019-07-02 09:03:20|  11.4|  0.6|INFORM|Committed transaction at feature '13000'
+2019-07-02 09:03:21|  12.0|  0.6|INFORM|Committed transaction at feature '14000'
+2019-07-02 09:03:22|  12.6|  0.6|INFORM|Committed transaction at feature '15000'
+2019-07-02 09:03:22|  13.4|  0.8|INFORM|Committed transaction at feature '16000'
+2019-07-02 09:03:23|  14.1|  0.7|INFORM|Committed transaction at feature '17000'
+2019-07-02 09:03:24|  14.6|  0.5|INFORM|Committed transaction at feature '18000'
+2019-07-02 09:03:25|  15.4|  0.7|INFORM|Committed transaction at feature '19000'
+2019-07-02 09:03:25|  15.9|  0.5|INFORM|Committed transaction at feature '20000'
+2019-07-02 09:03:26|  16.4|  0.5|INFORM|Committed transaction at feature '21000'
+2019-07-02 09:03:26|  17.0|  0.6|INFORM|Committed transaction at feature '22000'
+2019-07-02 09:03:27|  17.6|  0.6|INFORM|Committed transaction at feature '23000'
+2019-07-02 09:03:28|  18.1|  0.5|INFORM|Committed transaction at feature '24000'
+2019-07-02 09:03:28|  18.6|  0.5|INFORM|Committed transaction at feature '25000'
+2019-07-02 09:03:29|  19.3|  0.7|INFORM|Committed transaction at feature '26000'
+2019-07-02 09:03:30|  19.8|  0.5|INFORM|Committed transaction at feature '27000'
+2019-07-02 09:03:30|  20.4|  0.6|INFORM|Committed transaction at feature '28000'
+2019-07-02 09:03:31|  21.3|  1.0|INFORM|Committed transaction at feature '29000'
+2019-07-02 09:03:32|  22.0|  0.7|INFORM|Committed transaction at feature '30000'
+2019-07-02 09:03:33|  22.6|  0.6|INFORM|Committed transaction at feature '31000'
+2019-07-02 09:03:34|  23.2|  0.6|INFORM|Committed transaction at feature '32000'
+2019-07-02 09:03:34|  23.8|  0.6|INFORM|Committed transaction at feature '33000'
+2019-07-02 09:03:35|  24.5|  0.7|INFORM|Committed transaction at feature '34000'
+2019-07-02 09:03:36|  25.3|  0.8|INFORM|Committed transaction at feature '35000'
+2019-07-02 09:03:37|  26.1|  0.8|INFORM|Committed transaction at feature '36000'
+2019-07-02 09:03:38|  26.6|  0.5|INFORM|Committed transaction at feature '37000'
+2019-07-02 09:03:39|  27.3|  0.7|INFORM|Committed transaction at feature '38000'
+2019-07-02 09:03:40|  27.8|  0.6|INFORM|Committed transaction at feature '39000'
+2019-07-02 09:03:41|  28.8|  0.9|INFORM|Committed transaction at feature '40000'
+2019-07-02 09:03:41|  29.3|  0.6|INFORM|Committed transaction at feature '41000'
+2019-07-02 09:03:42|  29.8|  0.5|INFORM|Committed transaction at feature '42000'
+2019-07-02 09:03:43|  30.5|  0.7|INFORM|Committed transaction at feature '43000'
+2019-07-02 09:03:44|  31.2|  0.7|INFORM|Committed transaction at feature '44000'
+2019-07-02 09:03:44|  31.9|  0.7|INFORM|Committed transaction at feature '45000'
+2019-07-02 09:03:45|  32.5|  0.6|INFORM|Committed transaction at feature '46000'
+2019-07-02 09:03:46|  33.1|  0.6|INFORM|Committed transaction at feature '47000'
+2019-07-02 09:03:46|  33.8|  0.8|INFORM|Committed transaction at feature '48000'
+2019-07-02 09:03:49|  34.5|  0.6|INFORM|Committed transaction at feature '49000'
+2019-07-02 09:03:50|  35.2|  0.7|INFORM|Committed transaction at feature '50000'
+2019-07-02 09:03:52|  36.0|  0.8|INFORM|Committed transaction at feature '51000'
+2019-07-02 09:03:52|  36.6|  0.6|INFORM|Committed transaction at feature '52000'
+2019-07-02 09:03:53|  37.3|  0.7|INFORM|Committed transaction at feature '53000'
+2019-07-02 09:03:54|  38.0|  0.7|INFORM|Committed transaction at feature '54000'
+2019-07-02 09:03:55|  38.5|  0.5|INFORM|Committed transaction at feature '55000'
+2019-07-02 09:03:55|  39.1|  0.5|INFORM|Committed transaction at feature '56000'
+2019-07-02 09:03:56|  39.7|  0.6|INFORM|Committed transaction at feature '57000'
+2019-07-02 09:03:56|  40.4|  0.7|INFORM|Committed transaction at feature '58000'
+2019-07-02 09:03:57|  41.0|  0.6|INFORM|Committed transaction at feature '59000'
+2019-07-02 09:03:58|  41.7|  0.7|INFORM|Committed transaction at feature '60000'
+2019-07-02 09:03:58|  42.3|  0.6|INFORM|Committed transaction at feature '61000'
+2019-07-02 09:03:59|  43.1|  0.8|INFORM|Committed transaction at feature '62000'
+2019-07-02 09:04:00|  43.7|  0.6|INFORM|Committed transaction at feature '63000'
+2019-07-02 09:04:01|  44.3|  0.6|INFORM|Committed transaction at feature '64000'
+2019-07-02 09:04:01|  44.9|  0.6|INFORM|Committed transaction at feature '65000'
+2019-07-02 09:04:02|  45.5|  0.6|INFORM|Committed transaction at feature '66000'
+2019-07-02 09:04:03|  46.1|  0.6|INFORM|Committed transaction at feature '67000'
+2019-07-02 09:04:03|  46.8|  0.7|INFORM|Committed transaction at feature '68000'
+2019-07-02 09:04:04|  47.4|  0.6|INFORM|Committed transaction at feature '69000'
+2019-07-02 09:04:05|  47.9|  0.6|INFORM|Committed transaction at feature '70000'
+2019-07-02 09:04:05|  48.6|  0.7|INFORM|Committed transaction at feature '71000'
+2019-07-02 09:04:07|  49.5|  0.9|INFORM|Committed transaction at feature '72000'
+2019-07-02 09:04:08|  50.1|  0.6|INFORM|Committed transaction at feature '73000'
+2019-07-02 09:04:08|  50.8|  0.7|INFORM|Committed transaction at feature '74000'
+2019-07-02 09:04:09|  51.4|  0.6|INFORM|Committed transaction at feature '75000'
+2019-07-02 09:04:10|  52.0|  0.5|INFORM|Committed transaction at feature '76000'
+2019-07-02 09:04:11|  52.6|  0.6|INFORM|Committed transaction at feature '77000'
+2019-07-02 09:04:11|  53.1|  0.6|INFORM|Committed transaction at feature '78000'
+2019-07-02 09:04:12|  53.8|  0.6|INFORM|Committed transaction at feature '79000'
+2019-07-02 09:04:13|  54.4|  0.6|INFORM|Committed transaction at feature '80000'
+2019-07-02 09:04:13|  54.9|  0.5|INFORM|Committed transaction at feature '81000'
+2019-07-02 09:04:14|  55.5|  0.6|INFORM|Committed transaction at feature '82000'
+2019-07-02 09:04:14|  56.2|  0.7|INFORM|Committed transaction at feature '83000'
+2019-07-02 09:04:15|  56.9|  0.7|INFORM|Committed transaction at feature '84000'
+2019-07-02 09:04:16|  57.5|  0.6|INFORM|Committed transaction at feature '85000'
+2019-07-02 09:04:16|  58.1|  0.6|INFORM|Committed transaction at feature '86000'
+2019-07-02 09:04:17|  58.6|  0.5|INFORM|Committed transaction at feature '87000'
+2019-07-02 09:04:18|  59.4|  0.8|INFORM|Committed transaction at feature '88000'
+2019-07-02 09:04:19|  60.1|  0.7|INFORM|Committed transaction at feature '89000'
+2019-07-02 09:04:19|  60.7|  0.6|INFORM|Committed transaction at feature '90000'
+2019-07-02 09:04:20|  61.3|  0.6|INFORM|Committed transaction at feature '91000'
+2019-07-02 09:04:20|  61.9|  0.6|INFORM|Committed transaction at feature '92000'
+2019-07-02 09:04:21|  62.4|  0.5|INFORM|Committed transaction at feature '93000'
+2019-07-02 09:04:22|  63.0|  0.6|INFORM|Committed transaction at feature '94000'
+2019-07-02 09:04:22|  63.6|  0.7|INFORM|Committed transaction at feature '95000'
+2019-07-02 09:04:23|  64.2|  0.6|INFORM|Committed transaction at feature '96000'
+2019-07-02 09:04:23|  64.8|  0.5|INFORM|Committed transaction at feature '97000'
+2019-07-02 09:04:24|  65.4|  0.7|INFORM|Committed transaction at feature '98000'
+2019-07-02 09:04:25|  66.0|  0.6|INFORM|Committed transaction at feature '99000'
+2019-07-02 09:04:25|  66.6|  0.6|INFORM|Committed transaction at feature '100000'
+2019-07-02 09:04:26|  67.3|  0.7|INFORM|Committed transaction at feature '101000'
+2019-07-02 09:04:27|  67.8|  0.6|INFORM|Committed transaction at feature '102000'
+2019-07-02 09:04:27|  68.3|  0.5|INFORM|Committed transaction at feature '103000'
+2019-07-02 09:04:28|  69.0|  0.6|INFORM|Committed transaction at feature '104000'
+2019-07-02 09:04:29|  69.5|  0.6|INFORM|Committed transaction at feature '105000'
+2019-07-02 09:04:29|  70.2|  0.7|INFORM|Committed transaction at feature '106000'
+2019-07-02 09:04:30|  71.0|  0.8|INFORM|Committed transaction at feature '107000'
+2019-07-02 09:04:31|  71.6|  0.6|INFORM|Committed transaction at feature '108000'
+2019-07-02 09:04:31|  72.2|  0.5|INFORM|Committed transaction at feature '109000'
+2019-07-02 09:04:32|  72.8|  0.6|INFORM|Committed transaction at feature '110000'
+2019-07-02 09:04:33|  73.3|  0.5|INFORM|Committed transaction at feature '111000'
+2019-07-02 09:04:33|  73.9|  0.6|INFORM|Committed transaction at feature '112000'
+2019-07-02 09:04:34|  74.8|  0.9|INFORM|Committed transaction at feature '113000'
+2019-07-02 09:04:35|  75.3|  0.5|INFORM|Committed transaction at feature '114000'
+2019-07-02 09:04:36|  76.1|  0.7|INFORM|Committed transaction at feature '115000'
+2019-07-02 09:04:37|  76.9|  0.8|INFORM|Committed transaction at feature '116000'
+2019-07-02 09:04:38|  77.7|  0.8|INFORM|Committed transaction at feature '117000'
+2019-07-02 09:04:39|  78.2|  0.6|INFORM|Committed transaction at feature '118000'
+2019-07-02 09:04:39|  78.8|  0.6|INFORM|Committed transaction at feature '119000'
+2019-07-02 09:04:40|  79.4|  0.6|INFORM|Committed transaction at feature '120000'
+2019-07-02 09:04:41|  80.0|  0.6|INFORM|Committed transaction at feature '121000'
+2019-07-02 09:04:41|  80.6|  0.5|INFORM|Committed transaction at feature '122000'
+2019-07-02 09:04:42|  81.1|  0.6|INFORM|Committed transaction at feature '123000'
+2019-07-02 09:04:43|  81.7|  0.6|INFORM|Committed transaction at feature '124000'
+2019-07-02 09:04:43|  82.3|  0.6|INFORM|Committed transaction at feature '125000'
+2019-07-02 09:04:44|  82.9|  0.6|INFORM|Committed transaction at feature '126000'
+2019-07-02 09:04:45|  83.6|  0.7|INFORM|Committed transaction at feature '127000'
+2019-07-02 09:04:45|  84.3|  0.7|INFORM|Committed transaction at feature '128000'
+2019-07-02 09:04:46|  85.0|  0.7|INFORM|Committed transaction at feature '129000'
+2019-07-02 09:04:47|  85.6|  0.6|INFORM|Committed transaction at feature '130000'
+2019-07-02 09:04:47|  86.3|  0.6|INFORM|Committed transaction at feature '131000'
+2019-07-02 09:04:48|  86.9|  0.6|INFORM|Committed transaction at feature '132000'
+2019-07-02 09:04:49|  87.5|  0.6|INFORM|Committed transaction at feature '133000'
+2019-07-02 09:04:49|  88.2|  0.7|INFORM|Committed transaction at feature '134000'
+2019-07-02 09:04:50|  88.8|  0.6|INFORM|Committed transaction at feature '135000'
+2019-07-02 09:04:51|  89.4|  0.6|INFORM|Committed transaction at feature '136000'
+2019-07-02 09:04:52|  90.1|  0.7|INFORM|Committed transaction at feature '137000'
+2019-07-02 09:04:52|  90.8|  0.7|INFORM|Committed transaction at feature '138000'
+2019-07-02 09:04:53|  91.5|  0.7|INFORM|Committed transaction at feature '139000'
+2019-07-02 09:04:54|  92.3|  0.8|INFORM|Committed transaction at feature '140000'
+2019-07-02 09:04:55|  92.9|  0.6|INFORM|Committed transaction at feature '141000'
+2019-07-02 09:04:56|  93.6|  0.7|INFORM|Committed transaction at feature '142000'
+2019-07-02 09:04:57|  94.5|  0.9|INFORM|Committed transaction at feature '143000'
+2019-07-02 09:04:57|  95.3|  0.8|INFORM|Committed transaction at feature '144000'
+2019-07-02 09:04:58|  95.8|  0.5|INFORM|Committed transaction at feature '145000'
+2019-07-02 09:04:59|  96.6|  0.8|INFORM|Committed transaction at feature '146000'
+2019-07-02 09:05:00|  97.3|  0.7|INFORM|Committed transaction at feature '147000'
+2019-07-02 09:05:01|  97.9|  0.6|INFORM|Committed transaction at feature '148000'
+2019-07-02 09:05:01|  98.6|  0.7|INFORM|Committed transaction at feature '149000'
+2019-07-02 09:05:03|  99.3|  0.7|INFORM|Committed transaction at feature '150000'
+2019-07-02 09:05:03|  99.9|  0.7|INFORM|Committed transaction at feature '151000'
+2019-07-02 09:05:04| 100.5|  0.6|INFORM|Committed transaction at feature '152000'
+2019-07-02 09:05:05| 101.0|  0.5|INFORM|Committed transaction at feature '153000'
+2019-07-02 09:05:05| 101.6|  0.6|INFORM|Committed transaction at feature '154000'
+2019-07-02 09:05:06| 102.2|  0.6|INFORM|Committed transaction at feature '155000'
+2019-07-02 09:05:07| 103.0|  0.8|INFORM|Committed transaction at feature '156000'
+2019-07-02 09:05:07| 103.6|  0.6|INFORM|Committed transaction at feature '157000'
+2019-07-02 09:05:08| 104.2|  0.6|INFORM|Committed transaction at feature '158000'
+2019-07-02 09:05:09| 104.9|  0.7|INFORM|Committed transaction at feature '159000'
+2019-07-02 09:05:10| 105.5|  0.6|INFORM|Committed transaction at feature '160000'
+2019-07-02 09:05:11| 106.3|  0.8|INFORM|Committed transaction at feature '161000'
+2019-07-02 09:05:12| 107.2|  0.9|INFORM|Committed transaction at feature '162000'
+2019-07-02 09:05:12| 107.7|  0.6|INFORM|Committed transaction at feature '163000'
+2019-07-02 09:05:13| 108.3|  0.6|INFORM|Committed transaction at feature '164000'
+2019-07-02 09:05:14| 108.9|  0.6|INFORM|Committed transaction at feature '165000'
+2019-07-02 09:05:14| 109.6|  0.7|INFORM|Committed transaction at feature '166000'
+2019-07-02 09:05:15| 110.2|  0.6|INFORM|Committed transaction at feature '167000'
+2019-07-02 09:05:16| 110.9|  0.6|INFORM|Committed transaction at feature '168000'
+2019-07-02 09:05:16| 111.5|  0.7|INFORM|Committed transaction at feature '169000'
+2019-07-02 09:05:17| 112.1|  0.6|INFORM|Committed transaction at feature '170000'
+2019-07-02 09:05:18| 112.8|  0.7|INFORM|Committed transaction at feature '171000'
+2019-07-02 09:05:18| 113.4|  0.6|INFORM|Committed transaction at feature '172000'
+2019-07-02 09:05:19| 114.0|  0.6|INFORM|Committed transaction at feature '173000'
+2019-07-02 09:05:20| 114.6|  0.7|INFORM|Committed transaction at feature '174000'
+2019-07-02 09:05:21| 115.3|  0.7|INFORM|Committed transaction at feature '175000'
+2019-07-02 09:05:22| 116.1|  0.8|INFORM|Committed transaction at feature '176000'
+2019-07-02 09:05:23| 116.8|  0.7|INFORM|Committed transaction at feature '177000'
+2019-07-02 09:05:23| 117.4|  0.6|INFORM|Committed transaction at feature '178000'
+2019-07-02 09:05:24| 118.0|  0.6|INFORM|Committed transaction at feature '179000'
+2019-07-02 09:05:25| 118.6|  0.6|INFORM|Committed transaction at feature '180000'
+2019-07-02 09:05:25| 119.2|  0.5|INFORM|Committed transaction at feature '181000'
+2019-07-02 09:05:26| 119.8|  0.6|INFORM|Committed transaction at feature '182000'
+2019-07-02 09:05:27| 120.4|  0.6|INFORM|Committed transaction at feature '183000'
+2019-07-02 09:05:27| 121.0|  0.6|INFORM|Committed transaction at feature '184000'
+2019-07-02 09:05:28| 121.6|  0.6|INFORM|Committed transaction at feature '185000'
+2019-07-02 09:05:29| 122.2|  0.6|INFORM|Committed transaction at feature '186000'
+2019-07-02 09:05:29| 122.8|  0.5|INFORM|Committed transaction at feature '187000'
+2019-07-02 09:05:30| 123.4|  0.6|INFORM|Committed transaction at feature '188000'
+2019-07-02 09:05:31| 124.1|  0.7|INFORM|Committed transaction at feature '189000'
+2019-07-02 09:05:31| 124.8|  0.7|INFORM|Committed transaction at feature '190000'
+2019-07-02 09:05:32| 125.5|  0.7|INFORM|Committed transaction at feature '191000'
+2019-07-02 09:05:33| 126.0|  0.6|INFORM|Committed transaction at feature '192000'
+2019-07-02 09:05:33| 126.6|  0.5|INFORM|Committed transaction at feature '193000'
+2019-07-02 09:05:34| 127.2|  0.6|INFORM|Committed transaction at feature '194000'
+2019-07-02 09:05:35| 127.8|  0.6|INFORM|Committed transaction at feature '195000'
+2019-07-02 09:05:35| 128.3|  0.6|INFORM|Committed transaction at feature '196000'
+2019-07-02 09:05:36| 129.1|  0.8|INFORM|Committed transaction at feature '197000'
+2019-07-02 09:05:37| 129.6|  0.5|INFORM|Committed transaction at feature '198000'
+2019-07-02 09:05:38| 130.2|  0.6|INFORM|Committed transaction at feature '199000'
+2019-07-02 09:05:38| 130.8|  0.6|INFORM|Committed transaction at feature '200000'
+2019-07-02 09:05:39| 131.4|  0.6|INFORM|Committed transaction at feature '201000'
+2019-07-02 09:05:40| 132.1|  0.7|INFORM|Committed transaction at feature '202000'
+2019-07-02 09:05:40| 132.8|  0.6|INFORM|Committed transaction at feature '203000'
+2019-07-02 09:05:41| 133.4|  0.6|INFORM|Committed transaction at feature '204000'
+2019-07-02 09:05:42| 134.1|  0.7|INFORM|Committed transaction at feature '205000'
+2019-07-02 09:05:42| 134.7|  0.6|INFORM|Committed transaction at feature '206000'
+2019-07-02 09:05:43| 135.3|  0.6|INFORM|Committed transaction at feature '207000'
+2019-07-02 09:05:44| 135.8|  0.5|INFORM|Committed transaction at feature '208000'
+2019-07-02 09:05:44| 136.4|  0.6|INFORM|Committed transaction at feature '209000'
+2019-07-02 09:05:45| 136.9|  0.5|INFORM|Committed transaction at feature '210000'
+2019-07-02 09:05:45| 137.5|  0.6|INFORM|Committed transaction at feature '211000'
+2019-07-02 09:05:46| 138.1|  0.6|INFORM|Committed transaction at feature '212000'
+2019-07-02 09:05:47| 138.8|  0.6|INFORM|Committed transaction at feature '213000'
+2019-07-02 09:05:47| 139.4|  0.7|INFORM|Committed transaction at feature '214000'
+2019-07-02 09:05:48| 140.1|  0.7|INFORM|Committed transaction at feature '215000'
+2019-07-02 09:05:49| 140.8|  0.7|INFORM|Committed transaction at feature '216000'
+2019-07-02 09:05:49| 141.4|  0.6|INFORM|Committed transaction at feature '217000'
+2019-07-02 09:05:50| 142.0|  0.6|INFORM|Committed transaction at feature '218000'
+2019-07-02 09:05:51| 142.6|  0.6|INFORM|Committed transaction at feature '219000'
+2019-07-02 09:05:51| 143.2|  0.6|INFORM|Committed transaction at feature '220000'
+2019-07-02 09:05:52| 143.9|  0.7|INFORM|Committed transaction at feature '221000'
+2019-07-02 09:05:53| 144.4|  0.5|INFORM|Committed transaction at feature '222000'
+2019-07-02 09:05:53| 145.0|  0.6|INFORM|Committed transaction at feature '223000'
+2019-07-02 09:05:54| 145.7|  0.6|INFORM|Committed transaction at feature '224000'
+2019-07-02 09:05:55| 146.2|  0.6|INFORM|Committed transaction at feature '225000'
+2019-07-02 09:05:55| 146.9|  0.7|INFORM|Committed transaction at feature '226000'
+2019-07-02 09:05:56| 147.7|  0.8|INFORM|Committed transaction at feature '227000'
+2019-07-02 09:05:57| 148.4|  0.7|INFORM|Committed transaction at feature '228000'
+2019-07-02 09:05:58| 149.1|  0.7|INFORM|Committed transaction at feature '229000'
+2019-07-02 09:05:58| 149.7|  0.6|INFORM|Committed transaction at feature '230000'
+2019-07-02 09:05:59| 150.3|  0.7|INFORM|Committed transaction at feature '231000'
+2019-07-02 09:06:00| 150.9|  0.6|INFORM|Committed transaction at feature '232000'
+2019-07-02 09:06:01| 151.5|  0.7|INFORM|Committed transaction at feature '233000'
+2019-07-02 09:06:01| 152.1|  0.5|INFORM|Committed transaction at feature '234000'
+2019-07-02 09:06:02| 153.0|  0.9|INFORM|Committed transaction at feature '235000'
+2019-07-02 09:06:03| 153.6|  0.7|INFORM|Committed transaction at feature '236000'
+2019-07-02 09:06:04| 154.4|  0.8|INFORM|Committed transaction at feature '237000'
+2019-07-02 09:06:04| 155.0|  0.6|INFORM|Committed transaction at feature '238000'
+2019-07-02 09:06:05| 155.6|  0.6|INFORM|Committed transaction at feature '239000'
+2019-07-02 09:06:06| 156.2|  0.6|INFORM|Committed transaction at feature '240000'
+2019-07-02 09:06:06| 156.8|  0.5|INFORM|Committed transaction at feature '241000'
+2019-07-02 09:06:07| 157.4|  0.7|INFORM|Committed transaction at feature '242000'
+2019-07-02 09:06:08| 158.1|  0.7|INFORM|Committed transaction at feature '243000'
+2019-07-02 09:06:08| 158.7|  0.6|INFORM|Committed transaction at feature '244000'
+2019-07-02 09:06:09| 159.3|  0.6|INFORM|Committed transaction at feature '245000'
+2019-07-02 09:06:09| 159.9|  0.6|INFORM|Committed transaction at feature '246000'
+2019-07-02 09:06:10| 160.6|  0.7|INFORM|Committed transaction at feature '247000'
+2019-07-02 09:06:11| 161.1|  0.6|INFORM|Committed transaction at feature '248000'
+2019-07-02 09:06:11| 161.8|  0.6|INFORM|Committed transaction at feature '249000'
+2019-07-02 09:06:12| 162.5|  0.7|INFORM|Committed transaction at feature '250000'
+2019-07-02 09:06:13| 163.2|  0.7|INFORM|Committed transaction at feature '251000'
+2019-07-02 09:06:14| 163.8|  0.6|INFORM|Committed transaction at feature '252000'
+2019-07-02 09:06:14| 164.5|  0.7|INFORM|Committed transaction at feature '253000'
+2019-07-02 09:06:15| 165.2|  0.7|INFORM|Committed transaction at feature '254000'
+2019-07-02 09:06:16| 165.8|  0.6|INFORM|Committed transaction at feature '255000'
+2019-07-02 09:06:17| 166.5|  0.7|INFORM|Committed transaction at feature '256000'
+2019-07-02 09:06:17| 167.1|  0.6|INFORM|Committed transaction at feature '257000'
+2019-07-02 09:06:18| 167.7|  0.6|INFORM|Committed transaction at feature '258000'
+2019-07-02 09:06:18| 168.3|  0.5|INFORM|Committed transaction at feature '259000'
+2019-07-02 09:06:19| 168.9|  0.6|INFORM|Committed transaction at feature '260000'
+2019-07-02 09:06:20| 169.5|  0.6|INFORM|Committed transaction at feature '261000'
+2019-07-02 09:06:20| 170.0|  0.5|INFORM|Committed transaction at feature '262000'
+2019-07-02 09:06:21| 170.6|  0.6|INFORM|Committed transaction at feature '263000'
+2019-07-02 09:06:22| 171.2|  0.6|INFORM|Committed transaction at feature '264000'
+2019-07-02 09:06:22| 171.8|  0.6|INFORM|Committed transaction at feature '265000'
+2019-07-02 09:06:23| 172.4|  0.6|INFORM|Committed transaction at feature '266000'
+2019-07-02 09:06:23| 172.9|  0.5|INFORM|Committed transaction at feature '267000'
+2019-07-02 09:06:24| 173.5|  0.6|INFORM|Committed transaction at feature '268000'
+2019-07-02 09:06:25| 174.2|  0.7|INFORM|Committed transaction at feature '269000'
+2019-07-02 09:06:25| 174.8|  0.6|INFORM|Committed transaction at feature '270000'
+2019-07-02 09:06:26| 175.6|  0.8|INFORM|Committed transaction at feature '271000'
+2019-07-02 09:06:27| 176.3|  0.7|INFORM|Committed transaction at feature '272000'
+2019-07-02 09:06:28| 176.9|  0.6|INFORM|Committed transaction at feature '273000'
+2019-07-02 09:06:28| 177.5|  0.6|INFORM|Committed transaction at feature '274000'
+2019-07-02 09:06:29| 178.1|  0.5|INFORM|Committed transaction at feature '275000'
+2019-07-02 09:06:30| 178.6|  0.6|INFORM|Committed transaction at feature '276000'
+2019-07-02 09:06:30| 179.4|  0.7|INFORM|Committed transaction at feature '277000'
+2019-07-02 09:06:31| 180.0|  0.6|INFORM|Committed transaction at feature '278000'
+2019-07-02 09:06:32| 180.5|  0.5|INFORM|Committed transaction at feature '279000'
+2019-07-02 09:06:32| 181.1|  0.6|INFORM|Committed transaction at feature '280000'
+2019-07-02 09:06:33| 181.8|  0.7|INFORM|Committed transaction at feature '281000'
+2019-07-02 09:06:34| 182.5|  0.7|INFORM|Committed transaction at feature '282000'
+2019-07-02 09:06:34| 183.1|  0.7|INFORM|Committed transaction at feature '283000'
+2019-07-02 09:06:35| 183.8|  0.6|INFORM|Committed transaction at feature '284000'
+2019-07-02 09:06:36| 184.5|  0.8|INFORM|Committed transaction at feature '285000'
+2019-07-02 09:06:37| 185.2|  0.7|INFORM|Committed transaction at feature '286000'
+2019-07-02 09:06:37| 185.7|  0.5|INFORM|Committed transaction at feature '287000'
+2019-07-02 09:06:38| 186.3|  0.6|INFORM|Committed transaction at feature '288000'
+2019-07-02 09:06:39| 186.9|  0.6|INFORM|Committed transaction at feature '289000'
+2019-07-02 09:06:39| 187.5|  0.6|INFORM|Committed transaction at feature '290000'
+2019-07-02 09:06:40| 188.1|  0.6|INFORM|Committed transaction at feature '291000'
+2019-07-02 09:06:40| 188.8|  0.6|INFORM|Committed transaction at feature '292000'
+2019-07-02 09:06:41| 189.3|  0.5|INFORM|Committed transaction at feature '293000'
+2019-07-02 09:06:42| 190.1|  0.8|INFORM|Committed transaction at feature '294000'
+2019-07-02 09:06:43| 190.8|  0.7|INFORM|Committed transaction at feature '295000'
+2019-07-02 09:06:43| 191.4|  0.6|INFORM|Committed transaction at feature '296000'
+2019-07-02 09:06:44| 192.1|  0.7|INFORM|Committed transaction at feature '297000'
+2019-07-02 09:06:44| 192.7|  0.6|INFORM|Committed transaction at feature '298000'
+2019-07-02 09:06:45| 193.2|  0.6|INFORM|Committed transaction at feature '299000'
+2019-07-02 09:06:46| 193.8|  0.6|INFORM|Committed transaction at feature '300000'
+2019-07-02 09:06:47| 194.5|  0.6|INFORM|Committed transaction at feature '301000'
+2019-07-02 09:06:47| 195.1|  0.6|INFORM|Committed transaction at feature '302000'
+2019-07-02 09:06:48| 195.6|  0.6|INFORM|Committed transaction at feature '303000'
+2019-07-02 09:06:49| 196.4|  0.7|INFORM|Committed transaction at feature '304000'
+2019-07-02 09:06:49| 197.1|  0.8|INFORM|Committed transaction at feature '305000'
+2019-07-02 09:06:50| 197.8|  0.7|INFORM|Committed transaction at feature '306000'
+2019-07-02 09:06:51| 198.6|  0.7|INFORM|Committed transaction at feature '307000'
+2019-07-02 09:06:52| 199.5|  0.9|INFORM|Committed transaction at feature '308000'
+2019-07-02 09:06:53| 200.2|  0.7|INFORM|Committed transaction at feature '309000'
+2019-07-02 09:06:53| 200.8|  0.7|INFORM|Committed transaction at feature '310000'
+2019-07-02 09:06:54| 201.6|  0.8|INFORM|Committed transaction at feature '311000'
+2019-07-02 09:06:55| 202.2|  0.6|INFORM|Committed transaction at feature '312000'
+2019-07-02 09:06:56| 202.8|  0.6|INFORM|Committed transaction at feature '313000'
+2019-07-02 09:06:56| 203.5|  0.7|INFORM|Committed transaction at feature '314000'
+2019-07-02 09:06:57| 204.2|  0.6|INFORM|Committed transaction at feature '315000'
+2019-07-02 09:06:58| 204.7|  0.5|INFORM|Committed transaction at feature '316000'
+2019-07-02 09:06:58| 205.2|  0.5|INFORM|Committed transaction at feature '317000'
+2019-07-02 09:06:59| 205.9|  0.6|INFORM|Committed transaction at feature '318000'
+2019-07-02 09:07:00| 206.6|  0.7|INFORM|Committed transaction at feature '319000'
+2019-07-02 09:07:00| 207.2|  0.6|INFORM|Committed transaction at feature '320000'
+2019-07-02 09:07:01| 207.9|  0.7|INFORM|Committed transaction at feature '321000'
+2019-07-02 09:07:02| 208.5|  0.6|INFORM|Committed transaction at feature '322000'
+2019-07-02 09:07:02| 209.2|  0.6|INFORM|Committed transaction at feature '323000'
+2019-07-02 09:07:03| 209.8|  0.7|INFORM|Committed transaction at feature '324000'
+2019-07-02 09:07:04| 210.5|  0.6|INFORM|Committed transaction at feature '325000'
+2019-07-02 09:07:05| 211.2|  0.7|INFORM|Committed transaction at feature '326000'
+2019-07-02 09:07:05| 212.0|  0.8|INFORM|Committed transaction at feature '327000'
+2019-07-02 09:07:06| 212.6|  0.6|INFORM|Committed transaction at feature '328000'
+2019-07-02 09:07:07| 213.2|  0.6|INFORM|Committed transaction at feature '329000'
+2019-07-02 09:07:08| 214.1|  0.9|INFORM|Committed transaction at feature '330000'
+2019-07-02 09:07:08| 214.8|  0.8|INFORM|Committed transaction at feature '331000'
+2019-07-02 09:07:09| 215.6|  0.8|INFORM|Committed transaction at feature '332000'
+2019-07-02 09:07:10| 216.3|  0.8|INFORM|Committed transaction at feature '333000'
+2019-07-02 09:07:11| 216.9|  0.6|INFORM|Committed transaction at feature '334000'
+2019-07-02 09:07:11| 217.5|  0.6|INFORM|Committed transaction at feature '335000'
+2019-07-02 09:07:12| 218.2|  0.7|INFORM|Committed transaction at feature '336000'
+2019-07-02 09:07:12| 218.3|  0.1|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 336168 feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |SQLCreator_Creator(CreationFactory): Created 1 features
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `munprod' . Read operation complete
+2019-07-02 09:07:12| 218.3|  0.0|STATS |SQLCreator_RESULT Feature Counter -1 6(TeeFactory): Cloned 336168 input feature(s) into 336168 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |SQLCreator_RESULT Brancher -1 6(BranchingFactory): Branched 336168 input features -- 336168 features routed to the target factory, and 0 features routed to the fallback factory.
+2019-07-02 09:07:12| 218.3|  0.0|STATS |SQLCreator_<REJECTED> Feature Counter -1 2147614722(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |SQLCreator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |_CREATOR_BRANCH_TARGET(TeeFactory): Cloned 336168 input feature(s) into 336168 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Counter_Counter(TeeFactory): Cloned 336168 input feature(s) into 336168 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Counter_Rejector(TestFactory): Tested 336168 input feature(s) -- 0 feature(s) passed and 336168 feature(s) failed
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Counter_OUTPUT Feature Counter -1 7(TeeFactory): Cloned 336168 input feature(s) into 336168 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Counter_<REJECTED> Feature Counter -1 2147680261(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Counter_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 336168 input feature(s), wrote 336168 output feature(s): 0 matched merge filters, 336168 were routed to output, 0 could not be routed.
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |                            `Count' Domain Summary
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |counter                                                                 336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |==============================================================================
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Total `@Count' Invocations:                                             336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|Successfully closed POSTGRES database writer
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |                               Features Written
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |coagis.munis_utility_billing_services_etl_table                         336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |==============================================================================
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Total Features Written                                                  336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |                            Features Read Summary
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |==============================================================================
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Total Features Read                                                          0
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |                           Features Written Summary
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|STATS |coagis.munis_utility_billing_services_etl_table                         336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |==============================================================================
+2019-07-02 09:07:12| 218.3|  0.0|STATS |Total Features Written                                                  336168
+2019-07-02 09:07:12| 218.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (336168 feature(s) output)
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|FME Session Duration: 4 minutes 5.9 seconds. (CPU: 217.1s user, 1.1s system)
+2019-07-02 09:07:12| 218.3|  0.0|INFORM|END - ProcessID: 1624, peak process memory usage: 85576 kB, current process memory usage: 85320 kB

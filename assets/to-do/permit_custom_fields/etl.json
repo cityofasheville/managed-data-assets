@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accelaTOwh-permit_custom_fields.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

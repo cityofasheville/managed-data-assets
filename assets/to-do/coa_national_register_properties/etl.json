@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOwh-coa_national_register_properties.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}
