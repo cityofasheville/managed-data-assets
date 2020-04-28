@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bcTOwh-bc_civicaddress_table.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

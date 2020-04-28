@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "everbridge_city_employees_ftp.fmw",
+      "db": null,
+      "active": true
+    },
+    {
+      "type": "bash",
+      "file": "emp.sh",
+      "db": null,
+      "active": false
+    },
+    {
+      "type": "notrun",
+      "file": "emp.scr",
+      "db": null,
+      "active": false
+    }
+  ]
+}

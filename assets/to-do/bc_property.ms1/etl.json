@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOwh-bc_property2.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

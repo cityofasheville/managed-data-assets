@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "googleTOlibplayground_IranDivestment.fmw",
+      "db": null,
+      "active": true
+    },
+    {
+      "type": "notrun",
+      "file": "readme.md",
+      "db": null,
+      "active": true
+    }
+  ]
+}

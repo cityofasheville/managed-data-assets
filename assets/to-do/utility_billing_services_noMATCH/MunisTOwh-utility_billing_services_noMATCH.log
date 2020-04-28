@@ -1,0 +1,132 @@
+2019-07-02 09:03:51|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|FME_HOME is 'C:\FME2017\'
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|Permanent License.
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|START - ProcessID: 1620, peak process memory usage: 29360 kB, current process memory usage: 29348 kB
+2019-07-02 09:03:51|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\FME2017\fme.exe' `C:/COA/bedrock/working_directory/utility_billing_services_noMATCH\wb-xlate-1562072627230_7272' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{4d2c8fae-6460-4d09-906a-891bf55a5cb3}'
+2019-07-02 09:03:51|   0.2|  0.1|INFORM|Shared folders for formats are : C:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `NULL_SOURCE'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Reader type is `NULL'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\utility_billing_services_noMATCH'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp\1', set from environment variable `TEMP'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\FME2017\'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\utility_billing_services_noMATCH/'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'MunisTOwh-utility_billing_services_noMATCH.fmw'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|System Status: 107.47 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp\1)
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Platform: WIN32
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Locale: en_US
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2019-07-02 09:03:51|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2019-07-02 09:03:51|   0.3|  0.1|INFORM|Creating writer for format: 
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\FME2017\plugins/NULL.dll'
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2019-07-02 09:03:51|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\FME2017\plugins/LogCount_func.dll'
+2019-07-02 09:03:51|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2019-07-02 09:03:51|   0.4|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\FME2017\plugins/QueryFactory.dll'
+2019-07-02 09:03:51|   0.4|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20170315)
+2019-07-02 09:03:51|   0.4|  0.0|INFORM|Emptying factory pipeline
+2019-07-02 09:03:53|   2.1|  1.7|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2019-07-02 09:03:53|   2.1|  0.0|INFORM|FME Configuration: Using Named Connection values from 'munis-prod' for R_1
+2019-07-02 09:03:53|   2.1|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2019-07-02 09:03:53|   2.2|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2019-07-02 09:03:53|   2.2|  0.0|WARN  |Error prepending '<FME_HOME>/plugins/' to path environment variable.  The addition may not exist, or on Windows the resulting path may be longer than 2047 characters
+2019-07-02 09:03:54|   2.2|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'C:\FME2017\plugins/FME_ADO.dll'
+2019-07-02 09:03:54|   2.2|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2019-07-02 09:03:54|   2.2|  0.0|INFORM|Performing query against MSSQL_ADO dataset `munis-prod'
+2019-07-02 09:03:54|   2.2|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `munprod' for read operation
+2019-07-02 09:03:54|   2.2|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2019-07-02 09:04:04|   2.7|  0.5|INFORM|FME Configuration: Using Named Connection values from 'coa-gis-warehouse1' for POSTGRES_1
+2019-07-02 09:04:04|   2.7|  0.0|INFORM|Creating writer for format: PostgreSQL
+2019-07-02 09:04:04|   2.8|  0.2|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Loaded module 'POSTGRES' from file 'C:\FME2017\plugins/POSTGIS.dll'
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Opening POSTGRES writer for dataset 'coagiswarehouse'...
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|PostgreSQL 9.6.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23), 64-bit
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Testing for the existence of table 'coagis.munis_utility_billing_services_not_matched_table'...
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Truncating existing table 'coagis.munis_utility_billing_services_not_matched_table'...
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|Using existing table 'coagis.munis_utility_billing_services_not_matched_table'
+2019-07-02 09:04:04|   2.9|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'coagis.munis_utility_billing_services_not_matched_table'
+2019-07-02 09:04:05|   3.4|  0.5|INFORM|Committed transaction at feature '1000'
+2019-07-02 09:04:06|   3.9|  0.5|INFORM|Committed transaction at feature '2000'
+2019-07-02 09:04:06|   4.5|  0.5|INFORM|Committed transaction at feature '3000'
+2019-07-02 09:04:07|   5.0|  0.6|INFORM|Committed transaction at feature '4000'
+2019-07-02 09:04:08|   5.7|  0.7|INFORM|Committed transaction at feature '5000'
+2019-07-02 09:04:08|   6.3|  0.5|INFORM|Committed transaction at feature '6000'
+2019-07-02 09:04:09|   7.0|  0.7|INFORM|Committed transaction at feature '7000'
+2019-07-02 09:04:10|   7.6|  0.6|INFORM|Committed transaction at feature '8000'
+2019-07-02 09:04:11|   8.3|  0.7|INFORM|Committed transaction at feature '9000'
+2019-07-02 09:04:12|   8.9|  0.6|INFORM|Committed transaction at feature '10000'
+2019-07-02 09:04:12|   9.0|  0.1|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 10124 feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |SQLCreator_Creator(CreationFactory): Created 1 features
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `munprod' . Read operation complete
+2019-07-02 09:04:12|   9.0|  0.0|STATS |SQLCreator_RESULT Feature Counter -1 6(TeeFactory): Cloned 10124 input feature(s) into 10124 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |SQLCreator_RESULT Brancher -1 6(BranchingFactory): Branched 10124 input features -- 10124 features routed to the target factory, and 0 features routed to the fallback factory.
+2019-07-02 09:04:12|   9.0|  0.0|STATS |SQLCreator_<REJECTED> Feature Counter -1 2147614722(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |SQLCreator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |_CREATOR_BRANCH_TARGET(TeeFactory): Cloned 10124 input feature(s) into 10124 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Counter_Counter(TeeFactory): Cloned 10124 input feature(s) into 10124 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Counter_Rejector(TestFactory): Tested 10124 input feature(s) -- 0 feature(s) passed and 10124 feature(s) failed
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Counter_OUTPUT Feature Counter -1 7(TeeFactory): Cloned 10124 input feature(s) into 10124 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Counter_<REJECTED> Feature Counter -1 2147680261(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Counter_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 10124 input feature(s), wrote 10124 output feature(s): 0 matched merge filters, 10124 were routed to output, 0 could not be routed.
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |                            `Count' Domain Summary
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |counter                                                                  10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |==============================================================================
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Total `@Count' Invocations:                                              10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|Successfully closed POSTGRES database writer
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |                               Features Written
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |coagis.munis_utility_billing_services_not_matched_table                  10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |==============================================================================
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Total Features Written                                                   10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |                            Features Read Summary
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |==============================================================================
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Total Features Read                                                          0
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |                           Features Written Summary
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|STATS |coagis.munis_utility_billing_services_not_matched_table                  10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |==============================================================================
+2019-07-02 09:04:12|   9.0|  0.0|STATS |Total Features Written                                                   10124
+2019-07-02 09:04:12|   9.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (10124 feature(s) output)
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|FME Session Duration: 20.9 seconds. (CPU: 8.2s user, 0.6s system)
+2019-07-02 09:04:12|   9.0|  0.0|INFORM|END - ProcessID: 1620, peak process memory usage: 85212 kB, current process memory usage: 85072 kB

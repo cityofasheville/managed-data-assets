@@ -1,0 +1,90 @@
+2020-04-02 01:36:05|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|FME_HOME is 'c:\FME2017\'
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|Permanent License.
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|START - ProcessID: 3556, peak process memory usage: 31184 kB, current process memory usage: 31160 kB
+2020-04-02 01:36:05|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `c:\FME2017\fme' `C:\COA\bedrock\working_directory\coa_districts_zoning_test/editTOmdastore1-coa_districts_zoning_test.fmw'
+2020-04-02 01:36:05|   0.2|  0.1|INFORM|Shared folders for formats are : c:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for transformers are : c:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\coa_districts_zoning_test'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp', set from environment variable `TEMP'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `c:\FME2017\'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\coa_districts_zoning_test/'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'editTOmdastore1-coa_districts_zoning_test.fmw'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|System Status: 105.37 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp)
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Platform: WIN32
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Locale: en_US
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2020-04-02 01:36:05|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2020-04-02 01:36:05|   0.3|  0.1|INFORM|Creating writer for format: 
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Creating reader for format: 
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword POSTGIS_1
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding POSTGIS Reader with keyword POSTGIS_4
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'c:\FME2017\plugins/NULL.dll'
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-04-02 01:36:05|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-04-02 01:36:06|   1.8|  1.5|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2020-04-02 01:36:06|   1.8|  0.0|INFORM|FME Configuration: Using Named Connection values from 'coa-gis-edit1' for POSTGIS_4
+2020-04-02 01:36:06|   1.8|  0.0|INFORM|Creating reader for format: PostGIS
+2020-04-02 01:36:06|   1.9|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `POSTGIS'
+2020-04-02 01:36:06|   1.9|  0.0|WARN  |Error prepending '<FME_HOME>/plugins/' to path environment variable.  The addition may not exist, or on Windows the resulting path may be longer than 2047 characters
+2020-04-02 01:36:06|   1.9|  0.0|INFORM|Loaded module 'POSTGIS' from file 'c:\FME2017\plugins/POSTGIS.dll'
+2020-04-02 01:36:06|   1.9|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20170315)
+2020-04-02 01:36:06|   1.9|  0.0|INFORM|Opening POSTGIS reader for dataset 'coagisedit'
+2020-04-02 01:36:06|   1.9|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|PostgreSQL 9.6.12 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23), 64-bit
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|2.4 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+2020-04-02 01:36:07|   1.9|  0.0|ERROR |Error executing SQL command ('select * from "coagis"."coa_districts_zoning_test" where false limit 0'): 'ERROR:  relation "coagis.coa_districts_zoning_test" does not exist
+LINE 1: select * from "coagis"."coa_districts_zoning_test" where fal...
+                      ^
+'
+2020-04-02 01:36:07|   1.9|  0.0|WARN  |No spatial column was found for 'coagis.coa_districts_zoning_test'.  This is most likely a PostgreSQL table with no spatial data.  No geometry will be read.  If spatial data is not present, please try using the PostgreSQL reader instead
+2020-04-02 01:36:07|   1.9|  0.0|ERROR |Error executing SQL command ('select * from "coagis"."coa_districts_zoning_test" where false limit 0'): 'ERROR:  current transaction is aborted, commands ignored until end of transaction block
+'
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|Successfully closed POSTGIS database reader
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|Successfully closed POSTGIS database reader
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 0 features from 2 readers
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|Emptying factory pipeline
+2020-04-02 01:36:07|   1.9|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2020-04-02 01:36:07|   1.9|  0.0|STATS |coagis.coa_districts_zoning_test (POSTGIS_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-02 01:36:07|   1.9|  0.0|STATS |coagis.coa_districts_zoning_test (POSTGIS_4) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-02 01:36:07|   1.9|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2020-04-02 01:36:07|   1.9|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|STATS |                            Features Read Summary
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|STATS |==============================================================================
+2020-04-02 01:36:07|   1.9|  0.0|STATS |Total Features Read                                                          0
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|STATS |                           Features Written Summary
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|STATS |==============================================================================
+2020-04-02 01:36:07|   1.9|  0.0|STATS |Total Features Written                                                       0
+2020-04-02 01:36:07|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|Translation was SUCCESSFUL with 2 warning(s) (0 feature(s) output)
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|FME Session Duration: 2.0 seconds. (CPU: 1.4s user, 0.4s system)
+2020-04-02 01:36:07|   1.9|  0.0|INFORM|END - ProcessID: 3556, peak process memory usage: 86208 kB, current process memory usage: 86208 kB

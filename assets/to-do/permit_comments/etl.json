@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accelaTOwh-permit_comments.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

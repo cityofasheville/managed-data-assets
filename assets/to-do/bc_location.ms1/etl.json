@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "bcTOwh-bc_location2.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

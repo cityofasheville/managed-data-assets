@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "coa_cip_project_shapes.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "munis_to_mda_vendors.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

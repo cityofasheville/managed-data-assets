@@ -1,0 +1,603 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    C:\FME2017\fme.exe C:\COA\tp\buncombe_tax_info_permits.fmw
+#          --SourceDataset_MSSQL_ADO "Accela<space>Prodution<space>Environment"
+#    
+#    
+#!   FME_SERVER_SERVICES=""
+#!   VIEW_POSITION="-37.5004 0"
+#!   LAST_SAVE_DATE="2019-02-26T15:28:18"
+#!   HISTORY=""
+#!   MAX_LOG_FEATURES="200"
+#!   FME_DOCUMENT_GUID="db85ddba-4649-430a-9f12-c852ecedf261"
+#!   MARKDOWN_USAGE=""
+#!   BEGIN_PYTHON=""
+#!   END_PYTHON=""
+#!   USAGE=""
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   DESTINATION_ROUTING_FILE=""
+#!   SHOW_INFO_NODES="true"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   IGNORE_READER_FAILURE="No"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   DESTINATION="NONE"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   BEGIN_TCL=""
+#!   SOURCE="NONE"
+#!   PYTHON_COMPATIBILITY="27"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   TITLE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   END_TCL=""
+#!   ZOOM_SCALE="100"
+#!   FME_DOCUMENT_PRIORGUID="57ad79e1-434e-45c9-b89a-4a2fc7bffde9,989939ba-f419-4363-85bb-22e7856140c1,697a858d-5160-4ee0-85d3-c210e00bd5ee,c3217a25-dfe3-4496-972b-1fdfd91f7660,ce904c95-6bad-4612-97ba-2485952b103f,f89abfa3-5bae-44d3-919a-0a8248a80e64,f1b3b61c-b1ba-40f6-84fd-334629a89e22"
+#!   USE_MARKDOWN=""
+#!   WORKSPACE_VERSION="1"
+#!   PASSWORD=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_BUILD_NUM="17652"
+#!   CATEGORY=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   DESCRIPTION=""
+#!   DOC_TOP_LEFT="1.04168 -645.756"
+#!   LOG_FILE=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   DOC_EXTENTS="1592.72 584.297"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="SCHEMA_READER"
+#!   FORMAT="MSSQL_ADO"
+#!   DATASET="$(SourceDataset_MSSQL_ADO)"
+#!   KEYWORD="MSSQL_ADO_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="mssql_sql_statement &quot;&quot; mssql_where_clause &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_type char(50) fme_primary_axis float fme_dataset char(50) multi_reader_id integer multi_reader_keyword char(50) fme_sweep_angle float fme_feature_type char(50) multi_reader_full_id integer db_type char(254) fme_start_angle float fme_basename char(50) multi_reader_type char(50) fme_fill_color char(50) fme_text_string char(50) fme_geometry fme_char(50) fme_rotation float fme_color char(50) fme_secondary_axis float fme_text_size float"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP mssql_table_setings_group mssql_where_clause%mssql_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_where_clause WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_sql_statement SELECT Statement&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="Indexed IndexedNotNull Unique UniqueClustered Clustered ClusteredNotNull NotNull PrimaryKey"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DATABASE"
+#!   FEATURE_TYPES_LIST="dbo.BUNCOMBE_TAX_INSPECTIONS dbo.BUNCOMBE_TAX_PERMITS"
+#!   GENERATE_FME_BUILD_NUM="17652"
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MAX_FEATURES=""
+#!   START_FEATURE=""
+#!   COORDSYS=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES="dbo.BUNCOMBE_TAX_INSPECTIONS dbo.BUNCOMBE_TAX_PERMITS"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="MSSQL_ADO_IN_READ_CACHE_SIZE MSSQL_ADO_OUT_BULK_INSERT MSSQL_ADO_OUT_TRANSACTION_INTERVAL MSSQL_ADO_OUT_BEGIN_SQL{0} MSSQL_ADO_OUT_END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bit"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="image"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ntext"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="uniqueidentifier"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="tinyint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bigint"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bigint"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="identity"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="nchar(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime2"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smalldatetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="money"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallmoney"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="nvarchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varbinary(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="MSSQL_ADO"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_MSSQL_ADO FMT:MSSQL_ADO%FAMILY:Microsoft&lt;space&gt;SQL&lt;space&gt;Server Connection:"
+#!   DEFAULT_VALUE="Accela&lt;space&gt;Prodution&lt;space&gt;Environment"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="6"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Verdana,Geneva,sans-serif&apos;; font-size:12px; color:#666666; background-color:#fae7ce;&quot;&gt;You are correct! If you replace the SQLExecutors with SQLCreators that will initiate the workspace. SQLExecutors are to be used in a translation that has already been initiated by a reader or creator tranformer&lt;br /&gt;&lt;/span&gt;&lt;a href=&quot;http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/sqlcreator.htm&quot;&gt;&lt;span style=&quot; font-family:&apos;Verdana,Geneva,sans-serif&apos;; font-size:12px; text-decoration: underline; color:#0000ff; background-color:#fae7ce;&quot;&gt;http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/sqlcreator.htm&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1.04168 -61.4589"
+#!   TOP_LEFT="1.04168 -61.4589"
+#!   BOTTOM_RIGHT="751.042 -111.459"
+#!   BOUNDING_RECT="1.04168 -61.4589 750 50"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="8"
+#!   TYPE="SQLCreator"
+#!   VERSION="3"
+#!   POSITION="932.634 -574.756"
+#!   BOUNDING_RECT="932.634 -574.756 661.132 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17652"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="TRUNCATE&lt;space&gt;TABLE&lt;space&gt;&lt;openbracket&gt;dbo&lt;closebracket&gt;.&lt;openbracket&gt;BUNCOMBE_TAX_PERMITS&lt;closebracket&gt;&lt;lf&gt;EXEC&lt;space&gt;&lt;openbracket&gt;dbo&lt;closebracket&gt;.&lt;openbracket&gt;usp_BuncombeTaxPermits&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;Connection:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_NAMED_CONNECTION" PARM_VALUE="Accela&lt;space&gt;Prodution&lt;space&gt;Environment"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="Accela&lt;space&gt;Prodution&lt;space&gt;Environment"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TruncatePopulatePermits"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_MSSQL_ADO_1,MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1,MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1,MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1,MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1,MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1
+DEFAULT_MACRO SourceDataset_MSSQL_ADO Accela<space>Prodution<space>Environment
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_MSSQL_ADO FMT:MSSQL_ADO%FAMILY:Microsoft<space>SQL<space>Server Connection:
+INCLUDE [ if {{$(SourceDataset_MSSQL_ADO)} == {}} { puts_real {Parameter 'SourceDataset_MSSQL_ADO' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} NULL
+MULTI_READER_FORMAT{0} MSSQL_ADO
+MULTI_READER_KEYWORD{0} MSSQL_ADO_1
+MULTI_READER_GEN_DIRECTIVES{0} READ_CACHE_SIZE,10,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,MSSQL_ADO_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,WHERE_CLAUSE,,TABLELIST,dbo.BUNCOMBE_TAX_INSPECTIONS<space>dbo.BUNCOMBE_TAX_PERMITS,NAMED_CONNECTION,Accela<lt>space<gt>Prodution<lt>space<gt>Environment,COMMAND_TIMEOUT,30,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN,ADVANCED,FME_DISCLOSURE_OPEN,FME_CONNECTION_GROUP,
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "MSSQL_ADO_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER MSSQL_ADO MSSQL_ADO_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_MSSQL_ADO_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER MSSQL_ADO MSSQL_ADO_1
+DEFAULT_MACRO SourceDataset_MSSQL_ADO_1 $(SourceDataset_MSSQL_ADO)
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_MSSQL_ADO_1 FMT:MSSQL_ADO Connection:
+DEFAULT_MACRO MSSQL_ADO_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_MSSQL_ADO_1 Yes
+MSSQL_ADO_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(MSSQL_ADO_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_MSSQL_ADO_1)"
+# ============================================================================
+# Command timeout
+DEFAULT_MACRO MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1 30
+MSSQL_ADO_1_COMMAND_TIMEOUT "$(MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1)"
+GUI OPTIONAL INTEGER MSSQL_ADO_IN_COMMAND_TIMEOUT_MSSQL_ADO_1 Command Timeout (Seconds):
+# ============================================================================
+# And an optional global WHERE clause
+DEFAULT_MACRO MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1 
+MSSQL_ADO_1_WHERE_CLAUSE "$(MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1)"
+GUI OPTIONAL TEXT MSSQL_ADO_IN_WHERE_CLAUSE_MSSQL_ADO_1 WHERE Clause:
+DEFAULT_MACRO MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1 FME_DISCLOSURE_OPEN
+MSSQL_ADO_1_EXPOSE_ATTRS_GROUP "$(MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1)"
+GUI OPTIONAL DISCLOSUREGROUP MSSQL_ADO_IN_EXPOSE_ATTRS_GROUP_MSSQL_ADO_1 MSSQL_ADO_IN_MSSQL_ADO_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1 
+GUI OPTIONAL DISCLOSUREGROUP MSSQL_ADO_IN_ADVANCED_MSSQL_ADO_1 MSSQL_ADO_IN_READ_CACHE_SIZE Advanced
+# ============================================================================
+# This keyword controls how many records to retrieve at one time into local
+# memory from the provider
+DEFAULT_MACRO MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1 10
+MSSQL_ADO_1_READ_CACHE_SIZE "$(MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1)"
+GUI OPTIONAL TEXT MSSQL_ADO_IN_READ_CACHE_SIZE_MSSQL_ADO_1 Number Of Records To Fetch At A Time
+# ===========================================================================
+DEFAULT_MACRO MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1 DEFLINE_ATTRS
+MSSQL_ADO_1_ATTRIBUTE_READING "$(MSSQL_ADO_IN_ATTRIBUTE_READING_MSSQL_ADO_1)"
+MSSQL_ADO_1_DATASET "$(SourceDataset_MSSQL_ADO_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)buncombe_tax_info_permits.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_MSSQL_ADO_1 MSSQL_ADO_1
+# -------------------------------------------------------------------------
+
+MSSQL_ADO_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MSSQL_ADO_1_FEATURE_TYPES dbo.BUNCOMBE_TAX_INSPECTIONS dbo.BUNCOMBE_TAX_PERMITS
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME buncombe_tax_info_permits
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD MSSQL_ADO_1   INPUT FEATURE_TYPE *   OUTPUT ROUTED FEATURE_TYPE *
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+MACRO TruncatePopulatePermits_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes NAMED_CONNECTION Accela<space>Prodution<space>Environment COMMAND_TIMEOUT 30
+
+FACTORY_DEF * CreationFactory    FACTORY_NAME TruncatePopulatePermits_Creator    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * QueryFactory    FACTORY_NAME TruncatePopulatePermits    INPUT FEATURE_TYPE _____CREATED______    QUERY_SQL            TRUNCATE<space>TABLE<space><openbracket>dbo<closebracket>.<openbracket>BUNCOMBE_TAX_PERMITS<closebracket><lf>EXEC<space><openbracket>dbo<closebracket>.<openbracket>usp_BuncombeTaxPermits<closebracket>    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     RESULT_ONLY    READER_TYPE          MSSQL_ADO    READER_DATASET       "Accela<space>Prodution<space>Environment"    READER_PARAMS        $(TruncatePopulatePermits_DIRECTIVES)    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    CONTINUE_ON_READER_ERROR YES    OUTPUT RESULT FEATURE_TYPE TruncatePopulatePermits_RESULT        @SupplyAttributes(fme_feature_type,TruncatePopulatePermits)    OUTPUT READER_ERROR FEATURE_TYPE TruncatePopulatePermits_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TruncatePopulatePermits RESULT Output Nuker"   INPUT FEATURE_TYPE TruncatePopulatePermits_RESULT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TruncatePopulatePermits <REJECTED> Output Nuker"   INPUT FEATURE_TYPE TruncatePopulatePermits_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME TruncatePopulatePermits_<Rejected> INPUT FEATURE_TYPE TruncatePopulatePermits_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, TruncatePopulatePermits<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
