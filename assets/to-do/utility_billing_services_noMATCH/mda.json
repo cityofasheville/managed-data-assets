@@ -1,7 +1,7 @@
 {
   "name": "utility_billing_services_noMATCH",
   "location": "coagiswarehouse1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Utility Billing Services Not Matched",
   "depends": [],
