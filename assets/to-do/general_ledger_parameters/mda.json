@@ -1,7 +1,7 @@
 {
   "name": "general_ledger_parameters",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Various GL parameters, especially budget year",
   "depends": [],

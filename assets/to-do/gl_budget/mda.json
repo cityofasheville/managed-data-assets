@@ -1,7 +1,7 @@
 {
   "name": "gl_budget",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Master budget table",
   "depends": [],
