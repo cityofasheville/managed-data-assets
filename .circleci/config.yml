@@ -14,7 +14,7 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           aws-region: AWS_DEFAULT_REGION
           from: ./
-          to: 's3://${S3_DEPLOY_BUCKET}'
+          to: 's3://${S3_DEPLOY_BUCKET}/store'
           overwrite: true
           arguments: |
             --acl public-read \
@@ -27,4 +27,4 @@ workflows:
           filters:
             branches:
               only:  master
-          context: managed-data-assets-production
+          context: managed-data-assets-development
