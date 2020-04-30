@@ -1,7 +1,7 @@
 {
   "name": "coa_local_historic_landmarks",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "coa_local_historic_landmarks",
   "depends": [],

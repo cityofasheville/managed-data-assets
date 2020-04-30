@@ -1,7 +1,7 @@
 {
   "name": "permit_contractors",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Permit contractors data",
   "depends": [

@@ -1,7 +1,7 @@
 {
   "name": "steepslope",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "multitable",
   "description": "Steep Slope App tables",
   "depends": [],

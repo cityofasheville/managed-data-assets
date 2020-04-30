@@ -1,7 +1,7 @@
 {
   "name": "iran_divestment.lib",
   "location": "libraryplayground",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Iran divestment tables",
   "depends": [],

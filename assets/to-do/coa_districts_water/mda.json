@@ -1,7 +1,7 @@
 {
   "name": "coa_districts_water",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Asheville water districts",
   "depends": [],

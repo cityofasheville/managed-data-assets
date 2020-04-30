@@ -1,7 +1,7 @@
 {
   "name": "permit_contacts",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Contacts associated with permits",
   "depends": [],

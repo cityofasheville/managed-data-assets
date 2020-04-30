@@ -1,7 +1,7 @@
 {
   "name": "pcard_statement_status_history",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "PCard transactions and status",
   "depends": [],

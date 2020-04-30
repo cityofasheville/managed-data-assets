@@ -1,7 +1,7 @@
 {
   "name": "vendors",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "City Vendors",
   "depends": [],

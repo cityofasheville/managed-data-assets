@@ -1,7 +1,7 @@
 {
   "name": "vendors.lib",
   "location": "libraryplayground",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Vendors",
   "depends": [

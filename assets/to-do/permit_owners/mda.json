@@ -1,7 +1,7 @@
 {
   "name": "permit_owners",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Owners associated with permits",
   "depends": [],

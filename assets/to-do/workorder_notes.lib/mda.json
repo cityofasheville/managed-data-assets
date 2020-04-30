@@ -1,7 +1,7 @@
 {
   "name": "workorder_notes.lib",
   "location": "libraryplayground",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "workorder notes",
   "depends": [],
