@@ -1,0 +1,11 @@
+{
+    "run_group": "tues_night",
+    "tasks": [
+      {
+        "type": "noop",
+        "file": "",
+        "db": null,
+        "active": true
+      }
+    ]
+  }
