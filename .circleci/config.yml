@@ -26,5 +26,5 @@ workflows:
       - build-prod:
           filters:
             branches:
-              only:  master
+              only:  production
           context: managed-data-assets-development
