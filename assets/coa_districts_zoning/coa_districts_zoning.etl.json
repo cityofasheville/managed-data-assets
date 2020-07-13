@@ -1,0 +1,12 @@
+{
+    "run_group": "daily",
+    "tasks": [
+      {
+        "type": "noop",
+        "file": "",
+        "db": null,
+        "active": true
+      }
+    ]
+}
+
