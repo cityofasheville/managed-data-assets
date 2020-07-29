@@ -1,11 +1,11 @@
 {
     "run_group": "tues_night",
     "tasks": [
-      {
-        "type": "noop",
-        "file": "",
-        "db": null,
-        "active": true
-      }
+        {
+            "type": "sql",
+            "file": "1-coa_bc_address_master_base.sql",
+            "db": "datastore1",
+            "active": true
+        }
     ]
   }
