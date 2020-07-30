@@ -3,8 +3,8 @@
     "tasks": [
         {
             "type": "sql",
-            "file": "1-coa_bc_address_master_base.sql",
-            "db": "datastore1",
+            "file": "update_test.sql",
+            "db": "library",
             "active": true
         }
     ]
