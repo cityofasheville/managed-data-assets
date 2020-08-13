@@ -1,0 +1,11 @@
+{
+    "run_group": "tues_night",
+    "tasks": [
+        {
+            "type": "sql",
+            "file": "update_test.sql",
+            "db": "library",
+            "active": true
+        }
+    ]
+  }
