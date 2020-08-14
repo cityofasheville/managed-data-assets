@@ -1,6 +1,6 @@
-insert into xjon.testtable(a,b,c,d) values (
-123.456,
-true,
-CURRENT_TIMESTAMP,
-CURRENT_DATE
-);
+insert into xjon.testtable(a,b,c,d) values (random(),array_to_string(
+-        ARRAY (
+-        SELECT substring(
+-        '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+-        FROM (random() *36)::int FOR 1)
+-        FROM generate_series(1, 12) ), '' ) ,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
