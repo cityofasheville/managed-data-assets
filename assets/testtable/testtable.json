@@ -1,5 +1,5 @@
 {
-  "name": "fake_weekly_asset",
+  "name": "testtable",
   "location": "library",
   "active": true,
   "type": "table",
