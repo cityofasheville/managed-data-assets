@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "sql",
-            "file": "update_test.sql",
+            "file": "insertrow.sql",
             "db": "library",
             "active": true
         }

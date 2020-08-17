@@ -1,0 +1,21 @@
+{
+    "run_group": "tues_night",
+    "tasks": [
+        {
+            "type": "table_copy",
+            "source_location": {
+                "type": "database",
+                "db": "library",
+                "schemaname": "xjon",
+                "tablename": "testtable"  
+            },
+            "target_location": {
+                "type": "database",
+                "db": "library",
+                "schemaname": "xjon",
+                "tablename": "testtable2"
+            },
+            "active": true
+        }
+    ]
+}
