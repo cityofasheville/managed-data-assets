@@ -4,7 +4,7 @@
         {
             "type": "sql",
             "file": "update_test.sql",
-            "db": "library",
+            "db": "libraryX",
             "active": true
         }
     ]
