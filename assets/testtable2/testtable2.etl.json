@@ -16,12 +16,6 @@
                 "tablename": "testtable2"
             },
             "active": true
-        },
-        {
-            "type": "sql",
-            "file": "update_to_foo.sql",
-            "db": "library",
-            "active": true
         }
     ]
 }
