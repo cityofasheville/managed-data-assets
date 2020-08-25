@@ -4,7 +4,7 @@
         {
             "type": "sql",
             "file": "insertrow.sql",
-            "db": "library",
+            "db": "nopubrecdb1-bedrocktest",
             "active": true
         }
     ]
