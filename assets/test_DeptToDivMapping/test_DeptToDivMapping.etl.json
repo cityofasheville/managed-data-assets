@@ -1,0 +1,21 @@
+{
+    "run_group": "midnight",
+    "tasks": [
+        {
+            "type": "table_copy",
+            "source_location": {
+                "type": "database",
+                "db": "munis",
+                "schemaname": "av;",
+                "tablename": "DeptToDivMapping"  
+            },
+            "target_location": {
+                "type": "database",
+                "db": "nopubrecdb1-bedrocktest",
+                "schemaname": "public",
+                "tablename": "DeptToDivMapping"
+            },
+            "active": true
+        }
+    ]
+}
