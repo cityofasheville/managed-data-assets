@@ -6,25 +6,6 @@
             "file": "insertrow.sql",
             "db": "nopubrecdb1-bedrocktest",
             "active": true
-        },
-        {
-            "type": "sql",
-            "file": "insertrow.sql",
-            "db": "nopubrecdb1-bedrocktest",
-            "active": true
-        },
-        {
-            "type": "sql",
-            "file": "insertrow.sql",
-            "db": "nopubrecdb1-bedrocktest",
-            "active": true
-        },
-        {
-            "type": "sql",
-            "file": "insertrow.sql",
-            "db": "nopubrecdb1-bedrocktest",
-            "active": true
         }
-
     ]
   }
