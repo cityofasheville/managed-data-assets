@@ -5,7 +5,7 @@
             "type": "table_copy",
             "source_location": {
                 "type": "database",
-                "db": "munis",
+                "db": "munis_etl",
                 "schemaname": "av;",
                 "tablename": "DeptToDivMapping"  
             },
