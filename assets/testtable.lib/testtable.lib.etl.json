@@ -1,0 +1,11 @@
+{
+    "run_group": "lib_night",
+    "tasks": [
+        {
+            "type": "sql",
+            "file": "insertrow.sql",
+            "db": "library",
+            "active": true
+        }
+    ]
+  }
