@@ -1,6 +1,6 @@
 {
   "name": "coa_districts_public_works",
-  "location": "mdastore1",
+  "location": "library",
   "active": true,
   "type": "table",
   "description": "Public works districts",

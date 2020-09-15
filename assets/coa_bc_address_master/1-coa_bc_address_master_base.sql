@@ -1,6 +1,6 @@
-truncate internal.coa_bc_address_master;
+truncate r_it.coa_bc_address_master;
 
-insert into internal.coa_bc_address_master (
+insert into r_it.coa_bc_address_master (
   objectid,
   civicaddress_id,
   address_x,
@@ -93,7 +93,7 @@ insert into internal.coa_bc_address_master (
         address_locations.address_street_name,
         address_locations.address_street_type,
         address_locations.address_street_postdirection,
-        internal.coa_zip_code.po_name as address_city,
+        r_it.coa_zip_code.po_name as address_city,
         address_locations.address_commcode,
         address_locations.address_zipcode,
         address_locations.location_type,
@@ -109,55 +109,55 @@ insert into internal.coa_bc_address_master (
         address_locations.centerline_id::bigint as centerline_id,
         address_locations.location_id as location_id,
         address_locations.parent_location_id as parent_location_id,
-        internal.bc_property.pinnum as property_pinnum,
-        internal.bc_property.pin as property_pin,
-        internal.bc_property.pinext as property_pinext,
-        internal.bc_property.nmptype as property_nmptype,
-        internal.bc_property.oldpinnum as property_oldpinnum,
-        internal.bc_property.updatedate as property_update_date,
-        internal.bc_property.reason as property_update_reason,
-        internal.bc_property.deeddate as property_deeddate,
-        internal.bc_property.taxyear as property_taxyear,
-        internal.bc_property.deedurl as property_deedurl,
-        internal.bc_property.platurl as property_platurl,
-        internal.bc_property.propcard as property_propcardurl,
-        internal.bc_property.acreage as property_acreage,
-        internal.bc_property.class as property_class,
-        internal.bc_property.improved as property_improved,
-        internal.bc_property.exempt as property_exempt,
-        internal.bc_property.priced as property_priced,
-        internal.bc_property.totalmarketvalue as property_totalmarketvalue,
-        internal.bc_property.appraisedvalue as property_appraisedvalue,
-        internal.bc_property.taxvalue as property_taxvalue,
-        internal.bc_property.landuse as property_landuse,
-        internal.bc_property.neighborhoodcode as property_neighborhoodcode,
-        internal.bc_property.landvalue as property_landvalue,
-        internal.bc_property.buildingvalue as property_buildingvalue,
-        internal.bc_property.improvementvalue as property_improvementvalue,
-        internal.bc_property.appraisalarea as property_appraisalarea,
-        internal.bc_property.condounit as property_condounit,
-        internal.bc_property.condobuilding as property_condobuilding,
-        internal.bc_property.subname as property_subname,
-        internal.bc_property.sublot as property_sublot,
-        internal.bc_property.subblock as property_subblock,
-        internal.bc_property.subsect as property_subsect,
-        internal.bc_property.township as property_township,
-        internal.bc_property.stamps as property_stamps,
-        internal.bc_property.instrument as property_instrument,
-        internal.bc_property.firedistrict as property_firedistrict,
-        internal.bc_property.schooldistrict as property_schooldistrict,
-        internal.bc_property_pinnum_formatted_owner_names.formatted_owner_name as owner_name,
-        internal.bc_property.housenumber as owner_house_number,
-        internal.bc_property.numbersuffix as owner_number_suffix,
-        internal.bc_property.direction as owner_direction,
-        internal.bc_property.streetname as owner_street_name,
-        internal.bc_property.streettype as owner_street_type,
-        internal.bc_property.careof as owner_careof,
-        internal.bc_property.address as owner_address,
-        internal.bc_property.cityname as owner_cityname,
-        internal.bc_property.state as owner_state,
-        internal.bc_property.zipcode as owner_zipcode,
-        internal.bc_property.accountnumber as owner_account_number,
+        r_it.bc_property.pinnum as property_pinnum,
+        r_it.bc_property.pin as property_pin,
+        r_it.bc_property.pinext as property_pinext,
+        r_it.bc_property.nmptype as property_nmptype,
+        r_it.bc_property.oldpinnum as property_oldpinnum,
+        r_it.bc_property.updatedate as property_update_date,
+        r_it.bc_property.reason as property_update_reason,
+        r_it.bc_property.deeddate as property_deeddate,
+        r_it.bc_property.taxyear as property_taxyear,
+        r_it.bc_property.deedurl as property_deedurl,
+        r_it.bc_property.platurl as property_platurl,
+        r_it.bc_property.propcard as property_propcardurl,
+        r_it.bc_property.acreage as property_acreage,
+        r_it.bc_property.class as property_class,
+        r_it.bc_property.improved as property_improved,
+        r_it.bc_property.exempt as property_exempt,
+        r_it.bc_property.priced as property_priced,
+        r_it.bc_property.totalmarketvalue as property_totalmarketvalue,
+        r_it.bc_property.appraisedvalue as property_appraisedvalue,
+        r_it.bc_property.taxvalue as property_taxvalue,
+        r_it.bc_property.landuse as property_landuse,
+        r_it.bc_property.neighborhoodcode as property_neighborhoodcode,
+        r_it.bc_property.landvalue as property_landvalue,
+        r_it.bc_property.buildingvalue as property_buildingvalue,
+        r_it.bc_property.improvementvalue as property_improvementvalue,
+        r_it.bc_property.appraisalarea as property_appraisalarea,
+        r_it.bc_property.condounit as property_condounit,
+        r_it.bc_property.condobuilding as property_condobuilding,
+        r_it.bc_property.subname as property_subname,
+        r_it.bc_property.sublot as property_sublot,
+        r_it.bc_property.subblock as property_subblock,
+        r_it.bc_property.subsect as property_subsect,
+        r_it.bc_property.township as property_township,
+        r_it.bc_property.stamps as property_stamps,
+        r_it.bc_property.instrument as property_instrument,
+        r_it.bc_property.firedistrict as property_firedistrict,
+        r_it.bc_property.schooldistrict as property_schooldistrict,
+        r_it.bc_property_pinnum_formatted_owner_names.formatted_owner_name as owner_name,
+        r_it.bc_property.housenumber as owner_house_number,
+        r_it.bc_property.numbersuffix as owner_number_suffix,
+        r_it.bc_property.direction as owner_direction,
+        r_it.bc_property.streetname as owner_street_name,
+        r_it.bc_property.streettype as owner_street_type,
+        r_it.bc_property.careof as owner_careof,
+        r_it.bc_property.address as owner_address,
+        r_it.bc_property.cityname as owner_cityname,
+        r_it.bc_property.state as owner_state,
+        r_it.bc_property.zipcode as owner_zipcode,
+        r_it.bc_property.accountnumber as owner_account_number,
         address_locations.shape
 FROM
 --Address attributes and the locations
@@ -165,37 +165,37 @@ FROM
         -- Combine the bc_civic_address_table atrribute data with address locations stored in bc_location
         SELECT DISTINCT
                 row_number() over () as objectid,
-                internal.bc_civicaddress_table.civicaddress_id::int as civicaddress_id,
-                internal.bc_location.x_coord as address_x,
-                internal.bc_location.y_coord as address_y,
-                internal.bc_location.locationtype as location_type,
-                internal.bc_civicaddress_table.full_civic_address as address_full,
-                internal.bc_civicaddress_table.street_number as address_number,
-                internal.bc_civicaddress_table.unit as address_unit,
-                internal.bc_civicaddress_table.unit_type as unit_type,
-                internal.bc_civicaddress_table.street_prefix as address_street_prefix,
-                internal.bc_civicaddress_table.street_name as address_street_name,
-                internal.bc_civicaddress_table.street_type as address_street_type,
-                internal.bc_civicaddress_table.street_postdirection as address_street_postdirection,
-                internal.bc_civicaddress_table.commcode as address_commcode,
-                internal.bc_civicaddress_table.postal_code as address_zipcode,
-                internal.bc_civicaddress_table.change_date as address_change_date,
-                internal.bc_location.centerline_id::bigint as centerline_id,
-                internal.bc_civicaddress_table.location_id as location_id,
+                r_it.bc_civicaddress_table.civicaddress_id::int as civicaddress_id,
+                r_it.bc_location.x_coord as address_x,
+                r_it.bc_location.y_coord as address_y,
+                r_it.bc_location.locationtype as location_type,
+                r_it.bc_civicaddress_table.full_civic_address as address_full,
+                r_it.bc_civicaddress_table.street_number as address_number,
+                r_it.bc_civicaddress_table.unit as address_unit,
+                r_it.bc_civicaddress_table.unit_type as unit_type,
+                r_it.bc_civicaddress_table.street_prefix as address_street_prefix,
+                r_it.bc_civicaddress_table.street_name as address_street_name,
+                r_it.bc_civicaddress_table.street_type as address_street_type,
+                r_it.bc_civicaddress_table.street_postdirection as address_street_postdirection,
+                r_it.bc_civicaddress_table.commcode as address_commcode,
+                r_it.bc_civicaddress_table.postal_code as address_zipcode,
+                r_it.bc_civicaddress_table.change_date as address_change_date,
+                r_it.bc_location.centerline_id::bigint as centerline_id,
+                r_it.bc_civicaddress_table.location_id as location_id,
                 CASE
-                        WHEN internal.bc_location.parent_location_id = 0
+                        WHEN r_it.bc_location.parent_location_id = 0
                         THEN NULL
-                        ELSE internal.bc_location.parent_location_id
+                        ELSE r_it.bc_location.parent_location_id
                 END,
-                internal.bc_civicaddress_table.pinext as pinext,
-                internal.bc_location.shape as shape
+                r_it.bc_civicaddress_table.pinext as pinext,
+                r_it.bc_location.shape as shape
         FROM
-                internal.bc_civicaddress_table
+                r_it.bc_civicaddress_table
         LEFT JOIN
-                internal.bc_location
+                r_it.bc_location
         ON
-                internal.bc_civicaddress_table.location_id = internal.bc_location.location_id
-        WHERE internal.bc_civicaddress_table.civicaddress_id != 0
+                r_it.bc_civicaddress_table.location_id = r_it.bc_location.location_id
+        WHERE r_it.bc_civicaddress_table.civicaddress_id != 0
 ) as address_locations
 -- Get the pin from bc_property spatially if an address location is contained by the property boundary.
 -- (The parcel_id field in bc_location should be the same is the pin in bc_property, but is not consistent, 
@@ -209,49 +209,49 @@ LEFT JOIN
 (
         SELECT location_id, pin, rn from (
                 SELECT DISTINCT
-                        internal.bc_location.location_id,
-                        internal.bc_property.pin,
+                        r_it.bc_location.location_id,
+                        r_it.bc_property.pin,
                         row_number() over (partition by location_id ORDER BY pin) as rn
                 FROM
-                        internal.bc_location
+                        r_it.bc_location
                 LEFT JOIN
-                        internal.bc_property
+                        r_it.bc_property
                 ON
-                        st_contains(internal.bc_property.shape,internal.bc_location.shape)
+                        st_contains(r_it.bc_property.shape,r_it.bc_location.shape)
         ) AS tmp WHERE rn = 1
 ) as property_location -- 133258 rows retrieved, 102508 distinct pins
 ON
         address_locations.location_id = property_location.location_id
 -- Get property attributes: Use the pin and pinext join bc_property to the address locations
 LEFT JOIN
-        internal.bc_property
+        r_it.bc_property
 ON
         property_location.pin = bc_property.pin
         AND
         address_locations.pinext = bc_property.pinext
 -- Get the property owners name with proper formatting: Use the pin and pinext join bc_property_pinnum_formatted_owner_names to the address locations
 LEFT JOIN
-        internal.bc_property_pinnum_formatted_owner_names
+        r_it.bc_property_pinnum_formatted_owner_names
 ON
-        property_location.pin ||  address_locations.pinext = internal.bc_property_pinnum_formatted_owner_names.pinnum
+        property_location.pin ||  address_locations.pinext = r_it.bc_property_pinnum_formatted_owner_names.pinnum
 -- Get the address city name from the zip code table
 LEFT JOIN
-        internal.coa_zip_code
+        r_it.coa_zip_code
 ON
-        address_locations.address_zipcode = internal.coa_zip_code.zip::int
+        address_locations.address_zipcode = r_it.coa_zip_code.zip::int
 -- Get jurisdication information for an address location
 -- (See CASE statement in SELECT statement above for more details.)
 LEFT JOIN
 (
         SELECT DISTINCT
-                internal.bc_location.location_id,
-                internal.coa_active_jurisdictions.jurisdiction_type
+                r_it.bc_location.location_id,
+                r_it.coa_active_jurisdictions.jurisdiction_type
         FROM
-                internal.bc_location
+                r_it.bc_location
         LEFT JOIN
-                internal.coa_active_jurisdictions
+                r_it.coa_active_jurisdictions
         ON
-                st_contains(internal.coa_active_jurisdictions.shape,internal.bc_location.shape)
+                st_contains(r_it.coa_active_jurisdictions.shape,r_it.bc_location.shape)
 ) as active_jurisdictions
 ON
         address_locations.location_id = active_jurisdictions.location_id

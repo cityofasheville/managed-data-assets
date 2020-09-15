@@ -1,9 +1,9 @@
 {
   "name": "bc_property_account_master",
-  "location": "mdastore1",
+  "location": "library",
   "active": true,
   "type": "table",
-  "description": "Warehouse copy of amaccountmaster in Buncombe County",
+  "description": "Library copy of amaccountmaster in Buncombe County",
   "depends": [],
   "objects": [],
   "id": 8515,

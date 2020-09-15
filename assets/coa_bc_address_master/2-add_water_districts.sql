@@ -1,17 +1,17 @@
 -- Update mrc and water_district
-UPDATE internal.coa_bc_address_master
+UPDATE r_it.coa_bc_address_master
 SET 
 	mrc = water_districts.mrc,
 	water_district = water_districts.mrc
 FROM (
 	SELECT DISTINCT
-		internal.bc_location.location_id, 
-		internal.coa_districts_water.mrc
+		r_it.bc_location.location_id, 
+		r_it.coa_districts_water.mrc
 	FROM
-		internal.bc_location
+		r_it.bc_location
 	LEFT JOIN 
-		internal.coa_districts_water
+		r_it.coa_districts_water
 	ON
-		st_contains(internal.coa_districts_water.shape,internal.bc_location.shape)
+		st_contains(r_it.coa_districts_water.shape,r_it.bc_location.shape)
 ) AS water_districts 
-WHERE internal.coa_bc_address_master.location_id = water_districts.location_id;
+WHERE r_it.coa_bc_address_master.location_id = water_districts.location_id;
