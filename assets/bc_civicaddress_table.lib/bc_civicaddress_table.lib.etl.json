@@ -5,9 +5,9 @@
       "type": "table_copy",
       "source_location": {
           "type": "database",
-          "db": "gissql.bcdomain.local",
-          "schemaname": "dbo",
-          "tablename": "civicaddresstbl"
+          "db": "pubrecdb1-mdastore1",
+          "schemaname": "internal",
+          "tablename": "bc_civicaddress_table"
       },
       "target_location": {
           "type": "database",

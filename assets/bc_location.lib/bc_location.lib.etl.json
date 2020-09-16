@@ -5,15 +5,15 @@
       "type": "table_copy",
       "source_location": {
           "type": "database",
-          "db": "gissql.bcdomain.local",
-          "schemaname": "dbo",
-          "tablename": "location"
+          "db": "pubrecdb1-mdastore1",
+          "schemaname": "internal",
+          "tablename": "bc_location"
       },
       "target_location": {
           "type": "database",
           "db": "localpg1",
           "schemaname": "r_it",
-          "tablename": "bc_civicaddress_table"
+          "tablename": "bc_location"
       },
       "active": true
     }
