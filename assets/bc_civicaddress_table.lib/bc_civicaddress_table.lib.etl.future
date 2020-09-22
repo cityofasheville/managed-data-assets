@@ -1,0 +1,21 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "type": "database",
+        "db": "gissql.bcdomain.local",
+        "schemaname": "dbo",
+        "tablename": "civicaddresstbl"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "bc_civicaddress_table"
+      },
+      "active": true
+    }
+  ]
+}
