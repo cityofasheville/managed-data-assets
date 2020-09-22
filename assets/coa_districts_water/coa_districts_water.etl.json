@@ -1,11 +1,22 @@
 {
-    "run_group": "daily",
-    "tasks": [
-      {
-        "type": "noop",
-        "file": "",
-        "db": null,
-        "active": true
-      }
-    ]
-  }
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "type": "database",
+          "db": "coa-gis-edit1",
+          "schemaname": "coagis",
+          "tablename": "coa_districts_water"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "coa_districts_water"
+      },
+      "active": true
+    }
+  ]
+}
+
