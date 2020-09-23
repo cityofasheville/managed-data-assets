@@ -35,7 +35,7 @@
       "type": "sql",
       "file": "6-update_neighborhood.sql",
       "db": "mdastore1",
-      "active": true
+      "active": false
     },
     {
       "type": "sql",
