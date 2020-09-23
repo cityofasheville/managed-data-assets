@@ -5,6 +5,16 @@
   "type": "table",
   "description": "Master address table",
   "depends": [
+    "bc_civicaddress_table.lib",
+    "bc_location.lib",
+    "bc_property.lib",
+    "coa_active_jurisdictions.lib",
+    "coa_districts_public_works",
+    "coa_districts_water",
+    "bc_property_pinnum_formatted_owner_names",
+    "coa_districts_zoning",
+    "bc_property_account_master",
+    "coa_zip_code"
   ],
   "objects": [],
   "category": "",
