@@ -11,8 +11,8 @@
       },
       "target_location": {
           "type": "database",
-          "db": "library",
-          "schemaname": "r_it",
+          "db": "mdastore1",
+          "schemaname": "internal2",
           "tablename": "bc_property_account_master"
       },
       "active": true

@@ -11,8 +11,8 @@
       },
       "target_location": {
           "type": "database",
-          "db": "library",
-          "schemaname": "r_it",
+          "db": "mdastore1",
+          "schemaname": "internal2",
           "tablename": "coa_districts_water"
       },
       "active": true

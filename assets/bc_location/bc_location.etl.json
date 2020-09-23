@@ -5,15 +5,15 @@
       "type": "table_copy",
       "source_location": {
           "type": "database",
-          "db": "coa-gis-edit1",
-          "schemaname": "coagis",
-          "tablename": "coa_active_jurisdictions"
+          "db": "mdastore1",
+          "schemaname": "internal",
+          "tablename": "bc_location"
       },
       "target_location": {
           "type": "database",
-          "db": "library",
-          "schemaname": "r_it",
-          "tablename": "coa_active_jurisdictions"
+          "db": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "bc_location"
       },
       "active": true
     }

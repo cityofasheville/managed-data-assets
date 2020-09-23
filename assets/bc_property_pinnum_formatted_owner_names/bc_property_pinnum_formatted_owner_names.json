@@ -1,6 +1,6 @@
 {
   "name": "bc_property_pinnum_formatted_owner_names",
-  "location": "library",
+  "location": "mdastore1",
   "active": true,
   "type": "table",
   "description": "Preprocessed owner names",
