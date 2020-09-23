@@ -1,5 +1,5 @@
 {
-  "run_group": "coa_bc",
+  "run_group": "daily",
   "tasks": [
     {
       "type": "sql",
@@ -29,7 +29,7 @@
       "type": "sql",
       "file": "5-update_zoning.sql",
       "db": "mdastore1",
-      "active": true
+      "active": false
     },
     {
       "type": "sql",
