@@ -1,0 +1,21 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "type": "database",
+          "db": "coa-gis-edit1",
+          "schemaname": "coagis",
+          "tablename": "coa_zip_code"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "coa_zip_code"
+      },
+      "active": true
+    }
+  ]
+}

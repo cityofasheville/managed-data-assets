@@ -1,0 +1,21 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "type": "database",
+          "db": "pubrecdb1-mdastore1",
+          "schemaname": "internal",
+          "tablename": "bc_civicaddress_table"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "bc_civicaddress_table"
+      },
+      "active": true
+    }
+  ]
+}

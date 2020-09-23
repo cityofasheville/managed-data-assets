@@ -1,0 +1,21 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "type": "database",
+          "db": "datastore1",
+          "schemaname": "amd",
+          "tablename": "bc_property_account_master"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "bc_property_account_master"
+      },
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "type": "database",
+          "db": "datastore1",
+          "schemaname": "amd",
+          "tablename": "bc_property_pinnum_formatted_owner_names"
+      },
+      "target_location": {
+          "type": "database",
+          "db": "library",
+          "schemaname": "r_it",
+          "tablename": "bc_property_pinnum_formatted_owner_names"
+      },
+      "active": true
+    }
+  ]
+}
+
