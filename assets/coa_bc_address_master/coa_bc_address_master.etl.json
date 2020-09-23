@@ -29,13 +29,13 @@
       "type": "sql",
       "file": "5-update_zoning.sql",
       "db": "mdastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
       "file": "6-update_neighborhood.sql",
       "db": "mdastore1",
-      "active": false
+      "active": true
     },
     {
       "type": "sql",
