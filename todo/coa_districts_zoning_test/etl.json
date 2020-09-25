@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "editTOmdastore1-coa_districts_zoning_test.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

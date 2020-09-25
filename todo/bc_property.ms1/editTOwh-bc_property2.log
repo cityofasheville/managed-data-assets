@@ -1,0 +1,290 @@
+2020-04-02 01:20:05|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|FME_HOME is 'c:\FME2017\'
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|Permanent License.
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|START - ProcessID: 9200, peak process memory usage: 29256 kB, current process memory usage: 29232 kB
+2020-04-02 01:20:05|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `c:\FME2017\fme' `C:\COA\bedrock\working_directory\bc_property.ms1/editTOwh-bc_property2.fmw'
+2020-04-02 01:20:05|   0.2|  0.1|INFORM|Shared folders for formats are : c:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for transformers are : c:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `GEODATABASE_SDE_1'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Reader type is `GEODATABASE_SDE'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\bc_property.ms1'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp', set from environment variable `TEMP'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `c:\FME2017\'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\bc_property.ms1/'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'editTOwh-bc_property2.fmw'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|System Status: 105.37 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp)
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Platform: WIN32
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Locale: en_US
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2020-04-02 01:20:05|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2020-04-02 01:20:05|   0.3|  0.1|INFORM|Creating writer for format: 
+2020-04-02 01:20:05|   0.5|  0.3|INFORM|Creating reader for format: Esri Geodatabase (ArcSDE Geodb)
+2020-04-02 01:20:05|   0.6|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `GEODATABASE_SDE'
+2020-04-02 01:20:05|   0.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEODATABASE_SDE_1[GEODATABASE_SDE] set to `EPSG:2264'
+2020-04-02 01:20:06|   1.1|  0.5|INFORM|Coordinate System `EPSG:2264' parameters: CS_NAME=`NC83F' DESC_NM=`NAD83 North Carolina State Planes, US Foot' DT_NAME=`NAD83' GROUP=`SPCS83F' MAP_SCL=`1' MAX_LAT=`36.86666666666667' MAX_LNG=`-74.26666666666667' MIN_LAT=`33.55' MIN_LNG=`-85.43333333333334' ORG_LAT=`33.75' ORG_LNG=`-79' PARM1=`36.16666666666666' PARM2=`34.33333333333333' PROJ=`LM' QUAD=`1' SCL_RED=`1' SOURCE=`Calculated from NC83 by Mentor Software' UNIT=`FOOT' X_OFF=`2000000.002616666' 
+2020-04-02 01:20:06|   1.2|  0.0|INFORM|Loaded module 'GEODATABASE_SDE' from file 'c:\FME2017\GEODATABASE9.dll'
+2020-04-02 01:20:06|   1.2|  0.0|INFORM|FME API version of module 'GEODATABASE_SDE' matches current internal version (3.8 20170315)
+2020-04-02 01:20:06|   1.2|  0.0|INFORM|Opening the Geodatabase reader
+2020-04-02 01:20:06|   1.3|  0.2|INFORM|The ArcObjects license 'Advanced' is being selected from the Windows registry
+2020-04-02 01:20:11|   2.7|  1.3|INFORM|FME has checked out an Esri license. The product checked out is 'Advanced'
+2020-04-02 01:20:11|   2.7|  0.0|INFORM|Installed ArcGIS version is '10.4'
+2020-04-02 01:20:12|   3.5|  0.8|INFORM|Connection made to server 'coa-gis-edit1' for dataset 'coagisedit' (historical timestamp '11/14/2017 1:53:00 PM') using Operating System's current user
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|ArcSDE release: '10.0'. Underlying database: 'SQL Server'
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|GEODATABASE_SDE_1 Reader: Using Enhanced geometry
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|All network information will be ignored. As a result, edges will be treated as polyline features and junctions will be treated as point features
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|All relationship information will be ignored. As a result, simple relationships will not be read, and attributed relationships will be read as tables
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-04-02 01:20:12|   3.5|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-04-02 01:20:13|   3.9|  0.4|INFORM|The OGC definition of the FME coordinate system '_NC83F_0' is 'PROJCS["NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",2000000.002616666],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",34.33333333333334],PARAMETER["Standard_Parallel_2",36.16666666666666],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Foot_US",0.3048006096012192]]'
+2020-04-02 01:20:13|   3.9|  0.0|INFORM|Reading table/feature class 'coagis.bc_property'
+2020-04-02 01:20:17|   4.7|  0.8|WARN  |NOT changing coordinate system of reader identified by keyword `GEODATABASE_SDE_1' from `EPSG:2264' to `_NC83F_0' -- mapping file setting of `EPSG:2264' overrides coordinate system `_NC83F_0' read from file
+2020-04-02 01:20:19|   6.3|  1.6|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2020-04-02 01:20:19|   6.3|  0.0|INFORM|FME Configuration: Using Named Connection values from 'mda-store-1' for POSTGIS_1
+2020-04-02 01:20:19|   6.3|  0.0|INFORM|Creating writer for format: PostGIS
+2020-04-02 01:20:19|   6.5|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGIS'
+2020-04-02 01:20:19|   6.5|  0.0|WARN  |Error prepending '<FME_HOME>/plugins/' to path environment variable.  The addition may not exist, or on Windows the resulting path may be longer than 2047 characters
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|Loaded module 'POSTGIS' from file 'c:\FME2017\plugins/POSTGIS.dll'
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20170315)
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20170315)
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|Writer `POSTGIS_1' of type `POSTGIS' using group definition keyword `POSTGIS_1_DEF'
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20170315)
+2020-04-02 01:20:19|   6.5|  0.0|INFORM|Opening POSTGIS writer for dataset 'mdastore1'...
+2020-04-02 01:20:20|   7.5|  1.1|INFORM|PostGIS client encoding: 'UTF8'
+2020-04-02 01:20:21|   7.5|  0.0|INFORM|PostgreSQL 10.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit
+2020-04-02 01:20:21|   7.5|  0.0|INFORM|2.4 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+2020-04-02 01:20:21|   7.5|  0.0|INFORM|Testing for the existence of table 'internal.bc_property'...
+2020-04-02 01:20:21|   7.6|  0.0|INFORM|Truncating existing table 'internal.bc_property'...
+2020-04-02 01:20:21|   7.6|  0.0|INFORM|Using existing table 'internal.bc_property'
+2020-04-02 01:20:22|   7.6|  0.0|INFORM|POSTGIS Writer: Creating 'unquoted WKB' geometry processor for feature type 'internal.bc_property'
+2020-04-02 01:20:22|   7.6|  0.0|INFORM|POSTGIS Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'internal.bc_property'
+2020-04-02 01:20:23|   8.8|  1.2|INFORM|Committed transaction at feature '1000'
+2020-04-02 01:20:24|   9.8|  1.0|INFORM|Committed transaction at feature '2000'
+2020-04-02 01:20:25|  10.3|  0.5|INFORM|Reading source feature # 2500
+2020-04-02 01:20:25|  10.8|  0.5|INFORM|Committed transaction at feature '3000'
+2020-04-02 01:20:26|  12.0|  1.2|INFORM|Committed transaction at feature '4000'
+2020-04-02 01:20:28|  13.3|  1.2|INFORM|Reading source feature # 5000
+2020-04-02 01:20:28|  13.3|  0.0|INFORM|Committed transaction at feature '5000'
+2020-04-02 01:20:29|  14.4|  1.2|INFORM|Committed transaction at feature '6000'
+2020-04-02 01:20:30|  15.6|  1.2|INFORM|Committed transaction at feature '7000'
+2020-04-02 01:20:30|  16.2|  0.7|INFORM|Reading source feature # 7500
+2020-04-02 01:20:31|  16.9|  0.7|INFORM|Committed transaction at feature '8000'
+2020-04-02 01:20:32|  18.2|  1.3|INFORM|Committed transaction at feature '9000'
+2020-04-02 01:20:33|  19.3|  1.1|INFORM|Reading source feature # 10000
+2020-04-02 01:20:33|  19.3|  0.0|INFORM|Committed transaction at feature '10000'
+2020-04-02 01:20:34|  20.4|  1.0|INFORM|Committed transaction at feature '11000'
+2020-04-02 01:20:35|  21.3|  1.0|INFORM|Committed transaction at feature '12000'
+2020-04-02 01:20:36|  21.8|  0.5|INFORM|Reading source feature # 12500
+2020-04-02 01:20:36|  22.3|  0.5|INFORM|Committed transaction at feature '13000'
+2020-04-02 01:20:37|  23.4|  1.1|INFORM|Committed transaction at feature '14000'
+2020-04-02 01:20:39|  24.6|  1.2|INFORM|Reading source feature # 15000
+2020-04-02 01:20:39|  24.6|  0.0|INFORM|Committed transaction at feature '15000'
+2020-04-02 01:20:40|  25.7|  1.1|INFORM|Committed transaction at feature '16000'
+2020-04-02 01:20:41|  26.8|  1.1|INFORM|Committed transaction at feature '17000'
+2020-04-02 01:20:41|  27.3|  0.5|INFORM|Reading source feature # 17500
+2020-04-02 01:20:42|  28.0|  0.7|INFORM|Committed transaction at feature '18000'
+2020-04-02 01:20:43|  29.0|  1.0|INFORM|Committed transaction at feature '19000'
+2020-04-02 01:20:44|  29.9|  0.9|INFORM|Reading source feature # 20000
+2020-04-02 01:20:44|  29.9|  0.0|INFORM|Committed transaction at feature '20000'
+2020-04-02 01:20:45|  30.9|  1.0|INFORM|Committed transaction at feature '21000'
+2020-04-02 01:20:46|  32.0|  1.1|INFORM|Committed transaction at feature '22000'
+2020-04-02 01:20:47|  32.7|  0.7|INFORM|Reading source feature # 22500
+2020-04-02 01:20:47|  33.3|  0.6|INFORM|Committed transaction at feature '23000'
+2020-04-02 01:20:48|  34.5|  1.2|INFORM|Committed transaction at feature '24000'
+2020-04-02 01:20:50|  35.8|  1.3|INFORM|Reading source feature # 25000
+2020-04-02 01:20:50|  35.8|  0.0|INFORM|Committed transaction at feature '25000'
+2020-04-02 01:20:51|  37.0|  1.2|INFORM|Committed transaction at feature '26000'
+2020-04-02 01:20:52|  38.0|  1.0|INFORM|Committed transaction at feature '27000'
+2020-04-02 01:20:52|  38.5|  0.5|INFORM|Reading source feature # 27500
+2020-04-02 01:20:53|  39.0|  0.5|INFORM|Committed transaction at feature '28000'
+2020-04-02 01:20:54|  40.0|  1.0|INFORM|Committed transaction at feature '29000'
+2020-04-02 01:20:55|  41.0|  1.0|INFORM|Reading source feature # 30000
+2020-04-02 01:20:55|  41.1|  0.0|INFORM|Committed transaction at feature '30000'
+2020-04-02 01:20:56|  42.2|  1.1|INFORM|Committed transaction at feature '31000'
+2020-04-02 01:20:57|  43.2|  1.0|INFORM|Committed transaction at feature '32000'
+2020-04-02 01:20:57|  43.7|  0.5|INFORM|Reading source feature # 32500
+2020-04-02 01:20:58|  44.3|  0.6|INFORM|Committed transaction at feature '33000'
+2020-04-02 01:20:59|  45.3|  1.0|INFORM|Committed transaction at feature '34000'
+2020-04-02 01:21:00|  46.4|  1.1|INFORM|Reading source feature # 35000
+2020-04-02 01:21:00|  46.4|  0.0|INFORM|Committed transaction at feature '35000'
+2020-04-02 01:21:01|  47.5|  1.1|INFORM|Committed transaction at feature '36000'
+2020-04-02 01:21:02|  48.7|  1.2|INFORM|Committed transaction at feature '37000'
+2020-04-02 01:21:03|  49.2|  0.5|INFORM|Reading source feature # 37500
+2020-04-02 01:21:03|  49.7|  0.5|INFORM|Committed transaction at feature '38000'
+2020-04-02 01:21:04|  50.8|  1.1|INFORM|Committed transaction at feature '39000'
+2020-04-02 01:21:05|  52.0|  1.2|INFORM|Reading source feature # 40000
+2020-04-02 01:21:05|  52.0|  0.0|INFORM|Committed transaction at feature '40000'
+2020-04-02 01:21:06|  53.1|  1.2|INFORM|Committed transaction at feature '41000'
+2020-04-02 01:21:07|  54.2|  1.0|INFORM|Committed transaction at feature '42000'
+2020-04-02 01:21:08|  54.8|  0.7|INFORM|Reading source feature # 42500
+2020-04-02 01:21:09|  55.4|  0.6|INFORM|Committed transaction at feature '43000'
+2020-04-02 01:21:10|  56.6|  1.2|INFORM|Committed transaction at feature '44000'
+2020-04-02 01:21:11|  57.8|  1.2|INFORM|Reading source feature # 45000
+2020-04-02 01:21:11|  57.8|  0.0|INFORM|Committed transaction at feature '45000'
+2020-04-02 01:21:12|  58.8|  1.0|INFORM|Committed transaction at feature '46000'
+2020-04-02 01:21:13|  59.8|  1.0|INFORM|Committed transaction at feature '47000'
+2020-04-02 01:21:13|  60.3|  0.5|INFORM|Reading source feature # 47500
+2020-04-02 01:21:14|  60.9|  0.6|INFORM|Committed transaction at feature '48000'
+2020-04-02 01:21:15|  61.9|  1.1|INFORM|Committed transaction at feature '49000'
+2020-04-02 01:21:16|  63.3|  1.4|INFORM|Reading source feature # 50000
+2020-04-02 01:21:16|  63.3|  0.0|INFORM|Committed transaction at feature '50000'
+2020-04-02 01:21:17|  64.4|  1.0|INFORM|Committed transaction at feature '51000'
+2020-04-02 01:21:18|  65.6|  1.2|INFORM|Committed transaction at feature '52000'
+2020-04-02 01:21:19|  66.1|  0.5|INFORM|Reading source feature # 52500
+2020-04-02 01:21:19|  66.6|  0.5|INFORM|Committed transaction at feature '53000'
+2020-04-02 01:21:20|  67.7|  1.0|INFORM|Committed transaction at feature '54000'
+2020-04-02 01:21:21|  68.7|  1.0|INFORM|Reading source feature # 55000
+2020-04-02 01:21:21|  68.7|  0.0|INFORM|Committed transaction at feature '55000'
+2020-04-02 01:21:22|  69.7|  1.0|INFORM|Committed transaction at feature '56000'
+2020-04-02 01:21:23|  70.7|  1.0|INFORM|Committed transaction at feature '57000'
+2020-04-02 01:21:24|  71.2|  0.6|INFORM|Reading source feature # 57500
+2020-04-02 01:21:25|  71.8|  0.6|INFORM|Committed transaction at feature '58000'
+2020-04-02 01:21:26|  73.1|  1.3|INFORM|Committed transaction at feature '59000'
+2020-04-02 01:21:27|  74.2|  1.1|INFORM|Reading source feature # 60000
+2020-04-02 01:21:27|  74.2|  0.0|INFORM|Committed transaction at feature '60000'
+2020-04-02 01:21:28|  75.2|  1.0|INFORM|Committed transaction at feature '61000'
+2020-04-02 01:21:29|  76.4|  1.1|INFORM|Committed transaction at feature '62000'
+2020-04-02 01:21:29|  76.8|  0.4|INFORM|Reading source feature # 62500
+2020-04-02 01:21:30|  77.3|  0.5|INFORM|Committed transaction at feature '63000'
+2020-04-02 01:21:31|  78.2|  1.0|INFORM|Committed transaction at feature '64000'
+2020-04-02 01:21:32|  79.2|  1.0|INFORM|Reading source feature # 65000
+2020-04-02 01:21:32|  79.2|  0.0|INFORM|Committed transaction at feature '65000'
+2020-04-02 01:21:33|  80.3|  1.1|INFORM|Committed transaction at feature '66000'
+2020-04-02 01:21:34|  81.3|  1.0|INFORM|Committed transaction at feature '67000'
+2020-04-02 01:21:34|  81.8|  0.5|INFORM|Reading source feature # 67500
+2020-04-02 01:21:35|  82.2|  0.5|INFORM|Committed transaction at feature '68000'
+2020-04-02 01:21:36|  83.3|  1.0|INFORM|Committed transaction at feature '69000'
+2020-04-02 01:21:37|  84.4|  1.1|INFORM|Reading source feature # 70000
+2020-04-02 01:21:37|  84.4|  0.0|INFORM|Committed transaction at feature '70000'
+2020-04-02 01:21:38|  85.4|  1.0|INFORM|Committed transaction at feature '71000'
+2020-04-02 01:21:39|  86.5|  1.1|INFORM|Committed transaction at feature '72000'
+2020-04-02 01:21:39|  87.0|  0.6|INFORM|Reading source feature # 72500
+2020-04-02 01:21:40|  87.6|  0.5|INFORM|Committed transaction at feature '73000'
+2020-04-02 01:21:41|  88.6|  1.0|INFORM|Committed transaction at feature '74000'
+2020-04-02 01:21:42|  89.7|  1.1|INFORM|Reading source feature # 75000
+2020-04-02 01:21:42|  89.7|  0.0|INFORM|Committed transaction at feature '75000'
+2020-04-02 01:21:43|  90.8|  1.1|INFORM|Committed transaction at feature '76000'
+2020-04-02 01:21:44|  91.9|  1.2|INFORM|Committed transaction at feature '77000'
+2020-04-02 01:21:45|  92.5|  0.5|INFORM|Reading source feature # 77500
+2020-04-02 01:21:45|  93.0|  0.6|INFORM|Committed transaction at feature '78000'
+2020-04-02 01:21:46|  94.1|  1.0|INFORM|Committed transaction at feature '79000'
+2020-04-02 01:21:47|  95.3|  1.2|INFORM|Reading source feature # 80000
+2020-04-02 01:21:47|  95.3|  0.0|INFORM|Committed transaction at feature '80000'
+2020-04-02 01:21:48|  96.5|  1.3|INFORM|Committed transaction at feature '81000'
+2020-04-02 01:21:49|  97.8|  1.2|INFORM|Committed transaction at feature '82000'
+2020-04-02 01:21:50|  98.2|  0.5|INFORM|Reading source feature # 82500
+2020-04-02 01:21:50|  98.7|  0.5|INFORM|Committed transaction at feature '83000'
+2020-04-02 01:21:51|  99.7|  1.0|INFORM|Committed transaction at feature '84000'
+2020-04-02 01:21:52| 100.8|  1.1|INFORM|Reading source feature # 85000
+2020-04-02 01:21:53| 100.8|  0.0|INFORM|Committed transaction at feature '85000'
+2020-04-02 01:21:54| 101.9|  1.0|INFORM|Committed transaction at feature '86000'
+2020-04-02 01:21:55| 103.3|  1.5|INFORM|Committed transaction at feature '87000'
+2020-04-02 01:21:55| 103.9|  0.6|INFORM|Reading source feature # 87500
+2020-04-02 01:21:56| 104.5|  0.5|INFORM|Committed transaction at feature '88000'
+2020-04-02 01:21:57| 105.6|  1.1|INFORM|Committed transaction at feature '89000'
+2020-04-02 01:21:58| 106.7|  1.1|INFORM|Reading source feature # 90000
+2020-04-02 01:21:58| 106.7|  0.0|INFORM|Committed transaction at feature '90000'
+2020-04-02 01:21:59| 107.7|  1.0|INFORM|Committed transaction at feature '91000'
+2020-04-02 01:22:00| 109.0|  1.2|INFORM|Committed transaction at feature '92000'
+2020-04-02 01:22:01| 109.6|  0.6|INFORM|Reading source feature # 92500
+2020-04-02 01:22:01| 110.2|  0.6|INFORM|Committed transaction at feature '93000'
+2020-04-02 01:22:03| 111.3|  1.1|INFORM|Committed transaction at feature '94000'
+2020-04-02 01:22:04| 112.4|  1.2|INFORM|Reading source feature # 95000
+2020-04-02 01:22:04| 112.4|  0.0|INFORM|Committed transaction at feature '95000'
+2020-04-02 01:22:05| 113.5|  1.1|INFORM|Committed transaction at feature '96000'
+2020-04-02 01:22:06| 114.6|  1.0|INFORM|Committed transaction at feature '97000'
+2020-04-02 01:22:06| 115.1|  0.6|INFORM|Reading source feature # 97500
+2020-04-02 01:22:07| 115.6|  0.5|INFORM|Committed transaction at feature '98000'
+2020-04-02 01:22:08| 116.8|  1.2|INFORM|Committed transaction at feature '99000'
+2020-04-02 01:22:09| 118.0|  1.1|INFORM|Reading source feature # 100000
+2020-04-02 01:22:09| 118.0|  0.0|INFORM|Committed transaction at feature '100000'
+2020-04-02 01:22:10| 119.1|  1.1|INFORM|Committed transaction at feature '101000'
+2020-04-02 01:22:11| 120.1|  1.0|INFORM|Committed transaction at feature '102000'
+2020-04-02 01:22:12| 120.6|  0.5|INFORM|Reading source feature # 102500
+2020-04-02 01:22:12| 121.2|  0.5|INFORM|Committed transaction at feature '103000'
+2020-04-02 01:22:13| 122.3|  1.1|INFORM|Committed transaction at feature '104000'
+2020-04-02 01:22:14| 123.4|  1.1|INFORM|Reading source feature # 105000
+2020-04-02 01:22:14| 123.4|  0.0|INFORM|Committed transaction at feature '105000'
+2020-04-02 01:22:15| 124.4|  1.0|INFORM|Committed transaction at feature '106000'
+2020-04-02 01:22:16| 125.4|  1.0|INFORM|Committed transaction at feature '107000'
+2020-04-02 01:22:17| 126.0|  0.6|INFORM|Reading source feature # 107500
+2020-04-02 01:22:17| 126.5|  0.5|INFORM|Committed transaction at feature '108000'
+2020-04-02 01:22:18| 127.5|  1.0|INFORM|Committed transaction at feature '109000'
+2020-04-02 01:22:19| 128.5|  1.0|INFORM|Reading source feature # 110000
+2020-04-02 01:22:19| 128.5|  0.0|INFORM|Committed transaction at feature '110000'
+2020-04-02 01:22:20| 129.7|  1.2|INFORM|Committed transaction at feature '111000'
+2020-04-02 01:22:21| 130.8|  1.0|INFORM|Committed transaction at feature '112000'
+2020-04-02 01:22:22| 131.3|  0.5|INFORM|Reading source feature # 112500
+2020-04-02 01:22:22| 131.8|  0.5|INFORM|Committed transaction at feature '113000'
+2020-04-02 01:22:24| 132.9|  1.1|INFORM|Committed transaction at feature '114000'
+2020-04-02 01:22:25| 134.1|  1.2|INFORM|Reading source feature # 115000
+2020-04-02 01:22:25| 134.2|  0.0|INFORM|Committed transaction at feature '115000'
+2020-04-02 01:22:26| 135.2|  1.0|INFORM|Committed transaction at feature '116000'
+2020-04-02 01:22:27| 136.2|  1.1|INFORM|Committed transaction at feature '117000'
+2020-04-02 01:22:27| 136.7|  0.5|INFORM|Reading source feature # 117500
+2020-04-02 01:22:28| 137.3|  0.5|INFORM|Committed transaction at feature '118000'
+2020-04-02 01:22:29| 138.3|  1.0|INFORM|Committed transaction at feature '119000'
+2020-04-02 01:22:30| 139.3|  1.0|INFORM|Reading source feature # 120000
+2020-04-02 01:22:30| 139.3|  0.0|INFORM|Committed transaction at feature '120000'
+2020-04-02 01:22:31| 140.6|  1.3|INFORM|Committed transaction at feature '121000'
+2020-04-02 01:22:32| 141.7|  1.0|INFORM|Committed transaction at feature '122000'
+2020-04-02 01:22:33| 142.3|  0.6|INFORM|Reading source feature # 122500
+2020-04-02 01:22:33| 142.8|  0.5|INFORM|Committed transaction at feature '123000'
+2020-04-02 01:22:34| 143.9|  1.1|INFORM|Committed transaction at feature '124000'
+2020-04-02 01:22:35| 145.0|  1.1|INFORM|Reading source feature # 125000
+2020-04-02 01:22:35| 145.0|  0.0|INFORM|Committed transaction at feature '125000'
+2020-04-02 01:22:36| 146.1|  1.1|INFORM|Committed transaction at feature '126000'
+2020-04-02 01:22:37| 147.1|  1.0|INFORM|Committed transaction at feature '127000'
+2020-04-02 01:22:38| 147.7|  0.5|INFORM|Reading source feature # 127500
+2020-04-02 01:22:38| 148.2|  0.5|INFORM|Committed transaction at feature '128000'
+2020-04-02 01:22:39| 148.4|  0.2|INFORM|Emptying factory pipeline
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 128151 input feature(s), wrote 128151 output feature(s): 128151 matched merge filters, 128151 were routed to output, 0 could not be routed.
+2020-04-02 01:22:39| 148.4|  0.0|STATS |coagis.bc_property (GEODATABASE_SDE_1) Splitter(TeeFactory): Cloned 128151 input feature(s) into 128151 output feature(s)
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 128151 input feature(s), wrote 128151 output feature(s): 0 matched merge filters, 128151 were routed to output, 0 could not be routed.
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|125683 feature(s) coerced to MULTIPOLYGON in table 'internal.bc_property'
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|Successfully closed POSTGIS database writer
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|Feature output statistics for `POSTGIS' writer using keyword `POSTGIS_1':
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |                               Features Written
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |internal.bc_property                                                    128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |==============================================================================
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Total Features Written                                                  128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |                            Features Read Summary
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |coagis.bc_property                                                      128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |==============================================================================
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Total Features Read                                                     128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |                           Features Written Summary
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|STATS |internal.bc_property                                                    128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |==============================================================================
+2020-04-02 01:22:39| 148.4|  0.0|STATS |Total Features Written                                                  128151
+2020-04-02 01:22:39| 148.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|Closing the Geodatabase reader
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|Translation was SUCCESSFUL with 2 warning(s) (128151 feature(s) output)
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|FME Session Duration: 2 minutes 34.4 seconds. (CPU: 144.4s user, 3.9s system)
+2020-04-02 01:22:39| 148.4|  0.0|INFORM|END - ProcessID: 9200, peak process memory usage: 197016 kB, current process memory usage: 177232 kB

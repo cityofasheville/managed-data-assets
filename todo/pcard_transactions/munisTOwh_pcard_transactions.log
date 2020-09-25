@@ -1,0 +1,226 @@
+2019-12-19 07:30:31|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|FME_HOME is 'C:\FME2017\'
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|Permanent License.
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|START - ProcessID: 3548, peak process memory usage: 28984 kB, current process memory usage: 28972 kB
+2019-12-19 07:30:31|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\FME2017\fme.exe' `C:/COA/bedrock/working_directory/pcard_transactions\wb-xlate-157675862616_9164' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{dacdef63-ce37-4c56-b51f-53d69e3b272c}'
+2019-12-19 07:30:31|   0.2|  0.1|INFORM|Shared folders for formats are : C:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MSSQL_ADO_1'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MSSQL_ADO'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\pcard_transactions'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp\1', set from environment variable `TEMP'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\FME2017\'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\pcard_transactions/'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'munisTOwh_pcard_transactions.fmw'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|System Status: 105.46 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp\1)
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Platform: WIN32
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Locale: en_US
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2019-12-19 07:30:31|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2019-12-19 07:30:31|   0.3|  0.1|INFORM|Creating writer for format: 
+2019-12-19 07:30:33|   1.8|  1.5|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2019-12-19 07:30:33|   1.8|  0.0|INFORM|FME Configuration: Using Named Connection values from 'munis-prod' for MSSQL_ADO_1
+2019-12-19 07:30:33|   1.8|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2019-12-19 07:30:33|   1.8|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2019-12-19 07:30:33|   1.8|  0.0|WARN  |Error prepending '<FME_HOME>/plugins/' to path environment variable.  The addition may not exist, or on Windows the resulting path may be longer than 2047 characters
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'C:\FME2017\plugins/FME_ADO.dll'
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Read 1 DEF line(s).  Found 0 attribute(s)
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `munprod' for read operation
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\FME2017\plugins/LogCount_func.dll'
+2019-12-19 07:30:33|   1.9|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2019-12-19 07:30:34|   1.9|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Now reading features from table amd.pcard_transaction, 10 record(s) at a time
+2019-12-19 07:30:34|   2.2|  0.3|INFORM|FME Configuration: Using Named Connection values from 'mda-store-1' for POSTGRES_1
+2019-12-19 07:30:34|   2.2|  0.0|INFORM|Creating writer for format: PostgreSQL
+2019-12-19 07:30:35|   2.3|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|Loaded module 'POSTGRES' from file 'C:\FME2017\plugins/POSTGIS.dll'
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2019-12-19 07:30:35|   2.3|  0.0|INFORM|Opening POSTGRES writer for dataset 'mdastore1'...
+2019-12-19 07:30:36|   3.4|  1.1|INFORM|PostGIS client encoding: 'UTF8'
+2019-12-19 07:30:36|   3.4|  0.0|INFORM|PostgreSQL 10.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit
+2019-12-19 07:30:36|   3.4|  0.0|INFORM|Testing for the existence of table 'internal.pcard_transaction'...
+2019-12-19 07:30:36|   3.4|  0.0|INFORM|Truncating existing table 'internal.pcard_transaction'...
+2019-12-19 07:30:36|   3.4|  0.0|INFORM|Using existing table 'internal.pcard_transaction'
+2019-12-19 07:30:37|   3.4|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'internal.pcard_transaction'
+2019-12-19 07:30:37|   3.7|  0.2|INFORM|Committed transaction at feature '1000'
+2019-12-19 07:30:37|   3.9|  0.2|INFORM|Committed transaction at feature '2000'
+2019-12-19 07:30:37|   4.0|  0.1|INFORM|Reading source feature # 2500
+2019-12-19 07:30:38|   4.2|  0.1|INFORM|Committed transaction at feature '3000'
+2019-12-19 07:30:38|   4.4|  0.3|INFORM|Committed transaction at feature '4000'
+2019-12-19 07:30:38|   4.6|  0.2|INFORM|Reading source feature # 5000
+2019-12-19 07:30:38|   4.6|  0.0|INFORM|Committed transaction at feature '5000'
+2019-12-19 07:30:38|   4.9|  0.3|INFORM|Committed transaction at feature '6000'
+2019-12-19 07:30:39|   5.1|  0.2|INFORM|Committed transaction at feature '7000'
+2019-12-19 07:30:39|   5.3|  0.2|INFORM|Reading source feature # 7500
+2019-12-19 07:30:39|   5.4|  0.1|INFORM|Committed transaction at feature '8000'
+2019-12-19 07:30:39|   5.7|  0.3|INFORM|Committed transaction at feature '9000'
+2019-12-19 07:30:40|   6.0|  0.3|INFORM|Reading source feature # 10000
+2019-12-19 07:30:40|   6.0|  0.0|INFORM|Committed transaction at feature '10000'
+2019-12-19 07:30:40|   6.2|  0.2|INFORM|Committed transaction at feature '11000'
+2019-12-19 07:30:40|   6.4|  0.3|INFORM|Committed transaction at feature '12000'
+2019-12-19 07:30:41|   6.5|  0.1|INFORM|Reading source feature # 12500
+2019-12-19 07:30:41|   6.7|  0.1|INFORM|Committed transaction at feature '13000'
+2019-12-19 07:30:41|   6.9|  0.3|INFORM|Committed transaction at feature '14000'
+2019-12-19 07:30:41|   7.2|  0.3|INFORM|Reading source feature # 15000
+2019-12-19 07:30:41|   7.2|  0.0|INFORM|Committed transaction at feature '15000'
+2019-12-19 07:30:42|   7.4|  0.3|INFORM|Committed transaction at feature '16000'
+2019-12-19 07:30:42|   7.7|  0.3|INFORM|Committed transaction at feature '17000'
+2019-12-19 07:30:42|   7.8|  0.1|INFORM|Reading source feature # 17500
+2019-12-19 07:30:42|   7.9|  0.1|INFORM|Committed transaction at feature '18000'
+2019-12-19 07:30:43|   8.1|  0.2|INFORM|Committed transaction at feature '19000'
+2019-12-19 07:30:43|   8.4|  0.3|INFORM|Reading source feature # 20000
+2019-12-19 07:30:43|   8.4|  0.0|INFORM|Committed transaction at feature '20000'
+2019-12-19 07:30:43|   8.6|  0.2|INFORM|Committed transaction at feature '21000'
+2019-12-19 07:30:44|   8.9|  0.3|INFORM|Committed transaction at feature '22000'
+2019-12-19 07:30:44|   9.0|  0.1|INFORM|Reading source feature # 22500
+2019-12-19 07:30:44|   9.2|  0.1|INFORM|Committed transaction at feature '23000'
+2019-12-19 07:30:44|   9.4|  0.3|INFORM|Committed transaction at feature '24000'
+2019-12-19 07:30:45|   9.7|  0.3|INFORM|Reading source feature # 25000
+2019-12-19 07:30:45|   9.7|  0.0|INFORM|Committed transaction at feature '25000'
+2019-12-19 07:30:45|  10.0|  0.3|INFORM|Committed transaction at feature '26000'
+2019-12-19 07:30:45|  10.2|  0.3|INFORM|Committed transaction at feature '27000'
+2019-12-19 07:30:45|  10.3|  0.1|INFORM|Reading source feature # 27500
+2019-12-19 07:30:45|  10.5|  0.1|INFORM|Committed transaction at feature '28000'
+2019-12-19 07:30:46|  10.7|  0.3|INFORM|Committed transaction at feature '29000'
+2019-12-19 07:30:46|  11.0|  0.2|INFORM|Reading source feature # 30000
+2019-12-19 07:30:46|  11.0|  0.0|INFORM|Committed transaction at feature '30000'
+2019-12-19 07:30:46|  11.2|  0.2|INFORM|Committed transaction at feature '31000'
+2019-12-19 07:30:47|  11.5|  0.3|INFORM|Committed transaction at feature '32000'
+2019-12-19 07:30:47|  11.6|  0.2|INFORM|Reading source feature # 32500
+2019-12-19 07:30:47|  11.7|  0.1|INFORM|Committed transaction at feature '33000'
+2019-12-19 07:30:47|  12.0|  0.3|INFORM|Committed transaction at feature '34000'
+2019-12-19 07:30:48|  12.3|  0.3|INFORM|Reading source feature # 35000
+2019-12-19 07:30:48|  12.3|  0.0|INFORM|Committed transaction at feature '35000'
+2019-12-19 07:30:48|  12.5|  0.3|INFORM|Committed transaction at feature '36000'
+2019-12-19 07:30:48|  12.8|  0.3|INFORM|Committed transaction at feature '37000'
+2019-12-19 07:30:49|  12.9|  0.1|INFORM|Reading source feature # 37500
+2019-12-19 07:30:49|  13.0|  0.1|INFORM|Committed transaction at feature '38000'
+2019-12-19 07:30:49|  13.3|  0.3|INFORM|Committed transaction at feature '39000'
+2019-12-19 07:30:49|  13.5|  0.2|INFORM|Reading source feature # 40000
+2019-12-19 07:30:49|  13.5|  0.0|INFORM|Committed transaction at feature '40000'
+2019-12-19 07:30:50|  13.8|  0.2|INFORM|Committed transaction at feature '41000'
+2019-12-19 07:30:50|  14.0|  0.3|INFORM|Committed transaction at feature '42000'
+2019-12-19 07:30:50|  14.2|  0.1|INFORM|Reading source feature # 42500
+2019-12-19 07:30:50|  14.3|  0.1|INFORM|Committed transaction at feature '43000'
+2019-12-19 07:30:51|  14.5|  0.3|INFORM|Committed transaction at feature '44000'
+2019-12-19 07:30:51|  14.8|  0.3|INFORM|Reading source feature # 45000
+2019-12-19 07:30:51|  14.8|  0.0|INFORM|Committed transaction at feature '45000'
+2019-12-19 07:30:51|  15.0|  0.3|INFORM|Committed transaction at feature '46000'
+2019-12-19 07:30:52|  15.3|  0.3|INFORM|Committed transaction at feature '47000'
+2019-12-19 07:30:52|  15.4|  0.1|INFORM|Reading source feature # 47500
+2019-12-19 07:30:52|  15.5|  0.1|INFORM|Committed transaction at feature '48000'
+2019-12-19 07:30:52|  15.8|  0.2|INFORM|Committed transaction at feature '49000'
+2019-12-19 07:30:53|  16.0|  0.3|INFORM|Reading source feature # 50000
+2019-12-19 07:30:53|  16.0|  0.0|INFORM|Committed transaction at feature '50000'
+2019-12-19 07:30:53|  16.3|  0.3|INFORM|Committed transaction at feature '51000'
+2019-12-19 07:30:53|  16.5|  0.2|INFORM|Committed transaction at feature '52000'
+2019-12-19 07:30:53|  16.7|  0.1|INFORM|Reading source feature # 52500
+2019-12-19 07:30:53|  16.8|  0.1|INFORM|Committed transaction at feature '53000'
+2019-12-19 07:30:54|  17.0|  0.3|INFORM|Committed transaction at feature '54000'
+2019-12-19 07:30:54|  17.3|  0.2|INFORM|Reading source feature # 55000
+2019-12-19 07:30:54|  17.3|  0.0|INFORM|Committed transaction at feature '55000'
+2019-12-19 07:30:54|  17.5|  0.2|INFORM|Committed transaction at feature '56000'
+2019-12-19 07:30:55|  17.8|  0.2|INFORM|Committed transaction at feature '57000'
+2019-12-19 07:30:55|  17.9|  0.1|INFORM|Reading source feature # 57500
+2019-12-19 07:30:55|  18.0|  0.1|INFORM|Committed transaction at feature '58000'
+2019-12-19 07:30:55|  18.2|  0.2|INFORM|Committed transaction at feature '59000'
+2019-12-19 07:30:55|  18.5|  0.3|INFORM|Reading source feature # 60000
+2019-12-19 07:30:56|  18.5|  0.0|INFORM|Committed transaction at feature '60000'
+2019-12-19 07:30:56|  18.7|  0.2|INFORM|Committed transaction at feature '61000'
+2019-12-19 07:30:56|  18.9|  0.2|INFORM|Committed transaction at feature '62000'
+2019-12-19 07:30:56|  19.0|  0.1|INFORM|Reading source feature # 62500
+2019-12-19 07:30:56|  19.1|  0.1|INFORM|Committed transaction at feature '63000'
+2019-12-19 07:30:57|  19.4|  0.2|INFORM|Committed transaction at feature '64000'
+2019-12-19 07:30:57|  19.7|  0.3|INFORM|Reading source feature # 65000
+2019-12-19 07:30:57|  19.7|  0.0|INFORM|Committed transaction at feature '65000'
+2019-12-19 07:30:57|  19.9|  0.2|INFORM|Committed transaction at feature '66000'
+2019-12-19 07:30:58|  20.1|  0.2|INFORM|Committed transaction at feature '67000'
+2019-12-19 07:30:58|  20.3|  0.1|INFORM|Reading source feature # 67500
+2019-12-19 07:30:58|  20.4|  0.1|INFORM|Committed transaction at feature '68000'
+2019-12-19 07:30:58|  20.6|  0.3|INFORM|Committed transaction at feature '69000'
+2019-12-19 07:30:59|  20.9|  0.3|INFORM|Reading source feature # 70000
+2019-12-19 07:30:59|  20.9|  0.0|INFORM|Committed transaction at feature '70000'
+2019-12-19 07:30:59|  21.1|  0.3|INFORM|Committed transaction at feature '71000'
+2019-12-19 07:30:59|  21.4|  0.3|INFORM|Committed transaction at feature '72000'
+2019-12-19 07:30:59|  21.5|  0.1|INFORM|Reading source feature # 72500
+2019-12-19 07:30:59|  21.6|  0.1|INFORM|Committed transaction at feature '73000'
+2019-12-19 07:31:00|  21.9|  0.3|INFORM|Committed transaction at feature '74000'
+2019-12-19 07:31:00|  22.1|  0.2|INFORM|Reading source feature # 75000
+2019-12-19 07:31:00|  22.1|  0.0|INFORM|Committed transaction at feature '75000'
+2019-12-19 07:31:00|  22.4|  0.3|INFORM|Committed transaction at feature '76000'
+2019-12-19 07:31:01|  22.7|  0.3|INFORM|Committed transaction at feature '77000'
+2019-12-19 07:31:01|  22.8|  0.1|INFORM|Reading source feature # 77500
+2019-12-19 07:31:01|  22.9|  0.1|INFORM|Committed transaction at feature '78000'
+2019-12-19 07:31:01|  23.1|  0.2|INFORM|Committed transaction at feature '79000'
+2019-12-19 07:31:02|  23.4|  0.2|INFORM|Reading source feature # 80000
+2019-12-19 07:31:02|  23.4|  0.0|INFORM|Committed transaction at feature '80000'
+2019-12-19 07:31:02|  23.6|  0.3|INFORM|Committed transaction at feature '81000'
+2019-12-19 07:31:02|  23.9|  0.3|INFORM|Committed transaction at feature '82000'
+2019-12-19 07:31:02|  24.0|  0.1|INFORM|Reading source feature # 82500
+2019-12-19 07:31:02|  24.1|  0.1|INFORM|Committed transaction at feature '83000'
+2019-12-19 07:31:03|  24.4|  0.3|INFORM|Committed transaction at feature '84000'
+2019-12-19 07:31:03|  24.7|  0.3|INFORM|Reading source feature # 85000
+2019-12-19 07:31:03|  24.7|  0.0|INFORM|Committed transaction at feature '85000'
+2019-12-19 07:31:03|  24.9|  0.2|INFORM|Committed transaction at feature '86000'
+2019-12-19 07:31:04|  25.2|  0.3|INFORM|Committed transaction at feature '87000'
+2019-12-19 07:31:04|  25.3|  0.1|INFORM|Reading source feature # 87500
+2019-12-19 07:31:04|  25.4|  0.1|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 87983 feature(s)
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|Emptying factory pipeline
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 87983 input feature(s), wrote 87983 output feature(s): 87983 matched merge filters, 87983 were routed to output, 0 could not be routed.
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-12-19 07:31:04|  25.4|  0.0|STATS |amd.pcard_transaction (MSSQL_ADO_1) Splitter(TeeFactory): Cloned 87983 input feature(s) into 87983 output feature(s)
+2019-12-19 07:31:04|  25.4|  0.0|STATS |amd.pcard_transaction_MSSQL_ADO_1 Feature Counter -1 6(TeeFactory): Cloned 87983 input feature(s) into 87983 output feature(s)
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 87983 input feature(s), wrote 87983 output feature(s): 0 matched merge filters, 87983 were routed to output, 0 could not be routed.
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|Successfully closed POSTGRES database writer
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |                               Features Written
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |internal.pcard_transaction                                               87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |==============================================================================
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Total Features Written                                                   87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |                            Features Read Summary
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |amd.pcard_transaction                                                    87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |==============================================================================
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Total Features Read                                                      87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |                           Features Written Summary
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|STATS |internal.pcard_transaction                                               87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |==============================================================================
+2019-12-19 07:31:04|  25.4|  0.0|STATS |Total Features Written                                                   87983
+2019-12-19 07:31:04|  25.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `munprod' . Read operation complete
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (87983 feature(s) output)
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|FME Session Duration: 33.0 seconds. (CPU: 24.5s user, 0.8s system)
+2019-12-19 07:31:04|  25.4|  0.0|INFORM|END - ProcessID: 3548, peak process memory usage: 80636 kB, current process memory usage: 80128 kB

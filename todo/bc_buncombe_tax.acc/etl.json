@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "buncombe_tax_info_inspections.fmw",
+      "db": null,
+      "active": true
+    },
+    {
+      "type": "fme",
+      "file": "buncombe_tax_info_permits.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

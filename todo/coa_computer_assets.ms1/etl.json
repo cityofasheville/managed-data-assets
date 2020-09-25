@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "kaceTOmdastore1_coa_computer_assets.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+2020-04-02 00:13:05|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN32)
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|FME_HOME is 'c:\FME2017\'
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|Permanent License.
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|Machine host name is: coa-gis-fme2
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|START - ProcessID: 2556, peak process memory usage: 32296 kB, current process memory usage: 32272 kB
+2020-04-02 00:13:05|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `c:\FME2017\fme' `C:\COA\bedrock\working_directory\permits/accelaTOwh-permits.fmw'
+2020-04-02 00:13:06|   0.2|  0.1|INFORM|Shared folders for formats are : c:\FME2017\datasources;C:\Users\mssqlgisadmin\Documents\FME\Formats
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for transformers are : c:\FME2017\transformers;C:\Users\mssqlgisadmin\Documents\FME\Transformers;C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystems
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemExceptions
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\mssqlgisadmin\Documents\FME\CoordinateSystemGridOverrides
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\mssqlgisadmin\Documents\FME\CsmapTransformationExceptions
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\mssqlgisadmin\Documents\FME\TransformerCategories
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MSSQL_ADO_2'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MSSQL_ADO'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\COA\bedrock\working_directory\permits'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\MSSQLG~1\AppData\Local\Temp', set from environment variable `TEMP'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `c:\FME2017\'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\COA\bedrock\working_directory\permits/'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'accelaTOwh-permits.fmw'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|System Status: 95.11 GB of disk space available in the FME temporary folder (C:\Users\MSSQLG~1\AppData\Local\Temp)
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 2012 R2 Server 4.0 64-bit  (Build 9600)
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Platform: WIN32
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Locale: en_US
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Process limits are 8.00 GB of physical memory and 4.00 GB of address space
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2020-04-02 00:13:06|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2020-04-02 00:13:06|   0.3|  0.1|INFORM|Creating writer for format: 
+2020-04-02 00:13:07|   1.7|  1.4|INFORM|FME Configuration: Named Connection Storage: 'C:\Users\mssqlgisadmin\AppData\Roaming\Safe Software\FME\'
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|FME Configuration: Using Named Connection values from 'Accela Prodution Environment' for MSSQL_ADO_2
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|Creating reader for format: Microsoft SQL Server Non-Spatial
+2020-04-02 00:13:07|   1.7|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `MSSQL_ADO'
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|Loaded module 'MSSQL_ADO' from file 'c:\FME2017\plugins/FME_ADO.dll'
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|FME API version of module 'MSSQL_ADO' matches current internal version (3.8 20170315)
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Read 1 DEF line(s).  Found 27 attribute(s)
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Opening `accela' for read operation
+2020-04-02 00:13:07|   1.7|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Trying to connect using SQL Server 2012 Native Client...
+2020-04-02 00:13:07|   1.8|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-04-02 00:13:07|   1.8|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-04-02 00:13:11|   1.8|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Now reading features from table amd.permits, 10 record(s) at a time
+2020-04-02 00:13:11|   2.1|  0.3|INFORM|FME Configuration: Using Named Connection values from 'mda-store-1' for POSTGRES_1
+2020-04-02 00:13:11|   2.1|  0.0|INFORM|Creating writer for format: PostgreSQL
+2020-04-02 00:13:11|   2.2|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGRES'
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|Loaded module 'POSTGRES' from file 'c:\FME2017\plugins/POSTGIS.dll'
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|Writer `POSTGRES_1' of type `POSTGRES' using group definition keyword `POSTGRES_1_DEF'
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20170315)
+2020-04-02 00:13:11|   2.2|  0.0|INFORM|Opening POSTGRES writer for dataset 'mdastore1'...
+2020-04-02 00:13:12|   3.3|  1.1|INFORM|PostGIS client encoding: 'UTF8'
+2020-04-02 00:13:13|   3.3|  0.0|INFORM|PostgreSQL 10.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit
+2020-04-02 00:13:13|   3.3|  0.0|INFORM|Testing for the existence of table 'internal.permits'...
+2020-04-02 00:13:13|   3.3|  0.0|INFORM|Truncating existing table 'internal.permits'...
+2020-04-02 00:13:13|   3.3|  0.0|INFORM|Using existing table 'internal.permits'
+2020-04-02 00:13:13|   3.3|  0.0|INFORM|POSTGRES Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'internal.permits'
+2020-04-02 00:13:14|   3.7|  0.5|INFORM|Committed transaction at feature '1000'
+2020-04-02 00:13:14|   4.2|  0.4|INFORM|Committed transaction at feature '2000'
+2020-04-02 00:13:15|   4.4|  0.2|INFORM|Reading source feature # 2500
+2020-04-02 00:13:15|   4.6|  0.2|INFORM|Committed transaction at feature '3000'
+2020-04-02 00:13:15|   5.0|  0.4|INFORM|Committed transaction at feature '4000'
+2020-04-02 00:13:16|   5.5|  0.4|INFORM|Reading source feature # 5000
+2020-04-02 00:13:16|   5.5|  0.0|INFORM|Committed transaction at feature '5000'
+2020-04-02 00:13:16|   5.9|  0.5|INFORM|Committed transaction at feature '6000'
+2020-04-02 00:13:17|   6.4|  0.5|INFORM|Committed transaction at feature '7000'
+2020-04-02 00:13:17|   6.6|  0.2|INFORM|Reading source feature # 7500
+2020-04-02 00:13:17|   6.8|  0.2|INFORM|Committed transaction at feature '8000'
+2020-04-02 00:13:18|   7.3|  0.4|INFORM|Committed transaction at feature '9000'
+2020-04-02 00:13:18|   7.7|  0.4|INFORM|Reading source feature # 10000
+2020-04-02 00:13:18|   7.7|  0.0|INFORM|Committed transaction at feature '10000'
+2020-04-02 00:13:19|   8.2|  0.5|INFORM|Committed transaction at feature '11000'
+2020-04-02 00:13:19|   8.6|  0.5|INFORM|Committed transaction at feature '12000'
+2020-04-02 00:13:20|   8.8|  0.2|INFORM|Reading source feature # 12500
+2020-04-02 00:13:20|   9.1|  0.2|INFORM|Committed transaction at feature '13000'
+2020-04-02 00:13:20|   9.5|  0.5|INFORM|Committed transaction at feature '14000'
+2020-04-02 00:13:21|  10.0|  0.5|INFORM|Reading source feature # 15000
+2020-04-02 00:13:21|  10.0|  0.0|INFORM|Committed transaction at feature '15000'
+2020-04-02 00:13:21|  10.4|  0.5|INFORM|Committed transaction at feature '16000'
+2020-04-02 00:13:22|  10.9|  0.5|INFORM|Committed transaction at feature '17000'
+2020-04-02 00:13:22|  11.1|  0.2|INFORM|Reading source feature # 17500
+2020-04-02 00:13:22|  11.3|  0.2|INFORM|Committed transaction at feature '18000'
+2020-04-02 00:13:23|  11.8|  0.4|INFORM|Committed transaction at feature '19000'
+2020-04-02 00:13:23|  12.2|  0.4|INFORM|Reading source feature # 20000
+2020-04-02 00:13:23|  12.2|  0.0|INFORM|Committed transaction at feature '20000'
+2020-04-02 00:13:24|  12.7|  0.5|INFORM|Committed transaction at feature '21000'
+2020-04-02 00:13:24|  13.1|  0.4|INFORM|Committed transaction at feature '22000'
+2020-04-02 00:13:25|  13.3|  0.2|INFORM|Reading source feature # 22500
+2020-04-02 00:13:25|  13.6|  0.3|INFORM|Committed transaction at feature '23000'
+2020-04-02 00:13:25|  14.0|  0.5|INFORM|Committed transaction at feature '24000'
+2020-04-02 00:13:26|  14.5|  0.4|INFORM|Reading source feature # 25000
+2020-04-02 00:13:26|  14.5|  0.0|INFORM|Committed transaction at feature '25000'
+2020-04-02 00:13:26|  14.9|  0.4|INFORM|Committed transaction at feature '26000'
+2020-04-02 00:13:27|  15.3|  0.5|INFORM|Committed transaction at feature '27000'
+2020-04-02 00:13:27|  15.6|  0.2|INFORM|Reading source feature # 27500
+2020-04-02 00:13:27|  15.8|  0.2|INFORM|Committed transaction at feature '28000'
+2020-04-02 00:13:28|  16.3|  0.5|INFORM|Committed transaction at feature '29000'
+2020-04-02 00:13:28|  16.7|  0.5|INFORM|Reading source feature # 30000
+2020-04-02 00:13:28|  16.7|  0.0|INFORM|Committed transaction at feature '30000'
+2020-04-02 00:13:29|  17.2|  0.4|INFORM|Committed transaction at feature '31000'
+2020-04-02 00:13:29|  17.6|  0.5|INFORM|Committed transaction at feature '32000'
+2020-04-02 00:13:30|  17.8|  0.2|INFORM|Reading source feature # 32500
+2020-04-02 00:13:30|  18.1|  0.3|INFORM|Committed transaction at feature '33000'
+2020-04-02 00:13:30|  18.6|  0.5|INFORM|Committed transaction at feature '34000'
+2020-04-02 00:13:31|  19.1|  0.5|INFORM|Reading source feature # 35000
+2020-04-02 00:13:31|  19.1|  0.0|INFORM|Committed transaction at feature '35000'
+2020-04-02 00:13:32|  19.5|  0.5|INFORM|Committed transaction at feature '36000'
+2020-04-02 00:13:32|  20.0|  0.5|INFORM|Committed transaction at feature '37000'
+2020-04-02 00:13:32|  20.2|  0.2|INFORM|Reading source feature # 37500
+2020-04-02 00:13:33|  20.5|  0.2|INFORM|Committed transaction at feature '38000'
+2020-04-02 00:13:33|  20.9|  0.4|INFORM|Committed transaction at feature '39000'
+2020-04-02 00:13:34|  21.3|  0.4|INFORM|Reading source feature # 40000
+2020-04-02 00:13:34|  21.3|  0.0|INFORM|Committed transaction at feature '40000'
+2020-04-02 00:13:34|  21.8|  0.5|INFORM|Committed transaction at feature '41000'
+2020-04-02 00:13:35|  22.3|  0.5|INFORM|Committed transaction at feature '42000'
+2020-04-02 00:13:35|  22.5|  0.2|INFORM|Reading source feature # 42500
+2020-04-02 00:13:35|  22.7|  0.2|INFORM|Committed transaction at feature '43000'
+2020-04-02 00:13:36|  23.1|  0.5|INFORM|Committed transaction at feature '44000'
+2020-04-02 00:13:36|  23.6|  0.5|INFORM|Reading source feature # 45000
+2020-04-02 00:13:36|  23.6|  0.0|INFORM|Committed transaction at feature '45000'
+2020-04-02 00:13:37|  24.1|  0.5|INFORM|Committed transaction at feature '46000'
+2020-04-02 00:13:37|  24.5|  0.5|INFORM|Committed transaction at feature '47000'
+2020-04-02 00:13:37|  24.8|  0.2|INFORM|Reading source feature # 47500
+2020-04-02 00:13:38|  25.0|  0.2|INFORM|Committed transaction at feature '48000'
+2020-04-02 00:13:38|  25.4|  0.4|INFORM|Committed transaction at feature '49000'
+2020-04-02 00:13:39|  25.9|  0.5|INFORM|Reading source feature # 50000
+2020-04-02 00:13:39|  25.9|  0.0|INFORM|Committed transaction at feature '50000'
+2020-04-02 00:13:39|  26.4|  0.5|INFORM|Committed transaction at feature '51000'
+2020-04-02 00:13:40|  26.8|  0.5|INFORM|Committed transaction at feature '52000'
+2020-04-02 00:13:40|  27.1|  0.2|INFORM|Reading source feature # 52500
+2020-04-02 00:13:40|  27.3|  0.2|INFORM|Committed transaction at feature '53000'
+2020-04-02 00:13:41|  27.7|  0.4|INFORM|Committed transaction at feature '54000'
+2020-04-02 00:13:41|  28.2|  0.4|INFORM|Reading source feature # 55000
+2020-04-02 00:13:41|  28.2|  0.0|INFORM|Committed transaction at feature '55000'
+2020-04-02 00:13:42|  28.6|  0.5|INFORM|Committed transaction at feature '56000'
+2020-04-02 00:13:42|  29.1|  0.5|INFORM|Committed transaction at feature '57000'
+2020-04-02 00:13:42|  29.3|  0.2|INFORM|Reading source feature # 57500
+2020-04-02 00:13:43|  29.5|  0.2|INFORM|Committed transaction at feature '58000'
+2020-04-02 00:13:43|  30.0|  0.5|INFORM|Committed transaction at feature '59000'
+2020-04-02 00:13:44|  30.4|  0.5|INFORM|Reading source feature # 60000
+2020-04-02 00:13:44|  30.4|  0.0|INFORM|Committed transaction at feature '60000'
+2020-04-02 00:13:44|  30.9|  0.5|INFORM|Committed transaction at feature '61000'
+2020-04-02 00:13:45|  31.3|  0.4|INFORM|Committed transaction at feature '62000'
+2020-04-02 00:13:45|  31.5|  0.2|INFORM|Reading source feature # 62500
+2020-04-02 00:13:45|  31.8|  0.2|INFORM|Committed transaction at feature '63000'
+2020-04-02 00:13:46|  32.3|  0.5|INFORM|Committed transaction at feature '64000'
+2020-04-02 00:13:46|  32.7|  0.4|INFORM|Reading source feature # 65000
+2020-04-02 00:13:47|  32.7|  0.0|INFORM|Committed transaction at feature '65000'
+2020-04-02 00:13:47|  33.1|  0.5|INFORM|Committed transaction at feature '66000'
+2020-04-02 00:13:48|  33.6|  0.5|INFORM|Committed transaction at feature '67000'
+2020-04-02 00:13:48|  33.8|  0.2|INFORM|Reading source feature # 67500
+2020-04-02 00:13:48|  34.1|  0.2|INFORM|Committed transaction at feature '68000'
+2020-04-02 00:13:49|  34.5|  0.5|INFORM|Committed transaction at feature '69000'
+2020-04-02 00:13:49|  35.0|  0.5|INFORM|Reading source feature # 70000
+2020-04-02 00:13:49|  35.0|  0.0|INFORM|Committed transaction at feature '70000'
+2020-04-02 00:13:50|  35.4|  0.5|INFORM|Committed transaction at feature '71000'
+2020-04-02 00:13:50|  35.9|  0.5|INFORM|Committed transaction at feature '72000'
+2020-04-02 00:13:50|  36.1|  0.2|INFORM|Reading source feature # 72500
+2020-04-02 00:13:51|  36.4|  0.2|INFORM|Committed transaction at feature '73000'
+2020-04-02 00:13:51|  36.8|  0.5|INFORM|Committed transaction at feature '74000'
+2020-04-02 00:13:52|  37.3|  0.5|INFORM|Reading source feature # 75000
+2020-04-02 00:13:52|  37.3|  0.0|INFORM|Committed transaction at feature '75000'
+2020-04-02 00:13:52|  37.8|  0.5|INFORM|Committed transaction at feature '76000'
+2020-04-02 00:13:53|  38.2|  0.4|INFORM|Committed transaction at feature '77000'
+2020-04-02 00:13:53|  38.4|  0.2|INFORM|Reading source feature # 77500
+2020-04-02 00:13:53|  38.7|  0.2|INFORM|Committed transaction at feature '78000'
+2020-04-02 00:13:54|  39.1|  0.5|INFORM|Committed transaction at feature '79000'
+2020-04-02 00:13:54|  39.6|  0.5|INFORM|Reading source feature # 80000
+2020-04-02 00:13:54|  39.6|  0.0|INFORM|Committed transaction at feature '80000'
+2020-04-02 00:13:55|  40.1|  0.5|INFORM|Committed transaction at feature '81000'
+2020-04-02 00:13:55|  40.5|  0.5|INFORM|Committed transaction at feature '82000'
+2020-04-02 00:13:56|  40.8|  0.2|INFORM|Reading source feature # 82500
+2020-04-02 00:13:56|  41.0|  0.2|INFORM|Committed transaction at feature '83000'
+2020-04-02 00:13:56|  41.5|  0.5|INFORM|Committed transaction at feature '84000'
+2020-04-02 00:13:57|  41.9|  0.5|INFORM|Reading source feature # 85000
+2020-04-02 00:13:57|  41.9|  0.0|INFORM|Committed transaction at feature '85000'
+2020-04-02 00:13:57|  42.4|  0.5|INFORM|Committed transaction at feature '86000'
+2020-04-02 00:13:58|  42.8|  0.5|INFORM|Committed transaction at feature '87000'
+2020-04-02 00:13:58|  43.0|  0.2|INFORM|Reading source feature # 87500
+2020-04-02 00:13:58|  43.3|  0.2|INFORM|Committed transaction at feature '88000'
+2020-04-02 00:13:59|  43.7|  0.5|INFORM|Committed transaction at feature '89000'
+2020-04-02 00:14:00|  44.2|  0.5|INFORM|Reading source feature # 90000
+2020-04-02 00:14:00|  44.2|  0.0|INFORM|Committed transaction at feature '90000'
+2020-04-02 00:14:00|  44.7|  0.5|INFORM|Committed transaction at feature '91000'
+2020-04-02 00:14:01|  45.2|  0.5|INFORM|Committed transaction at feature '92000'
+2020-04-02 00:14:01|  45.5|  0.3|INFORM|Reading source feature # 92500
+2020-04-02 00:14:01|  45.7|  0.2|INFORM|Committed transaction at feature '93000'
+2020-04-02 00:14:02|  46.2|  0.5|INFORM|Committed transaction at feature '94000'
+2020-04-02 00:14:02|  46.7|  0.5|INFORM|Reading source feature # 95000
+2020-04-02 00:14:02|  46.7|  0.0|INFORM|Committed transaction at feature '95000'
+2020-04-02 00:14:03|  47.2|  0.5|INFORM|Committed transaction at feature '96000'
+2020-04-02 00:14:03|  47.7|  0.5|INFORM|Committed transaction at feature '97000'
+2020-04-02 00:14:04|  47.9|  0.2|INFORM|Reading source feature # 97500
+2020-04-02 00:14:04|  48.2|  0.2|INFORM|Committed transaction at feature '98000'
+2020-04-02 00:14:05|  48.6|  0.5|INFORM|Committed transaction at feature '99000'
+2020-04-02 00:14:05|  49.2|  0.5|INFORM|Reading source feature # 100000
+2020-04-02 00:14:05|  49.2|  0.0|INFORM|Committed transaction at feature '100000'
+2020-04-02 00:14:06|  49.6|  0.5|INFORM|Committed transaction at feature '101000'
+2020-04-02 00:14:07|  50.1|  0.5|INFORM|Committed transaction at feature '102000'
+2020-04-02 00:14:07|  50.4|  0.2|INFORM|Reading source feature # 102500
+2020-04-02 00:14:07|  50.6|  0.2|INFORM|Committed transaction at feature '103000'
+2020-04-02 00:14:08|  51.0|  0.4|INFORM|Committed transaction at feature '104000'
+2020-04-02 00:14:09|  51.5|  0.5|INFORM|Reading source feature # 105000
+2020-04-02 00:14:09|  51.5|  0.0|INFORM|Committed transaction at feature '105000'
+2020-04-02 00:14:10|  52.1|  0.5|INFORM|Committed transaction at feature '106000'
+2020-04-02 00:14:10|  52.5|  0.4|INFORM|Committed transaction at feature '107000'
+2020-04-02 00:14:10|  52.7|  0.2|INFORM|Reading source feature # 107500
+2020-04-02 00:14:11|  52.9|  0.2|INFORM|Committed transaction at feature '108000'
+2020-04-02 00:14:11|  53.2|  0.4|INFORM|Committed transaction at feature '109000'
+2020-04-02 00:14:12|  53.7|  0.5|INFORM|Reading source feature # 110000
+2020-04-02 00:14:12|  53.7|  0.0|INFORM|Committed transaction at feature '110000'
+2020-04-02 00:14:12|  54.2|  0.5|INFORM|Committed transaction at feature '111000'
+2020-04-02 00:14:13|  54.6|  0.5|INFORM|Committed transaction at feature '112000'
+2020-04-02 00:14:13|  54.9|  0.2|INFORM|Reading source feature # 112500
+2020-04-02 00:14:13|  55.2|  0.3|INFORM|Committed transaction at feature '113000'
+2020-04-02 00:14:14|  55.6|  0.4|INFORM|Committed transaction at feature '114000'
+2020-04-02 00:14:15|  56.2|  0.6|INFORM|Reading source feature # 115000
+2020-04-02 00:14:15|  56.2|  0.0|INFORM|Committed transaction at feature '115000'
+2020-04-02 00:14:16|  56.6|  0.5|INFORM|Committed transaction at feature '116000'
+2020-04-02 00:14:17|  57.1|  0.5|INFORM|Committed transaction at feature '117000'
+2020-04-02 00:14:17|  57.3|  0.3|INFORM|Reading source feature # 117500
+2020-04-02 00:14:17|  57.5|  0.2|INFORM|Committed transaction at feature '118000'
+2020-04-02 00:14:18|  58.0|  0.5|INFORM|Committed transaction at feature '119000'
+2020-04-02 00:14:19|  58.5|  0.5|INFORM|Reading source feature # 120000
+2020-04-02 00:14:19|  58.5|  0.0|INFORM|Committed transaction at feature '120000'
+2020-04-02 00:14:20|  59.0|  0.5|INFORM|Committed transaction at feature '121000'
+2020-04-02 00:14:21|  59.4|  0.4|INFORM|Committed transaction at feature '122000'
+2020-04-02 00:14:21|  59.6|  0.3|INFORM|Reading source feature # 122500
+2020-04-02 00:14:22|  59.9|  0.2|INFORM|Committed transaction at feature '123000'
+2020-04-02 00:14:23|  60.3|  0.4|INFORM|Committed transaction at feature '124000'
+2020-04-02 00:14:24|  60.8|  0.5|INFORM|Reading source feature # 125000
+2020-04-02 00:14:24|  60.8|  0.0|INFORM|Committed transaction at feature '125000'
+2020-04-02 00:14:25|  61.3|  0.5|INFORM|Committed transaction at feature '126000'
+2020-04-02 00:14:25|  61.6|  0.4|INFORM|Committed transaction at feature '127000'
+2020-04-02 00:14:25|  61.8|  0.2|INFORM|Reading source feature # 127500
+2020-04-02 00:14:26|  62.0|  0.2|INFORM|Committed transaction at feature '128000'
+2020-04-02 00:14:26|  62.4|  0.4|INFORM|Committed transaction at feature '129000'
+2020-04-02 00:14:26|  62.9|  0.5|INFORM|Reading source feature # 130000
+2020-04-02 00:14:27|  62.9|  0.0|INFORM|Committed transaction at feature '130000'
+2020-04-02 00:14:27|  63.5|  0.5|INFORM|Committed transaction at feature '131000'
+2020-04-02 00:14:28|  64.0|  0.5|INFORM|Committed transaction at feature '132000'
+2020-04-02 00:14:28|  64.2|  0.2|INFORM|Reading source feature # 132500
+2020-04-02 00:14:29|  64.5|  0.3|INFORM|Committed transaction at feature '133000'
+2020-04-02 00:14:30|  64.9|  0.4|INFORM|Committed transaction at feature '134000'
+2020-04-02 00:14:31|  65.5|  0.5|INFORM|Reading source feature # 135000
+2020-04-02 00:14:31|  65.5|  0.0|INFORM|Committed transaction at feature '135000'
+2020-04-02 00:14:32|  65.9|  0.5|INFORM|Committed transaction at feature '136000'
+2020-04-02 00:14:33|  66.4|  0.5|INFORM|Committed transaction at feature '137000'
+2020-04-02 00:14:33|  66.7|  0.3|INFORM|Reading source feature # 137500
+2020-04-02 00:14:34|  66.9|  0.2|INFORM|Committed transaction at feature '138000'
+2020-04-02 00:14:35|  67.5|  0.6|INFORM|Committed transaction at feature '139000'
+2020-04-02 00:14:36|  68.0|  0.5|INFORM|Reading source feature # 140000
+2020-04-02 00:14:36|  68.0|  0.0|INFORM|Committed transaction at feature '140000'
+2020-04-02 00:14:37|  68.6|  0.5|INFORM|Committed transaction at feature '141000'
+2020-04-02 00:14:38|  69.0|  0.5|INFORM|Committed transaction at feature '142000'
+2020-04-02 00:14:38|  69.2|  0.2|INFORM|Reading source feature # 142500
+2020-04-02 00:14:38|  69.4|  0.2|INFORM|Committed transaction at feature '143000'
+2020-04-02 00:14:39|  69.8|  0.4|INFORM|Committed transaction at feature '144000'
+2020-04-02 00:14:39|  70.2|  0.4|INFORM|Reading source feature # 145000
+2020-04-02 00:14:39|  70.2|  0.0|INFORM|Committed transaction at feature '145000'
+2020-04-02 00:14:40|  70.7|  0.4|INFORM|Committed transaction at feature '146000'
+2020-04-02 00:14:40|  71.2|  0.5|INFORM|Committed transaction at feature '147000'
+2020-04-02 00:14:40|  71.4|  0.3|INFORM|Reading source feature # 147500
+2020-04-02 00:14:41|  71.7|  0.3|INFORM|Committed transaction at feature '148000'
+2020-04-02 00:14:42|  72.2|  0.5|INFORM|Committed transaction at feature '149000'
+2020-04-02 00:14:43|  72.6|  0.5|INFORM|Reading source feature # 150000
+2020-04-02 00:14:43|  72.6|  0.0|INFORM|Committed transaction at feature '150000'
+2020-04-02 00:14:44|  73.1|  0.5|INFORM|Committed transaction at feature '151000'
+2020-04-02 00:14:45|  73.6|  0.5|INFORM|Committed transaction at feature '152000'
+2020-04-02 00:14:45|  73.8|  0.2|INFORM|Reading source feature # 152500
+2020-04-02 00:14:46|  74.1|  0.3|INFORM|Committed transaction at feature '153000'
+2020-04-02 00:14:47|  74.6|  0.4|INFORM|Committed transaction at feature '154000'
+2020-04-02 00:14:48|  75.1|  0.5|INFORM|Reading source feature # 155000
+2020-04-02 00:14:48|  75.1|  0.0|INFORM|Committed transaction at feature '155000'
+2020-04-02 00:14:49|  75.6|  0.5|INFORM|Committed transaction at feature '156000'
+2020-04-02 00:14:49|  76.0|  0.4|INFORM|Committed transaction at feature '157000'
+2020-04-02 00:14:49|  76.2|  0.2|INFORM|Reading source feature # 157500
+2020-04-02 00:14:50|  76.4|  0.2|INFORM|Committed transaction at feature '158000'
+2020-04-02 00:14:50|  76.8|  0.4|INFORM|Committed transaction at feature '159000'
+2020-04-02 00:14:51|  77.2|  0.4|INFORM|Reading source feature # 160000
+2020-04-02 00:14:51|  77.2|  0.0|INFORM|Committed transaction at feature '160000'
+2020-04-02 00:14:51|  77.6|  0.4|INFORM|Committed transaction at feature '161000'
+2020-04-02 00:14:52|  78.0|  0.4|INFORM|Committed transaction at feature '162000'
+2020-04-02 00:14:52|  78.3|  0.2|INFORM|Reading source feature # 162500
+2020-04-02 00:14:52|  78.5|  0.2|INFORM|Committed transaction at feature '163000'
+2020-04-02 00:14:53|  79.0|  0.5|INFORM|Committed transaction at feature '164000'
+2020-04-02 00:14:53|  79.5|  0.5|INFORM|Reading source feature # 165000
+2020-04-02 00:14:53|  79.5|  0.0|INFORM|Committed transaction at feature '165000'
+2020-04-02 00:14:54|  80.0|  0.5|INFORM|Committed transaction at feature '166000'
+2020-04-02 00:14:55|  80.5|  0.5|INFORM|Committed transaction at feature '167000'
+2020-04-02 00:14:56|  80.7|  0.2|INFORM|Reading source feature # 167500
+2020-04-02 00:14:56|  81.0|  0.3|INFORM|Committed transaction at feature '168000'
+2020-04-02 00:14:57|  81.6|  0.6|INFORM|Committed transaction at feature '169000'
+2020-04-02 00:14:58|  82.0|  0.4|INFORM|Reading source feature # 170000
+2020-04-02 00:14:58|  82.0|  0.0|INFORM|Committed transaction at feature '170000'
+2020-04-02 00:15:00|  82.5|  0.5|INFORM|Committed transaction at feature '171000'
+2020-04-02 00:15:01|  82.9|  0.5|INFORM|Committed transaction at feature '172000'
+2020-04-02 00:15:01|  83.1|  0.2|INFORM|Reading source feature # 172500
+2020-04-02 00:15:01|  83.3|  0.2|INFORM|Committed transaction at feature '173000'
+2020-04-02 00:15:02|  83.8|  0.4|INFORM|Committed transaction at feature '174000'
+2020-04-02 00:15:02|  84.2|  0.5|INFORM|Reading source feature # 175000
+2020-04-02 00:15:02|  84.2|  0.0|INFORM|Committed transaction at feature '175000'
+2020-04-02 00:15:03|  84.8|  0.5|INFORM|Committed transaction at feature '176000'
+2020-04-02 00:15:03|  85.3|  0.5|INFORM|Committed transaction at feature '177000'
+2020-04-02 00:15:04|  85.5|  0.2|INFORM|Reading source feature # 177500
+2020-04-02 00:15:04|  85.7|  0.2|INFORM|Committed transaction at feature '178000'
+2020-04-02 00:15:05|  86.2|  0.5|INFORM|Committed transaction at feature '179000'
+2020-04-02 00:15:06|  86.9|  0.7|INFORM|Reading source feature # 180000
+2020-04-02 00:15:06|  86.9|  0.0|INFORM|Committed transaction at feature '180000'
+2020-04-02 00:15:07|  87.5|  0.6|INFORM|Committed transaction at feature '181000'
+2020-04-02 00:15:08|  88.0|  0.5|INFORM|Committed transaction at feature '182000'
+2020-04-02 00:15:09|  88.3|  0.3|INFORM|Reading source feature # 182500
+2020-04-02 00:15:10|  88.6|  0.3|INFORM|Committed transaction at feature '183000'
+2020-04-02 00:15:11|  89.1|  0.5|INFORM|Committed transaction at feature '184000'
+2020-04-02 00:15:12|  89.7|  0.6|INFORM|Reading source feature # 185000
+2020-04-02 00:15:12|  89.7|  0.0|INFORM|Committed transaction at feature '185000'
+2020-04-02 00:15:12|  90.2|  0.4|INFORM|Committed transaction at feature '186000'
+2020-04-02 00:15:13|  90.5|  0.4|INFORM|Committed transaction at feature '187000'
+2020-04-02 00:15:13|  90.7|  0.2|INFORM|Reading source feature # 187500
+2020-04-02 00:15:13|  90.9|  0.2|INFORM|Committed transaction at feature '188000'
+2020-04-02 00:15:14|  91.3|  0.4|INFORM|Committed transaction at feature '189000'
+2020-04-02 00:15:14|  91.8|  0.5|INFORM|Reading source feature # 190000
+2020-04-02 00:15:14|  91.8|  0.0|INFORM|Committed transaction at feature '190000'
+2020-04-02 00:15:15|  92.3|  0.5|INFORM|Committed transaction at feature '191000'
+2020-04-02 00:15:15|  92.7|  0.4|INFORM|Committed transaction at feature '192000'
+2020-04-02 00:15:15|  92.9|  0.2|INFORM|Reading source feature # 192500
+2020-04-02 00:15:16|  93.1|  0.2|INFORM|Committed transaction at feature '193000'
+2020-04-02 00:15:16|  93.3|  0.2|INFORM|Microsoft SQL Server Non-Spatial Reader: Database read complete.  Retrieved 193476 feature(s)
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|Emptying factory pipeline
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 193476 input feature(s), wrote 193476 output feature(s): 193476 matched merge filters, 193476 were routed to output, 0 could not be routed.
+2020-04-02 00:15:16|  93.3|  0.0|STATS |amd.permits (MSSQL_ADO_2) Splitter(TeeFactory): Cloned 193476 input feature(s) into 193476 output feature(s)
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 193476 input feature(s), wrote 193476 output feature(s): 0 matched merge filters, 193476 were routed to output, 0 could not be routed.
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|Successfully closed POSTGRES database writer
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|Feature output statistics for `POSTGRES' writer using keyword `POSTGRES_1':
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |                               Features Written
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |internal.permits                                                        193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |==============================================================================
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Total Features Written                                                  193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |                            Features Read Summary
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |amd.permits                                                             193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |==============================================================================
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Total Features Read                                                     193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |                           Features Written Summary
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|STATS |internal.permits                                                        193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |==============================================================================
+2020-04-02 00:15:16|  93.3|  0.0|STATS |Total Features Written                                                  193476
+2020-04-02 00:15:16|  93.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|Microsoft SQL Server Non-Spatial Reader: Closing `accela' . Read operation complete
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (193476 feature(s) output)
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|FME Session Duration: 2 minutes 10.7 seconds. (CPU: 91.9s user, 1.3s system)
+2020-04-02 00:15:16|  93.3|  0.0|INFORM|END - ProcessID: 2556, peak process memory usage: 81776 kB, current process memory usage: 81560 kB

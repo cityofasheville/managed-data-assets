@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "mdastore1TOcoa-publicdb1_buncombe_tax_inspections.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}

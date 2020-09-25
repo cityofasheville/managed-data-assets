@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "type": "fme",
+      "file": "accela_to_wh-inspections.fmw",
+      "db": null,
+      "active": true
+    }
+  ]
+}
