@@ -3,13 +3,13 @@
     {
       "type": "fme",
       "file": "buncombe_tax_info_inspections.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     },
     {
       "type": "fme",
       "file": "buncombe_tax_info_permits.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

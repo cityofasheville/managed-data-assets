@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "munisTOmdastore1_pr_accrual_hours_balances.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

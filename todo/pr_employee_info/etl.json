@@ -3,13 +3,13 @@
     {
       "type": "fme",
       "file": "munis_to_wh-pr_employee_info.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     },
     {
       "type": "sql",
       "file": "create_bpt_testusers.sql",
-      "db": "datastore1",
+      "connection": "datastore1",
       "active": true
     }
   ]

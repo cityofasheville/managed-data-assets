@@ -3,19 +3,19 @@
     {
       "type": "fme",
       "file": "everbridge_water_customers_ftp.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     },
     {
       "type": "bash",
       "file": "cust.sh",
-      "db": null,
+      "connection": null,
       "active": false
     },
     {
       "type": "notrun",
       "file": "cust.scr",
-      "db": null,
+      "connection": null,
       "active": false
     }
   ]

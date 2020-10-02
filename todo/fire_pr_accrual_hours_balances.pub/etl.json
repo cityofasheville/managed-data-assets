@@ -3,7 +3,7 @@
     {
       "type": "FME",
       "file": "mdastore1TOcoa-publicdb1_fire_pr_accrual_hours_balances.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

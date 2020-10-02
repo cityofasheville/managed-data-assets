@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "trackitTOlib_workorders.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

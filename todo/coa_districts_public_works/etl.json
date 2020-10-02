@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "editTOwh-coa_districts_public_works.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

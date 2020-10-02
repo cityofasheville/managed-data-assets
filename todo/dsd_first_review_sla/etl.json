@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "dsd_first_review_sla.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

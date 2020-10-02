@@ -4,14 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "type": "database",
-          "db": "datastore1",
+          "connection": "datastore1",
           "schemaname": "amd",
           "tablename": "bc_property_pinnum_formatted_owner_names"
       },
       "target_location": {
-          "type": "database",
-          "db": "mdastore1",
+          "connection": "mdastore1",
           "schemaname": "internal2",
           "tablename": "bc_property_pinnum_formatted_owner_names"
       },

@@ -3,19 +3,19 @@
     {
       "type": "fme",
       "file": "everbridge_city_employees_ftp.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     },
     {
       "type": "bash",
       "file": "emp.sh",
-      "db": null,
+      "connection": null,
       "active": false
     },
     {
       "type": "notrun",
       "file": "emp.scr",
-      "db": null,
+      "connection": null,
       "active": false
     }
   ]

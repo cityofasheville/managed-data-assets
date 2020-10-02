@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "bc_public_incident_data.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

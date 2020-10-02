@@ -3,7 +3,7 @@
     {
       "type": "fme",
       "file": "accela_to_wh-permit_tasks.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

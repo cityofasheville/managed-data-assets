@@ -3,13 +3,13 @@
     {
       "type": "fme",
       "file": "googleTOlibplayground_IranDivestment.fmw",
-      "db": null,
+      "connection": null,
       "active": true
     },
     {
       "type": "notrun",
       "file": "readme.md",
-      "db": null,
+      "connection": null,
       "active": true
     }
   ]

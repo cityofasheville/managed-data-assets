@@ -4,14 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-        "type": "database",
-        "db": "gissql.bcdomain.local",
+          "connection": "gissql.bcdomain.local",
         "schemaname": "dbo",
         "tablename": "location"
       },
       "target_location": {
-        "type": "database",
-        "db": "mdastore1",
+          "connection": "mdastore1",
         "schemaname": "internal2",
         "tablename": "bc_location"
       },
