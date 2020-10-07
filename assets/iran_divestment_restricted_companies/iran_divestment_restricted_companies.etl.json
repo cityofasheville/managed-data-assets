@@ -4,7 +4,7 @@
       {
         "type": "table_copy",
         "source_location": {
-            "connection": "google_sheets",
+            "connection": "bedrock-googlesheets",
             "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
             "range": "Bad Actors!A5:B"
         },
