@@ -1,9 +1,9 @@
 {
-    "name": "capitol_projects_master_categories",
+    "name": "capital_projects_master_categories",
     "location": "google_sheets",
     "active": true,
     "type": "table",
-    "description": "Capitol Projects Category List",
+    "description": "Capital Projects Category List",
     "depends": [],
     "objects": [],
     "id": 8516,
