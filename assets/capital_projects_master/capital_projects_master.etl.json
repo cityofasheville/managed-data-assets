@@ -14,7 +14,7 @@
             "schemaname": "internal2",
             "tablename": "capital_projects_master"
         },
-        "active": true
+        "active": false
     }
     ]
   }

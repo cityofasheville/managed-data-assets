@@ -14,7 +14,7 @@
             "schemaname": "internal2",
             "tablename": "iran_divestment_approved_companies"
         },
-        "active": true
+        "active": false
     }
     ]
   }
