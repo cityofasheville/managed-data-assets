@@ -1,14 +1,14 @@
 {
-  "name": "bc_buncombe_tax_inspections.pub",
-  "location": "publicdb1",
-  "active": false,
+  "name": "bc_buncombe_tax_inspections.ms1",
+  "location": "mdastore1",
+  "active": true,
   "type": "table",
   "description": "",
   "depends": [
-    "bc_buncombe_tax_inspections.ms1"
+    "bc_buncombe_tax.acc"
   ],
   "objects": [],
-  "id": 8514,
+  "id": 8544,
   "category": "",
   "tags": [],
   "tag_len": 0,

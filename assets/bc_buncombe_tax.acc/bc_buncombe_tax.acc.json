@@ -1,7 +1,7 @@
 {
   "name": "bc_buncombe_tax.acc",
   "location": "acceladb",
-  "active": false,
+  "active": true,
   "type": "multi-table",
   "description": "Accela BUNCOMBE_TAX_PERMITS and BUNCOMBE_TAX_INSPECTIONS tables",
   "depends": [],

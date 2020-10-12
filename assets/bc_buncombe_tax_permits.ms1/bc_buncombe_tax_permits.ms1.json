@@ -1,7 +1,7 @@
 {
   "name": "bc_buncombe_tax_permits.ms1",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "",
   "depends": [
