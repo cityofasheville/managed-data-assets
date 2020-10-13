@@ -1,7 +1,7 @@
 {
   "name": "bc_public_incident_data",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Crime incident data from RMS",
   "depends": [],

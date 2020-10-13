@@ -1,7 +1,7 @@
 {
   "name": "coa_asheville_neighborhoods.ms1",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Asheville neighborhoods",
   "depends": [],
