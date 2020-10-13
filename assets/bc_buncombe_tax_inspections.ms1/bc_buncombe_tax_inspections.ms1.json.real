@@ -5,7 +5,7 @@
   "type": "table",
   "description": "",
   "depends": [
-
+    "bc_buncombe_tax.acc"
   ],
   "objects": [],
   "id": 8544,

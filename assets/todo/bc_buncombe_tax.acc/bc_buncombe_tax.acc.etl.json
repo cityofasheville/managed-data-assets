@@ -3,6 +3,12 @@
   "tasks": [
     {
       "type": "sql",
+      "file": "buncombe_tax_inspections.sql",
+      "connection": "accela",
+      "active": true
+    },
+    {
+      "type": "sql",
       "file": "buncombe_tax_permits.sql",
       "connection": "accela",
       "active": true
