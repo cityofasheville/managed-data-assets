@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "rmdastore1",
+          "connection": "mdastore1",
           "schemaname": "internal",
           "tablename": "bc_public_incident_data"
       },
