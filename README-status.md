@@ -1,8 +1,19 @@
-# Setting up to run coa_bc_address master tables
+# Dirs: 
+assets
+googlesheets
+other_locations
+problems
+successfully_tested
+todo
 
-Git branch todos - has the todos subfolder with all the unprocessed assets
+## *.future files - have temp workarounds (eg pulling from mdastore1)
+### We can't access Buncombe network from AWS yet
+bc_civicaddress_table
+bc_location
+bc_property_account_master
 
-*.future files - has temp workarounds (eg pulling from mdastore1)
+### permissions on Acella 
+bc_buncombe_tax.acc
 
 ## Tables created in mdastore1 in internal2 schema
 
