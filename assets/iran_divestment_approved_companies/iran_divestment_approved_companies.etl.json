@@ -7,7 +7,7 @@
         "source_location": {
             "connection": "bedrock-googlesheets",
             "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
-            "range": "Approved Companies!A6:B"
+            "range": "Approved Companies!A5:B"
         },
         "target_location": {
             "connection": "mdastore1",
