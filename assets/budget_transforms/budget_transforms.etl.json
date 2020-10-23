@@ -76,7 +76,7 @@
       "source_location": {
           "connection": "bedrock-googlesheets",
           "spreadsheetid": "1mCG5vgN9SLyP1OOSGViOtjazC_lcltuuiTNRsHr51IE",
-          "range": "exclusions!A2:D"
+          "range": "exclusions!A2:B"
       },
       "target_location": {
           "connection": "mdastore1",
