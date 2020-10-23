@@ -7,7 +7,7 @@
         "source_location": {
             "connection": "bedrock-googlesheets",
             "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY",
-            "range": "General Project Information!A1:Z"
+            "range": "General Project Information!A2:Z"
         },
         "target_location": {
             "connection": "mdastore1",
