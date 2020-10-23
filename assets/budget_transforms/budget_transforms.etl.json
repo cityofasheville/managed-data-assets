@@ -20,12 +20,12 @@
       "source_location": {
           "connection": "bedrock-googlesheets",
           "spreadsheetid": "1mCG5vgN9SLyP1OOSGViOtjazC_lcltuuiTNRsHr51IE",
-          "range": "deptdev_mappings!A2:F"
+          "range": "deptdiv_mappings!A2:F"
       },
       "target_location": {
           "connection": "mdastore1",
           "schemaname": "internal2",
-          "tablename": "budget_deptdev_mappings"
+          "tablename": "budget_deptdiv_mappings"
       },
       "active": true
     },
