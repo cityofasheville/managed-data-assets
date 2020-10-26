@@ -3,7 +3,6 @@
   "tasks": [
     {
       "type": "table_copy",
-      "append_serial": "objectid",
       "source_location": {
           "connection": "bedrock-googlesheets",
           "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY",
@@ -12,8 +11,9 @@
       "target_location": {
           "connection": "mdastore1",
           "schemaname": "internal2",
-          "tablename": "capital_projects_master"
-      },
+          "tablename": "capital_projects_master",
+          "append_serial": "objectid"
+        },
       "active": false
     }
   ]

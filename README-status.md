@@ -6,6 +6,9 @@ problems
 successfully_tested
 todo
 
+## table changes
+capital_projects_master: drop column communication_plan
+
 ## *.future files - have temp workarounds (eg pulling from mdastore1)
 ### We can't access Buncombe network from AWS yet
 bc_civicaddress_table
