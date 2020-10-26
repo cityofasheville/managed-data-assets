@@ -1,3 +1,0 @@
-
-Problem:
-usp_BuncombeTaxInspections returns data

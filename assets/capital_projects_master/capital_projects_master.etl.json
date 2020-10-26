@@ -1,20 +1,20 @@
-
 {
-    "run_group": "daily",
-    "tasks": [
-      {
-        "type": "table_copy",
-        "source_location": {
-            "connection": "bedrock-googlesheets",
-            "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY",
-            "range": "General Project Information!A2:Z"
-        },
-        "target_location": {
-            "connection": "mdastore1",
-            "schemaname": "internal2",
-            "tablename": "capital_projects_master"
-        },
-        "active": false
-      }
-    ]
-  }
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "append_serial": "objectid",
+      "source_location": {
+          "connection": "bedrock-googlesheets",
+          "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY",
+          "range": "General Project Information!A2:Z"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "capital_projects_master"
+      },
+      "active": false
+    }
+  ]
+}
