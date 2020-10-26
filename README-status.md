@@ -1,8 +1,7 @@
 # Dirs: 
-assets
-googlesheets
-other_locations
-problems
+assets                 This is the working dir that gets used in the program
+other_locations        So far I am only porting jobs that go to MDA Store
+problems               
 successfully_tested
 todo
 
@@ -14,6 +13,3 @@ capital_projects_master: drop column communication_plan
 bc_civicaddress_table
 bc_location
 bc_property_account_master
-
-### returns too much data
-bc_buncombe_tax.acc
