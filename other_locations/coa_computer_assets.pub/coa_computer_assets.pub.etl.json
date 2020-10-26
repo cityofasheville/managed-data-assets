@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "kace",
+          "schemaname": "?",
+          "tablename": "???"
+      },
+      "target_location": {
+          "connection": "coa-publicdb1",
+          "schemaname": "internal",
+          "tablename": "coa_computer_assets"
+      },
+      "active": true
+    }
+  ]
+}
