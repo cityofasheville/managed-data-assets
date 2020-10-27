@@ -4,16 +4,16 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis",
-          "schemaname": "amd",
-          "tablename": "ad_info"
+          "connection": "coa-gis-edit1",
+          "schemaname": "coagis",
+          "tablename": "coa_national_register_properties"
       },
       "target_location": {
           "connection": "mdastore1",
           "schemaname": "internal2",
-          "tablename": "ad_info"
+          "tablename": "coa_national_register_properties"
       },
-      "active": false
+      "active": true
     }
   ]
 }

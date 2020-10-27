@@ -18,3 +18,7 @@ coa_cip_project_polygons, coa_cip_project_points, coa_cip_project_lines: All thr
 bc_civicaddress_table
 bc_location
 bc_property_account_master
+
+### Maria DB not implemented
+coa_computer_assets.pub
+coa_computer_assets.ms1
