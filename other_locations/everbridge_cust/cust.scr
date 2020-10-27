@@ -1,5 +1,0 @@
-open 453003085611892@sftp-us2e.everbridge.net
-
-cd replace
-
-put "avl.UB_Water_Customers_Everbridge.csv"
