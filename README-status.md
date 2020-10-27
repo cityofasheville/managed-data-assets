@@ -8,10 +8,12 @@ todo
 ## table changes
 capital_projects_master: drop column communication_plan
 coa_asheville_nieghborhoods: drop columns st_area_shape_ st_length_shape_
-coa_cip_project_polygons, coa_cip_project_points, coa_cip_project_lines: All three of these tables have many changes (geo columns mostly?)
+coa_cip_project_polygons, coa_cip_project_points, coa_cip_project_lines: All three of these tables have multiple changes (geo columns mostly?)
+coa_national_register_properties: drop columns st_area_shape_ st_length_shape_
 
-
-
+## defunct
+coa_districts_zoning_test
+coa_computer_assets.pub
 
 ## *.future files - have temp workarounds (eg pulling from mdastore1)
 ### We can't access Buncombe network from AWS yet

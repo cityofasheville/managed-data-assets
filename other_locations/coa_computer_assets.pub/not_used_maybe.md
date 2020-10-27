@@ -1,1 +1,0 @@
-This table no longer exists on publicdb1
