@@ -1,7 +1,7 @@
 {
   "name": "coa_street_maintenance",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Street Maintenance",
   "depends": [],

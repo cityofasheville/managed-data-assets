@@ -1,7 +1,7 @@
 {
   "name": "ad_info",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Active Directory info",
   "depends": [],

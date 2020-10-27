@@ -1,7 +1,7 @@
 {
   "name": "employee_main",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "view",
   "description": "Join of ad_info and pr_employee_info tables",
   "depends": [],

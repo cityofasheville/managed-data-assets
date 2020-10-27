@@ -10,13 +10,13 @@
       "type": "bash",
       "file": "emp.sh",
       "connection": null,
-      "active": false
+      "active": true
     },
     {
       "type": "notrun",
       "file": "emp.scr",
       "connection": null,
-      "active": false
+      "active": true
     }
   ]
 }

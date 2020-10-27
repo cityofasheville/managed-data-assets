@@ -1,7 +1,7 @@
 {
   "name": "utility_work_orders",
   "location": "coagiswarehouse1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Utility Work Orders",
   "depends": [],

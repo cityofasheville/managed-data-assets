@@ -1,7 +1,7 @@
 {
   "name": "parking_cincinnati_rv_exits.pub",
   "location": "publicdb1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "",
   "depends": [

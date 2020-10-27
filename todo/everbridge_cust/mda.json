@@ -1,7 +1,7 @@
 {
   "name": "everbridge_cust",
   "location": "ftp",
-  "active": false,
+  "active": true,
   "type": "csv",
   "description": "Load water customers to Everbridge",
   "depends": [],

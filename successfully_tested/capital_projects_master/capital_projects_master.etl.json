@@ -14,7 +14,7 @@
           "tablename": "capital_projects_master",
           "append_serial": "objectid"
         },
-      "active": false
+      "active": true
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "parking_cincinnati_rv_exits.ms1",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "",
   "depends": [],

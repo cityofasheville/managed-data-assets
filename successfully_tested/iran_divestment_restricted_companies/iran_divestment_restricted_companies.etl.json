@@ -13,7 +13,7 @@
             "schemaname": "internal2",
             "tablename": "iran_divestment_restricted_companies"
         },
-        "active": false
+        "active": true
     }
     ]
   }

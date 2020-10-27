@@ -1,7 +1,7 @@
 {
   "name": "fire_pr_accrual_hours_balances.pub",
   "location": "publicdb1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "",
   "depends": [

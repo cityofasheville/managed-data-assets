@@ -10,13 +10,13 @@
       "type": "bash",
       "file": "cust.sh",
       "connection": null,
-      "active": false
+      "active": true
     },
     {
       "type": "notrun",
       "file": "cust.scr",
       "connection": null,
-      "active": false
+      "active": true
     }
   ]
 }

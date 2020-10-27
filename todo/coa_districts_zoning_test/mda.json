@@ -1,7 +1,7 @@
 {
   "name": "coa_districts_zoning_test",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "New columns added to coa_districts_zoning",
   "depends": [],

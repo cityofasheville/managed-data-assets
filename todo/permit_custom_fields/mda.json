@@ -1,7 +1,7 @@
 {
   "name": "permit_custom_fields",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Permit custom fields data",
   "depends": [
