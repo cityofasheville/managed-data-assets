@@ -2,7 +2,7 @@
   "run_group": "daily",
   "tasks": [
     {
-      "type": "table_copy",
+      "type": "copy_since",
       "source_location": {
           "connection": "cinncinati_parking",
           "schemaname": "dbo",
@@ -13,6 +13,8 @@
           "schemaname": "internal2",
           "tablename": "parking_cincinnati_contract_activity"
       },
+      "num_weeks": 1,
+      "column_to_filter": "ACTIVITY_TIME",
       "active": true
     }
   ]
