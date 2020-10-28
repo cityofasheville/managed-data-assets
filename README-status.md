@@ -28,3 +28,6 @@ bc_property_account_master
 ### Maria DB not implemented
 coa_computer_assets.pub
 coa_computer_assets.ms1
+
+## problems
+parking_cincinnati* tables too big, wait for copy_since
