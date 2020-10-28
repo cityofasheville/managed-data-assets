@@ -13,7 +13,7 @@
           "schemaname": "internal2",
           "tablename": "ad_info"
       },
-      "active": false
+      "active": true
     }
   ]
 }
