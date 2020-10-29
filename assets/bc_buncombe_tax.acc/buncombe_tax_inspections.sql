@@ -1,2 +1,2 @@
-TRUNCATE TABLE [dbo].[BUNCOMBE_TAX_INSPECTIONS]
-EXEC [dbo].[usp_BuncombeTaxInspections]
+TRUNCATE TABLE [dbo].[BUNCOMBE_TAX_INSPECTIONSxxx]
+EXEC [dbo].[usp_BuncombeTaxInspectionsxxx]
