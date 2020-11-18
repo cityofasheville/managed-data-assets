@@ -1,7 +1,7 @@
 {
   "name": "training_students",
   "location": "mdastore1",
-  "active": false,
+  "active": true,
   "type": "table",
   "description": "Student registrations for training classes",
   "depends": [],

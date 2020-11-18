@@ -13,7 +13,7 @@
           "schemaname": "internal2",
           "tablename": "training_students"
       },
-      "active": false
+      "active": true
     }
   ]
 }
