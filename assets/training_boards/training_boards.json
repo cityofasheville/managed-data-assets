@@ -1,7 +1,7 @@
 {
     "name": "training_boards",
     "location": "google_sheets",
-    "active": false,
+    "active": true,
     "type": "table",
     "description": "Training records for board and commission members",
     "depends": [],

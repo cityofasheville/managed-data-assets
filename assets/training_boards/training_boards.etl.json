@@ -14,7 +14,7 @@
           "tablename": "training_boards",
           "append_serial": "objectid"
         },
-      "active": false
+      "active": true
     }
   ]
 }
