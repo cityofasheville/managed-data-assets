@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "accela",
+          "schemaname": "amd",
+          "tablename": "permit_contacts"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "permit_contacts"
+      },
+      "active": true
+    }
+  ]
+}
