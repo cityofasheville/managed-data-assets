@@ -1,9 +1,9 @@
 {
-  "name": "pcard_transactions",
+  "name": "pcard_transaction",
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "PCard transactions",
+  "description": "PCard transaction",
   "depends": [],
   "objects": [],
   "id": 8540,
