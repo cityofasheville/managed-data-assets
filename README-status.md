@@ -30,4 +30,6 @@ coa_computer_assets.pub
 coa_computer_assets.ms1
 
 ## problems
-parking_cincinnati* tables too big, wait for copy_since
+tables too big, wait for copy_since:
+ parking_cincinnati* 
+ permit_custom_fields
