@@ -1,4 +1,5 @@
 {
+  "run_group": "daily",
   "tasks": [
     {
       "type": "table_copy",
