@@ -13,6 +13,8 @@ coa_cip_project_polygons, coa_cip_project_points, coa_cip_project_lines: All thr
 coa_national_register_properties: drop columns st_area_shape_ st_length_shape_
 coa_zoning_overlays             : drop columns st_area_shape_ st_length_shape_
 general_ledger_parameters: many changes
+pr_employee_info: many new fields
+coa_active_jurisdictions: 
 
 
 ## defunct

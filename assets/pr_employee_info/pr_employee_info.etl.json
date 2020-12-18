@@ -18,7 +18,7 @@
     {
       "type": "sql",
       "file": "create_bpt_testusers.sql",
-      "connection": "datastore1",
+      "connection": "mdastore1",
       "active": true
     }
   ]
