@@ -1,9 +1,18 @@
 {
+  "run_group": "daily",
   "tasks": [
     {
-      "type": "fme",
-      "file": "munis_to_mda_vendors.fmw",
-      "connection": null,
+      "type": "table_copy",
+      "source_location": {
+          "connection": "munis",
+          "schemaname": "dbo",
+          "tablename": "ap_vendor"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "vendors"
+      },
       "active": true
     }
   ]
