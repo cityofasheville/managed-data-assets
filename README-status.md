@@ -3,7 +3,6 @@ assets                 This is the working dir that gets used in the program
 other_locations        So far I am only porting jobs that go to MDA Store
 problems               
 successfully_tested
-todo
 no_etl                 Asset with no ETL job
 
 ## table changes
@@ -22,21 +21,29 @@ bc_property: drop gdb_geomattr_data
 coa_districts_zoning_test
 coa_computer_assets.pub
 
+
+
+
+
+## problems
+### tables too big, wait for copy_since:
+ parking_cincinnati* 
+ permit_custom_fields
+### Maria DB not implemented
+coa_computer_assets.pub
+coa_computer_assets.ms1
 ## *.future files - have temp workarounds (eg pulling from mdastore1)
 ### We can't access Buncombe network from AWS yet
 bc_civicaddress_table
 bc_location
 bc_property_account_master
 
-### Maria DB not implemented
-coa_computer_assets.pub
-coa_computer_assets.ms1
+## New assets
+These assets have been added recently on fme2 and are not here yet
+inspections.pub
+permit*.pub (7 tables)
 
-## problems
-tables too big, wait for copy_since:
- parking_cincinnati* 
- permit_custom_fields
-
- ## AFTER TESTING:
+## AFTER TESTING:
  change all internal2. to internal.
  change 3 steepslope tables from mdastore1 to steepslope connection
+ change bc2. to bc.

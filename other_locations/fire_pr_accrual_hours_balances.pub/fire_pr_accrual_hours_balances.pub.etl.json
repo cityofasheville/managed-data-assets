@@ -1,9 +1,18 @@
 {
+  "run_group": "daily",
   "tasks": [
     {
-      "type": "FME",
-      "file": "mdastore1TOcoa-publicdb1_fire_pr_accrual_hours_balances.fmw",
-      "connection": null,
+      "type": "table_copy",
+      "source_location": {
+        "connection": "mdastore1",
+        "schemaname": "99999",
+        "tablename": "99999"
+      },
+      "target_location": {
+          "connection": "coa-publicdb1",
+          "schemaname": "bc",
+          "tablename": "fire_pr_accrual_hours_balances"
+      },
       "active": true
     }
   ]
