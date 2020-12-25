@@ -117,7 +117,9 @@
         },
         {
             "name": "supervisor_id",
-            "description": "Employee ID of the employee's supervisor"
+            "description": "Employee ID of the employee's supervisor",
+            "type": "integer",
+            "length": 4
         },
         {
             "name": "supervisor",
