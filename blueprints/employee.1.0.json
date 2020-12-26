@@ -136,12 +136,12 @@
         {
             "name": "original_hire_date",
             "description": "Earliest date of hire of the employee",
-            "type": "timestamp_no_tz"
+            "type": "datetime"
         },
         {
             "name": "latest_hire_date",
             "description": "Latest date of hire of the employee",
-            "type": "timestamp_no_tz"
+            "type": "datetime"
         },        {
             "name": "ad_memberships",
             "description": "Comma-separated list of ActiveDirectory groups of which the employee is a member",
