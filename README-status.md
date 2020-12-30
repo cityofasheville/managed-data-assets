@@ -27,9 +27,10 @@ coa_computer_assets.pub
 
 ## problems
 ### tables too big, wait for copy_since:
- parking_cincinnati* 
- permit_custom_fields
-### Maria DB not implemented
+parking_cincinnati_rv_exits
+parking_cincinnati_contract_activity
+permit_custom_fields
+### (MySQL) Maria DB not implemented
 coa_computer_assets.pub
 coa_computer_assets.ms1
 ## *.future files - have temp workarounds (eg pulling from mdastore1)
@@ -45,5 +46,5 @@ permit*.pub (7 tables)
 
 ## AFTER TESTING:
  change all internal2. to internal.
- change 3 steepslope tables from mdastore1 to steepslope connection
+ change 3 steepslope tables from mdastore1 to steepslope connection (bc_incorporated_areas, coa_active_jurisdictions, bc_property)
  change bc2. to bc.

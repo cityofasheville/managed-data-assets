@@ -4,8 +4,8 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "datastore1",
-          "schemaname": "amd",
+          "connection": "coa-gis-warehouse1",
+          "schemaname": "coagis",
           "tablename": "bc_property_account_master"
       },
       "target_location": {
