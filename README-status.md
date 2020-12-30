@@ -16,7 +16,7 @@ pr_employee_info: many new fields, hire_date renamed
 coa_active_jurisdictions: field order? drop column gdb_geomattr_data
 bc_property(steepslope): reorder columns
 bc_property: drop gdb_geomattr_data
-
+bc_location: add gdb_geomattr_data
 ## defunct
 coa_districts_zoning_test
 coa_computer_assets.pub
@@ -31,10 +31,9 @@ parking_cincinnati_rv_exits
 parking_cincinnati_contract_activity
 permit_custom_fields
 ### (MySQL) Maria DB not implemented
-coa_computer_assets.pub
 coa_computer_assets.ms1
-## *.future files - have temp workarounds (eg pulling from mdastore1)
-### We can't access Buncombe network from AWS yet
+### *.future files pull directly from Buncombe but for now we can't access Buncombe network from AWS
+### so we will just use the GIS Warehouse copy (timing needs to be aranged with Christen)
 bc_civicaddress_table
 bc_location
 bc_property_account_master
