@@ -1,9 +1,9 @@
 {
-  "name": "vendors",
+  "name": "fail1",
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "City Vendors",
+  "description": "fail1 info",
   "depends": [],
   "objects": [],
   "category": "",

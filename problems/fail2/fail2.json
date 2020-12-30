@@ -1,11 +1,11 @@
 {
-  "name": "vendors.lib",
-  "location": "libraryplayground",
+  "name": "fail2",
+  "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "Vendors",
+  "description": "fail2 info",
   "depends": [
-    "vendors"
+    "fail1"
   ],
   "objects": [],
   "category": "",
