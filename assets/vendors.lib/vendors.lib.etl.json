@@ -4,14 +4,14 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis",
-          "schemaname": "amd",
-          "tablename": "ad_info"
-      },
-      "target_location": {
           "connection": "mdastore1",
           "schemaname": "internal2",
-          "tablename": "rad_info"
+          "tablename": "vendors"
+      },
+      "target_location": {
+          "connection": "library",
+          "schemaname": "r_finance",
+          "tablename": "vendors"
       },
       "active": true
     }

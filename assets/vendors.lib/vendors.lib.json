@@ -1,10 +1,12 @@
 {
-  "name": "ad_info1",
-  "location": "mdastore1",
+  "name": "vendors.lib",
+  "location": "libraryplayground",
   "active": true,
   "type": "table",
-  "description": "Active Directory info",
-  "depends": [],
+  "description": "Vendors",
+  "depends": [
+    "vendors"
+  ],
   "objects": [],
   "category": "",
   "tags": [],

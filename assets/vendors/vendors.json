@@ -1,12 +1,10 @@
 {
-  "name": "ad_info2",
+  "name": "vendors",
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "Active Directory info",
-  "depends": [
-    "ad_info1"
-  ],
+  "description": "City Vendors",
+  "depends": [],
   "objects": [],
   "category": "",
   "tags": [],
