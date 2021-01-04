@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "connection": "mdastore1",
+        "schemaname": "internal2",
+        "tablename": "test1"
+      },
+      "target_location": {
+        "connection": "mdastore1",
+        "schemaname": "internal2",
+        "tablename": "test2"
+      },
+      "active": true
+    }
+  ]
+}
