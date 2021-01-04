@@ -1,10 +1,12 @@
 {
-  "name": "inspections",
-  "location": "mdastore1",
+  "name": "inspections.pub",
+  "location": "publicdb1",
   "active": true,
   "type": "table",
-  "description": "Inspections data",
-  "depends": [],
+  "description": "",
+  "depends": [
+    "inspections.ms1"
+  ],
   "objects": [],
   "category": "",
   "tags": [],

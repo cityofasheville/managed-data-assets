@@ -40,7 +40,6 @@ bc_property_account_master
 
 ## New assets
 These assets have been added recently on fme2 and are not here yet
-inspections.pub
 permit*.pub (7 tables)
 
 ## AFTER TESTING:
