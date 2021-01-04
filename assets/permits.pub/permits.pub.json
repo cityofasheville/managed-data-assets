@@ -5,7 +5,7 @@
   "type": "table",
   "description": "Permits data for Buncombe",
   "depends": [
-    "permits"
+
   ],
   "objects": [],
   "category": "",
@@ -20,7 +20,9 @@
   "abstract": "",
   "status": "",
   "update_frequency": "",
-  "keywords": [],
+  "keywords": [
+    "permits"
+  ],
   "use_constraints": "",
   "metadata_constraints": [],
   "resource_constraints": "",
