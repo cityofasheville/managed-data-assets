@@ -4,13 +4,13 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "mdastore1",
-        "schemaname": "internal2",
+        "connection": "coa-publicdb1",
+        "schemaname": "open",
         "tablename": "test1"
       },
       "target_location": {
-        "connection": "mdastore1",
-        "schemaname": "internal2",
+        "connection": "coa-publicdb1",
+        "schemaname": "open",
         "tablename": "test2"
       },
       "active": true

@@ -1,6 +1,6 @@
 {
   "name": "test1",
-  "location": "mdastore1",
+  "location": "public",
   "active": true,
   "type": "table",
   "description": "test",
