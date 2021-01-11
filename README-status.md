@@ -30,6 +30,11 @@ coa_computer_assets.pub
 parking_cincinnati_rv_exits
 parking_cincinnati_contract_activity
 permit_custom_fields
+### ESRI PostGIS vs Postgres
+coa_zoning_overlays(PUZL)
+coa_districts_public_works(PUZL)
+coa_local_historic_landmarks(PUZL)
+coa_districts_water(PUZL)
 ### (MySQL) Maria DB not implemented
 coa_computer_assets.ms1
 ### *.future files pull directly from Buncombe but for now we can't access Buncombe network from AWS
