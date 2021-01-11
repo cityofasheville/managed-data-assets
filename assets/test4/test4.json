@@ -4,7 +4,9 @@
   "active": true,
   "type": "table",
   "description": "test4 info",
-  "depends": [],
+  "depends": [
+    "test2"
+  ],
   "objects": [],
   "category": "",
   "tags": [],
