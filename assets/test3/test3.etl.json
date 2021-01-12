@@ -6,7 +6,7 @@
       "source_location": {
           "connection": "mdastore1",
           "schemaname": "public",
-          "tablename": "test4"
+          "tablename": "test2"
       },
       "target_location": {
           "connection": "mdastore1",
