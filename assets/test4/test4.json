@@ -5,7 +5,7 @@
   "type": "table",
   "description": "test4 info",
   "depends": [
-    "test3"
+    "test2"
   ],
   "objects": [],
   "category": "",
