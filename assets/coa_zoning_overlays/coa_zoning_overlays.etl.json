@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1",
+          "connection": "coa-gis-warehouse1",
           "schemaname": "coagis",
           "tablename": "coa_zoning_overlays"
       },
