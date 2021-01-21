@@ -1,9 +1,4 @@
-# Dirs: 
-assets                 This is the working dir that gets used in the program
-other_locations        So far I am only porting jobs that go to MDA Store
-problems               
-successfully_tested
-no_etl                 Asset with no ETL job
+
 
 ## table changes
 capital_projects_master: drop column communication_plan
@@ -16,38 +11,31 @@ pr_employee_info: many new fields, hire_date renamed
 coa_active_jurisdictions: field order? drop column gdb_geomattr_data
 bc_property(steepslope): reorder columns
 bc_property: drop gdb_geomattr_data
-bc_location: add gdb_geomattr_data
-## defunct
-coa_districts_zoning_test
-coa_computer_assets.pub
+bc_location: add gdb_geomattr_datas
+
 
 
 
 
 
 ## problems
+
 ### tables too big, wait for copy_since:
 parking_cincinnati_rv_exits
 parking_cincinnati_contract_activity
 permit_custom_fields
-### ESRI PostGIS vs Postgres
-coa_zoning_overlays(PUZL)
-coa_districts_public_works(PUZL)
-coa_local_historic_landmarks(PUZL)
-coa_districts_water(PUZL)
+
 ### (MySQL) Maria DB not implemented
 coa_computer_assets.ms1
-### *.future files pull directly from Buncombe but for now we can't access Buncombe network from AWS
-### so we will just use the GIS Warehouse copy (timing needs to be aranged with Christen)
-bc_civicaddress_table
-bc_location
-bc_property_account_master
 
-## New assets
-These assets have been added recently on fme2 and are not here yet
+## Problem with async 1 => 2 => 3
 permit*.pub (7 tables)
 
+
+
 ## AFTER TESTING:
+Make changes to tables in internal
+
  change all internal2. to internal.
  change 3 steepslope tables from mdastore1 to steepslope connection (bc_incorporated_areas, coa_active_jurisdictions, bc_property)
  change bc2. to bc.
