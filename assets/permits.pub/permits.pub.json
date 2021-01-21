@@ -5,7 +5,7 @@
   "type": "table",
   "description": "Permits data for Buncombe",
   "depends": [
-
+    "permits"
   ],
   "objects": [],
   "category": "",
