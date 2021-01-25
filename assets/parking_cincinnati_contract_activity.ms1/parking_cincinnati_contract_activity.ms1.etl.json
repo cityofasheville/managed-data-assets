@@ -13,7 +13,7 @@
           "schemaname": "internal2",
           "tablename": "parking_cincinnati_contract_activity"
       },
-      "num_weeks": 1,
+      "num_weeks": 9,
       "column_to_filter": "ACTIVITY_TIME",
       "active": true
     }
