@@ -10,7 +10,7 @@
       },
       "target_location": {
           "connection": "coa-publicdb1",
-          "schemaname": "smarking",
+          "schemaname": "smarking2",
           "tablename": "parking_cincinnati_rv_tickets"
       },
       "active": true

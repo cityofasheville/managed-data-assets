@@ -5,13 +5,13 @@
       "type": "table_copy",
       "source_location": {
         "connection": "mdastore1",
-        "schemaname": "bc2",
-        "tablename": "buncombe_tax_permits"
+        "schemaname": "internal2",
+        "tablename": "parking_cincinnati_contract_activity"
       },
       "target_location": {
           "connection": "coa-publicdb1",
-          "schemaname": "bc",
-          "tablename": "buncombe_tax_permits"
+          "schemaname": "smarking2",
+          "tablename": "parking_cincinnati_contract_activity"
       },
       "active": true
     }

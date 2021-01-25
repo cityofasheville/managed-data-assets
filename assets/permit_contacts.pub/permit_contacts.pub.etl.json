@@ -10,7 +10,7 @@
       },
       "target_location": {
         "connection": "coa-publicdb1",
-        "schemaname": "bc",
+        "schemaname": "bc2",
         "tablename": "permit_contacts"
       },
       "active": true

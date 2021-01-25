@@ -5,13 +5,13 @@
       "type": "table_copy",
       "source_location": {
         "connection": "mdastore1",
-        "schemaname": "99999",
-        "tablename": "99999"
+        "schemaname": "internal2",
+        "tablename": "parking_cincinnati_rv_exits"
       },
       "target_location": {
           "connection": "coa-publicdb1",
-          "schemaname": "bc",
-          "tablename": "fire_pr_accrual_hours_balances"
+          "schemaname": "smarking2",
+          "tablename": "parking_cincinnati_rv_exits"
       },
       "active": true
     }
