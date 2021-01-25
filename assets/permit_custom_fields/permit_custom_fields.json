@@ -3,9 +3,9 @@
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "Permit custom fields data",
+  "description": "Permit custom fields data ADD THIS depends BACK!!!! \"permits\"",
   "depends": [
-    "permits"
+    
   ],
   "objects": [],
   "category": "",
