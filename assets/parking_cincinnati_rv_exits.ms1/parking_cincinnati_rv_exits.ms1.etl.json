@@ -13,7 +13,7 @@
           "schemaname": "internal2",
           "tablename": "parking_cincinnati_rv_exits"
       },
-      "num_weeks": 9,
+      "num_weeks": 1,
       "column_to_filter": "EXIT_TIME",
       "active": true
     }
