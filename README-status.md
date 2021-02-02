@@ -1,6 +1,8 @@
 
 
 ## table changes
+coa_districts_water: different rows in postgres and postgis Solution, pull from wh
+
 capital_projects_master: drop column communication_plan <= ALL NULL
 coa_asheville_nieghborhoods: drop columns st_area_shape_ st_length_shape_ <= ALL NULL
 coa_cip_project_polygons: reorder columns
@@ -15,7 +17,7 @@ coa_cip_project_points: add 8 columns:
 	department varchar(30)
 coa_cip_project_lines: reorder columns
 
-(These do not exist in DB, they are PostGIS. Can be recreated with views and GIS functions.)
+(SOLVED: These do not exist in DB, they are PostGIS. I have recreated with views and GIS functions.)
 coa_national_register_properties:  drop columns st_area_shape_ st_length_shape_ 
 coa_zoning_overlays             : drop columns st_area_shape_ st_length_shape_
 
@@ -46,11 +48,12 @@ pr_employee_info: drop column:
 	age_at_hire numeric(8,2) 
 	age_at_term numeric(8,2)
 
-coa_active_jurisdictions: drop column gdb_geomattr_data but data is all null
+coa_active_jurisdictions: drop column gdb_geomattr_data but data is all null (could create view with null?)
 
 bc_property(steepslope): reorder columns
-bc_property: drop gdb_geomattr_data
-bc_location: add gdb_geomattr_datas
+
+bc_property: drop gdb_geomattr_data but data is all null (could create view with null?)
+bc_location: add gdb_geomattr_data
 
 
 
