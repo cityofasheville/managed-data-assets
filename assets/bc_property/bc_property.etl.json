@@ -5,7 +5,7 @@
       "type": "table_copy",
       "source_location": {
           "connection": "coa-gis-edit1",
-          "schemaname": "coagis",
+          "schemaname": "bedrock",
           "tablename": "bc_property"
       },
       "target_location": {
