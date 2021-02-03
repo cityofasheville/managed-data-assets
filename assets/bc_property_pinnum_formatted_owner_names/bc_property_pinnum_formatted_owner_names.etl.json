@@ -6,7 +6,7 @@
       "file": "fill_owner_names.sql",
       "connection": "mdastore1",
       "active": true
-    },
+    }
   ]
 }
 
