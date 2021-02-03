@@ -4,7 +4,10 @@
   "active": true,
   "type": "table",
   "description": "Preprocessed owner names",
-  "depends": [],
+  "depends": [
+    "bc_property_account_master",
+    "bc_property"
+  ],
   "objects": [],
   "category": "",
   "tags": [],
