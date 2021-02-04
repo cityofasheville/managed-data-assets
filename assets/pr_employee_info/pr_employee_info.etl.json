@@ -10,7 +10,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "bedrock_temp_data",
           "tablename": "pr_employee_info"
       },
       "active": true
@@ -18,6 +18,12 @@
     {
       "type": "sql",
       "file": "create_bpt_testusers.sql",
+      "connection": "mdastore1",
+      "active": true
+    },
+    {
+      "type": "sql",
+      "file": "copy_from_temp.sql",
       "connection": "mdastore1",
       "active": true
     }
