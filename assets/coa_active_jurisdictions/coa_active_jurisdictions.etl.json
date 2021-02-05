@@ -5,7 +5,7 @@
       "type": "table_copy",
       "source_location": {
           "connection": "coa-gis-edit1",
-          "schemaname": "bedrock",
+          "schemaname": "coagis",
           "tablename": "coa_active_jurisdictions"
       },
       "target_location": {

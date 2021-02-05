@@ -5,7 +5,7 @@
       "type": "table_copy",
       "source_location": {
           "connection": "coa-gis-edit1",
-          "schemaname": "bedrock",
+          "schemaname": "coagis",
           "tablename": "coa_asheville_neighborhoods"
       },
       "target_location": {
