@@ -5,8 +5,8 @@
       "type": "table_copy",
       "source_location": {
           "connection": "coa-gis-warehouse1",
-          "schemaname": "bedrock",
-          "tablename": "bedrock_coa_national_register_properties"
+          "schemaname": "coagis",
+          "tablename": "coa_national_register_properties"
       },
       "target_location": {
           "connection": "mdastore1",
