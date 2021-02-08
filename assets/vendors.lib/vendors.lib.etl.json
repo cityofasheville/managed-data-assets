@@ -5,7 +5,7 @@
       "type": "table_copy",
       "source_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "vendors"
       },
       "target_location": {

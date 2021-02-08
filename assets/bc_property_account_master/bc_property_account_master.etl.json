@@ -10,7 +10,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "bc_property_account_master"
       },
       "active": true

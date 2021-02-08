@@ -17,6 +17,7 @@ coa_computer_assets.ms1
 ## AFTER TESTING:
 Make changes to tables in internal
 
+ALL CHANGED:
  change all internal2. to internal.
  change 3 steepslope tables from mdastore1 to steepslope connection (bc_incorporated_areas, coa_active_jurisdictions, bc_property)
  change bc2. to bc.

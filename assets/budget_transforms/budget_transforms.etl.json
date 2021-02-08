@@ -10,7 +10,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_categories"
       },
       "active": true
@@ -24,7 +24,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_deptdiv_mappings"
       },
       "active": true
@@ -38,7 +38,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_sections"
       },
       "active": true
@@ -52,7 +52,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_category_mapping"
       },
       "active": true
@@ -66,7 +66,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_section_mapping"
       },
       "active": true
@@ -80,7 +80,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_exclusions"
       },
       "active": true
@@ -94,7 +94,7 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal2",
+          "schemaname": "internal",
           "tablename": "budget_interfund_transfers"
       },
       "active": true

@@ -9,8 +9,7 @@
           "tablename": "bc_incorporated_areas"
       },
       "target_location": {
-          "connection": "mdastore1",
-          "realconnection": "steepslope!!!!!!!!!!!!!!!!!!!!!",
+          "connection": "steepslope",
           "schemaname": "public",
           "tablename": "bc_incorporated_areas"
       },
@@ -24,7 +23,7 @@
           "tablename": "coa_active_jurisdictions"
       },
       "target_location": {
-          "connection": "mdastore1",
+          "connection": "steepslope",
           "schemaname": "public",
           "tablename": "coa_active_jurisdictions"
       },
@@ -38,7 +37,7 @@
           "tablename": "bc_property"
       },
       "target_location": {
-          "connection": "mdastore1",
+          "connection": "steepslope",
           "schemaname": "public",
           "tablename": "bc_property"
       },

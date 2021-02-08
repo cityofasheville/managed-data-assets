@@ -10,7 +10,7 @@
       },
       "target_location": {
           "connection": "coa-publicdb1",
-          "schemaname": "bc2",
+          "schemaname": "bc",
           "tablename": "fire_pr_accrual_hours_balances"
       },
       "active": true

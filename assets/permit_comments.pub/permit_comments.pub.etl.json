@@ -5,12 +5,12 @@
       "type": "table_copy",
       "source_location": {
         "connection": "mdastore1",
-        "schemaname": "internal2",
+        "schemaname": "internal",
         "tablename": "permit_comments"
       },
       "target_location": {
         "connection": "coa-publicdb1",
-        "schemaname": "bc2",
+        "schemaname": "bc",
         "tablename": "permit_comments"
       },
       "active": true
