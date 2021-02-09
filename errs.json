@@ -1,0 +1,661 @@
+{
+  "success": [
+    "bc_property",
+    "coa_asheville_neighborhoods.ms1",
+    "coa_street_maintenance",
+    "coa_zoning_overlays",
+    "pcard_transaction",
+    "permit_contacts",
+    "budget_transforms",
+    "permit_tasks",
+    "parking_cincinnati_rv_tickets.ms1",
+    "permits",
+    "bc_civicaddress_table",
+    "vendors",
+    "bc_public_incident_data",
+    "coa_cip_project_shapes",
+    "bc_property_account_master",
+    "dsd_first_review_sla",
+    "pr_employee_info",
+    "coa_active_jurisdictions",
+    "ad_info",
+    "coa_local_historic_landmarks",
+    "bc_location",
+    "parking_cincinnati_contract_activity.ms1",
+    "capital_projects_master_categories",
+    "parking_cincinnati_rv_exits.ms1",
+    "permit_owners",
+    "pr_accrual_hours_balances.ms1",
+    "general_ledger_parameters",
+    "inspections.ms1",
+    "permit_custom_fields",
+    "gl_master",
+    "capital_projects_master",
+    "coa_national_register_properties",
+    "gl_budget",
+    "pcard_statement_status_history",
+    "bc_buncombe_tax.acc",
+    "fire_pr_accrual_hours_balances.pub",
+    "bc_property_pinnum_formatted_owner_names",
+    "parking_cincinnati_rv_exits.pub",
+    "permit_tasks.pub",
+    "permit_contacts.pub",
+    "permits.pub",
+    "permit_owners.pub",
+    "parking_cincinnati_rv_tickets.pub",
+    "permit_contractors",
+    "bc_buncombe_tax_permits.ms1",
+    "permit_custom_fields.pub",
+    "inspections.pub",
+    "parking_cincinnati_contract_activity.pub",
+    "bc_buncombe_tax_inspections.ms1",
+    "permit_comments",
+    "vendors.lib",
+    "bc_buncombe_tax_permits.pub",
+    "permit_comments.pub",
+    "permit_contractors.pub",
+    "bc_buncombe_tax_inspections.pub"
+  ],
+  "skipped": [
+    "coa_bc_address_master"
+  ],
+  "failure": [
+    {
+      "name": "coa_zip_code",
+      "job": {
+        "name": "coa_zip_code",
+        "depends": [],
+        "path": "store/assets/coa_zip_code/coa_zip_code.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_zip_code"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_zip_code"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "coa_zip_code",
+        "depends": [],
+        "path": "store/assets/coa_zip_code/coa_zip_code.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_zip_code"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_zip_code"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: missing data for column \"shape\""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "bc_street.ms1",
+      "job": {
+        "name": "bc_street.ms1",
+        "depends": [],
+        "path": "store/assets/bc_street.ms1/bc_street.ms1.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "bc_street"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "bc_street"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "bc_street.ms1",
+        "depends": [],
+        "path": "store/assets/bc_street.ms1/bc_street.ms1.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "bc_street"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "bc_street"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: extra data after last expected column"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "coa_districts_public_works",
+      "job": {
+        "name": "coa_districts_public_works",
+        "depends": [],
+        "path": "store/assets/coa_districts_public_works/coa_districts_public_works.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_public_works"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_public_works"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "coa_districts_public_works",
+        "depends": [],
+        "path": "store/assets/coa_districts_public_works/coa_districts_public_works.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_public_works"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_public_works"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: extra data after last expected column"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "iran_divestment_approved_companies",
+      "job": {
+        "name": "iran_divestment_approved_companies",
+        "depends": [],
+        "path": "store/assets/iran_divestment_approved_companies/iran_divestment_approved_companies.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
+              "range": "Approved Companies!A5:B"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "iran_divestment_approved_companies"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "iran_divestment_approved_companies",
+        "depends": [],
+        "path": "store/assets/iran_divestment_approved_companies/iran_divestment_approved_companies.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
+              "range": "Approved Companies!A5:B"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "iran_divestment_approved_companies"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: relation \"internal.iran_divestment_approved_companies\" does not exist"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "coa_districts_zoning",
+      "job": {
+        "name": "coa_districts_zoning",
+        "depends": [],
+        "path": "store/assets/coa_districts_zoning/coa_districts_zoning.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_zoning"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_zoning"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "coa_districts_zoning",
+        "depends": [],
+        "path": "store/assets/coa_districts_zoning/coa_districts_zoning.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_zoning"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_zoning"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: Geometry type (Polygon) does not match column type (MultiPolygon)"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "steepslope",
+      "job": {
+        "name": "steepslope",
+        "depends": [],
+        "path": "store/assets/steepslope/steepslope.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_incorporated_areas"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_incorporated_areas"
+            },
+            "active": true
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_property"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_property"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "steepslope",
+        "depends": [],
+        "path": "store/assets/steepslope/steepslope.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_incorporated_areas"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_incorporated_areas"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 200,
+              "body": {
+                "lambda_output": "Table copied steepslope public.bc_incorporated_areas"
+              }
+            }
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: invalid input syntax for type timestamp: \"0106000020D8080000010000000103000000010000000C00000000BEF87A92142D41801E47045FA3234180B11336E9142D4100DFD729B7A22341803044F60F152D410077EFD964A22341800F088C5D152D4180B4BFD4B5A12341005B795173152D4180E1C8B484A1234100AB7AE173152D4180BB756F83A1234180FBC82515142D418070C506F1A0234100651BD0D0132D4180474CB184A1234100F0FB0FBA132D41001B43D1B5A1234100B9E1DFA8132D41803D3BF1DAA1234180E8F3C934132D4100A3FD20D6A2234100BEF87A92142D41801E47045FA32341\""
+              }
+            }
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_property"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_property"
+            },
+            "active": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "iran_divestment_restricted_companies",
+      "job": {
+        "name": "iran_divestment_restricted_companies",
+        "depends": [],
+        "path": "store/assets/iran_divestment_restricted_companies/iran_divestment_restricted_companies.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
+              "range": "Bad Actors!A5:B"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "iran_divestment_restricted_companies"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "iran_divestment_restricted_companies",
+        "depends": [],
+        "path": "store/assets/iran_divestment_restricted_companies/iran_divestment_restricted_companies.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
+              "range": "Bad Actors!A5:B"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "iran_divestment_restricted_companies"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: relation \"internal.iran_divestment_restricted_companies\" does not exist"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "training_students",
+      "job": {
+        "name": "training_students",
+        "depends": [],
+        "path": "store/assets/training_students/training_students.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "munis",
+              "schemaname": "amd",
+              "tablename": "training_students"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "training_students"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "training_students",
+        "depends": [],
+        "path": "store/assets/training_students/training_students.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "munis",
+              "schemaname": "amd",
+              "tablename": "training_students"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "training_students"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: relation \"internal.training_students\" does not exist"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "coa_districts_water",
+      "job": {
+        "name": "coa_districts_water",
+        "depends": [],
+        "path": "store/assets/coa_districts_water/coa_districts_water.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_water"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_water"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "coa_districts_water",
+        "depends": [],
+        "path": "store/assets/coa_districts_water/coa_districts_water.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_districts_water"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_districts_water"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: missing data for column \"shape\""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "training_boards",
+      "job": {
+        "name": "training_boards",
+        "depends": [],
+        "path": "store/assets/training_boards/training_boards.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1Efr6hn24-9e4eENkZy3Y_8uaYlYqFv4Iz2uqzrUwuRw",
+              "range": "Member Training!A2:F"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "training_boards",
+              "append_serial": "objectid"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "training_boards",
+        "depends": [],
+        "path": "store/assets/training_boards/training_boards.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "bedrock-googlesheets",
+              "spreadsheetid": "1Efr6hn24-9e4eENkZy3Y_8uaYlYqFv4Iz2uqzrUwuRw",
+              "range": "Member Training!A2:F"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "training_boards",
+              "append_serial": "objectid"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: relation \"internal.training_boards\" does not exist"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "results": null,
+  "RunSetIsGo": false,
+  "TaskOutput": null
+}

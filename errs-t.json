@@ -1,0 +1,243 @@
+{
+  "success": [
+    "permit_custom_fields",
+    "training_students",
+    "bc_location",
+    "parking_cincinnati_rv_exits.ms1",
+    "permit_tasks",
+    "bc_buncombe_tax.acc",
+    "bc_street.ms1",
+    "general_ledger_parameters",
+    "coa_local_historic_landmarks",
+    "capital_projects_master_categories",
+    "inspections.ms1",
+    "ad_info",
+    "training_boards",
+    "coa_districts_public_works",
+    "coa_street_maintenance",
+    "gl_master",
+    "budget_transforms",
+    "iran_divestment_approved_companies",
+    "parking_cincinnati_rv_tickets.ms1",
+    "parking_cincinnati_contract_activity.ms1",
+    "vendors",
+    "permit_owners",
+    "pcard_transaction",
+    "coa_cip_project_shapes",
+    "coa_national_register_properties",
+    "coa_asheville_neighborhoods.ms1",
+    "coa_districts_zoning",
+    "coa_zip_code",
+    "bc_public_incident_data",
+    "bc_property",
+    "permits",
+    "pr_accrual_hours_balances.ms1",
+    "pr_employee_info",
+    "bc_civicaddress_table",
+    "bc_property_account_master",
+    "dsd_first_review_sla",
+    "coa_zoning_overlays",
+    "coa_districts_water",
+    "capital_projects_master",
+    "gl_budget",
+    "pcard_statement_status_history",
+    "permit_contacts",
+    "iran_divestment_restricted_companies",
+    "permit_contractors",
+    "permit_owners.pub",
+    "vendors.lib",
+    "permit_tasks.pub",
+    "parking_cincinnati_rv_exits.pub",
+    "permit_comments",
+    "permit_custom_fields.pub",
+    "parking_cincinnati_rv_tickets.pub",
+    "inspections.pub",
+    "bc_buncombe_tax_inspections.ms1",
+    "fire_pr_accrual_hours_balances.pub",
+    "permit_contacts.pub",
+    "parking_cincinnati_contract_activity.pub",
+    "bc_buncombe_tax_permits.ms1",
+    "bc_property_pinnum_formatted_owner_names",
+    "permits.pub",
+    "bc_buncombe_tax_permits.pub",
+    "bc_buncombe_tax_inspections.pub",
+    "permit_comments.pub",
+    "permit_contractors.pub"
+  ],
+  "skipped": [
+    "coa_bc_address_master"
+  ],
+  "failure": [
+    {
+      "name": "steepslope",
+      "job": {
+        "name": "steepslope",
+        "depends": [],
+        "path": "store/assets/steepslope/steepslope.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_incorporated_areas"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_incorporated_areas"
+            },
+            "active": true
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_property"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_property"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "steepslope",
+        "depends": [],
+        "path": "store/assets/steepslope/steepslope.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_incorporated_areas"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_incorporated_areas"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 200,
+              "body": {
+                "lambda_output": "Table copied steepslope public.bc_incorporated_areas"
+              }
+            }
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: invalid input syntax for type timestamp: \"0106000020D8080000010000000103000000010000000C00000000BEF87A92142D41801E47045FA3234180B11336E9142D4100DFD729B7A22341803044F60F152D410077EFD964A22341800F088C5D152D4180B4BFD4B5A12341005B795173152D4180E1C8B484A1234100AB7AE173152D4180BB756F83A1234180FBC82515142D418070C506F1A0234100651BD0D0132D4180474CB184A1234100F0FB0FBA132D41001B43D1B5A1234100B9E1DFA8132D41803D3BF1DAA1234180E8F3C934132D4100A3FD20D6A2234100BEF87A92142D41801E47045FA32341\""
+              }
+            }
+          },
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-warehouse1",
+              "schemaname": "coagis",
+              "tablename": "bc_property"
+            },
+            "target_location": {
+              "connection": "steepslope",
+              "schemaname": "public",
+              "tablename": "bc_property"
+            },
+            "active": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "coa_active_jurisdictions",
+      "job": {
+        "name": "coa_active_jurisdictions",
+        "depends": [],
+        "path": "store/assets/coa_active_jurisdictions/coa_active_jurisdictions.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true
+          }
+        ]
+      },
+      "result": {
+        "name": "coa_active_jurisdictions",
+        "depends": [],
+        "path": "store/assets/coa_active_jurisdictions/coa_active_jurisdictions.json",
+        "run_group": "daily",
+        "etl_tasks": [
+          {
+            "type": "table_copy",
+            "source_location": {
+              "connection": "coa-gis-edit1",
+              "schemaname": "coagis",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "target_location": {
+              "connection": "mdastore1",
+              "schemaname": "internal",
+              "tablename": "coa_active_jurisdictions"
+            },
+            "active": true,
+            "result": {
+              "statusCode": 500,
+              "body": {
+                "lambda_output": "error: invalid input syntax for type timestamp: \"0103000020D8080000010000000C00000000BEF87A92142D41801E47045FA3234180B11336E9142D4100DFD729B7A22341803044F60F152D410077EFD964A22341800F088C5D152D4180B4BFD4B5A12341005B795173152D4180E1C8B484A1234100AB7AE173152D4180BB756F83A1234180FBC82515142D418070C506F1A0234100651BD0D0132D4180474CB184A1234100F0FB0FBA132D41001B43D1B5A1234100B9E1DFA8132D41803D3BF1DAA1234180E8F3C934132D4100A3FD20D6A2234100BEF87A92142D41801E47045FA32341\""
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "results": null,
+  "RunSetIsGo": false,
+  "TaskOutput": null
+}
