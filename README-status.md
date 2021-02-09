@@ -5,7 +5,6 @@ https://docs.google.com/spreadsheets/d/1jWGKtsSEw7hcA4HLM-zMUDdLEpO2GrBaTlFRAtGg
 
 All tables updated in internal. Should be ready to go live.
 
-## problems
 
 ### (MySQL) Maria DB not implemented
 coa_computer_assets.ms1
