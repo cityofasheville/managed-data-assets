@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1",
+          "connection": "coa-gis-warehouse1",
           "schemaname": "coagis",
           "tablename": "bc_street"
       },
@@ -13,7 +13,7 @@
           "schemaname": "internal",
           "tablename": "bc_street"
       },
-      "active": true
+      "active": false
     }
   ]
 }

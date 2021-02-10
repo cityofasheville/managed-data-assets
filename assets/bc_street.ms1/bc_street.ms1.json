@@ -1,7 +1,7 @@
 {
   "name": "bc_street.ms1",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "table",
   "description": "Street table from Edit-DB",
   "depends": [],
