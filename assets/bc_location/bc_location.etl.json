@@ -4,14 +4,14 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1",
+          "connection": "coa-gis-warehouse1",
           "schemaname": "coagis",
-          "tablename": "coa_zip_code"
+          "tablename": "bc_location"
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal",
-          "tablename": "coa_zip_code"
+          "schemaname": "internal2",
+          "tablename": "bc_location"
       },
       "active": true
     }

@@ -4,18 +4,16 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1",
+          "connection": "coa-gis-warehouse1",
           "schemaname": "coagis",
-          "tablename": "coa_districts_zoning"
+          "tablename": "coa_active_jurisdictions"
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal",
-          "tablename": "coa_districts_zoning"
+          "schemaname": "internal2",
+          "tablename": "coa_active_jurisdictions"
       },
       "active": true
     }
   ]
 }
-
-

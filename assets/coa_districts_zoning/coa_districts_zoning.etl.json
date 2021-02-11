@@ -4,17 +4,18 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-warehouse1",
+          "connection": "coa-gis-edit1",
           "schemaname": "coagis",
-          "tablename": "coa_districts_water"
+          "tablename": "coa_districts_zoning"
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal",
-          "tablename": "coa_districts_water"
+          "schemaname": "internal2",
+          "tablename": "coa_districts_zoning"
       },
       "active": true
     }
   ]
 }
+
 

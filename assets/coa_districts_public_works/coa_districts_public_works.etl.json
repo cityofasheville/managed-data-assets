@@ -6,14 +6,15 @@
       "source_location": {
           "connection": "coa-gis-warehouse1",
           "schemaname": "coagis",
-          "tablename": "coa_active_jurisdictions"
+          "tablename": "coa_districts_public_works"
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal",
-          "tablename": "coa_active_jurisdictions"
+          "schemaname": "internal2",
+          "tablename": "coa_districts_public_works"
       },
       "active": true
     }
   ]
 }
+
