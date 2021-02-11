@@ -10,10 +10,10 @@
       },
       "target_location": {
           "connection": "mdastore1",
-          "schemaname": "internal",
+          "schemaname": "internal2",
           "tablename": "bc_street"
       },
-      "active": false
+      "active": true
     }
   ]
 }
