@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "connection": "mdastore1",
+        "schemaname": "internal",
+        "tablename": "permits"
+      },
+      "target_location": {
+        "connection": "coa-publicdb1",
+        "schemaname": "bc",
+        "tablename": "permits"
+      },
+      "active": true
+    }
+  ]
+}

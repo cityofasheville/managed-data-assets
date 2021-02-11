@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "munis",
+          "schemaname": "dbo",
+          "tablename": "GeneralLedgerParameters"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal",
+          "tablename": "general_ledger_parameters"
+      },
+      "active": true
+    }
+  ]
+}
