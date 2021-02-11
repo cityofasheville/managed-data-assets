@@ -1,0 +1,11 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "sql",
+      "file": "all.sql",
+      "connection": "mdastore1",
+      "active": true
+    }
+  ]
+}
