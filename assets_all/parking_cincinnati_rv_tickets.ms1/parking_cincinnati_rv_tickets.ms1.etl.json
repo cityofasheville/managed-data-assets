@@ -1,16 +1,17 @@
 {
+  "run_group": "daily",
   "tasks": [
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "kace",
-          "schemaname": "?",
-          "tablename": "???"
+          "connection": "cinncinati_parking",
+          "schemaname": "dbo",
+          "tablename": "RV_TICKETS"
       },
       "target_location": {
           "connection": "mdastore1",
           "schemaname": "internal2",
-          "tablename": "coa_computer_assets"
+          "tablename": "parking_cincinnati_rv_tickets"
       },
       "active": true
     }

@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "vendors"
+      },
+      "target_location": {
+          "connection": "library",
+          "schemaname": "r_finance",
+          "tablename": "vendors"
+      },
+      "active": true
+    }
+  ]
+}

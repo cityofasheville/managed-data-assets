@@ -1,10 +1,10 @@
--- internal.bc_location definition
+-- internal2.bc_location definition
 
 -- Drop table
 
--- DROP TABLE internal.bc_location;
+-- DROP TABLE internal2.bc_location;
 
-CREATE TABLE internal.bc_location (
+CREATE TABLE internal2.bc_location (
 	objectid int4 NULL,
 	location_id float8 NULL,
 	locationtype int4 NULL,
@@ -23,16 +23,16 @@ CREATE TABLE internal.bc_location (
 	parcel_id varchar(10) NULL,
 	shape tiger.geometry NULL
 );
-CREATE INDEX a52_ix1 ON internal.bc_location USING gist (shape);
-CREATE INDEX r61_sde_rowid_uk ON internal.bc_location USING btree (objectid) WITH (fillfactor='75');
+CREATE INDEX a52_ix1 ON internal2.bc_location USING gist (shape);
+CREATE INDEX r61_sde_rowid_uk ON internal2.bc_location USING btree (objectid) WITH (fillfactor='75');
 
 -- internal2.bc_location definition
 
 -- Drop table
 
--- DROP TABLE internal.bc_location CASCADE;
+-- DROP TABLE internal2.bc_location CASCADE;
 
-CREATE TABLE internal.bc_location (
+CREATE TABLE internal2.bc_location (
 	objectid int4 NOT NULL,
 	location_id float8 NULL,
 	locationtype int4 NULL,
@@ -52,12 +52,12 @@ CREATE TABLE internal.bc_location (
 	shape tiger.geometry(POINT, 2264) NULL,
 	gdb_geomattr_data bytea NULL
 );
-CREATE INDEX a52_ix1 ON internal.bc_location USING gist (shape);
+CREATE INDEX a52_ix1 ON internal2.bc_location USING gist (shape);
 
 --------
--- internal.coa_bc_address_test source
+-- internal2.coa_bc_address_test source
 
-CREATE OR REPLACE VIEW internal.coa_bc_address_test
+CREATE OR REPLACE VIEW internal2.coa_bc_address_test
 AS SELECT DISTINCT address_locations.objectid,
     address_locations.civicaddress_id,
     address_locations.address_x,
@@ -161,8 +161,8 @@ AS SELECT DISTINCT address_locations.objectid,
                 END AS parent_location_id,
             bc_civicaddress_table.pinext,
             bc_location.shape
-           FROM internal.bc_civicaddress_table
-             LEFT JOIN internal.bc_location ON bc_civicaddress_table.civicaddress_id = bc_location.civicaddress_id
+           FROM internal2.bc_civicaddress_table
+             LEFT JOIN internal2.bc_location ON bc_civicaddress_table.civicaddress_id = bc_location.civicaddress_id
           WHERE bc_civicaddress_table.civicaddress_id <> 0::double precision) address_locations
      LEFT JOIN ( SELECT tmp.location_id,
             tmp.pin,
@@ -170,14 +170,14 @@ AS SELECT DISTINCT address_locations.objectid,
            FROM ( SELECT DISTINCT bc_location.location_id,
                     bc_property_1.pin,
                     row_number() OVER (PARTITION BY bc_location.location_id ORDER BY bc_property_1.pin) AS rn
-                   FROM internal.bc_location
-                     LEFT JOIN internal.bc_property bc_property_1 ON st_contains(bc_property_1.shape, bc_location.shape)) tmp
+                   FROM internal2.bc_location
+                     LEFT JOIN internal2.bc_property bc_property_1 ON st_contains(bc_property_1.shape, bc_location.shape)) tmp
           WHERE tmp.rn = 1) property_location ON address_locations.location_id = property_location.location_id
-     LEFT JOIN internal.bc_property ON property_location.pin::text = bc_property.pin::text AND address_locations.pinext::text = bc_property.pinext::text
-     LEFT JOIN internal.bc_property_pinnum_formatted_owner_names ON (property_location.pin::text || address_locations.pinext::text) = bc_property_pinnum_formatted_owner_names.pinnum::text
-     LEFT JOIN internal.coa_zip_code ON address_locations.address_zipcode = coa_zip_code.zip::integer
+     LEFT JOIN internal2.bc_property ON property_location.pin::text = bc_property.pin::text AND address_locations.pinext::text = bc_property.pinext::text
+     LEFT JOIN internal2.bc_property_pinnum_formatted_owner_names ON (property_location.pin::text || address_locations.pinext::text) = bc_property_pinnum_formatted_owner_names.pinnum::text
+     LEFT JOIN internal2.coa_zip_code ON address_locations.address_zipcode = coa_zip_code.zip::integer
      LEFT JOIN ( SELECT DISTINCT bc_location.location_id,
             coa_active_jurisdictions.jurisdiction_type
-           FROM internal.bc_location
-             LEFT JOIN internal.coa_active_jurisdictions ON st_contains(coa_active_jurisdictions.shape, bc_location.shape)) active_jurisdictions ON address_locations.location_id = active_jurisdictions.location_id
+           FROM internal2.bc_location
+             LEFT JOIN internal2.coa_active_jurisdictions ON st_contains(coa_active_jurisdictions.shape, bc_location.shape)) active_jurisdictions ON address_locations.location_id = active_jurisdictions.location_id
   ORDER BY address_locations.objectid;

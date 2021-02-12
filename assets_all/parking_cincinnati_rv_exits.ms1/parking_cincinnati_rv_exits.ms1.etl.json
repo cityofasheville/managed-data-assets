@@ -1,0 +1,21 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy_since",
+      "source_location": {
+          "connection": "cinncinati_parking",
+          "schemaname": "dbo",
+          "tablename": "RV_EXITS"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal2",
+          "tablename": "parking_cincinnati_rv_exits"
+      },
+      "num_weeks": 1,
+      "column_to_filter": "EXIT_TIME",
+      "active": true
+    }
+  ]
+}

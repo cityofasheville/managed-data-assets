@@ -1,7 +1,7 @@
 
 
 
--- internal.capital_projects_master definition
+-- internal2.capital_projects_master definition
 
 -- DROP TABLE internal2.capital_projects_master;
 

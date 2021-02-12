@@ -1,5 +1,5 @@
-DROP TABLE internal.bc_property cascade;
-CREATE TABLE internal.bc_property (
+DROP TABLE internal2.bc_property cascade;
+CREATE TABLE internal2.bc_property (
 	objectid int4 NOT NULL,
 	pinnum varchar(50) NULL,
 	pin varchar(15) NULL,
@@ -63,7 +63,7 @@ CREATE TABLE internal.bc_property (
 	CONSTRAINT enforce_srid_shape CHECK ((st_srid(shape) = 2264)),
 	CONSTRAINT pk_bc_property PRIMARY KEY (objectid)
 );
-CREATE INDEX a251_ix1 ON internal.bc_property USING gist (shape);
+CREATE INDEX a251_ix1 ON internal2.bc_property USING gist (shape);
 
 --------------------------
 -- simplicity.v_simplicity_properties source
@@ -99,8 +99,8 @@ AS SELECT a.pin,
     st_astext(st_transform(a.shape, 4326)) AS polygon,
     b.historic_district,
     b.local_landmark
-   FROM internal.bc_property a
-     LEFT JOIN internal.coa_bc_address_master b ON a.pin::text = b.property_pin::text AND a.pinext::text = b.property_pinext::text
+   FROM internal2.bc_property a
+     LEFT JOIN internal2.coa_bc_address_master b ON a.pin::text = b.property_pin::text AND a.pinext::text = b.property_pinext::text
   WHERE b.location_type = 1 OR b.location_type = 0 OR b.location_type = 4;
 
 CREATE OR REPLACE FUNCTION simplicity.get_properties_along_streets(cid numeric[], ldist numeric)
@@ -144,7 +144,7 @@ BEGIN
 					A.historic_district,
 					A.local_landmark
             FROM simplicity.v_simplicity_properties AS A
-            LEFT JOIN internal.bc_street AS B
+            LEFT JOIN internal2.bc_street AS B
             ON ST_DWithin(B.shape, A.shape, ldist)
             WHERE B.centerline_id = cid[i]
 		LOOP
@@ -198,7 +198,7 @@ BEGIN
 				A.historic_district,
 				A.local_landmark
             FROM simplicity.v_simplicity_properties AS A
-            LEFT JOIN internal.coa_asheville_neighborhoods AS B
+            LEFT JOIN internal2.coa_asheville_neighborhoods AS B
             ON ST_Intersects(B.shape, A.shape)
             -- ON ST_Contains(B.shape, ST_Transform(ST_SetSRID(ST_Point(A.longitude_wgs, A.latitude_wgs),4326),2264))            
             WHERE B.nbhd_id = cid[i]
@@ -213,9 +213,9 @@ $function$
 ;
 
 -----------
--- internal.coa_bc_address_test source
+-- internal2.coa_bc_address_test source
 
-CREATE OR REPLACE VIEW internal.coa_bc_address_test
+CREATE OR REPLACE VIEW internal2.coa_bc_address_test
 AS SELECT DISTINCT address_locations.objectid,
     address_locations.civicaddress_id,
     address_locations.address_x,
@@ -319,8 +319,8 @@ AS SELECT DISTINCT address_locations.objectid,
                 END AS parent_location_id,
             bc_civicaddress_table.pinext,
             bc_location.shape
-           FROM internal.bc_civicaddress_table
-             LEFT JOIN internal.bc_location ON bc_civicaddress_table.civicaddress_id = bc_location.civicaddress_id
+           FROM internal2.bc_civicaddress_table
+             LEFT JOIN internal2.bc_location ON bc_civicaddress_table.civicaddress_id = bc_location.civicaddress_id
           WHERE bc_civicaddress_table.civicaddress_id <> 0::double precision) address_locations
      LEFT JOIN ( SELECT tmp.location_id,
             tmp.pin,
@@ -328,29 +328,29 @@ AS SELECT DISTINCT address_locations.objectid,
            FROM ( SELECT DISTINCT bc_location.location_id,
                     bc_property_1.pin,
                     row_number() OVER (PARTITION BY bc_location.location_id ORDER BY bc_property_1.pin) AS rn
-                   FROM internal.bc_location
-                     LEFT JOIN internal.bc_property bc_property_1 ON st_contains(bc_property_1.shape, bc_location.shape)) tmp
+                   FROM internal2.bc_location
+                     LEFT JOIN internal2.bc_property bc_property_1 ON st_contains(bc_property_1.shape, bc_location.shape)) tmp
           WHERE tmp.rn = 1) property_location ON address_locations.location_id = property_location.location_id
-     LEFT JOIN internal.bc_property ON property_location.pin::text = bc_property.pin::text AND address_locations.pinext::text = bc_property.pinext::text
-     LEFT JOIN internal.bc_property_pinnum_formatted_owner_names ON (property_location.pin::text || address_locations.pinext::text) = bc_property_pinnum_formatted_owner_names.pinnum::text
-     LEFT JOIN internal.coa_zip_code ON address_locations.address_zipcode = coa_zip_code.zip::integer
+     LEFT JOIN internal2.bc_property ON property_location.pin::text = bc_property.pin::text AND address_locations.pinext::text = bc_property.pinext::text
+     LEFT JOIN internal2.bc_property_pinnum_formatted_owner_names ON (property_location.pin::text || address_locations.pinext::text) = bc_property_pinnum_formatted_owner_names.pinnum::text
+     LEFT JOIN internal2.coa_zip_code ON address_locations.address_zipcode = coa_zip_code.zip::integer
      LEFT JOIN ( SELECT DISTINCT bc_location.location_id,
             coa_active_jurisdictions.jurisdiction_type
-           FROM internal.bc_location
-             LEFT JOIN internal.coa_active_jurisdictions ON st_contains(coa_active_jurisdictions.shape, bc_location.shape)) active_jurisdictions ON address_locations.location_id = active_jurisdictions.location_id
+           FROM internal2.bc_location
+             LEFT JOIN internal2.coa_active_jurisdictions ON st_contains(coa_active_jurisdictions.shape, bc_location.shape)) active_jurisdictions ON address_locations.location_id = active_jurisdictions.location_id
   ORDER BY address_locations.objectid;
 
 
--- internal.coa_overlay_historic_districts_property_view source
+-- internal2.coa_overlay_historic_districts_property_view source
 
-CREATE OR REPLACE VIEW internal.coa_overlay_historic_districts_property_view
+CREATE OR REPLACE VIEW internal2.coa_overlay_historic_districts_property_view
 AS SELECT DISTINCT bc_property.shape,
     bc_property.objectid,
     bc_property.pinnum,
     bc_property.owner,
     coa_zoning_overlays.name AS historic_district_name
-   FROM internal.bc_property,
-    internal.coa_zoning_overlays
+   FROM internal2.bc_property,
+    internal2.coa_zoning_overlays
   WHERE coa_zoning_overlays.overlay_type::text = 'HISTORIC DISTRICTS'::text AND coa_zoning_overlays.status::text = 'CURRENT'::text AND st_intersects(bc_property.shape, coa_zoning_overlays.shape)
   ORDER BY bc_property.shape, bc_property.objectid, bc_property.pinnum, bc_property.owner;
 
@@ -362,4 +362,4 @@ AS SELECT coa_overlay_historic_districts_property_view.shape,
     coa_overlay_historic_districts_property_view.pinnum,
     coa_overlay_historic_districts_property_view.owner,
     coa_overlay_historic_districts_property_view.historic_district_name
-   FROM internal.coa_overlay_historic_districts_property_view;
+   FROM internal2.coa_overlay_historic_districts_property_view;
