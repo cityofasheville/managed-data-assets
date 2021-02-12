@@ -1,0 +1,19 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "connection": "mdastore1",
+        "schemaname": "internal2",
+        "tablename": "parking_cincinnati_rv_exits"
+      },
+      "target_location": {
+          "connection": "coa-publicdb1",
+          "schemaname": "smarking",
+          "tablename": "parking_cincinnati_rv_exits"
+      },
+      "active": true
+    }
+  ]
+}
