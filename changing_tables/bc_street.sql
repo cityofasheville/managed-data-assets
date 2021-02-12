@@ -1,11 +1,11 @@
 
--- select * from internal2.bc_street limit 10
+-- select * from internal.bc_street limit 10
 
 -- Drop table
 
-DROP TABLE internal2.bc_street cascade;
+DROP TABLE internal.bc_street cascade;
 
-CREATE TABLE internal2.bc_street (
+CREATE TABLE internal.bc_street (
 	objectid int4 NOT NULL,
 	centerline_id numeric(38,8) NULL,
 	road_class int4 NULL,
@@ -44,7 +44,7 @@ CREATE TABLE internal2.bc_street (
 	toelevation int2 NULL,
 	CONSTRAINT pk_bc_street PRIMARY KEY (objectid)
 );
-CREATE INDEX a253_ix1 ON internal2.bc_street USING gist (shape);
+CREATE INDEX a253_ix1 ON internal.bc_street USING gist (shape);
 
 CREATE OR REPLACE VIEW "open".bc_street
 AS SELECT bc_street.objectid,
@@ -78,7 +78,7 @@ AS SELECT bc_street.objectid,
     bc_street.mrc,
     bc_street.min_range,
     bc_street.max_range
-   FROM internal2.bc_street;
+   FROM internal.bc_street;
 
 ------------------------------
 CREATE OR REPLACE VIEW simplicity.v_simplicity_streets
@@ -91,7 +91,7 @@ AS SELECT a.centerline_id,
     a.left_to_address,
     a.right_to_address,
     st_astext(st_transform(a.shape, 4326)) AS line
-   FROM internal2.bc_street a;
+   FROM internal.bc_street a;
 grant select on simplicity.v_simplicity_streets to simplicity_reader;
 ------------------------------
 CREATE OR REPLACE FUNCTION simplicity.get_search_streets(lstreetname character varying[], lzipcode integer[])
@@ -108,7 +108,7 @@ BEGIN
 						left_from_address, right_from_address,
 						left_to_address, right_to_address,																					
             			st_astext(st_transform(shape, 4326)) AS line
-                from internal2.bc_street 
+                from internal.bc_street 
                 where street_name = lstreetname[i]
                 and   (lzip = lzipcode[i] OR rzip = lzipcode[i])
             )
@@ -125,9 +125,9 @@ grant execute on FUNCTION simplicity.get_search_streets(lstreetname character va
 -- or go back...
 
 
--- DROP TABLE internal2.bc_street;
+-- DROP TABLE internal.bc_street;
 /*
-CREATE TABLE internal2.bc_street (
+CREATE TABLE internal.bc_street (
 	objectid int4 NOT NULL,
 	centerline_id numeric(38,8) NOT NULL,
 	road_class int4 NULL,
@@ -166,6 +166,6 @@ CREATE TABLE internal2.bc_street (
 	CONSTRAINT enforce_srid_shape CHECK ((st_srid(shape) = 2264)),
 	CONSTRAINT pk_bc_street PRIMARY KEY (objectid)
 );
-CREATE INDEX a256_ix1 ON internal2.bc_street USING gist (shape);
-CREATE UNIQUE INDEX r269_sde_rowid_uk ON internal2.bc_street USING btree (objectid) WITH (fillfactor='75');
+CREATE INDEX a256_ix1 ON internal.bc_street USING gist (shape);
+CREATE UNIQUE INDEX r269_sde_rowid_uk ON internal.bc_street USING btree (objectid) WITH (fillfactor='75');
 */

@@ -1,6 +1,6 @@
--- DROP TABLE internal2.pr_employee_info cascade;
+-- DROP TABLE internal.pr_employee_info cascade;
 
-CREATE TABLE internal2.pr_employee_info (
+CREATE TABLE internal.pr_employee_info (
 	emp_id int4 NOT NULL,
 	active varchar(1) NOT NULL,
 	employee varchar(67) NULL,
@@ -32,12 +32,12 @@ CREATE TABLE internal2.pr_employee_info (
 	age_at_hire numeric(8,2) NULL,
 	age_at_term numeric(8,2) NULL
 );
-grant select on internal2.pr_employee_info to reviews_api_db;
-grant all on internal2.pr_employee_info to nmccraw;
+grant select on internal.pr_employee_info to reviews_api_db;
+grant all on internal.pr_employee_info to nmccraw;
 
 -- ORIGINAL
--- internal2.pr_employee_info definition
-CREATE TABLE internal2.pr_employee_info (
+-- internal.pr_employee_info definition
+CREATE TABLE internal.pr_employee_info (
 	emp_id int4 NULL,
 	active varchar(1) NULL,
 	employee varchar(67) NULL,
@@ -56,9 +56,9 @@ CREATE TABLE internal2.pr_employee_info (
 );
 
 
--- internal2.employees_main_view source
+-- internal.employees_main_view source
 
-CREATE OR REPLACE VIEW internal2.employees_main_view
+CREATE OR REPLACE VIEW internal.employees_main_view
 AS SELECT e.emp_id,
     e.active,
     e.employee,
@@ -75,8 +75,8 @@ AS SELECT e.emp_id,
     e.hire_date,
     a.ad_username,
     a.ad_memberships
-   FROM internal2.pr_employee_info e
-     LEFT JOIN internal2.ad_info a ON e.emp_id = a.emp_id;
+   FROM internal.pr_employee_info e
+     LEFT JOIN internal.ad_info a ON e.emp_id = a.emp_id;
      
     -- bc.fire_pr_accrual_hours_balances source
 
@@ -91,13 +91,13 @@ AS SELECT b.employee_id,
     e.department,
     e.division,
     e.other_emp_id
-   FROM internal2.pr_accrual_hours_balances b
-     LEFT JOIN internal2.pr_employee_info e ON b.employee_id = e.emp_id
+   FROM internal.pr_accrual_hours_balances b
+     LEFT JOIN internal.pr_employee_info e ON b.employee_id = e.emp_id
   WHERE e.div_id ~~ '11%'::text;
   
- -- internal2.vabc source
+ -- internal.vabc source
 
-CREATE OR REPLACE VIEW internal2.vabc
+CREATE OR REPLACE VIEW internal.vabc
 AS SELECT e.emp_id,
     e.active,
     e.employee,
@@ -114,5 +114,5 @@ AS SELECT e.emp_id,
     e.hire_date,
     a.ad_username,
     a.ad_memberships
-   FROM internal2.pr_employee_info e
-     LEFT JOIN internal2.ad_info a ON e.emp_id = a.emp_id;
+   FROM internal.pr_employee_info e
+     LEFT JOIN internal.ad_info a ON e.emp_id = a.emp_id;

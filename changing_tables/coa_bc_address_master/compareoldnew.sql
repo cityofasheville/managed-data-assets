@@ -89,5 +89,5 @@ coa.historic_district, bak.historic_district,
 coa.local_landmark, bak.local_landmark,
 coa.shape, bak.shape,
 coa.zoning_links, bak.zoning_links,
-FROM internal2.coa_bc_address_master coa
-left join internal2.coa_bc_bak bak
+FROM internal.coa_bc_address_master coa
+left join internal.coa_bc_bak bak

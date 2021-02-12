@@ -1,11 +1,11 @@
 
 
 
--- internal2.capital_projects_master definition
+-- internal.capital_projects_master definition
 
--- DROP TABLE internal2.capital_projects_master;
+-- DROP TABLE internal.capital_projects_master;
 
-CREATE TABLE internal2.capital_projects_master (
+CREATE TABLE internal.capital_projects_master (
 	gis_id text NULL,
 	munis_project_number text NULL,
 	project text NULL,
@@ -36,9 +36,9 @@ CREATE TABLE internal2.capital_projects_master (
 	objectid serial NOT NULL
 );
 
--- internal2.capital_projects_master definition
+-- internal.capital_projects_master definition
 
--- DROP TABLE internal2.capital_projects_master;
+-- DROP TABLE internal.capital_projects_master;
 
 CREATE TABLE bedrock_temp_data.capital_projects_master (
 	gis_id text NULL,
@@ -72,8 +72,8 @@ CREATE TABLE bedrock_temp_data.capital_projects_master (
 );
 
 START TRANSACTION;
-DELETE FROM internal2.capital_projects_master;
-INSERT INTO internal2.capital_projects_master
+DELETE FROM internal.capital_projects_master;
+INSERT INTO internal.capital_projects_master
 (gis_id, munis_project_number, project, display_name, location_details, zip_code, "type", category, coa_contact, phone_number, email_address, owner_department, 
 administering_department, project_description, map_tab, status, total_project_funding__budget_document_, target_construction_start, target_construction_end, 
 actual_construction_end, amount_behind_schedule, estimated_construction_duration, project_folder, project_webpage__more_information_, communication_plan, 
