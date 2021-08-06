@@ -1,6 +1,6 @@
 {
   "name": "coa_bc_address_master",
-  "location": "library",
+  "location": "mdastore1",
   "active": true,
   "type": "table",
   "description": "Master address table",
