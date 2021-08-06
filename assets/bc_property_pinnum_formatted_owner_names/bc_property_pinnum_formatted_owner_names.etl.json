@@ -1,11 +1,12 @@
 {
-    "run_group": "daily",
-    "tasks": [
-      {
-        "type": "noop",
-        "file": "",
-        "db": null,
-        "active": true
-      }
-    ]
-  }
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "sql",
+      "file": "fill_owner_names.sql",
+      "connection": "mdastore1",
+      "active": true
+    }
+  ]
+}
+

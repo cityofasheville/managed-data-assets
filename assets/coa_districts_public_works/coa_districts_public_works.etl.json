@@ -1,11 +1,20 @@
 {
-    "run_group": "daily",
-    "tasks": [
-      {
-        "type": "noop",
-        "file": "",
-        "db": null,
-        "active": true
-      }
-    ]
-  }
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "coa-gis-warehouse1",
+          "schemaname": "coagis",
+          "tablename": "coa_districts_public_works"
+      },
+      "target_location": {
+          "connection": "mdastore1",
+          "schemaname": "internal",
+          "tablename": "coa_districts_public_works"
+      },
+      "active": true
+    }
+  ]
+}
+
