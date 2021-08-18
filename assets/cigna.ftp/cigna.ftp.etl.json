@@ -1,0 +1,11 @@
+{
+    "run_group": "never",
+    "tasks": [
+      {
+        "type": "lambda",
+        "lambda_arn": "",
+        "event_parameter": { "runchoice": "cigna"},
+        "active": true
+      }
+    ]
+}
