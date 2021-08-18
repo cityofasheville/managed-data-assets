@@ -1,0 +1,20 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "connection": "munis",
+        "schemaname": "amd",
+        "tablename": "mwbe_vendors_by_commodity"
+      },
+      "target_location": {
+          "connection": "bedrock-googlesheets",
+          "spreadsheetid": "1lm_LdZS6yhniDEuVGyaj3vdD7ACU8Eo_pCkmNr81TvA",
+          "range": "Sheet1!A2:Z",
+          "append": false
+        },
+      "active": true
+    }
+  ]
+}
