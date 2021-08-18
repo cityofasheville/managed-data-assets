@@ -5,7 +5,7 @@
         "type": "lambda",
         "lambda_arn": "",
         "event_parameter": { "runchoice": "cigna"},
-        "active": true
+        "active": false
       }
     ]
 }
