@@ -5,14 +5,15 @@
       {
         "type": "table_copy",
         "source_location": {
-            "connection": "bedrock-googlesheets",
-            "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
-            "range": "Approved Companies!A5:B"
+          "filename": "Iran Divestment Companies",
+          "connection": "bedrock-googlesheets",
+          "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA",
+          "range": "Approved Companies!A5:B"
         },
         "target_location": {
-            "connection": "mdastore1",
-            "schemaname": "internal",
-            "tablename": "iran_divestment_approved_companies"
+          "connection": "mdastore1",
+          "schemaname": "internal",
+          "tablename": "iran_divestment_approved_companies"
         },
         "active": true
     }
