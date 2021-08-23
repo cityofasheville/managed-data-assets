@@ -1,5 +1,5 @@
 {
-    "run_group": "daily",
+    "run_group": "never",
     "tasks": [
       {
         "type": "lambda",
