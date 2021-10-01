@@ -12,7 +12,7 @@
         "filename": "Vaccination Weekly Report",
         "connection": "bedrock-googlesheets",
         "spreadsheetid": "1T40hCdspVSWLn4LzM_IvF19h67FOAbdh6dOQLXdtecU",
-        "range": "MAIN!A2:E",
+        "range": "MAIN!A2:H",
         "append": false
       },
       "active": true
