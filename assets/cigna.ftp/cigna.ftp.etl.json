@@ -1,0 +1,12 @@
+{
+    "run_group": "never",
+    "tasks": [
+      {
+        "type": "lambda",
+        "description": "ftp-jobs",
+        "lambda_arn": "",
+        "event_parameter": { "runchoice": "cigna"},
+        "active": false
+      }
+    ]
+}
