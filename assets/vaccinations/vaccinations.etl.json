@@ -44,38 +44,6 @@
         "tablename": "test_results"
       },
       "active": true
-    },
-    {
-      "type": "table_copy",
-      "source_location": {
-        "connection": "mdastore1",
-        "schemaname": "vax",
-        "tablename": "no_vax"
-      },
-      "target_location": {
-        "filename": "Vaccination Weekly Report",
-        "connection": "bedrock-googlesheets",
-        "spreadsheetid": "1T40hCdspVSWLn4LzM_IvF19h67FOAbdh6dOQLXdtecU",
-        "range": "MAIN!A2:E",
-        "append": false
-      },
-      "active": true
-    },
-    {
-      "type": "table_copy",
-      "source_location": {
-        "connection": "mdastore1",
-        "schemaname": "vax",
-        "tablename": "vax_notinmunis"
-      },
-      "target_location": {
-        "filename": "Vaccination Weekly Report (Error Messages)",
-        "connection": "bedrock-googlesheets",
-        "spreadsheetid": "1T40hCdspVSWLn4LzM_IvF19h67FOAbdh6dOQLXdtecU",
-        "range": "Error Messages!A2:D",
-        "append": false
-      },
-      "active": true
     }
   ]
 }

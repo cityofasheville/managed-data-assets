@@ -1,9 +1,9 @@
 {
   "name": "vaccinations",
-  "location": "mdastore1",
+  "location": "google sheets",
   "active": true,
   "type": "multitable",
-  "description": "Covid emp list, vaccinations and tests; ",
+  "description": "Covid vaccination report sheets ",
   "depends": [],
   "objects": [],
   "category": "",
