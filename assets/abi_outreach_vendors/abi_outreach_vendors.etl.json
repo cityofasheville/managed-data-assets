@@ -28,7 +28,7 @@
       "target_location": {
         "filename": "abi_outreach_vendors",
         "connection": "bedrock-googlesheets",
-        "spreadsheetid": "1CWvQoP1pc7dIPlJeM-79XiFOv8nC7i83weT_pxv2bDs",
+        "spreadsheetid": "1lm_LdZS6yhniDEuVGyaj3vdD7ACU8Eo_pCkmNr81TvA",
         "range": "Sheet1!A2:Z",
         "append": true
       },
