@@ -15,7 +15,7 @@
       },
       "num_weeks": 1,
       "column_to_filter": "ACTIVITY_TIME",
-      "active": true
+      "active": false
     }
   ]
 }

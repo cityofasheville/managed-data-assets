@@ -13,7 +13,7 @@
           "schemaname": "internal",
           "tablename": "parking_cincinnati_rv_tickets"
       },
-      "active": true
+      "active": false
     }
   ]
 }
