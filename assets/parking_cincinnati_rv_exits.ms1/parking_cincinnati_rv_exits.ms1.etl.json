@@ -1,5 +1,5 @@
 {
-  "run_group": "daily",
+  "run_group": "defunct",
   "tasks": [
     {
       "type": "table_copy_since",
@@ -15,7 +15,7 @@
       },
       "num_weeks": 1,
       "column_to_filter": "EXIT_TIME",
-      "active": false
+      "active": true
     }
   ]
 }

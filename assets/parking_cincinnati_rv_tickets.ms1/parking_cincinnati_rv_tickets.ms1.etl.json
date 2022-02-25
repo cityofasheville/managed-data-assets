@@ -1,5 +1,5 @@
 {
-  "run_group": "daily",
+  "run_group": "defunct",
   "tasks": [
     {
       "type": "table_copy",
@@ -13,7 +13,7 @@
           "schemaname": "internal",
           "tablename": "parking_cincinnati_rv_tickets"
       },
-      "active": false
+      "active": true
     }
   ]
 }
