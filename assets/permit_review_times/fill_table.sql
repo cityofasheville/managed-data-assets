@@ -30,7 +30,7 @@ lastdate as (
 	group by RECORD_ID
 )
 insert into dbo.permit_review_times(
-           ([RECORD_ID]
+            [RECORD_ID]
            ,[RECORD_NAME]
            ,[TASK]
            ,[ResOrComm]
