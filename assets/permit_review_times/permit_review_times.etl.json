@@ -1,5 +1,5 @@
 {
-  "run_group": "notactive",
+  "run_group": "daily",
   "tasks": [
     {
       "type": "sql",
