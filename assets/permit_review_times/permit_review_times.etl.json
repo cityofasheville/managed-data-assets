@@ -4,18 +4,18 @@
     {
       "type": "sql",
       "file": "fill_table.sql",
-      "connection": "coa-acceladb/accela/mssqlgisadmin",
+      "connection": "accela",
       "active": true
     },
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-acceladb/accela/mssqlgisadmin",
+          "connection": "accela",
           "schemaname": "dbo",
           "tablename": "permit_review_times"
       },
       "target_location": {
-          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "connection": "mdastore1",
           "schemaname": "internal",
           "tablename": "permit_review_times"
       },

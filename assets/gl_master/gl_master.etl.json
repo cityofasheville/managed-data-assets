@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis/munprod/mssqlgisadmin",
+          "connection": "munis",
           "schemaname": "amd",
           "tablename": "gl_master"
       },
       "target_location": {
-          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "connection": "mdastore1",
           "schemaname": "internal",
           "tablename": "gl_master"
       },

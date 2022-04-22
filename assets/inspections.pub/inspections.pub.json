@@ -1,6 +1,6 @@
 {
   "name": "inspections.pub",
-  "location": "coa-publicdb1/coa_share/dbadmin":,
+  "location": "publicdb1",
   "active": true,
   "type": "table",
   "description": "",

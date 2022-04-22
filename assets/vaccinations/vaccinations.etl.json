@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis/munprod/mssqlgisadmin",
+          "connection": "munis",
           "schemaname": "amd",
           "tablename": "pr_employee_info_vax"
       },
       "target_location": {
-          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "connection": "mdastore1",
           "schemaname": "vax",
           "tablename": "pr_employee_info"
       },
@@ -24,7 +24,7 @@
         "range": "Form Responses 1!A2:F"
       },
       "target_location": {
-        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "connection": "mdastore1",
         "schemaname": "vax",
         "tablename": "proof_of_vax1"
       },
@@ -39,7 +39,7 @@
         "range": "Form Responses 2!A2:F"
       },
       "target_location": {
-        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "connection": "mdastore1",
         "schemaname": "vax",
         "tablename": "proof_of_vax2"
       },
@@ -55,7 +55,7 @@
         "range": "Form Responses 3!A2:I"
       },
       "target_location": {
-        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "connection": "mdastore1",
         "schemaname": "vax",
         "tablename": "test_results"
       },
