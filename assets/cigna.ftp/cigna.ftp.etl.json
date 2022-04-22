@@ -5,7 +5,7 @@
         "type": "table_copy",
         "description": "Copy Cigna to S3",
         "source_location": {
-          "connection": "munis_etl",
+          "connection": "munis/munprod/fme_jobs",
           "schemaname": "avl",
           "tablename": "PR_CIGNA_Feed"
         },

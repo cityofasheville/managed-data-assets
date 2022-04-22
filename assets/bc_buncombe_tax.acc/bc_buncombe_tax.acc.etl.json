@@ -4,13 +4,13 @@
     {
       "type": "sql",
       "file": "buncombe_tax_inspections.sql",
-      "connection": "accela",
+      "connection": "coa-acceladb/accela/mssqlgisadmin",
       "active": true
     },
     {
       "type": "sql",
       "file": "buncombe_tax_permits.sql",
-      "connection": "accela",
+      "connection": "coa-acceladb/accela/mssqlgisadmin",
       "active": true
     }
     
