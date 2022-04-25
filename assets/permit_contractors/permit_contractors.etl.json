@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-acceladb_accela_mssqlgisadmin",
+          "connection": "coa-acceladb/accela/mssqlgisadmin",
           "schemaname": "amd",
           "tablename": "permit_contractors"
       },
       "target_location": {
-          "connection": "pubrecdb1_mdastore1_dbadmin",
+          "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
           "tablename": "permit_contractors"
       },

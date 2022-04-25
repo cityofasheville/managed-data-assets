@@ -5,12 +5,12 @@
         "type": "table_copy",
         "description": "Copy Arag to S3",
         "source_location": {
-          "connection": "munis_munprod_fme_jobs",
+          "connection": "munis_munprod/fme/jobs",
           "note": "For ARAG I need a sort, so need alt way of pulling: either sql_string or tablename/schemaname/order_by",
           "sql_string": "select * from avl.PR_ARAG_Feed order by DATA desc"
         },
         "target_location": {
-          "connection": "s3_data_files",
+          "connection": "s3/data/files",
           "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
           "s3_path": "cigna/"
         },
@@ -20,7 +20,7 @@
         "type": "ftp",
         "description": "Copy Arag S3 to FTP site",
         "source_location": {
-          "connection": "s3_data_files",
+          "connection": "s3/data/files",
           "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
           "s3_path": "cigna/"
         },

@@ -4,7 +4,7 @@
     {
       "type": "sql",
       "file": "fill_owner_names.sql",
-      "connection": "pubrecdb1_mdastore1_dbadmin",
+      "connection": "pubrecdb1/mdastore1/dbadmin",
       "active": true
     }
   ]

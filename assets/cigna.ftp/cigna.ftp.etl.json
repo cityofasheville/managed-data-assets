@@ -5,12 +5,12 @@
         "type": "table_copy",
         "description": "Copy Cigna to S3",
         "source_location": {
-          "connection": "munis_munprod_fme_jobs",
+          "connection": "munis_munprod/fme/jobs",
           "schemaname": "avl",
           "tablename": "PR_CIGNA_Feed"
         },
         "target_location": {
-          "connection": "s3_data_files",
+          "connection": "s3/data/files",
           "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
           "s3_path": "cigna/"
         },
@@ -20,7 +20,7 @@
         "type": "ftp",
         "description": "Copy Cigna S3 to FTP site",
         "source_location": {
-          "connection": "s3_data_files",
+          "connection": "s3/data/files",
           "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
           "s3_path": "cigna/"
         },
