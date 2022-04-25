@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1/coagisedit/coagis",
+          "connection": "coa-gis-edit1",
           "schemaname": "coagis",
           "tablename": "bc_property"
       },
       "target_location": {
-          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "connection": "mdastore1",
           "schemaname": "internal",
           "tablename": "bc_property"
       },

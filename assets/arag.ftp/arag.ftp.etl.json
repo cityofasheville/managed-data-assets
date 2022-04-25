@@ -5,7 +5,7 @@
         "type": "table_copy",
         "description": "Copy Arag to S3",
         "source_location": {
-          "connection": "munis/munprod/fme_jobs",
+          "connection": "munis_etl",
           "note": "For ARAG I need a sort, so need alt way of pulling: either sql_string or tablename/schemaname/order_by",
           "sql_string": "select * from avl.PR_ARAG_Feed order by DATA desc"
         },

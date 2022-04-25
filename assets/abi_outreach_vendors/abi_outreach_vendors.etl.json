@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "munis/munprod/mssqlgisadmin",
+        "connection": "munis",
         "schemaname": "amd",
         "tablename": "mwbe_vendors_by_commodity"
       },
