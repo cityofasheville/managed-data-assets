@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "pubrecdb1:mdastore1:dbadmin",
+        "connection": "pubrecdb1_mdastore1_dbadmin",
         "schemaname": "internal",
         "tablename": "permit_contacts"
       },

@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-acceladb:accela:mssqlgisadmin",
+          "connection": "coa-acceladb_accela_mssqlgisadmin",
           "schemaname": "amd",
           "tablename": "dsd_first_review_sla"
       },
       "target_location": {
-          "connection": "pubrecdb1:mdastore1:dbadmin",
+          "connection": "pubrecdb1_mdastore1_dbadmin",
           "schemaname": "internal",
           "tablename": "dsd_first_review_sla"
       },
