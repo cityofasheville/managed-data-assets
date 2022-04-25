@@ -4,14 +4,14 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis/munprod/mssqlgisadmin",
-          "schemaname": "amd",
-          "tablename": "ad_info"
+          "connection": "coa-gis-warehouse1/coagiswarehouse/coagis",
+          "schemaname": "coagis",
+          "tablename": "coa_apd_incident_data"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "ad_info"
+          "tablename": "coa_apd_incident_data"
       },
       "active": true
     }

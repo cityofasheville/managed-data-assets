@@ -4,14 +4,14 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis/munprod/mssqlgisadmin",
-          "schemaname": "amd",
-          "tablename": "ad_info"
+          "connection": "coa-gis-edit1/coagisedit/coagis",
+          "schemaname": "coagis",
+          "tablename": "coa_asheville_neighborhoods"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "ad_info"
+          "tablename": "coa_asheville_neighborhoods"
       },
       "active": true
     }

@@ -6,13 +6,19 @@
       "source_location": {
           "connection": "munis/munprod/mssqlgisadmin",
           "schemaname": "amd",
-          "tablename": "ad_info"
+          "tablename": "pr_employee_info"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "ad_info"
+          "tablename": "pr_employee_info"
       },
+      "active": true
+    },
+    {
+      "type": "sql",
+      "file": "create_bpt_testusers.sql",
+      "connection": "pubrecdb1/mdastore1/dbadmin",
       "active": true
     }
   ]

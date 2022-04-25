@@ -6,12 +6,12 @@
       "source_location": {
           "connection": "munis/munprod/mssqlgisadmin",
           "schemaname": "amd",
-          "tablename": "ad_info"
+          "tablename": "gl_budget"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "ad_info"
+          "tablename": "gl_budget"
       },
       "active": true
     }

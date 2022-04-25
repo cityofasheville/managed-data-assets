@@ -4,14 +4,14 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis/munprod/mssqlgisadmin",
+          "connection": "coa-acceladb/accela/mssqlgisadmin",
           "schemaname": "amd",
-          "tablename": "ad_info"
+          "tablename": "permit_owners"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "ad_info"
+          "tablename": "permit_owners"
       },
       "active": true
     }
