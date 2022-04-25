@@ -1,6 +1,6 @@
 {
   "name": "fire_pr_accrual_hours_balances.pub",
-  "location": "publicdb1",
+  "location": "coa-publicdb1/coa_share/dbadmin":,
   "active": true,
   "type": "table",
   "description": "",

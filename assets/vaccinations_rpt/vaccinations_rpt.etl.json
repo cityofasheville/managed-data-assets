@@ -4,7 +4,7 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "mdastore1",
+        "connection": "pubrecdb1/mdastore1/dbadmin",
         "schemaname": "vax",
         "tablename": "no_vax"
       },
@@ -20,7 +20,7 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "mdastore1",
+        "connection": "pubrecdb1/mdastore1/dbadmin",
         "schemaname": "vax",
         "tablename": "vax_notinmunis"
       },
