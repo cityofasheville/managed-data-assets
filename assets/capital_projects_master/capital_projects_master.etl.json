@@ -10,7 +10,7 @@
         "range": "General Project Information!A2:Z"
       },
       "target_location": {
-        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "connection": "pubrecdb1:mdastore1:dbadmin",
         "schemaname": "internal",
         "tablename": "capital_projects_master",
         "append_serial": "objectid"
