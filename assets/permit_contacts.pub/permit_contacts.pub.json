@@ -1,6 +1,6 @@
 {
   "name": "permit_contacts.pub",
-  "location": "coa-publicdb1",
+  "location": "coa-publicdb1/coa_share/dbadmin",
   "active": true,
   "type": "table",
   "description": "Contacts associated with permits for Buncombe",

@@ -9,7 +9,7 @@
         "tablename": "permit_tasks"
       },
       "target_location": {
-        "connection": "coa-publicdb1",
+        "connection": "coa-publicdb1/coa_share/dbadmin",
         "schemaname": "bc",
         "tablename": "permit_tasks"
       },

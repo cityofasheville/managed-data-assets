@@ -1,6 +1,6 @@
 {
   "name": "permit_tasks.pub",
-  "location": "coa-publicdb1",
+  "location": "coa-publicdb1/coa_share/dbadmin",
   "active": true,
   "type": "table",
   "description": "Permit tasks data for Buncombe",
