@@ -1,3 +1,4 @@
+## If we switch over to using the API we will need to deal with these
 mwbe_vendors_by_commodity
 ad_info
 GeneralLedgerParameters
