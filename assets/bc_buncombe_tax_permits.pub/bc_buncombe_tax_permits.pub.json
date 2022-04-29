@@ -1,6 +1,6 @@
 {
   "name": "bc_buncombe_tax_permits.pub",
-  "location": "publicdb1",
+  "location": "coa-publicdb1/coa_share/dbadmin",
   "active": true,
   "type": "table",
   "description": "",

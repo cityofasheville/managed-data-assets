@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis",
+          "connection": "munis/munprod/mssqlgisadmin",
           "schemaname": "amd",
           "tablename": "training_students"
       },
       "target_location": {
-          "connection": "mdastore1",
+          "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
           "tablename": "training_students"
       },

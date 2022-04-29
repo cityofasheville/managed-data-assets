@@ -4,14 +4,29 @@
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "munis",
+          "connection": "munis/munprod/mssqlgisadmin",
           "schemaname": "amd",
           "tablename": "pr_employee_info_vax"
       },
       "target_location": {
-          "connection": "mdastore1",
+          "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "vax",
           "tablename": "pr_employee_info"
+      },
+      "active": true
+    },
+    {
+      "type": "table_copy",
+      "source_location": {
+        "filename": "Proof of vaccination (Responses){OLD}",
+        "connection": "bedrock-googlesheets",
+        "spreadsheetid": "1Z0tUEvPMJgiN1N2C92E_KMIuGE8qinmptp5_h6LnBNo",
+        "range": "Form Responses 1!A2:F"
+      },
+      "target_location": {
+        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "schemaname": "vax",
+        "tablename": "proof_of_vax1"
       },
       "active": true
     },
@@ -21,25 +36,26 @@
         "filename": "Proof of vaccination (Responses)",
         "connection": "bedrock-googlesheets",
         "spreadsheetid": "1Z0tUEvPMJgiN1N2C92E_KMIuGE8qinmptp5_h6LnBNo",
-        "range": "Form Responses 1!A2:F"
+        "range": "Form Responses 2!A2:F"
       },
       "target_location": {
-        "connection": "mdastore1",
+        "connection": "pubrecdb1/mdastore1/dbadmin",
         "schemaname": "vax",
-        "tablename": "proof_of_vax"
+        "tablename": "proof_of_vax2"
       },
       "active": true
     },
+
     {
       "type": "table_copy",
       "source_location": {
         "filename": "COVID Weekly Test Results (Responses)",
         "connection": "bedrock-googlesheets",
         "spreadsheetid": "1rQtTeXOY_JmreVHnIXazCAHdXAMD9UazkvbVEDcMr_4",
-        "range": "Form Responses 1!A2:I"
+        "range": "Form Responses 3!A2:I"
       },
       "target_location": {
-        "connection": "mdastore1",
+        "connection": "pubrecdb1/mdastore1/dbadmin",
         "schemaname": "vax",
         "tablename": "test_results"
       },

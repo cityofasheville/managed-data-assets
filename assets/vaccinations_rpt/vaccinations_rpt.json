@@ -1,5 +1,5 @@
 {
-  "name": "vaccinations",
+  "name": "vaccinations_rpt",
   "location": "google sheets",
   "active": true,
   "type": "multitable",

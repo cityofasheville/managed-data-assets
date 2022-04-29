@@ -2,10 +2,33 @@
     "run_group": "never",
     "tasks": [
       {
-        "type": "lambda",
-        "description": "ftp-jobs",
-        "lambda_arn": "",
-        "event_parameter": { "runchoice": "cigna"},
+        "type": "table_copy",
+        "description": "Copy Cigna to S3",
+        "source_location": {
+          "connection": "munis_munprod/fme/jobs",
+          "schemaname": "avl",
+          "tablename": "PR_CIGNA_Feed"
+        },
+        "target_location": {
+          "connection": "s3/data/files",
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "s3_path": "cigna/"
+        },
+        "active": false
+      },
+      {
+        "type": "ftp",
+        "description": "Copy Cigna S3 to FTP site",
+        "source_location": {
+          "connection": "s3/data/files",
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "s3_path": "cigna/"
+        },
+        "target_location": {
+          "connection": "cigna_ftp",
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "ftp_path": "cigna/"
+        },
         "active": false
       }
     ]

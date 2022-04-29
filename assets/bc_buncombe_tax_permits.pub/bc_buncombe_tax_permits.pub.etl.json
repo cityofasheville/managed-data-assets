@@ -4,12 +4,12 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "mdastore1",
+        "connection": "pubrecdb1/mdastore1/dbadmin",
         "schemaname": "bc",
         "tablename": "buncombe_tax_permits"
       },
       "target_location": {
-          "connection": "coa-publicdb1",
+          "connection": "coa-publicdb1/coa_share/dbadmin",
           "schemaname": "bc",
           "tablename": "buncombe_tax_permits"
       },

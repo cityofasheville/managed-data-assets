@@ -1,9 +1,9 @@
 {
-  "name": "parking_cincinnati_rv_tickets.ms1",
+  "name": "permit_review_times",
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "",
+  "description": "Count days to review permits",
   "depends": [],
   "objects": [],
   "category": "",

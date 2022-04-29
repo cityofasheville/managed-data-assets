@@ -1,12 +1,10 @@
 {
-  "name": "parking_cincinnati_contract_activity.pub",
-  "location": "publicdb1",
+  "name": "coa_computer_assets",
+  "location": "google_sheets",
   "active": true,
-  "type": "table",
-  "description": "",
-  "depends": [
-    "parking_cincinnati_contract_activity.ms1"
-  ],
+  "type": "spreadsheet",
+  "description": "Computers on our network",
+  "depends": [],
   "objects": [],
   "category": "",
   "tags": [],
