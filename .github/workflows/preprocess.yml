@@ -9,7 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Upload to S3
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
@@ -19,3 +18,26 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         DEST_DIR: "store/"
+  create-all-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.8 #install the python needed
+          architecture: 'x64'
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/workflows/preprocess_assets/requirements.txt
+      - name: execute py script
+        run: |
+          python .github/workflows/preprocess_assets/preprocess_assets.py
+        env:
+          BEDROCK_BUCKETNAME: ${{ secrets.BEDROCK_BUCKETNAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
