@@ -5,16 +5,16 @@ on:
     - production
 
 jobs:
-  upload:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Upload files
-      - uses: actions/checkout@master
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*'
-        env:
-          BEDROCK_BUCKETNAME: ${{ secrets.BEDROCK_BUCKETNAME }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
+    - name: Upload files
+    - uses: actions/checkout@master
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*'
+      env:
+        BEDROCK_BUCKETNAME: ${{ secrets.BEDROCK_BUCKETNAME }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
