@@ -1,5 +1,9 @@
 # managed-data-assets
-All City of Asheville managed data assets
+City of Asheville managed data assets
 
-Pushing to production branch automatically pushes changes to S3 using Github actions.
-To register these changes in Bedrock, create the /run/all_assets.json file by running from Bedrock Docker: 'bedrock preprocess -o s3'
+## Github Actions
+Pushing to production branch runs a Github action.
+
+1. Changes are pushed to S3.
+1. The S3 file /run/all_assets.json is created.
+
