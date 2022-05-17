@@ -1,5 +1,8 @@
 
 
+
+
+
 truncate table dbo.permit_review_times;
 with 
 main as (
@@ -40,10 +43,12 @@ insert into dbo.permit_review_times(
            ,[laststatus]
            ,[laststatusdate]
            ,[days]
-           ,[yyyymm])
+           ,[yyyymm]
+		   ,[completed])
+-- completed		   
 select first.[RECORD_ID],first.[RECORD_NAME],first.[TASK],first.ResOrComm,first.[RECORD_TYPE],first.[STATUS] firststatus, first.[DATE_STATUS] as firststatusdate, 
 last.[STATUS] laststatus, last.[DATE_STATUS] as laststatusdate, datediff(DAY, first.[DATE_STATUS], last.[DATE_STATUS]) days,
-convert(char(7), last.[DATE_STATUS],23) yyyymm
+convert(char(7), last.[DATE_STATUS],23) yyyymm, 1 as completed
 from (
 	select main.*, startdate from main
 	inner join firstdate
@@ -56,4 +61,24 @@ inner join (
 	on main.RECORD_ID = lastdate.RECORD_ID
 	and  main.[UPDATED_DATE] = lastdate.enddate
 ) as last
-on first.RECORD_ID = last.RECORD_ID;
+on first.RECORD_ID = last.RECORD_ID
+
+union
+-- not completed as of today
+select first.[RECORD_ID],first.[RECORD_NAME],first.[TASK],first.ResOrComm,first.[RECORD_TYPE],first.[STATUS] firststatus, first.[DATE_STATUS] as firststatusdate, 
+last.[STATUS] laststatus, getdate() as laststatusdate, datediff(DAY, first.[DATE_STATUS], getdate()) days,
+null as yyyymm, 0 as completed
+from (
+	select main.*, startdate from main
+	inner join firstdate
+	on main.RECORD_ID = firstdate.RECORD_ID
+	and  main.[UPDATED_DATE] = firstdate.startdate
+) as first
+left join (
+	select main.*, enddate from main
+	inner join lastdate
+	on main.RECORD_ID = lastdate.RECORD_ID
+	and  main.[UPDATED_DATE] = lastdate.enddate
+) as last
+on first.RECORD_ID = last.RECORD_ID
+where last.RECORD_ID is null
