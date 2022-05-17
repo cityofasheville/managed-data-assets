@@ -1,0 +1,19 @@
+{
+  "run_group": "howaboutnever",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+          "connection": "munis/munprod/mssqlgisadmin",
+          "schemaname": "amd",
+          "tablename": "afaketest"
+      },
+      "target_location": {
+          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "schemaname": "internal",
+          "tablename": "afaketest"
+      },
+      "active": true
+    }
+  ]
+}
