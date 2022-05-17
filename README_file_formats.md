@@ -30,7 +30,7 @@ A subdir exists for each asset. Each asset includes:
                 "target_location": {
                     "connection": "pubrecdb1/mdastore1/dbadmin",
                     "schemaname": "internal",
-                    "tablename": "approved_companies"
+                    "tablename": "companies"
                 },
                 "active": true
             }
