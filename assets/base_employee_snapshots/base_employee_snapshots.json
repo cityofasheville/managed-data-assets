@@ -1,9 +1,9 @@
 {
-  "name": "afaketest",
+  "name": "base_employee_snapshots",
   "location": "mdastore1",
-  "active": false,
-  "type": "table",
-  "description": "Active Directory info",
+  "active": true,
+  "type": "multitable",
+  "description": "snapshot_base_employee and snapshot_base_employee_position: Monthly Snapshots of base_employee and base_employee_position tables",
   "depends": [],
   "objects": [],
   "category": "",

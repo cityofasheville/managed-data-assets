@@ -3,7 +3,7 @@
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "Standard Employee - dept/positon/etc",
+  "description": "Standard Employee Work fields: dept/supv/etc.",
   "depends": [],
   "objects": [],
   "category": "",
