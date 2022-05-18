@@ -2,12 +2,6 @@
   "run_group": "daily",
   "tasks": [
     {
-      "type": "sql",
-      "file": "create_temp_table.sql",
-      "connection": "pubrecdb1/mdastore1/dbadmin",
-      "active": true
-    },
-    {
       "type": "table_copy",
       "source_location": {
         "connection": "munis/munprod/mssqlgisadmin",
@@ -16,7 +10,7 @@
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
-          "schemaname": "standard",
+          "schemaname": "temp",
           "tablename": "base_employee_position_temp"
       },
       "active": true
@@ -24,12 +18,6 @@
     {
       "type": "sql",
       "file": "load_audit_table.sql",
-      "connection": "pubrecdb1/mdastore1/dbadmin",
-      "active": true
-    },
-    {
-      "type": "sql",
-      "file": "fill_main_table.sql",
       "connection": "pubrecdb1/mdastore1/dbadmin",
       "active": true
     }
