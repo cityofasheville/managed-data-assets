@@ -1,4 +1,4 @@
-INSERT INTO standard.employee_sensitive_snapshots
+INSERT INTO standard.base_employee_sensitive_snapshots
 (date_entered, employee_id, active, "sensitive", first_name, last_name, legal_first_name, 
 legal_middle_name, legal_last_name, legal_name_suffix, primary_email, alt_email, division_id, division, 
 department_id, department, position_name, ft_status, hire_date_original, hire_date_last, termination_date_last, 
