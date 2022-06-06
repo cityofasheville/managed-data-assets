@@ -6,16 +6,13 @@
         "description": "Copy Arag to S3",
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
-          "schemaname": "avl",
-          "tablename": "PR_ARAG_Feed",
-          "sortdesc": "DATA"
+          "note": "For ARAG I need a sort, so need alt way of pulling: either sql_string or tablename/schemaname/order_by",
+          "sql_string": "select * from avl.PR_ARAG_Feed order by DATA desc"
         },
         "target_location": {
           "connection": "s3_data_files",
-          "filename": "arag_asheville_${YYYY}${MM}${DD}.csv",
-          "s3_path": "arag/",
-          "fixedwidth_noquotes": true,
-          "encrypted_filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp"
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "s3_path": "cigna/"
         },
         "active": false
       },
@@ -24,13 +21,13 @@
         "description": "Copy Arag S3 to FTP site",
         "source_location": {
           "connection": "s3_data_files",
-          "filename": "arag_asheville_${YYYY}${MM}${DD}.txt.pgp",
-          "s3_path": "arag/"
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "s3_path": "cigna/"
         },
         "target_location": {
-          "connection": "arag_ftp",
-          "filename": "arag_asheville_${YYYY}${MM}${DD}.txt.pgp",
-          "ftp_path": "/"
+          "connection": "cigna_ftp",
+          "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
+          "ftp_path": "cigna/"
         },
         "active": false
       }
