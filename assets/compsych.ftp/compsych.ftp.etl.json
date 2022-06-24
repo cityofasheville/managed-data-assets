@@ -1,5 +1,5 @@
 {
-    "run_group": "cigna",
+    "run_group": "compsych",
     "tasks": [
       {
         "type": "table_copy",
