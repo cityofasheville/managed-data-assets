@@ -26,7 +26,7 @@
         "ftp_connection": "cigna_ftp",
         "ftp_path": "/Outbox/",
         "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
-        "active": false
+        "active": true
       }
     ]
 }
