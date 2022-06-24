@@ -46,6 +46,7 @@
         },
         "active": true
       },
+
       {
         "type": "table_copy",
         "description": "Copy Paymentus CIF to S3",
@@ -70,7 +71,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/input/",
         "filename": "CIF${YYYY}${MM}${DD}.csv",
-        "active": true
+        "active": false
       },
       {
         "type": "sftp",
@@ -81,7 +82,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/input/",
         "filename": "CIF${YYYY}${MM}${DD}.ctl",
-        "active": true
+        "active": false
       },
 
       {
@@ -108,7 +109,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/payment-history/",
         "filename": "Payment${YYYY}${MM}${DD}.csv",
-        "active": true
+        "active": false
       },
       {
         "type": "sftp",
@@ -119,7 +120,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/payment-history/",
         "filename": "Payment${YYYY}${MM}${DD}.ctl",
-        "active": true
+        "active": false
       },
 
       {
@@ -146,7 +147,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/suspended/",
         "filename": "Susp${YYYY}${MM}${DD}.csv",
-        "active": true
+        "active": false
       },
       {
         "type": "sftp",
@@ -157,7 +158,7 @@
         "ftp_connection": "paymentus_ftp",
         "ftp_path": "/suspended/",
         "filename": "Susp${YYYY}${MM}${DD}.ctl",
-        "active": true
+        "active": false
       }
     ]
 }
