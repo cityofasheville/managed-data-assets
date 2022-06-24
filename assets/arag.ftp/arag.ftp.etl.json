@@ -1,5 +1,5 @@
 {
-    "run_group": "never",
+    "run_group": "arag",
     "tasks": [
       {
         "type": "table_copy",
@@ -8,30 +8,34 @@
           "connection": "munis/munprod/fme_jobs",
           "schemaname": "avl",
           "tablename": "PR_ARAG_Feed",
-          "sortdesc": "DATA"
+          "sortdesc": "DATA",
+          "fixedwidth_noquotes": true
         },
         "target_location": {
           "connection": "s3_data_files",
           "filename": "arag_asheville_${YYYY}${MM}${DD}.csv",
-          "s3_path": "arag/",
-          "fixedwidth_noquotes": true,
-          "encrypted_filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp"
+          "s3_path": "arag/"
         },
         "active": false
       },
       {
-        "type": "ftp",
+        "type": "encrypt",
+        "s3_connection": "s3_data_files",
+        "s3_path": "arag/",
+        "ftp_connection": "arag_ftp",
+        "filename": "arag_asheville_${YYYY}${MM}${DD}.csv",
+        "encrypted_filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp",
+        "active": false
+      },
+      {
+        "type": "sftp",
         "description": "Copy Arag S3 to FTP site",
-        "source_location": {
-          "connection": "s3_data_files",
-          "filename": "arag_asheville_${YYYY}${MM}${DD}.txt.pgp",
-          "s3_path": "arag/"
-        },
-        "target_location": {
-          "connection": "arag_ftp",
-          "filename": "arag_asheville_${YYYY}${MM}${DD}.txt.pgp",
-          "ftp_path": "/"
-        },
+        "action": "put",
+        "s3_connection": "s3_data_files",
+        "s3_path": "arag/",
+        "ftp_connection": "arag_ftp",
+        "ftp_path": "/test/",
+        "filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp",
         "active": false
       }
     ]
