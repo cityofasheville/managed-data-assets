@@ -14,7 +14,7 @@
           "filename": "avl.PR_City_Employees_Everbridge.csv",
           "s3_path": "everbridge/"
         },
-        "active": true
+        "active": false
       },
       {
         "type": "sftp",
@@ -25,7 +25,7 @@
         "ftp_connection": "everbridge_emp_ftp",
         "ftp_path": "/result/",
         "filename": "avl.PR_City_Employees_Everbridge.csv",
-        "active": true
+        "active": false
       },
       {
         "type": "table_copy",
@@ -40,7 +40,7 @@
           "filename": "avl.UB_Water_Customers_Everbridge.csv",
           "s3_path": "everbridge/"
         },
-        "active": false
+        "active": true
       },
       {
         "type": "sftp",
@@ -51,7 +51,7 @@
         "ftp_connection": "everbridge_cust_ftp",
         "ftp_path": "/result/",
         "filename": "avl.UB_Water_Customers_Everbridge.csv",
-        "active": false
+        "active": true
       }
     ]
 }
