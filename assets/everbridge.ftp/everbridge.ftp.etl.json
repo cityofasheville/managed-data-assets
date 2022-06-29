@@ -7,14 +7,15 @@
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
           "schemaname": "avl",
-          "tablename": "PR_City_Employees_Everbridge"
+          "tablename": "PR_City_Employees_Everbridge",
+          "tableheaders": true
         },
         "target_location": {
           "connection": "s3_data_files",
           "filename": "avl.PR_City_Employees_Everbridge.csv",
           "s3_path": "everbridge/"
         },
-        "active": false
+        "active": true
       },
       {
         "type": "sftp",
@@ -23,7 +24,7 @@
         "s3_connection": "s3_data_files",
         "s3_path": "everbridge/",
         "ftp_connection": "everbridge_emp_ftp",
-        "ftp_path": "/result/",
+        "ftp_path": "/replace/",
         "filename": "avl.PR_City_Employees_Everbridge.csv",
         "active": false
       },
@@ -33,7 +34,8 @@
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
           "schemaname": "avl",
-          "tablename": "UB_Water_Customers_Everbridge"
+          "tablename": "UB_Water_Customers_Everbridge",
+          "tableheaders": true
         },
         "target_location": {
           "connection": "s3_data_files",
@@ -49,9 +51,9 @@
         "s3_connection": "s3_data_files",
         "s3_path": "everbridge/",
         "ftp_connection": "everbridge_cust_ftp",
-        "ftp_path": "/result/",
+        "ftp_path": "/replace/",
         "filename": "avl.UB_Water_Customers_Everbridge.csv",
-        "active": true
+        "active": false
       }
     ]
 }

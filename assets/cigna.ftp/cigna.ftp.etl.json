@@ -7,7 +7,7 @@
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
           "schemaname": "avl",
-          "tablename": "PR_CIGNA_Feed",
+          "tablename": "PR_CIGNA_Feed_2",
           "fixedwidth_noquotes": true
         },
         "target_location": {
