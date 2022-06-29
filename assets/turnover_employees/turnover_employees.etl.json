@@ -1,0 +1,21 @@
+{
+  "run_group": "monthly",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "connection": "pubrecdb1/mdastore1/dbadmin",
+        "schemaname": "standard",
+        "tablename": "turnover_employees"
+      },
+      "target_location": {
+        "filename": "Employee Turnover Report",
+        "connection": "bedrock-googlesheets",
+        "spreadsheetid": "1GEopg1PVyuSwfbtnf5roR6mhFb5BHHk4XSQRBtARavM",
+        "range": "Sheet1!A2:U",
+        "append": true
+      },
+      "active": true
+    }
+  ]
+}
