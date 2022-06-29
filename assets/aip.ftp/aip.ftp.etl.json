@@ -23,7 +23,7 @@
         "s3_path": "aip/",
         "ftp_connection": "aip_ftp",
         "filename": "CityofAsheville5871_To_InfoArmor_FULL_${YYYY}${MM}${DD}_unencrypted",
-        "encrypted_filename": "CityofAsheville5871_To_InfoArmor_TEST_${YYYY}${MM}${DD}",
+        "encrypted_filename": "CityofAsheville5871_To_InfoArmor_FULL_${YYYY}${MM}${DD}",
         "active": true
       },
       {
@@ -34,7 +34,7 @@
         "s3_path": "aip/",
         "ftp_connection": "aip_ftp",
         "ftp_path": "/home/asheville-5871-sftp/inbound/",
-        "filename": "CityofAsheville5871_To_InfoArmor_TEST_${YYYY}${MM}${DD}",
+        "filename": "CityofAsheville5871_To_InfoArmor_FULL_${YYYY}${MM}${DD}",
         "active": true
       }
     ]
