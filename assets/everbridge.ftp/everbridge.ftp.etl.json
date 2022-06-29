@@ -1,0 +1,57 @@
+{
+    "run_group": "everbridge",
+    "tasks": [
+      {
+        "type": "table_copy",
+        "description": "Copy Everbridge Emps to S3",
+        "source_location": {
+          "connection": "munis/munprod/fme_jobs",
+          "schemaname": "avl",
+          "tablename": "PR_City_Employees_Everbridge"
+        },
+        "target_location": {
+          "connection": "s3_data_files",
+          "filename": "avl.PR_City_Employees_Everbridge.csv",
+          "s3_path": "everbridge/"
+        },
+        "active": true
+      },
+      {
+        "type": "sftp",
+        "description": "Copy Everbridge Emps S3 to FTP site",
+        "action": "put",
+        "s3_connection": "s3_data_files",
+        "s3_path": "everbridge/",
+        "ftp_connection": "everbridge_emp_ftp",
+        "ftp_path": "/result/",
+        "filename": "avl.PR_City_Employees_Everbridge.csv",
+        "active": true
+      },
+      {
+        "type": "table_copy",
+        "description": "Copy Everbridge Customers to S3",
+        "source_location": {
+          "connection": "munis/munprod/fme_jobs",
+          "schemaname": "avl",
+          "tablename": "UB_Water_Customers_Everbridge"
+        },
+        "target_location": {
+          "connection": "s3_data_files",
+          "filename": "avl.UB_Water_Customers_Everbridge.csv",
+          "s3_path": "everbridge/"
+        },
+        "active": false
+      },
+      {
+        "type": "sftp",
+        "description": "Copy Everbridge Customers S3 to FTP site",
+        "action": "put",
+        "s3_connection": "s3_data_files",
+        "s3_path": "everbridge/",
+        "ftp_connection": "everbridge_cust_ftp",
+        "ftp_path": "/result/",
+        "filename": "avl.UB_Water_Customers_Everbridge.csv",
+        "active": false
+      }
+    ]
+}
