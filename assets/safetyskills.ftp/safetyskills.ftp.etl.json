@@ -6,7 +6,7 @@
         "description": "Copy Safety Skills to S3",
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
-          "schemaname": "avl",
+          "schemaname": "amd",
           "tablename": "pr_employee_info_safety"
         },
         "target_location": {
