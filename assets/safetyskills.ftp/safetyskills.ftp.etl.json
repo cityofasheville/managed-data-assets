@@ -1,5 +1,5 @@
 {
-    "run_group": "safetyskills",
+    "run_group": "daily",
     "tasks": [
       {
         "type": "table_copy",
@@ -7,7 +7,8 @@
         "source_location": {
           "connection": "munis/munprod/fme_jobs",
           "schemaname": "amd",
-          "tablename": "pr_employee_info_safety"
+          "tablename": "pr_employee_info_safety",
+          "tableheaders": true
         },
         "target_location": {
           "connection": "s3_data_files",
