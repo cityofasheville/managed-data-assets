@@ -13,13 +13,13 @@
           "schemaname": "temp",
           "tablename": "base_employee_position_temp"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "sql",
       "file": "load_audit_table.sql",
       "connection": "pubrecdb1/mdastore1/dbadmin",
-      "active": true
+      "active": false
     }
   ]
 }
