@@ -4,5 +4,5 @@
   "active": true,
   "type": "spreadsheet",
   "description": "Report of Employees who were termed this month",
-  "depends": ["base_employee_sensitive_snapshots"]
+  "depends": []
 }
