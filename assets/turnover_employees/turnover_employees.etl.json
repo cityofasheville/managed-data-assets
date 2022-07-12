@@ -13,7 +13,7 @@
         "connection": "bedrock-googlesheets",
         "spreadsheetid": "1GEopg1PVyuSwfbtnf5roR6mhFb5BHHk4XSQRBtARavM",
         "range": "Sheet1!A2:U",
-        "append": true
+        "append": false
       },
       "active": true
     }
