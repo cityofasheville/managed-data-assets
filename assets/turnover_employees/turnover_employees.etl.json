@@ -1,5 +1,5 @@
 {
-  "run_group": "daily",
+  "run_group": "testmonthly",
   "tasks": [
     {
       "type": "table_copy",
