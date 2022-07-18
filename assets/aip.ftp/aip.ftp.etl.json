@@ -21,7 +21,7 @@
         "type": "encrypt",
         "s3_connection": "s3_data_files",
         "s3_path": "aip/",
-        "ftp_connection": "aip_ftp",
+        "encrypt_connection": "aip_ftp",
         "filename": "CityofAsheville5871_To_InfoArmor_FULL_${YYYY}${MM}${DD}.txt",
         "encrypted_filename": "CityofAsheville5871_To_InfoArmor_FULL_${YYYY}${MM}${DD}",
         "active": true

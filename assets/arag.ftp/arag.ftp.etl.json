@@ -22,7 +22,7 @@
         "type": "encrypt",
         "s3_connection": "s3_data_files",
         "s3_path": "arag/",
-        "ftp_connection": "arag_ftp",
+        "encrypt_connection": "arag_ftp",
         "filename": "arag_asheville_${YYYY}${MM}${DD}.csv",
         "encrypted_filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp",
         "active": true
