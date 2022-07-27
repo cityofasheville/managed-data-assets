@@ -5,6 +5,7 @@ City of Asheville managed data assets.
 ## File Formats
 A subdir exists for each asset. Each subdir has two files, the Asset file (assetname.json) and the ETL file (assetname.etl.json). Other helper files may also be included, such as SQL scripts.
 For more information see [README_file_formats.md](https://github.com/cityofasheville/managed-data-assets/blob/production/README_file_formats.md).
+Also see [Formats in Bedrock Repo](https://github.com/cityofasheville/bedrock2/blob/production/docs/etl_formats.md)
 
 
 

@@ -61,7 +61,20 @@ A subdir exists for each asset. Each asset includes:
             - "active": true 
         File is a filename in the same directory with the ETL file.
 
-        - **table_copy_since** Like table_copy but only copies the latest data from a larger table. Appends these extra fields:
+
+        - **file_copy** Includes fields
+            - "type": "file_copy"
+            - "source_location": {}
+            - "target_location": {}
+            - "active": true
+
+            File connections need these fields:
+
+            - "connection": "",
+            - "filename": "",
+            - "path": ""
+
+        - **table_copy_since** _DEFUNCT_ (TODO: rebuild this functionality in table_copy) Like table_copy but only copies the latest data from a larger table. Appends these extra fields:
             - "num_weeks": 1,
             - "column_to_filter": "ACTIVITY_TIME"
 

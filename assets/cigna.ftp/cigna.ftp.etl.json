@@ -15,7 +15,7 @@
         "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
         "s3_path": "cigna/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -30,7 +30,7 @@
         "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
         "path": "/Outbox/"
       },
-      "active": true
+      "active": false
     }
   ]
 }
