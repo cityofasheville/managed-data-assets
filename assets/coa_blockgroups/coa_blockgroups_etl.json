@@ -13,7 +13,7 @@
             "schemaname": "internal",
             "tablename": "coa_blockgroups"
         },
-        "active": true
+        "active": false
       }
     ]
   }
