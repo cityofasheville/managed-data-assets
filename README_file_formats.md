@@ -50,6 +50,15 @@ A subdir exists for each asset. Each asset includes:
                 - Database tables or views require:
                     - "schemaname": "",
                     - "tablename": ""
+                - Database optional fields:
+                    "append_serial": "objectid" (target)
+                    "sortasc": "fieldname", (source)
+                    "sortdesc": "fieldname", (source)
+                    "fixedwidth_noquotes": true (source)
+                    "copy_since" : {  (To copy only the latest data between 2 db tables add this)
+                        "num_weeks": 1,
+                        "column_to_filter": "ACTIVITY_TIME"
+                    }
                 - Google Sheet connections require:
                     - "filename": "",
                     - "spreadsheetid": "",
@@ -74,7 +83,26 @@ A subdir exists for each asset. Each asset includes:
             - "filename": "",
             - "path": ""
 
-        - **table_copy_since** _DEFUNCT_ (TODO: rebuild this functionality in table_copy) Like table_copy but only copies the latest data from a larger table. Appends these extra fields:
-            - "num_weeks": 1,
-            - "column_to_filter": "ACTIVITY_TIME"
+        - **table_copy_since** Use table_copy to only copies the latest data from a larger table. Works from and to databases only.
+            Deletes out any records from target table with column_to_filter (a date column) num_weeks back, and loads them with 
+            the same time period from the source table.
 
+            {
+                "type": "table_copy",
+                "source_location": {
+                    "connection": "bedrock-googlesheets",
+                    "filename": "Companies",
+                    "spreadsheetid": "1FxxxxxxxxxRA",
+                    "range": "Companies!A5:B"
+                },
+                "target_location": {
+                    "connection": "pubrecdb1/mdastore1/dbadmin",
+                    "schemaname": "internal",
+                    "tablename": "companies"
+                },
+                "copy_since" : {
+                    "num_weeks": 1,
+                    "column_to_filter": "ACTIVITY_TIME"
+                }
+                "active": true
+            }
