@@ -1,5 +1,5 @@
 {
-  "run_group": "daily",
+  "run_group": "everbridgetest",
   "tasks": [
     {
       "type": "table_copy",
@@ -18,16 +18,25 @@
       "active": true
     },
     {
+      "type": "encrypt",
+      "s3_connection": "s3_data_files",
+      "s3_path": "everbridge/",
+      "encrypt_connection": "everbridge_emp_ftp",
+      "filename": "avl.PR_City_Employees_Everbridge.csv",
+      "encrypted_filename": "avl.PR_City_Employees_Everbridge.csv.pgp",
+      "active": true
+    },
+    {
       "type": "file_copy",
       "description": "Copy Everbridge Emps S3 to FTP site",
       "source_location": {
         "connection": "s3_data_files",
-        "filename": "avl.PR_City_Employees_Everbridge.csv",
+        "filename": "avl.PR_City_Employees_Everbridge.csv.pgp",
         "path": "everbridge/"
       },
       "target_location": {
         "connection": "everbridge_emp_ftp",
-        "filename": "avl.PR_City_Employees_Everbridge.csv",
+        "filename": "avl.PR_City_Employees_Everbridge.csv.pgp",
         "path": "/replace/"
       },
       "active": true
@@ -49,16 +58,25 @@
       "active": true
     },
     {
+      "type": "encrypt",
+      "s3_connection": "s3_data_files",
+      "s3_path": "everbridge/",
+      "encrypt_connection": "everbridge_cust_ftp",
+      "filename": "avl.UB_Water_Customers_Everbridge.csv",
+      "encrypted_filename": "avl.UB_Water_Customers_Everbridge.csv.pgp",
+      "active": true
+    },
+    {
       "type": "file_copy",
       "description": "Copy Everbridge Customers S3 to FTP site",
       "source_location": {
         "connection": "s3_data_files",
-        "filename": "avl.UB_Water_Customers_Everbridge.csv",
+        "filename": "avl.UB_Water_Customers_Everbridge.csv.pgp",
         "path": "everbridge/"
       },
       "target_location": {
         "connection": "everbridge_cust_ftp",
-        "filename": "avl.UB_Water_Customers_Everbridge.csv",
+        "filename": "avl.UB_Water_Customers_Everbridge.csv.pgp",
         "path": "/replace/"
       },
       "active": true
