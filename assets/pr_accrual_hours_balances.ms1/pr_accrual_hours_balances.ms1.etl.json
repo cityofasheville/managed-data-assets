@@ -13,7 +13,7 @@
           "schemaname": "internal",
           "tablename": "pr_accrual_hours_balances"
       },
-      "active": true
+      "active": false
     }
   ]
 }
