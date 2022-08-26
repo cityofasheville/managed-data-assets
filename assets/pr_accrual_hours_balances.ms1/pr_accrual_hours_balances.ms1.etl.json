@@ -1,5 +1,5 @@
 {
-  "run_group": "daily",
+  "run_group": "hours",
   "tasks": [
     {
       "type": "table_copy",
@@ -13,7 +13,7 @@
           "schemaname": "internal",
           "tablename": "pr_accrual_hours_balances"
       },
-      "active": false
+      "active": true
     }
   ]
 }
