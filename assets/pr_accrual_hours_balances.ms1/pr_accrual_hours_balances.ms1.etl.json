@@ -1,5 +1,5 @@
 {
-  "run_group": "hours",
+  "run_group": "daily",
   "tasks": [
     {
       "type": "table_copy",
