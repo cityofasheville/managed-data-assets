@@ -17,7 +17,7 @@ A subdir exists for each asset. Each asset includes:
  
     ```
     {
-        "run_group": "daily",
+        "run_group": "refill",
         "tasks": [
             {
                 "type": "table_copy",
