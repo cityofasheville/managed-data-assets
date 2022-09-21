@@ -1,17 +1,17 @@
 {
-  "run_group": "refill",
+  "run_group": "daily",
   "tasks": [
     {
       "type": "table_copy",
       "source_location": {
-          "connection": "coa-gis-edit1/coagisedit/coagis",
+          "connection": "coa-gis-warehouse1/coagiswarehouse/coagis",
           "schemaname": "coagis",
-          "tablename": "coa_asheville_neighborhoods"
+          "tablename": "bc_location"
       },
       "target_location": {
           "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
-          "tablename": "coa_asheville_neighborhoods"
+          "tablename": "bc_location"
       },
       "active": true
     }

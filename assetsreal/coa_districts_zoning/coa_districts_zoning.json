@@ -1,19 +1,10 @@
 {
-  "name": "coa_bc_address_master",
+  "name": "coa_districts_zoning",
   "location": "mdastore1",
   "active": true,
   "type": "table",
-  "description": "Master address table",
-  "depends": [
-
-    "bc_location",
-    "bc_property",
-    "coa_active_jurisdictions",
-    "coa_districts_public_works",
-    "coa_districts_water",
-    "coa_districts_zoning",
-    "coa_zip_code"
-  ],
+  "description": "Asheville zoning districts",
+  "depends": [],
   "objects": [],
   "category": "",
   "tags": [],
