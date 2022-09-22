@@ -1,0 +1,46 @@
+{
+  "name": "coa_bc_address_master2",
+  "location": "mdastore1",
+  "active": true,
+  "type": "table",
+  "description": "Master address table",
+  "depends": [
+
+    "bc_location2",
+    "bc_property2",
+    "coa_active_jurisdictions2",
+    "coa_districts_public_works2",
+    "coa_districts_water2",
+    "coa_districts_zoning2",
+    "coa_zip_code2"
+  ],
+  "objects": [],
+  "category": "",
+  "tags": [],
+  "tag_len": 0,
+  "schema": "",
+  "title": "",
+  "publication_date": null,
+  "responsible_party": "",
+  "responsible_party_role": "",
+  "url": "",
+  "abstract": "",
+  "status": "",
+  "update_frequency": "",
+  "keywords": [],
+  "use_constraints": "",
+  "metadata_constraints": [],
+  "resource_constraints": "",
+  "topic_category": [],
+  "geographic_extent": {
+    "east": null,
+    "west": null,
+    "north": null,
+    "south": null
+  },
+  "feature_catalog": "",
+  "process_description": "",
+  "spatial_reference": "",
+  "metadata_creation_date": null,
+  "contact_role_code": ""
+}
