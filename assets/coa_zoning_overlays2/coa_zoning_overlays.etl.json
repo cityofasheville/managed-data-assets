@@ -9,7 +9,7 @@
           "tablename": "coa_zoning_overlays"
       },
       "target_location": {
-          "connection": "pubrecdb1/mdastore1/dbadmin",
+          "connection": "pubrec-copy/mdastore1/dbadmin",
           "schemaname": "internal",
           "tablename": "coa_zoning_overlays"
       },

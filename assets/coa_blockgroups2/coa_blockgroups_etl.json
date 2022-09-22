@@ -9,7 +9,7 @@
             "tablename": "census_2015_blockgroups"
         },
         "target_location": {
-            "connection": "pubrecdb1/mdastore1/dbadmin",
+            "connection": "pubrec-copy/mdastore1/dbadmin",
             "schemaname": "internal",
             "tablename": "coa_blockgroups"
         },
