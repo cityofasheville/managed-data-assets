@@ -9,7 +9,7 @@
           "tablename": "bc_property"
       },
       "target_location": {
-          "connection": "pubrec-copy/mdastore1/dbadmin",
+          "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
           "tablename": "bc_property"
       },

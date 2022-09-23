@@ -9,7 +9,7 @@
           "tablename": "coa_districts_public_works"
       },
       "target_location": {
-          "connection": "pubrec-copy/mdastore1/dbadmin",
+          "connection": "pubrecdb1/mdastore1/dbadmin",
           "schemaname": "internal",
           "tablename": "coa_districts_public_works"
       },
