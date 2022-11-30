@@ -14,7 +14,7 @@
         "filename": "CIF${YYYY}${MM}${DD}.ctl",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -29,7 +29,7 @@
         "filename": "Payment${YYYY}${MM}${DD}.ctl",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -44,7 +44,7 @@
         "filename": "Susp${YYYY}${MM}${DD}.ctl",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -59,7 +59,7 @@
         "filename": "CIF${YYYY}${MM}${DD}.csv",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -74,7 +74,7 @@
         "filename": "CIF${YYYY}${MM}${DD}.csv",
         "path": "/input/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -89,7 +89,7 @@
         "filename": "CIF${YYYY}${MM}${DD}.ctl",
         "path": "/input/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -104,7 +104,7 @@
         "filename": "Payment${YYYY}${MM}${DD}.csv",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -119,7 +119,7 @@
         "filename": "Payment${YYYY}${MM}${DD}.csv",
         "path": "/payment-history/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -134,7 +134,7 @@
         "filename": "Payment${YYYY}${MM}${DD}.ctl",
         "path": "/payment-history/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -149,7 +149,7 @@
         "filename": "Susp${YYYY}${MM}${DD}.csv",
         "s3_path": "paymentus/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -164,7 +164,7 @@
         "filename": "Susp${YYYY}${MM}${DD}.csv",
         "path": "/suspended/"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "file_copy",
@@ -179,7 +179,7 @@
         "filename": "Susp${YYYY}${MM}${DD}.ctl",
         "path": "/suspended/"
       },
-      "active": true
+      "active": false
     }
   ]
 }

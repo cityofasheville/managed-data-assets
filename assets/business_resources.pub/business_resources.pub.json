@@ -1,6 +1,6 @@
 {
     "name": "business_resources",
-    "location": "mdastore1",
+    "location": "publicdb1",
     "active": true,
     "type": "table",
     "description": "Planning and Development Business Resources-Public DB to be accessed from website",

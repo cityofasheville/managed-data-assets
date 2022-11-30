@@ -57,7 +57,7 @@ A subdir exists for each asset. Each asset includes:
                     "fixedwidth_noquotes": true (source)
                     "copy_since" : {  (To copy only the latest data between 2 db tables add this)
                         "num_weeks": 1,
-                        "column_to_filter": "ACTIVITY_TIME"
+                        "column_to_filter": "column_name"
                     }
                 - Google Sheet connections require:
                     - "filename": "",
