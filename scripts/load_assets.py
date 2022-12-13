@@ -85,15 +85,18 @@ for asset_name in os.listdir(assets_directory):
           cur.execute(sql,(asset_name, etl['run_group'], "true"))
           tasks = etl['tasks']
           for seq_number, task in enumerate(tasks):
-            print(task, seq_number)
             type = task['type']
+            if 'description' in task:
+              description = task['description']
+            else:
+              description = None
             if type == "table_copy" or type == "file_copy":
               # table_copy / file_copy
               sql = f'''
-              insert into bedrock.tasks(asset_name, seq_number, type, active, source, target, configuration)
-              values(%s, %s, %s, %s, %s, %s, %s);
+              insert into bedrock.tasks(asset_name, seq_number, description, type, active, source, target, configuration)
+              values(%s, %s, %s, %s, %s, %s, %s, %s);
               '''
-              cur.execute(sql, (asset_name, seq_number, type, task['active'], 
+              cur.execute(sql, (asset_name, seq_number, description, type, task['active'], 
               json.dumps(task['source_location']), json.dumps(task['target_location']), None))
             elif type == "sql":
               # sql
@@ -101,18 +104,18 @@ for asset_name in os.listdir(assets_directory):
               with open(os.path.join(d, sql_filename), 'r') as sqlfile:
                 sqlstring = sqlfile.read()
               sql = f'''
-              insert into bedrock.tasks(asset_name, seq_number, type, active, source, target, configuration)
-              values(%s, %s, %s, %s, %s, %s, %s);
+              insert into bedrock.tasks(asset_name, seq_number, description, type, active, source, target, configuration)
+              values(%s, %s, %s, %s, %s, %s, %s, %s);
               '''
-              cur.execute(sql, (asset_name, seq_number, type, task['active'], 
+              cur.execute(sql, (asset_name, seq_number, description, type, task['active'], 
               None, json.dumps({ "connection": task['connection'] }), sqlstring))
             else:
               # everything else
               sql = f'''
-              insert into bedrock.tasks(asset_name, seq_number, type, active, source, target, configuration)
-              values(%s, %s, %s, %s, %s, %s, %s);
+              insert into bedrock.tasks(asset_name, seq_number, description, type, active, source, target, configuration)
+              values(%s, %s, %s, %s, %s, %s, %s, %s);
               '''
-              cur.execute(sql, (asset_name, seq_number, type, task['active'], 
+              cur.execute(sql, (asset_name, seq_number, description, type, task['active'], 
               None, json.dumps(task), None))
 
     # nm = cur.fetchone()[0] # probably can skip this, but maybe to double check
