@@ -26,8 +26,6 @@ def get_db_config():
 
 db_config = json.loads(get_db_config())
 
-print(db_config)
-
 conn = psycopg2.connect(
     host=db_config['host'],
     dbname=db_config['database'],

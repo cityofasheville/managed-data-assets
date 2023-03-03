@@ -8,8 +8,11 @@ For more information see [README_file_formats.md](https://github.com/cityofashev
 Also see [Formats in Bedrock Repo](https://github.com/cityofasheville/bedrock2/blob/production/docs/etl_formats.md)
 
 
+## NEW: Assets copied to database
+Instead of the Github Action copy to S3, we will now use a command line script scripts/load_assets.py to load
+the database. This is intended as a temporary solution until we get the API/web front end.
 
-## Github Actions
+## Github Actions (old method)
 Pushing to production branch runs a Github action.
 
 1. Changes are pushed to S3.
