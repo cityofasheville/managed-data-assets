@@ -1,8 +1,24 @@
 {
   "name": "bike_counters.ms1",
-  "location": "mdastore1",
+  "location": [
+    {
+      "connection": "pubrecdb1/mdastore1/dbadmin",
+      "schemaname": "bike_counter",
+      "tablename": "counters"
+    },
+    {
+      "connection": "pubrecdb1/mdastore1/dbadmin",
+      "schemaname": "bike_counter",
+      "tablename": "counter_channels"
+    },
+    {
+      "connection": "pubrecdb1/mdastore1/dbadmin",
+      "schemaname": "bike_counter",
+      "tablename": "counter_counts"
+    }
+  ],
   "active": true,
-  "type": "multitable",
+  "type": "multi-table",
   "description": "Counting Pedestrians and Bicycles",
   "depends": [
   ],

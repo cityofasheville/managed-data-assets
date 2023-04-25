@@ -9,9 +9,7 @@
           "tablename": "bike_counters_by_type"
       },
       "target_location": {
-          "connection": "coa-publicdb1/coa_share/dbadmin",
-          "schemaname": "open",
-          "tablename": "bike_counters_by_type"
+        "asset": 0
       },
       "active": true
     }

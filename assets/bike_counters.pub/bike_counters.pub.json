@@ -1,6 +1,12 @@
 {
   "name": "bike_counters.pub",
-  "location": "coa-publicdb1/coa_share/dbadmin",
+  "location": [
+    {
+      "connection": "coa-publicdb1/coa_share/dbadmin",
+      "schemaname": "open",
+      "tablename": "bike_counters_by_type"
+    }
+  ],
   "active": true,
   "type": "table",
   "description": "Counting Pedestrians and Bicycles",
