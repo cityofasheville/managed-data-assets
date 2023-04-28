@@ -1,8 +1,8 @@
 {
-  "name": "bc_buncombe_tax_inspections.pub",
+  "name": "bc_buncombe_tax_inspections.lib",
   "location": [
     {
-      "connection": "coa-publicdb1/coa_share/dbadmin",
+      "connection": "pubrecdb1/mdastore1/dbadmin",
       "schemaname": "bc",
       "tablename": "buncombe_tax_inspections"
     }
@@ -11,7 +11,7 @@
   "type": "table",
   "description": "",
   "depends": [
-    "bc_buncombe_tax_inspections.lib"
+    "bc_buncombe_tax.acc"
   ],
   "tags": []
 }

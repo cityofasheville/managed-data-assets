@@ -11,7 +11,7 @@
   "type": "table",
   "description": "",
   "depends": [
-    "inspections.ms1"
+    "inspections.lib"
   ],
   "tags": []
 }

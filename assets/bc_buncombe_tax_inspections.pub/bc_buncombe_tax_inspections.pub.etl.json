@@ -4,12 +4,10 @@
     {
       "type": "table_copy",
       "source_location": {
-        "connection": "pubrecdb1/mdastore1/dbadmin",
-        "schemaname": "bc",
-        "tablename": "buncombe_tax_inspections"
+        "asset_name": "bc_buncombe_tax_inspections.lib"
       },
       "target_location": {
-        "asset": 0
+        "asset_name": "bc_buncombe_tax_inspections.pub"
       },
       "active": true
     }

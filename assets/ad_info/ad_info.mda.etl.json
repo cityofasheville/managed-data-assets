@@ -4,10 +4,10 @@
     {
       "type": "table_copy",
       "source_location": {
-        "asset_name": "bc_civicaddress_table.wh"
+        "asset_name": "ad_info.munis"
       },
       "target_location": {
-        "asset_name": "bc_civicaddress_table.lib"
+        "asset_name": "ad_info.mda"
       },
       "active": true
     }

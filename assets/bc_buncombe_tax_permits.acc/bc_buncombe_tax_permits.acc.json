@@ -1,0 +1,15 @@
+{
+  "name": "bc_buncombe_tax_permits.acc",
+  "location": [
+    {
+      "connection": "coa-acceladb/accela/mssqlgisadmin",
+      "schemaname": "dbo",
+      "tablename": "BUNCOMBE_TAX_PERMITS"
+    }
+  ],
+  "active": true,
+  "type": "table",
+  "description": "Accela BUNCOMBE_TAX_PERMITS",
+  "depends": [],
+  "tags": []
+}

@@ -4,10 +4,10 @@
     {
       "type": "table_copy",
       "source_location": {
-        "asset_name": "bc_civicaddress_table.wh"
+        "asset_name": "bc_buncombe_tax_inspections.acc"
       },
       "target_location": {
-        "asset_name": "bc_civicaddress_table.lib"
+        "asset_name": "bc_buncombe_tax_inspections.lib"
       },
       "active": true
     }

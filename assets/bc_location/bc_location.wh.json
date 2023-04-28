@@ -1,0 +1,15 @@
+{
+  "name": "bc_location.wh",
+  "location": [
+    {
+      "connection": "coa-gis-warehouse1/coagiswarehouse/coagis",
+      "schemaname": "coagis",
+      "tablename": "bc_location"
+    }
+  ],
+  "active": true,
+  "type": "table",
+  "description": "Locations table from County",
+  "depends": [],
+  "tags": []
+}

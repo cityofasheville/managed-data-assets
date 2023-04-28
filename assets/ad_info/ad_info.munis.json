@@ -1,0 +1,13 @@
+{
+  "name": "ad_info.munis",
+  "location": {
+    "connection": "munis/munprod/mssqlgisadmin",
+    "schemaname": "amd",
+    "tablename": "ad_info"
+  },
+  "active": true,
+  "type": "table",
+  "description": "Active Directory info",
+  "depends": [],
+  "tags": []
+}

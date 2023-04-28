@@ -1,0 +1,12 @@
+{
+  "name": "coa_mwbe_vendors",
+  "location": null,
+  "active": true,
+  "type": "asset_group",
+  "description": "List of MWBE vendors registered in Munis (not necessarily certified)",
+  "depends": [
+    "abi_outreach_vendors.vendors",
+    "abi_outreach_vendors.by_commodity_code"
+  ],
+  "tags": []
+}

@@ -11,7 +11,7 @@
   "type": "table",
   "description": "Counting Pedestrians and Bicycles",
   "depends": [
-    "bike_counters.ms1"
+    "bike_counters.lib"
   ],
   "tags": []
 }

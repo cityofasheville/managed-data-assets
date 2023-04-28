@@ -11,7 +11,7 @@
   "type": "table",
   "description": "Planning and Development Business Resources-Public DB to be accessed from website",
   "depends": [
-    "business_resources.ms1"
+    "business_resources.lib"
   ],
   "tags": []
 }
