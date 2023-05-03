@@ -1,5 +1,5 @@
 {
-  "name": "coa_apd_incident_data",
+  "name": "coa_apd_public_incidents",
   "location": [
     {
       "connection": "pubrecdb1/mdastore1/dbadmin",
