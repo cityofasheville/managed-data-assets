@@ -1,7 +1,7 @@
 {
   "name": "budget_transforms",
   "location": "mdastore1",
-  "active": true,
+  "active": false,
   "type": "multi-table",
   "description": "Category and section mappings, exclusions, etc. for GL data for budget",
   "depends": [],

@@ -14,7 +14,7 @@
         "schemaname": "internal",
         "tablename": "budget_categories"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -29,7 +29,7 @@
         "schemaname": "internal",
         "tablename": "budget_deptdiv_mappings"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -44,7 +44,7 @@
         "schemaname": "internal",
         "tablename": "budget_sections"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -59,7 +59,7 @@
         "schemaname": "internal",
         "tablename": "budget_category_mapping"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -74,7 +74,7 @@
         "schemaname": "internal",
         "tablename": "budget_section_mapping"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -89,7 +89,7 @@
         "schemaname": "internal",
         "tablename": "budget_exclusions"
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -104,7 +104,7 @@
         "schemaname": "internal",
         "tablename": "budget_interfund_transfers"
       },
-      "active": true
+      "active": false
     }
   ]
 }
