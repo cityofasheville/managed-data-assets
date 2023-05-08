@@ -1,0 +1,16 @@
+{
+  "run_group": "daily",
+  "tasks": [
+    {
+      "type": "table_copy",
+      "source_location": {
+        "asset_name": "mwbe_vendors_by_commodity_non_aggregated.munis"
+      },
+      "target_location": {
+        "asset_name": "abi_outreach_vendors.by_commodity_code",
+        "append": false
+      },
+      "active": true
+    }
+  ]
+}

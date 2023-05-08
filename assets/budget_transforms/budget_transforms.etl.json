@@ -12,7 +12,7 @@
       "target_location": {
         "asset": 0
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -25,7 +25,7 @@
       "target_location": {
         "asset": 1
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -38,7 +38,7 @@
       "target_location": {
         "asset": 2
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -51,7 +51,7 @@
       "target_location": {
         "asset": 3
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -64,7 +64,7 @@
       "target_location": {
         "asset": 4
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -77,7 +77,7 @@
       "target_location": {
         "asset": 5
       },
-      "active": true
+      "active": false
     },
     {
       "type": "table_copy",
@@ -90,7 +90,7 @@
       "target_location": {
         "asset": 6
       },
-      "active": true
+      "active": false
     }
   ]
 }

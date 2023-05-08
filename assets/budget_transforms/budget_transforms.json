@@ -37,7 +37,7 @@
       "tablename": "budget_interfund_transfers"
     }
   ],
-  "active": true,
+  "active": false,
   "type": "multi-table",
   "description": "Category and section mappings, exclusions, etc. for GL data for budget",
   "depends": [],
