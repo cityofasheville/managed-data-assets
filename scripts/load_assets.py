@@ -7,7 +7,7 @@ from botocore.exceptions import ClientError
 
 
 def get_db_config():
-    bedrock_user = "nopubrecdb1/bedrock/bedrock_user"
+    bedrock_user = "nopubrecdb1/bedrock_dev/bedrock_user"
     region_name = "us-east-1"
 
     session = boto3.session.Session()
@@ -72,7 +72,7 @@ for asset_name in os.listdir(assets_directory):
               values(%s, %s);
               '''
               cur.execute(sql, (asset_name, depend))
-      elif file == asset_name + '.etl.json':
+      elif file == asset_name + '.ETL.json':
         # etlFile
         with open(os.path.join(d, file), 'r') as ff:
           etl = json.load(ff)
@@ -98,9 +98,10 @@ for asset_name in os.listdir(assets_directory):
               json.dumps(task['source_location']), json.dumps(task['target_location']), None))
             elif type == "sql":
               # sql
-              sql_filename = task['file']
-              with open(os.path.join(d, sql_filename), 'r') as sqlfile:
-                sqlstring = sqlfile.read()
+              # sql_filename = task['file']
+              # with open(os.path.join(d, sql_filename), 'r') as sqlfile:
+              #   sqlstring = sqlfile.read()
+              sqlstring = task['sql_string']
               sql = f'''
               insert into bedrock.tasks(asset_name, seq_number, description, type, active, source, target, configuration)
               values(%s, %s, %s, %s, %s, %s, %s, %s);
