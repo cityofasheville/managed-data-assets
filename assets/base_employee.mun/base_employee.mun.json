@@ -1,0 +1,13 @@
+{
+  "asset_name": "base_employee.mun",
+  "description": "Standard Employee",
+  "location": {
+    "asset": "base_employee.mun",
+    "tablename": "base_employee",
+    "connection": "munis/munprod/mssqlgisadmin",
+    "schemaname": "avl_bdv"
+  },
+  "active": true,
+  "depends": [],
+  "tags": []
+}

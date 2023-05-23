@@ -1,0 +1,15 @@
+{
+  "asset_name": "inspections.lib",
+  "description": "",
+  "location": {
+    "asset": "inspections.lib",
+    "tablename": "inspections",
+    "connection": "pubrecdb1/mdastore1/dbadmin",
+    "schemaname": "internal"
+  },
+  "active": true,
+  "depends": [
+    "inspections.acc"
+  ],
+  "tags": []
+}

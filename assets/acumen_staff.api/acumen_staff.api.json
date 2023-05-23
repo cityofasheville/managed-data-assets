@@ -1,38 +1,13 @@
 {
-  "name": "acumen_staff.api",
-  "location": "api",
-  "active": true,
-  "type": "api",
+  "asset_name": "acumen_staff.api",
   "description": "Upload Staff data to Acumen API",
-  "depends": [
-  ],
-  "objects": [],
-  "category": "",
-  "tags": [],
-  "tag_len": 0,
-  "schema": "",
-  "title": "",
-  "publication_date": null,
-  "responsible_party": "",
-  "responsible_party_role": "",
-  "url": "",
-  "abstract": "",
-  "status": "",
-  "update_frequency": "",
-  "keywords": [],
-  "use_constraints": "",
-  "metadata_constraints": [],
-  "resource_constraints": "",
-  "topic_category": [],
-  "geographic_extent": {
-    "east": null,
-    "west": null,
-    "north": null,
-    "south": null
+  "location": {
+    "type": "run_lambda",
+    "active": true,
+    "lambda_arn": "arn:aws:lambda:us-east-1:518970837364:function:acumen-staff-upload",
+    "description": "Upload Staff data to Acumen API"
   },
-  "feature_catalog": "",
-  "process_description": "",
-  "spatial_reference": "",
-  "metadata_creation_date": null,
-  "contact_role_code": ""
+  "active": true,
+  "depends": [],
+  "tags": []
 }
