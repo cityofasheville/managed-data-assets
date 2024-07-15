@@ -1,12 +1,12 @@
 {
   "asset_name": "cigna.s3",
-  "asset_id": "583fc8a9887a4f5f5367",
-  "run_group_id": "e959e382e5a172703018",
+  "asset_id": "cede2e36f47cdd9ac46b",
+  "run_group_id": "ff4f8a24169fe66e3b1b",
   "active": true,
   "tasks": [
     {
-      "task_id": "bddf64216547fe562b38",
-      "asset_id": "583fc8a9887a4f5f5367",
+      "task_id": "5580e85bd703d60914a9",
+      "asset_id": "cede2e36f47cdd9ac46b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

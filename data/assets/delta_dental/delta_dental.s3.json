@@ -1,19 +1,19 @@
 {
-  "asset_id": "77e95637e3a8463a8c42",
+  "asset_id": "a570dceb9ef464e5cd79",
   "asset_name": "delta_dental.s3",
   "description": "",
   "location": {
     "path": "delta_dental/",
     "filename": "deltadental_asheville_${YYYY}${MM}${DD}.txt",
-    "connection_id": "f76aca18599f85f097b2"
+    "connection_id": "ae370d224b4e968e6508"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "b0623d26d9a857ee5064"
+    "c803d74666da5fe0357e"
   ],
   "tags": []
 }

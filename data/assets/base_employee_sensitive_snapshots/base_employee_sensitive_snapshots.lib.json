@@ -1,22 +1,22 @@
 {
-  "asset_id": "2d31038a91ccdb2b5bde",
+  "asset_id": "65e5c62806bcc9ddb9ae",
   "asset_name": "base_employee_sensitive_snapshots.lib",
   "description": "Monthly Snapshots of employee_sensitive view",
   "location": {
     "tablename": "base_employee_sensitive_snapshots",
     "schemaname": "standard",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "2ff1fe81e06c5e8a2bae",
-    "bea2c0ca95cd8e359c38",
-    "61dcd8650a89da84b1bb",
-    "73f7b4d8dfa4a1b67ff8"
+    "839ca35b356ece66c7e5",
+    "fd5a41955de20882fd60",
+    "a8171fa6dd989ea35aae",
+    "8b0769f3bb76c969f867"
   ],
   "tags": []
 }

@@ -1,13 +1,13 @@
 {
-  "asset_id": "a9cd8da65c1910f63e63",
+  "asset_id": "3e644779c4df679b8620",
   "asset_name": "bc_civicaddress_table.wh",
   "description": "bc_civicaddress_table table from County",
   "location": {
     "tablename": "bc_civicaddress_table",
     "schemaname": "coagis",
-    "connection_id": "6c807020a396e33e50ae"
+    "connection_id": "25d477911d1dbe059521"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

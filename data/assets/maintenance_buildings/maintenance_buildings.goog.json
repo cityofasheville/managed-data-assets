@@ -1,15 +1,15 @@
 {
-  "asset_id": "5188c5ba971ddde51aab",
+  "asset_id": "b5bff47d2f87dac8c013",
   "asset_name": "maintenance_buildings.goog",
   "description": "City Property Maintenance Responsibility Building List",
   "location": {
     "tab": "Building Classification",
     "range": "A2:L",
     "filename": "Maintenance Database - Buildings and Open Space",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "16rZUoAlISFIAmvcnSMHmhaE0qObj2OMpHQX3ddRoEwg"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

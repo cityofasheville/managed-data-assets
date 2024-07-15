@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_consumption.ftp",
-  "asset_id": "9d329bdbaf77f652e9a8",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "672fe98440721d094d28",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "5f646962df9f77b09285",
-      "asset_id": "9d329bdbaf77f652e9a8",
+      "task_id": "d34a2f88de261ff7a1a2",
+      "asset_id": "672fe98440721d094d28",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

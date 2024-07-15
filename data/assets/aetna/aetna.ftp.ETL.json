@@ -1,12 +1,12 @@
 {
   "asset_name": "aetna.ftp",
-  "asset_id": "b6490dc3b0f7487ad742",
-  "run_group_id": "d6bb3d7acc3753e66a74",
+  "asset_id": "f80c2a2f559014258135",
+  "run_group_id": "f7b4de7d62be94258595",
   "active": true,
   "tasks": [
     {
-      "task_id": "a98898b1b6b375734903",
-      "asset_id": "b6490dc3b0f7487ad742",
+      "task_id": "a9ae2a40556e475966b7",
+      "asset_id": "f80c2a2f559014258135",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

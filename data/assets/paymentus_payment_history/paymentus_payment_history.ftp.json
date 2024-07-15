@@ -1,20 +1,20 @@
 {
-  "asset_id": "f765402e396351f60ada",
+  "asset_id": "7a26987deb49f08005a8",
   "asset_name": "paymentus_payment_history.ftp",
   "description": "Paymentus Payment History",
   "location": {
     "path": "/payment-history/",
     "filename": "Payment${YYYY}${MM}${DD}.csv",
-    "connection_id": "e3cbbaec6eecf70bbd89"
+    "connection_id": "a06fcc45f3eccc0fb616"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "24891ef54f24bbd0da13",
-    "71f8b07263139ea35564"
+    "915ab97af0d917009e20",
+    "ae90d195c48c96488167"
   ],
   "tags": []
 }

@@ -1,19 +1,19 @@
 {
-  "asset_id": "e9dbb60a1a992b8ab3c4",
+  "asset_id": "9c9e2f6ee68f187645fb",
   "asset_name": "paymentus_suspended_accounts.ctl.ftp",
   "description": "paymentus_suspended_accounts control file",
   "location": {
     "path": "/suspended/",
     "filename": "Susp${YYYY}${MM}${DD}.ctl",
-    "connection_id": "e3cbbaec6eecf70bbd89"
+    "connection_id": "a06fcc45f3eccc0fb616"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "15f3eda4cbad9264b99a"
+    "083611a6d5dd7d847f2d"
   ],
   "tags": []
 }

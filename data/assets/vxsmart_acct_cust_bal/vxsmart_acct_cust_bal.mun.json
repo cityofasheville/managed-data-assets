@@ -1,13 +1,13 @@
 {
-  "asset_id": "d2eaeb12ae74be667758",
+  "asset_id": "ca658231ce840c75bd13",
   "asset_name": "vxsmart_acct_cust_bal.mun",
   "description": "Prerequisite table for view UB_AMI_VXSmart_Balances_Nightly",
   "location": {
     "tablename": "UB_VX_Acct_Cust_Bal",
     "schemaname": "avl",
-    "connection_id": "4fd66815213adfbd20be"
+    "connection_id": "7668210537257f3b9b43"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

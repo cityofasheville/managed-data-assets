@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_acct_cust_bal.mun",
-  "asset_id": "d2eaeb12ae74be667758",
-  "run_group_id": "4b7a0c106ec6c649bf81",
+  "asset_id": "ca658231ce840c75bd13",
+  "run_group_id": "b05e6e5ebda3e6980a00",
   "active": true,
   "tasks": [
     {
-      "task_id": "91ef412bf1877149fd2b",
-      "asset_id": "d2eaeb12ae74be667758",
+      "task_id": "d53f2f03c0d5c6d8d164",
+      "asset_id": "ca658231ce840c75bd13",
       "seq_number": 0,
       "description": null,
       "type": "sql",

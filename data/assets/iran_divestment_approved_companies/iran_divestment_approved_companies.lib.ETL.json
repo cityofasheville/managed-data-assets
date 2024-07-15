@@ -1,12 +1,12 @@
 {
   "asset_name": "iran_divestment_approved_companies.lib",
-  "asset_id": "a95f3d80a437c38fb862",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "f09a43af6f3ec8eff67b",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "d66dbb52637df0341205",
-      "asset_id": "a95f3d80a437c38fb862",
+      "task_id": "c2e1507d04c062e01571",
+      "asset_id": "f09a43af6f3ec8eff67b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

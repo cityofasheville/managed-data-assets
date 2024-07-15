@@ -1,19 +1,19 @@
 {
-  "asset_id": "46377fb6749aeab04e7f",
+  "asset_id": "e565e8653892ea6df11d",
   "asset_name": "ad_info.lib",
   "description": "Active Directory info",
   "location": {
     "tablename": "ad_info",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "6c1357b35f037612c227"
+    "c38d406420c3b7b25954"
   ],
   "tags": []
 }

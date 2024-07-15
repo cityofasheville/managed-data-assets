@@ -1,15 +1,15 @@
 {
-  "asset_id": "90f3c735a503690edc13",
+  "asset_id": "13a453767955070f7ba3",
   "asset_name": "capital_projects_master_categories.goog",
   "description": "Capital Projects Category List",
   "location": {
     "tab": "Categories",
     "range": "A2:B",
     "filename": "Capital Projects Master",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

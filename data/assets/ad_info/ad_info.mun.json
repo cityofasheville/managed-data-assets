@@ -1,13 +1,13 @@
 {
-  "asset_id": "6c1357b35f037612c227",
+  "asset_id": "c38d406420c3b7b25954",
   "asset_name": "ad_info.mun",
   "description": "Active Directory info",
   "location": {
     "tablename": "ad_info",
     "schemaname": "amd",
-    "connection_id": "4fd66815213adfbd20be"
+    "connection_id": "7668210537257f3b9b43"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

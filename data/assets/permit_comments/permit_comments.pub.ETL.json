@@ -1,12 +1,12 @@
 {
   "asset_name": "permit_comments.pub",
-  "asset_id": "365bd0696c297bdfedd2",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "0066ef04d95c3dd051ff",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "3f23e54efce551109212",
-      "asset_id": "365bd0696c297bdfedd2",
+      "task_id": "207dc2da824b9f4beb4d",
+      "asset_id": "0066ef04d95c3dd051ff",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

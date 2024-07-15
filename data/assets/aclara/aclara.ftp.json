@@ -1,22 +1,19 @@
 {
-  "asset_id": "37bd47b12b6df817558a",
+  "asset_id": "ba91ba935490e0dbea75",
   "asset_name": "aclara.ftp",
   "description": "Uploaded Accounting data to Aclara",
   "location": {
     "path": "/AclaraAccountImportFiles/",
     "filename": "AccountImport.imp",
-    "connection_id": "f9e12c45b170aa20733a"
+    "connection_id": "0d51a2c75dee16ec229b"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
-  "custom_fields": {
-    "d4171104f6b6116c4e87": "Hogshead per fortnight"
-  },
   "depends": [
-    "1de0c036af9e0c437c94"
+    "b7a5a69c2e8d639fbaed"
   ],
   "tags": []
 }

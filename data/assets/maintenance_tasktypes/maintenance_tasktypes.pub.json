@@ -1,19 +1,19 @@
 {
-  "asset_id": "eded04b3638ad3a7fcfd",
+  "asset_id": "9c81f722cc2b4a52ec1b",
   "asset_name": "maintenance_tasktypes.pub",
   "description": "City Facility Maintenance: Task Types",
   "location": {
     "tablename": "maintenance_tasktypes",
     "schemaname": "open",
-    "connection_id": "1be46a78a9eefb0ceb5a"
+    "connection_id": "eac6512abbdaec9b8780"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "e8f3ac66b51c0350aefd"
+    "e05d9f6d37d826ef57a7"
   ],
   "tags": []
 }

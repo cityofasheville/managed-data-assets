@@ -1,12 +1,12 @@
 {
   "asset_name": "equity_students_completed.goog",
-  "asset_id": "72a77d483dd188ad9f45",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "0efbbc1125162b4af77f",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "348ac557d0829cda030f",
-      "asset_id": "72a77d483dd188ad9f45",
+      "task_id": "994ab2b3b7a0ab29eb47",
+      "asset_id": "0efbbc1125162b4af77f",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

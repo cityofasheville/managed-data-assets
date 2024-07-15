@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_payments.ftp",
-  "asset_id": "ac369a3b160983cd4914",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "a434f1152b209d6d9836",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "68f81dc9f5e7d2a7e2bc",
-      "asset_id": "ac369a3b160983cd4914",
+      "task_id": "643203650445fa48984c",
+      "asset_id": "a434f1152b209d6d9836",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

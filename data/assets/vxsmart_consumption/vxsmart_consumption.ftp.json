@@ -1,19 +1,19 @@
 {
-  "asset_id": "9d329bdbaf77f652e9a8",
+  "asset_id": "672fe98440721d094d28",
   "asset_name": "vxsmart_consumption.ftp",
   "description": "Uploaded Consumption data to vxsmart_consumption",
   "location": {
     "path": "/uploads/",
     "filename": "ch_${YYYY}${MM}${DD}.csv",
-    "connection_id": "97f8c32fd131dbfda484"
+    "connection_id": "60ed5f60d83ea4a88607"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "7d3e460f7ba5fb179f38"
+    "3b942b1aeaa7bc55439c"
   ],
   "tags": []
 }

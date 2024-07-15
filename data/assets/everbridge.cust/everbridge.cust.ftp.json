@@ -1,19 +1,19 @@
 {
-  "asset_id": "5cd7aded575457b9c28b",
+  "asset_id": "8bb86d9c5f5af21e7b4b",
   "asset_name": "everbridge.cust.ftp",
   "description": "",
   "location": {
     "path": "/replace/",
     "filename": "avl.UB_Water_Customers_Everbridge.csv",
-    "connection_id": "25a6b0954068791bbf02"
+    "connection_id": "8ab5013a3904b04f95d5"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "48bd581cb880247b2113"
+    "655ceb470b13a82e1312"
   ],
   "tags": []
 }

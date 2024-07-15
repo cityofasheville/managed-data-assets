@@ -1,12 +1,12 @@
 {
   "asset_name": "aip.s3",
-  "asset_id": "d0af444d608d31e5ea77",
-  "run_group_id": "4b677faf52f7aa0c01c0",
+  "asset_id": "419cf5356827800bc9ef",
+  "run_group_id": "d3f4bfb4279a4bd089ad",
   "active": true,
   "tasks": [
     {
-      "task_id": "df96451879139da32748",
-      "asset_id": "d0af444d608d31e5ea77",
+      "task_id": "1d0db0916a3efa43134c",
+      "asset_id": "419cf5356827800bc9ef",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

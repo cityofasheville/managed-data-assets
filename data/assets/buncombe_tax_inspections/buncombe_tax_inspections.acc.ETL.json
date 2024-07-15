@@ -1,12 +1,12 @@
 {
   "asset_name": "buncombe_tax_inspections.acc",
-  "asset_id": "5b4491d7e8700e90227f",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "51b4f27efd8c7fab7c68",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "dbb049f2dbb40a81a5d6",
-      "asset_id": "5b4491d7e8700e90227f",
+      "task_id": "532faf830b64d84a6ec7",
+      "asset_id": "51b4f27efd8c7fab7c68",
       "seq_number": 0,
       "description": null,
       "type": "sql",

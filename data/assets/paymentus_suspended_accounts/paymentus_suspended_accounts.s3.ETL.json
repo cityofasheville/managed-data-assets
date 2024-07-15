@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_suspended_accounts.s3",
-  "asset_id": "3db1c8d0d8dab24febd7",
-  "run_group_id": "a48c5c6f78eb301ab0a9",
+  "asset_id": "819d0ef861c8bbe6d703",
+  "run_group_id": "32765561f28005176050",
   "active": true,
   "tasks": [
     {
-      "task_id": "66ff02ac0cd40928c952",
-      "asset_id": "3db1c8d0d8dab24febd7",
+      "task_id": "eb97ae90dde456c61e67",
+      "asset_id": "819d0ef861c8bbe6d703",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "848112316b28baf64992",
-      "asset_id": "3db1c8d0d8dab24febd7",
+      "task_id": "f41f3902325c50489923",
+      "asset_id": "819d0ef861c8bbe6d703",
       "seq_number": 1,
       "description": null,
       "type": "table_copy",

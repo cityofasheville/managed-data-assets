@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_climate_justice_index.lib",
-  "asset_id": "fae685ead9f2930e327f",
-  "run_group_id": "31f3e605601e7f9cb938",
+  "asset_id": "0b2d6cc5f4a2b8056433",
+  "run_group_id": "cecd32c4d12e570f1c73",
   "active": true,
   "tasks": [
     {
-      "task_id": "5aafc67402045017f847",
-      "asset_id": "fae685ead9f2930e327f",
+      "task_id": "fc25a1d887f35a53448e",
+      "asset_id": "0b2d6cc5f4a2b8056433",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

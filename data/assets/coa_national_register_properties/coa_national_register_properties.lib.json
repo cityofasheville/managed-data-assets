@@ -1,19 +1,19 @@
 {
-  "asset_id": "d7d3ec84f7c57b65290d",
+  "asset_id": "f117020cf044ac8dd09f",
   "asset_name": "coa_national_register_properties.lib",
   "description": "National register properties",
   "location": {
     "tablename": "coa_national_register_properties",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "e41101f4a6fea08bc18c"
+    "d29b69a500af01d3f0fe"
   ],
   "tags": []
 }

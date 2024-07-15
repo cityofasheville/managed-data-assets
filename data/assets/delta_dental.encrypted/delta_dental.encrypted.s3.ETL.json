@@ -1,12 +1,12 @@
 {
   "asset_name": "delta_dental.encrypted.s3",
-  "asset_id": "716f3a6c6a0201625d92",
-  "run_group_id": "03b7bc9a70fbeb7c7364",
+  "asset_id": "ec2db11e23bc9623d83e",
+  "run_group_id": "cebd883425e21e0e7a03",
   "active": true,
   "tasks": [
     {
-      "task_id": "2b0e4c72dfa8760b75f0",
-      "asset_id": "716f3a6c6a0201625d92",
+      "task_id": "dd3e6c40bf89d4f2dedc",
+      "asset_id": "ec2db11e23bc9623d83e",
       "seq_number": 0,
       "description": null,
       "type": "encrypt",

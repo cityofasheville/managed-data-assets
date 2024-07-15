@@ -1,12 +1,12 @@
 {
   "asset_name": "base_employee_sensitive_snapshots.lib",
-  "asset_id": "2d31038a91ccdb2b5bde",
-  "run_group_id": "4f143fa15d318bc83016",
+  "asset_id": "65e5c62806bcc9ddb9ae",
+  "run_group_id": "cb0ff118a087b8cb6744",
   "active": true,
   "tasks": [
     {
-      "task_id": "d40a17d3790c494af7de",
-      "asset_id": "2d31038a91ccdb2b5bde",
+      "task_id": "51eccd18da2a03d2368c",
+      "asset_id": "65e5c62806bcc9ddb9ae",
       "seq_number": 0,
       "description": null,
       "type": "sql",

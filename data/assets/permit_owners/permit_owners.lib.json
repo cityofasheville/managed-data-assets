@@ -1,19 +1,19 @@
 {
-  "asset_id": "9c807ffbc8bcda0b8092",
+  "asset_id": "3bf3c7d5b64f81eb3700",
   "asset_name": "permit_owners.lib",
   "description": "Owners associated with permits",
   "location": {
     "tablename": "permit_owners",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "a8d232ec9cc84965dd69"
+    "debeea3fa4decd0598fa"
   ],
   "tags": []
 }

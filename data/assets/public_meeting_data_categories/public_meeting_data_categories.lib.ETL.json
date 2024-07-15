@@ -1,12 +1,12 @@
 {
   "asset_name": "public_meeting_data_categories.lib",
-  "asset_id": "4d09556b25fe10429861",
-  "run_group_id": "e7bbb83d385013e19927",
+  "asset_id": "bd59e44e80875cab677b",
+  "run_group_id": "36db8e948e5d05ff3904",
   "active": true,
   "tasks": [
     {
-      "task_id": "d58d60ad5081b226ce57",
-      "asset_id": "4d09556b25fe10429861",
+      "task_id": "3ce1148da0a63704e909",
+      "asset_id": "bd59e44e80875cab677b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,12 +1,12 @@
 {
   "asset_name": "maintenance_tasktypes.pub",
-  "asset_id": "eded04b3638ad3a7fcfd",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "9c81f722cc2b4a52ec1b",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "e96610194fe12b357fc3",
-      "asset_id": "eded04b3638ad3a7fcfd",
+      "task_id": "3ceb657748851d0296b8",
+      "asset_id": "9c81f722cc2b4a52ec1b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,15 +1,15 @@
 {
-  "asset_id": "4a344a27a8e7bc3c8880",
+  "asset_id": "63ea97c515035571c01e",
   "asset_name": "iran_divestment_companies.goog",
   "description": "",
   "location": {
     "tab": "Bad Actors",
     "range": "A5:B",
     "filename": "Iran Divestment Companies",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "1FOmrFm5afRc_XqTeF2T-ilWtZDIYzdqKiZlPX129IQA"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

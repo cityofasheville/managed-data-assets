@@ -1,15 +1,15 @@
 {
-  "asset_id": "fdd790baa458ab8c274b",
+  "asset_id": "3b0efdae524b6d8282fd",
   "asset_name": "business_resources.goog",
   "description": "",
   "location": {
     "tab": "Sheet1",
     "range": "A2:Q",
     "filename": "Business Resources",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "1aTEJL7N3UI1CMObZmg9XicaCYL2USMnPIxh_esCZCos"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

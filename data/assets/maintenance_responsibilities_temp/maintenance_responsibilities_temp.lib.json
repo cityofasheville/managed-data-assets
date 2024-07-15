@@ -1,13 +1,13 @@
 {
-  "asset_id": "030758a96065dfe47c4c",
+  "asset_id": "cc5825ee84458af0ab70",
   "asset_name": "maintenance_responsibilities_temp.lib",
   "description": "City Property Maintenance Responsibilities-Temp Table",
   "location": {
     "tablename": "maintenance_responsibilities_temp",
     "schemaname": "temp",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

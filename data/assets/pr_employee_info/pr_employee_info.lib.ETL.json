@@ -1,12 +1,12 @@
 {
   "asset_name": "pr_employee_info.lib",
-  "asset_id": "fbf956c5028eab0cc56f",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "ab77fb936050eea53575",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "0271c45d4b9f1a59d318",
-      "asset_id": "fbf956c5028eab0cc56f",
+      "task_id": "3b4ca430df6a460000d6",
+      "asset_id": "ab77fb936050eea53575",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "d6aacf0352af120ceacc",
-      "asset_id": "fbf956c5028eab0cc56f",
+      "task_id": "98256617ae91e1ab597f",
+      "asset_id": "ab77fb936050eea53575",
       "seq_number": 1,
       "description": null,
       "type": "sql",

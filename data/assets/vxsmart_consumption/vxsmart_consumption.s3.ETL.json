@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_consumption.s3",
-  "asset_id": "7d3e460f7ba5fb179f38",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "3b942b1aeaa7bc55439c",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "125d3efc173414ab1aee",
-      "asset_id": "7d3e460f7ba5fb179f38",
+      "task_id": "1938a2a6847994b84ec3",
+      "asset_id": "3b942b1aeaa7bc55439c",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

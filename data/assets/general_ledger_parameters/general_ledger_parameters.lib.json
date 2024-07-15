@@ -1,19 +1,19 @@
 {
-  "asset_id": "0c812c76b66a271d70c2",
+  "asset_id": "54a4cbbd53ac9a4c5f47",
   "asset_name": "general_ledger_parameters.lib",
   "description": "Various GL parameters, especially budget year",
   "location": {
     "tablename": "general_ledger_parameters",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "d6920707a052088bb0dd"
+    "3677eb7b029f891feb0b"
   ],
   "tags": []
 }

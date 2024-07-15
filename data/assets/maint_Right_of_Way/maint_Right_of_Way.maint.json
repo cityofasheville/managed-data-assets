@@ -1,19 +1,19 @@
 {
-  "asset_id": "1b454f495c38677ba831",
+  "asset_id": "95e148cf6ef687207efb",
   "asset_name": "maint_Right_of_Way.maint",
   "description": "Maintenance Responsibilities: Right of Way",
   "location": {
     "tab": "Right of Way",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "16rZUoAlISFIAmvcnSMHmhaE0qObj2OMpHQX3ddRoEwg"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [],
   "tags": [
-    "5d10be5aa1728f452b44"
+    "7c827b6f0023ddab55c1"
   ]
 }

@@ -1,12 +1,12 @@
 {
   "asset_name": "acumen_staff.api",
-  "asset_id": "727589925307ceaefd25",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "26697f756088a5e52945",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "ccdc5111bc862da7b5e8",
-      "asset_id": "727589925307ceaefd25",
+      "task_id": "4d17cf4a3b84d3c063e4",
+      "asset_id": "26697f756088a5e52945",
       "seq_number": 0,
       "description": "Upload Staff data to Acumen API",
       "type": "run_lambda",

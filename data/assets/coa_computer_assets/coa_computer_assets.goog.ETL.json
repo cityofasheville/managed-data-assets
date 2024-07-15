@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_computer_assets.goog",
-  "asset_id": "347522cdd6403e442fc0",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "5da7329b14383ce2747a",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "58ba6e9ddb74365cc42b",
-      "asset_id": "347522cdd6403e442fc0",
+      "task_id": "a650bb9bbe7a2a8316be",
+      "asset_id": "5da7329b14383ce2747a",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

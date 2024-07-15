@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_cip_project_lines.lib",
-  "asset_id": "0da7e81df330384e879e",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "5868deac1b86e3acbf9f",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "9e18af3c2514ec5a0129",
-      "asset_id": "0da7e81df330384e879e",
+      "task_id": "9a76e42ee91a24da3063",
+      "asset_id": "5868deac1b86e3acbf9f",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

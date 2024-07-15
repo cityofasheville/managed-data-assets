@@ -1,12 +1,12 @@
 {
   "asset_name": "notification_permits.note",
-  "asset_id": "4750c8516457e9baaba9",
-  "run_group_id": "4fc9108626874797d3f4",
+  "asset_id": "508e078beda7da51b553",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "32f5cf70ce3ba86f8f10",
-      "asset_id": "4750c8516457e9baaba9",
+      "task_id": "18c22d5406d32e35aa12",
+      "asset_id": "508e078beda7da51b553",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

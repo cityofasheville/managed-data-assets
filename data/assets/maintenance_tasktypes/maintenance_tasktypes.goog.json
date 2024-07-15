@@ -1,15 +1,15 @@
 {
-  "asset_id": "d825639d9deaf10a7a9b",
+  "asset_id": "e020e1fd3a8aab37535b",
   "asset_name": "maintenance_tasktypes.goog",
   "description": "City Facility Maintenance: Task Types-Buildings",
   "location": {
     "tab": "SUMMARY",
     "range": "A3:B",
     "filename": "Maintenance Database - Buildings and Open Space",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "16rZUoAlISFIAmvcnSMHmhaE0qObj2OMpHQX3ddRoEwg"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

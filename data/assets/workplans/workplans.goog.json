@@ -1,15 +1,15 @@
 {
-  "asset_id": "b4f131130dad7373c23f",
+  "asset_id": "8c88dfed304c45c1c81e",
   "asset_name": "workplans.goog",
   "description": "Organizational Work Plan",
   "location": {
     "tab": "Sheet1",
     "range": "A2:N",
     "filename": "Work Plan - Web Site",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "1lT8ep9PipcMiT5yVv-BkGaCRR331VN_4ANeWM0tQNgc"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

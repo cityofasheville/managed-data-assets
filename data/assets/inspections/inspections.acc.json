@@ -1,13 +1,13 @@
 {
-  "asset_id": "95ea11baa7abcf0b4d28",
+  "asset_id": "e3389e20766e5c28b50d",
   "asset_name": "inspections.acc",
   "description": "",
   "location": {
     "tablename": "inspections",
     "schemaname": "amd",
-    "connection_id": "7e231e26044ec20638fe"
+    "connection_id": "daea2951c40fc63ef41d"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

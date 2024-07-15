@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_cif.s3",
-  "asset_id": "28c994d704e9afbc2eb7",
-  "run_group_id": "0448eee03e392b161025",
+  "asset_id": "deeffc0a132a143e160f",
+  "run_group_id": "0a719cef7d43f4d70713",
   "active": true,
   "tasks": [
     {
-      "task_id": "f9b4bac2b45429c3f906",
-      "asset_id": "28c994d704e9afbc2eb7",
+      "task_id": "7f1bae5c3ac7332b39f7",
+      "asset_id": "deeffc0a132a143e160f",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "1201bc48ecc9211812e9",
-      "asset_id": "28c994d704e9afbc2eb7",
+      "task_id": "3f15b6a285d6e3df6194",
+      "asset_id": "deeffc0a132a143e160f",
       "seq_number": 1,
       "description": null,
       "type": "table_copy",

@@ -1,12 +1,12 @@
 {
   "asset_name": "telestaff_person.ftp",
-  "asset_id": "69c937a145a477b48239",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "62e8c66aee9fd5954edd",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "f190c4808a788032f19d",
-      "asset_id": "69c937a145a477b48239",
+      "task_id": "e79c875956006d7f140e",
+      "asset_id": "62e8c66aee9fd5954edd",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

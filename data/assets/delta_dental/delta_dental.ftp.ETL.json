@@ -1,12 +1,12 @@
 {
   "asset_name": "delta_dental.ftp",
-  "asset_id": "7c4c7f93b245c398676d",
-  "run_group_id": "03b7bc9a70fbeb7c7364",
+  "asset_id": "0e68259001fe3d14bcbb",
+  "run_group_id": "cebd883425e21e0e7a03",
   "active": true,
   "tasks": [
     {
-      "task_id": "3687b746d926cc18a0b1",
-      "asset_id": "7c4c7f93b245c398676d",
+      "task_id": "6e91059305db8621df89",
+      "asset_id": "0e68259001fe3d14bcbb",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

@@ -1,12 +1,12 @@
 {
   "asset_name": "maintenance_tasktypes.lib",
-  "asset_id": "e8f3ac66b51c0350aefd",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "e05d9f6d37d826ef57a7",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "1f3d988e3b7f702b717b",
-      "asset_id": "e8f3ac66b51c0350aefd",
+      "task_id": "b3d6925f95dbd6a235fc",
+      "asset_id": "e05d9f6d37d826ef57a7",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "59851870bdc00ddd562c",
-      "asset_id": "e8f3ac66b51c0350aefd",
+      "task_id": "26e511a24c7517c7ccea",
+      "asset_id": "e05d9f6d37d826ef57a7",
       "seq_number": 1,
       "description": null,
       "type": "sql",

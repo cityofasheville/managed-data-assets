@@ -1,12 +1,12 @@
 {
   "asset_name": "aclara.ftp",
-  "asset_id": "37bd47b12b6df817558a",
-  "run_group_id": "3451e774606408ed7f94",
+  "asset_id": "ba91ba935490e0dbea75",
+  "run_group_id": "62e40d8d2c82353fd694",
   "active": true,
   "tasks": [
     {
-      "task_id": "04c497187e8925376fba",
-      "asset_id": "37bd47b12b6df817558a",
+      "task_id": "6af4a7b103be290ddd6b",
+      "asset_id": "ba91ba935490e0dbea75",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

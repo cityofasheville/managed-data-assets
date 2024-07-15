@@ -1,13 +1,13 @@
 {
-  "asset_id": "59741aab9fb96caf3192",
+  "asset_id": "8dcbebb12563d1ac679e",
   "asset_name": "training_students.mun",
   "description": "Student registrations for training classes",
   "location": {
     "tablename": "training_students",
     "schemaname": "amd",
-    "connection_id": "4fd66815213adfbd20be"
+    "connection_id": "7668210537257f3b9b43"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

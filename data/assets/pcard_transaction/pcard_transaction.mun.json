@@ -1,13 +1,13 @@
 {
-  "asset_id": "93cacc74643e4204630b",
+  "asset_id": "41df23a649229ea2e67e",
   "asset_name": "pcard_transaction.mun",
   "description": "PCard transaction",
   "location": {
     "tablename": "pcard_transaction",
     "schemaname": "amd",
-    "connection_id": "4fd66815213adfbd20be"
+    "connection_id": "7668210537257f3b9b43"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

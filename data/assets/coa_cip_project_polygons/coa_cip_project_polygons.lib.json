@@ -1,19 +1,19 @@
 {
-  "asset_id": "909f37cb88874477b675",
+  "asset_id": "d4d82e9832d1214fa795",
   "asset_name": "coa_cip_project_polygons.lib",
   "description": "",
   "location": {
     "tablename": "coa_cip_project_polygons",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "734be3a86dee47888af5"
+    "78b917ae0c2f4917758d"
   ],
   "tags": []
 }

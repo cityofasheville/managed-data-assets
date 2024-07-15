@@ -1,19 +1,19 @@
 {
-  "asset_id": "4e1065f46b594be498c8",
+  "asset_id": "e13dd2f2c72ad0d29a32",
   "asset_name": "coa_street_maintenance.lib",
   "description": "Street Maintenance",
   "location": {
     "tablename": "coa_street_maintenance",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "82cf2094f031572b211e"
+    "29181ac437d528a71d89"
   ],
   "tags": []
 }

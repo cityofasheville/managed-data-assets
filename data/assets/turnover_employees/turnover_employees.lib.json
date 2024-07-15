@@ -1,19 +1,19 @@
 {
-  "asset_id": "7e96af7fa134f8887798",
+  "asset_id": "a09640bb693cdd660f0e",
   "asset_name": "turnover_employees.lib",
   "description": "Report of Employees who were termed this month",
   "location": {
     "tablename": "turnover_employees",
     "schemaname": "standard",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "2d31038a91ccdb2b5bde"
+    "65e5c62806bcc9ddb9ae"
   ],
   "tags": []
 }

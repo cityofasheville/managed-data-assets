@@ -1,12 +1,12 @@
 {
   "asset_name": "cigna.ftp",
-  "asset_id": "d422a1459da6e8e379d2",
-  "run_group_id": "e959e382e5a172703018",
+  "asset_id": "8c7608f0ac3c24bea12a",
+  "run_group_id": "ff4f8a24169fe66e3b1b",
   "active": true,
   "tasks": [
     {
-      "task_id": "ad0dea85c86bf22741d2",
-      "asset_id": "d422a1459da6e8e379d2",
+      "task_id": "8b7789f5663ad9ddf24a",
+      "asset_id": "8c7608f0ac3c24bea12a",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

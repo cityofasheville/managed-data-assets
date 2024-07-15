@@ -1,13 +1,13 @@
 {
-  "asset_id": "5b4491d7e8700e90227f",
+  "asset_id": "51b4f27efd8c7fab7c68",
   "asset_name": "buncombe_tax_inspections.acc",
   "description": "",
   "location": {
     "tablename": "BUNCOMBE_TAX_INSPECTIONS",
     "schemaname": "dbo",
-    "connection_id": "7e231e26044ec20638fe"
+    "connection_id": "daea2951c40fc63ef41d"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

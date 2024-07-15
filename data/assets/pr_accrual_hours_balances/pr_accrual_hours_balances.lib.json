@@ -1,19 +1,19 @@
 {
-  "asset_id": "1934769f05d244e53d6f",
+  "asset_id": "92740b6cc4ded6096b5a",
   "asset_name": "pr_accrual_hours_balances.lib",
   "description": "",
   "location": {
     "tablename": "pr_accrual_hours_balances",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "cb79e0e8268a66029b50"
+    "1de747a8a1b3216ec446"
   ],
   "tags": []
 }

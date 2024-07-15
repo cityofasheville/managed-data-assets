@@ -1,19 +1,19 @@
 {
-  "asset_id": "51a24da73d5cc2a3cdce",
+  "asset_id": "cb85ed14d378861b17b1",
   "asset_name": "paymentus_cif.ctl.s3",
   "description": "",
   "location": {
     "path": "paymentus/",
     "filename": "CIF${YYYY}${MM}${DD}.ctl",
-    "connection_id": "f76aca18599f85f097b2"
+    "connection_id": "ae370d224b4e968e6508"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "45c714bc61df342087f0"
+    "1914119f042afe1716ca"
   ],
   "tags": []
 }

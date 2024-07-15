@@ -1,20 +1,20 @@
 {
-  "asset_id": "080924bb064acb95662f",
+  "asset_id": "5162f1cadc30a8b5bd2d",
   "asset_name": "permit_custom_fields.lib",
   "description": "Permit custom fields data ADD THIS depends BACK!!!! \"permits\"",
   "location": {
     "tablename": "permit_custom_fields",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f03c230df72c74bafebd",
-    "d9d8bc4b6e32341154ed"
+    "01e08845a571648a2dde",
+    "b9a455482dcca9075f52"
   ],
   "tags": []
 }

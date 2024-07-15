@@ -1,19 +1,19 @@
 {
-  "asset_id": "8373c30466259b79c10d",
+  "asset_id": "10255a43394d2ca3bbba",
   "asset_name": "buncombe_tax_inspections.pub",
   "description": "",
   "location": {
     "tablename": "buncombe_tax_inspections",
     "schemaname": "bc",
-    "connection_id": "1be46a78a9eefb0ceb5a"
+    "connection_id": "eac6512abbdaec9b8780"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "696fba72cfbcf0778ae9"
+    "89777d6f7fc7a5010e43"
   ],
   "tags": []
 }

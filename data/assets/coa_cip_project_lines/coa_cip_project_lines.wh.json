@@ -1,13 +1,13 @@
 {
-  "asset_id": "5ea59b72240671ad8406",
+  "asset_id": "9b7a9af4dca14b323d20",
   "asset_name": "coa_cip_project_lines.wh",
   "description": "",
   "location": {
     "tablename": "coa_cip_project_lines",
     "schemaname": "coagis",
-    "connection_id": "6c807020a396e33e50ae"
+    "connection_id": "25d477911d1dbe059521"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

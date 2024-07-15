@@ -1,17 +1,17 @@
 {
-  "asset_id": "727589925307ceaefd25",
+  "asset_id": "26697f756088a5e52945",
   "asset_name": "acumen_staff.api",
   "description": "Acumen Staff API",
   "location": {
-    "connection_id": "265a318efefd69166e21"
+    "connection_id": "bd90c15a421a6c89171c"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f10a8136bdebc142b5ea"
+    "2b59761fe6ff1980e19c"
   ],
   "tags": []
 }

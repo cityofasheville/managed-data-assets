@@ -1,13 +1,13 @@
 {
-  "asset_id": "154523fe9bfd82498a73",
+  "asset_id": "5313dac2ee0bc72c275c",
   "asset_name": "permit_contacts.acc",
   "description": "Contacts associated with permits",
   "location": {
     "tablename": "permit_contacts",
     "schemaname": "amd",
-    "connection_id": "7e231e26044ec20638fe"
+    "connection_id": "daea2951c40fc63ef41d"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

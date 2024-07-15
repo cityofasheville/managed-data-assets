@@ -1,19 +1,19 @@
 {
-  "asset_id": "73f7b4d8dfa4a1b67ff8",
+  "asset_id": "a8171fa6dd989ea35aae",
   "asset_name": "base_employee_private.lib",
   "description": "Standard Employee-Non public fields",
   "location": {
     "tablename": "base_employee_private",
     "schemaname": "standard",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "71132b7927e9bb2961c5"
+    "20e143d0decc024a86a9"
   ],
   "tags": []
 }

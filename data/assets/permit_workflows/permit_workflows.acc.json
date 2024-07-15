@@ -1,13 +1,13 @@
 {
-  "asset_id": "f252cea3ba6fd96e325c",
+  "asset_id": "23f07bf12e1f77953ed8",
   "asset_name": "permit_workflows.acc",
   "description": "Permit Workflow data",
   "location": {
     "tablename": "avl_dashboard_workflow_data",
     "schemaname": "dbo",
-    "connection_id": "7e231e26044ec20638fe"
+    "connection_id": "daea2951c40fc63ef41d"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,19 +1,19 @@
 {
-  "asset_id": "dd4daabe91a735435188",
+  "asset_id": "6356ba2a2acb5200c7dd",
   "asset_name": "bc_property_account_master.lib",
   "description": "mdastore1 copy of amaccountmaster in Buncombe County",
   "location": {
     "tablename": "bc_property_account_master",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "31079d42d94cbd0ec745"
+    "c58c9394e113db8e6bba"
   ],
   "tags": []
 }

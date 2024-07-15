@@ -1,19 +1,19 @@
 {
-  "asset_id": "6eb0df696b9cdc2d3dd3",
+  "asset_id": "731694f586bdf8e8c786",
   "asset_name": "permit_review_times.lib",
   "description": "Count days to review permits",
   "location": {
     "tablename": "permit_review_times",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "cf2dd2c22207ab6381ea"
+    "18b977c56d9544520961"
   ],
   "tags": []
 }

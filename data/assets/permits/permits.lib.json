@@ -1,19 +1,19 @@
 {
-  "asset_id": "f03c230df72c74bafebd",
+  "asset_id": "01e08845a571648a2dde",
   "asset_name": "permits.lib",
   "description": "Permits data",
   "location": {
     "tablename": "permits",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "a1bbb4f502e96e784742"
+    "9a7fe883cd9d9b2f4f34"
   ],
   "tags": []
 }

@@ -1,19 +1,19 @@
 {
-  "asset_id": "af5bcd41af50486cb045",
+  "asset_id": "0f701df280978a81fbae",
   "asset_name": "base_employee_temp.lib",
   "description": "",
   "location": {
     "tablename": "base_employee_temp",
     "schemaname": "temp",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f3f1f3e74da666a63b81"
+    "ac85223fa052470959ec"
   ],
   "tags": []
 }

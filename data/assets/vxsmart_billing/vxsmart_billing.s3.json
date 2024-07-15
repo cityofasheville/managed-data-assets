@@ -1,19 +1,19 @@
 {
-  "asset_id": "fda03f8007e006520343",
+  "asset_id": "769240bd2dff5d96cc97",
   "asset_name": "vxsmart_billing.s3",
   "description": "",
   "location": {
     "path": "vxsmart/",
     "filename": "billinginfo_${YYYY}${MM}${DD}.csv",
-    "connection_id": "f76aca18599f85f097b2"
+    "connection_id": "ae370d224b4e968e6508"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "d61157d73c0adc8db2a7"
+    "7314f3763892fec9a809"
   ],
   "tags": []
 }

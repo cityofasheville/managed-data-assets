@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_zip_code.lib",
-  "asset_id": "642a63b671fa3cafbf76",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "f2cbd4603d0a22c9ac85",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "7a6e6e10e6b61f216f77",
-      "asset_id": "642a63b671fa3cafbf76",
+      "task_id": "82fc4ff41363eeb14a57",
+      "asset_id": "f2cbd4603d0a22c9ac85",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

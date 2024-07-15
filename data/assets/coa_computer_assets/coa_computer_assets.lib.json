@@ -1,13 +1,13 @@
 {
-  "asset_id": "33ce88248242ca856e83",
+  "asset_id": "7a32507e6ee67dbf4311",
   "asset_name": "coa_computer_assets.lib",
   "description": "Computers on our network",
   "location": {
     "tablename": "coa_computer_assets",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,

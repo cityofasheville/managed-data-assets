@@ -1,21 +1,21 @@
 {
-  "asset_id": "955e86c15a7a508d2ef0",
+  "asset_id": "40dda372c6dc38c7628f",
   "asset_name": "employee_turnover_report.terms.goog",
   "description": "",
   "location": {
     "tab": "Terminations",
     "range": "A2:X",
     "filename": "Employee Turnover Report",
-    "connection_id": "71313d9908d4a9716405",
+    "connection_id": "0f8f90d2690a17e70b42",
     "spreadsheetid": "1yE8pfp9nZ9nETDd2ypN4h6y8-m06giQ5O797ghBQHYc"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "2d31038a91ccdb2b5bde"
+    "65e5c62806bcc9ddb9ae"
   ],
   "tags": []
 }

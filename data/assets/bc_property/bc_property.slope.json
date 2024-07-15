@@ -1,19 +1,19 @@
 {
-  "asset_id": "f3cb971c49efeda7dbb7",
+  "asset_id": "59a5ffd282f404906543",
   "asset_name": "bc_property.slope",
   "description": "Property table from County",
   "location": {
     "tablename": "bc_property",
     "schemaname": "public",
-    "connection_id": "ae8f8424514b28c57b8c"
+    "connection_id": "802bf044e2f0fd4c6923"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "e966e245516ef0716444"
+    "ffb325c98d5e13cc2b12"
   ],
   "tags": []
 }

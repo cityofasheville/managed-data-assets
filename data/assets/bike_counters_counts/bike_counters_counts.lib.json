@@ -1,20 +1,20 @@
 {
-  "asset_id": "2028602b046c0be02669",
+  "asset_id": "a2420dcbc5a0dc616b52",
   "asset_name": "bike_counters_counts.lib",
   "description": "",
   "location": {
     "tablename": "counter_counts",
     "schemaname": "bike_counter",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "ae23ea3b2a268a347e31",
-    "bce775193c676553dcf1"
+    "77d0b1c3f85e6cf4760d",
+    "f6e5ab740161e12e6da9"
   ],
   "tags": []
 }

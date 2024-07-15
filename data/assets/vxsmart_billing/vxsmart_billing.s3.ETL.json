@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_billing.s3",
-  "asset_id": "fda03f8007e006520343",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "769240bd2dff5d96cc97",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "5a72b1dcf732f9f28473",
-      "asset_id": "fda03f8007e006520343",
+      "task_id": "0153a7a7e3ee924726fa",
+      "asset_id": "769240bd2dff5d96cc97",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

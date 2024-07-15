@@ -1,12 +1,12 @@
 {
   "asset_name": "bc_location.lib",
-  "asset_id": "629012fcdbd1ed5ab621",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "a09dc4ce563265a0289b",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "01b626329c120ee6b286",
-      "asset_id": "629012fcdbd1ed5ab621",
+      "task_id": "a56c1be563b66bb3c31d",
+      "asset_id": "a09dc4ce563265a0289b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "2d1c1c1f76374a100bcc",
-      "asset_id": "629012fcdbd1ed5ab621",
+      "task_id": "3eb83fe3ac0821e96cf0",
+      "asset_id": "a09dc4ce563265a0289b",
       "seq_number": 1,
       "description": null,
       "type": "sql",

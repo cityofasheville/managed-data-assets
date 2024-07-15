@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_suspended_accounts.ftp",
-  "asset_id": "ccab5a117a2c48c6a2f8",
-  "run_group_id": "a48c5c6f78eb301ab0a9",
+  "asset_id": "09214d4992f0897839fe",
+  "run_group_id": "32765561f28005176050",
   "active": true,
   "tasks": [
     {
-      "task_id": "c3159f7ee89164a2165f",
-      "asset_id": "ccab5a117a2c48c6a2f8",
+      "task_id": "d614b8ae5769da0cd578",
+      "asset_id": "09214d4992f0897839fe",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "e88161a7355f9e648145",
-      "asset_id": "ccab5a117a2c48c6a2f8",
+      "task_id": "904a4b8ce64e1db2140a",
+      "asset_id": "09214d4992f0897839fe",
       "seq_number": 1,
       "description": null,
       "type": "file_copy",

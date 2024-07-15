@@ -1,12 +1,12 @@
 {
   "asset_name": "arag.s3",
-  "asset_id": "6eab34c333095c5967f6",
-  "run_group_id": "232cc0f83321d5bb89ca",
+  "asset_id": "8b0d3f5461db88a0d318",
+  "run_group_id": "956d6587b6ec61f98a93",
   "active": true,
   "tasks": [
     {
-      "task_id": "796d6deeb28fde23702a",
-      "asset_id": "6eab34c333095c5967f6",
+      "task_id": "fa8381126432076f76d5",
+      "asset_id": "8b0d3f5461db88a0d318",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

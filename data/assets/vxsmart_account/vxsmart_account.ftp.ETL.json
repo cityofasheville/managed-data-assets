@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_account.ftp",
-  "asset_id": "dbc7b9e607bb3ed7b4fa",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "05ae5b4e3bc7c4bdc159",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "c0690d266bcff35b8497",
-      "asset_id": "dbc7b9e607bb3ed7b4fa",
+      "task_id": "4962d66ba3890b2ec542",
+      "asset_id": "05ae5b4e3bc7c4bdc159",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

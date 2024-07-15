@@ -1,19 +1,19 @@
 {
-  "asset_id": "7fca6a6f68c6e948bcbb",
+  "asset_id": "66f8f39556732d1d1c35",
   "asset_name": "permit_contacts.lib",
   "description": "Contacts associated with permits",
   "location": {
     "tablename": "permit_contacts",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "154523fe9bfd82498a73"
+    "5313dac2ee0bc72c275c"
   ],
   "tags": []
 }

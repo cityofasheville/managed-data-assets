@@ -1,19 +1,19 @@
 {
-  "asset_id": "d422a1459da6e8e379d2",
+  "asset_id": "8c7608f0ac3c24bea12a",
   "asset_name": "cigna.ftp",
   "description": "Uploaded staff data to Cigna",
   "location": {
     "path": "/Outbox/",
     "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
-    "connection_id": "63f1331bb2b111e79b08"
+    "connection_id": "17691f1de226cbcc0184"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "583fc8a9887a4f5f5367"
+    "cede2e36f47cdd9ac46b"
   ],
   "tags": []
 }

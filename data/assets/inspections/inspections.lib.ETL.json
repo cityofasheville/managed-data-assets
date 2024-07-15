@@ -1,12 +1,12 @@
 {
   "asset_name": "inspections.lib",
-  "asset_id": "6a99c0422ced14fae6d4",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "55afc075ba5b5c552625",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "3fb48610eee40f68f690",
-      "asset_id": "6a99c0422ced14fae6d4",
+      "task_id": "053489b15f5c18eaa593",
+      "asset_id": "55afc075ba5b5c552625",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

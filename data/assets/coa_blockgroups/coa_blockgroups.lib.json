@@ -1,19 +1,19 @@
 {
-  "asset_id": "1d5b39fcb685e87884ae",
+  "asset_id": "8259ca4be3d7539f356e",
   "asset_name": "coa_blockgroups.lib",
   "description": "",
   "location": {
     "tablename": "coa_blockgroups",
     "schemaname": "internal",
-    "connection_id": "7349e0b0fbf697f353d5"
+    "connection_id": "102a9c5a0293e2afad3a"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "ef1f070e9ceb297e587f"
+    "6fe94abd239772392db1"
   ],
   "tags": []
 }

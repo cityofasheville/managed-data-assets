@@ -1,19 +1,19 @@
 {
-  "asset_id": "8509c06d931d7887f263",
+  "asset_id": "5a5c6798c908fe2b0d25",
   "asset_name": "bc_incorporated_areas.slope",
   "description": "",
   "location": {
     "tablename": "bc_incorporated_areas",
     "schemaname": "public",
-    "connection_id": "ae8f8424514b28c57b8c"
+    "connection_id": "802bf044e2f0fd4c6923"
   },
-  "asset_type_id": "6145ff5349087fc33784",
+  "asset_type_id": "8d6c0d30ff71acc6763f",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "0e7b990fc537fda9a408"
+    "6ecc0a3b0ec0aaf0d814"
   ],
   "tags": []
 }

@@ -1,12 +1,12 @@
 {
   "asset_name": "compsych.s3",
-  "asset_id": "1f619857e8a85be71553",
-  "run_group_id": "fea00d00eac0eff09778",
+  "asset_id": "218e6e00f5f7dfb889fd",
+  "run_group_id": "3063bd78861d64364923",
   "active": true,
   "tasks": [
     {
-      "task_id": "af5278096bee9cd3b042",
-      "asset_id": "1f619857e8a85be71553",
+      "task_id": "766cec64fabfc21308ff",
+      "asset_id": "218e6e00f5f7dfb889fd",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

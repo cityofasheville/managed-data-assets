@@ -1,12 +1,12 @@
 {
   "asset_name": "bc_property_account_master.lib",
-  "asset_id": "dd4daabe91a735435188",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "6356ba2a2acb5200c7dd",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "7b3789ecf8219ac2108b",
-      "asset_id": "dd4daabe91a735435188",
+      "task_id": "87cf67f182a83b05423b",
+      "asset_id": "6356ba2a2acb5200c7dd",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

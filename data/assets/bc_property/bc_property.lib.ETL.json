@@ -1,12 +1,12 @@
 {
   "asset_name": "bc_property.lib",
-  "asset_id": "80f955cfbf49e0609385",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "c129d25c46e2013de453",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "79ca3a493df40cc5f645",
-      "asset_id": "80f955cfbf49e0609385",
+      "task_id": "9bd6025e266d445b2047",
+      "asset_id": "c129d25c46e2013de453",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

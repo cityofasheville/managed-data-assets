@@ -1,12 +1,12 @@
 {
   "asset_name": "training_students.lib",
-  "asset_id": "0185367aa52c18b84347",
-  "run_group_id": "7d27de8121bfc20e543b",
+  "asset_id": "92835ac2047ee1133e4b",
+  "run_group_id": "c1eb20ee50203635e5a7",
   "active": true,
   "tasks": [
     {
-      "task_id": "cdb824b53819b6587a32",
-      "asset_id": "0185367aa52c18b84347",
+      "task_id": "d4a1b1ccb679280272c3",
+      "asset_id": "92835ac2047ee1133e4b",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
