@@ -15,7 +15,8 @@
         "asset": "testdatafrom.bed"
       },
       "target": {
-        "asset": "testdatato.bed"
+        "asset": "testdatato.bed",
+        "email": "only_errors"
       },
       "configuration": null
     }
