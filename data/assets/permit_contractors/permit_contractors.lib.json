@@ -1,19 +1,19 @@
 {
-  "asset_id": "3ee0d169d3e5c36f3751",
+  "asset_id": "1e942a3f43c2ad2c3d34",
   "asset_name": "permit_contractors.lib",
   "description": "Permit contractors data",
   "location": {
     "tablename": "permit_contractors",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "66a1d41a34686a295751"
+    "275cea62b79ea26b889d"
   ],
   "tags": []
 }

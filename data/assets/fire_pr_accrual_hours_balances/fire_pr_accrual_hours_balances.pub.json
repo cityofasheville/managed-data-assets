@@ -1,20 +1,20 @@
 {
-  "asset_id": "82395c53cd660706ed10",
+  "asset_id": "42a0e61f457bafe1c145",
   "asset_name": "fire_pr_accrual_hours_balances.pub",
   "description": "",
   "location": {
     "tablename": "fire_pr_accrual_hours_balances",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "92740b6cc4ded6096b5a",
-    "ab77fb936050eea53575"
+    "a5a397b2de7a12834925",
+    "1d95de975a89e9a52f84"
   ],
   "tags": []
 }

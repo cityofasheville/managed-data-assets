@@ -1,19 +1,19 @@
 {
-  "asset_id": "5ab66a55ed7e1805ef16",
+  "asset_id": "12c9449fc3df48980e1e",
   "asset_name": "permits.pub",
   "description": "Permits data",
   "location": {
     "tablename": "permits",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "01e08845a571648a2dde"
+    "4022dd557e3d6aacf76c"
   ],
   "tags": []
 }

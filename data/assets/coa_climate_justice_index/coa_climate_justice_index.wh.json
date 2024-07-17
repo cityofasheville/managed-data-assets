@@ -1,13 +1,13 @@
 {
-  "asset_id": "da0cd0dff1693375635e",
+  "asset_id": "324e24ba0b6f535ae01f",
   "asset_name": "coa_climate_justice_index.wh",
   "description": "",
   "location": {
     "tablename": "coa_climate_justice_index",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

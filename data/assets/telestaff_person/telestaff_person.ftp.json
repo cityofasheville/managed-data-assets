@@ -1,19 +1,19 @@
 {
-  "asset_id": "62e8c66aee9fd5954edd",
+  "asset_id": "686d74d887b3e6e5673d",
   "asset_name": "telestaff_person.ftp",
   "description": "Upload Staff data to Telestaff FTP",
   "location": {
     "path": "/PROD/import/ongoing.unprocessed/",
     "filename": "${YYYY}-${MM}-${DD}T${HH}-${mm}-${SS}.000ZPerson.xml",
-    "connection_id": "985f35147152a6cb7653"
+    "connection_id": "ab012adcd690e91b39f2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "28c605e8485bf45ec651"
+    "c48a064e909a2f5fb27e"
   ],
   "tags": []
 }

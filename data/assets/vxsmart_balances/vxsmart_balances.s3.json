@@ -1,20 +1,20 @@
 {
-  "asset_id": "f6f79fc1b13d532cdbd8",
+  "asset_id": "635bf5bc5c18e4776a12",
   "asset_name": "vxsmart_balances.s3",
   "description": "",
   "location": {
     "path": "vxsmart/",
     "filename": "balances_${YYYY}${MM}${DD}.csv",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "4f0e5a2bb4805a312691",
-    "ca658231ce840c75bd13"
+    "96447e23242ae09aadf3",
+    "10f0e9ad0917202acf63"
   ],
   "tags": []
 }

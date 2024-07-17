@@ -1,21 +1,21 @@
 {
-  "asset_id": "6a9942d7ef1faebbf49e",
+  "asset_id": "80576833cef22c723d33",
   "asset_name": "bike_counters_by_type.lib",
   "description": "Bike Counters: View of 3 tables",
   "location": {
     "tablename": "bike_counters_by_type",
     "schemaname": "bike_counter",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "a2420dcbc5a0dc616b52",
-    "53323f85527d8095f86a",
-    "77d0b1c3f85e6cf4760d"
+    "5752135d7875f42bf8c0",
+    "19c2c445a5ef9452941a",
+    "fef366e4891d0039fa59"
   ],
   "tags": []
 }

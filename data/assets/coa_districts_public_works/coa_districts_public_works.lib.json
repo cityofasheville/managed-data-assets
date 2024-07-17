@@ -1,19 +1,19 @@
 {
-  "asset_id": "e1151c92c51bb32f29b8",
+  "asset_id": "df0567e039129c13f03a",
   "asset_name": "coa_districts_public_works.lib",
   "description": "Public works districts",
   "location": {
     "tablename": "coa_districts_public_works",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "c2e5e5eff4721144c088"
+    "645a4caabc0a2971b53f"
   ],
   "tags": []
 }

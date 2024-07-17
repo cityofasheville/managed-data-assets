@@ -1,19 +1,19 @@
 {
-  "asset_id": "a711e1da99881a03648d",
+  "asset_id": "7eef6dd9cc3df3062b91",
   "asset_name": "business_resources.lib",
   "description": "",
   "location": {
     "tablename": "business_resources",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "3b0efdae524b6d8282fd"
+    "c67625cf2d80c4200838"
   ],
   "tags": []
 }

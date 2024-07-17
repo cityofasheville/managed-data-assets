@@ -1,12 +1,12 @@
 {
   "asset_name": "compsych.ftp",
-  "asset_id": "143f5c9892f2fab3f7ce",
-  "run_group_id": "3063bd78861d64364923",
+  "asset_id": "e4131f8f290ac6a11e0a",
+  "run_group_id": "da48966780aec6040510",
   "active": true,
   "tasks": [
     {
-      "task_id": "ba1a33c800f52cebac98",
-      "asset_id": "143f5c9892f2fab3f7ce",
+      "task_id": "dcfce67a02aba695e0e5",
+      "asset_id": "e4131f8f290ac6a11e0a",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

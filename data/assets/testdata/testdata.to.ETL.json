@@ -1,0 +1,38 @@
+{
+  "asset_name": "testdata.to",
+  "asset_id": "2b1b78551a1f86a8810a",
+  "run_group_id": "91b36b68aed3a0736f90",
+  "active": true,
+  "tasks": [
+    {
+      "task_id": "1b13b6195000488081cc",
+      "asset_id": "2b1b78551a1f86a8810a",
+      "seq_number": 0,
+      "description": null,
+      "type": "table_copy",
+      "active": true,
+      "source": {
+        "asset": "testdata.from"
+      },
+      "target": {
+        "asset": "testdata.to",
+        "email": "only_on_error"
+      },
+      "configuration": null
+    },
+    {
+      "task_id": "1d70c250e00003a89b25",
+      "asset_id": "2b1b78551a1f86a8810a",
+      "seq_number": 1,
+      "description": null,
+      "type": "sql",
+      "active": true,
+      "source": null,
+      "target": {
+        "email": "only_on_error",
+        "connection": "pubrecdb1/mdastore1/dbadmin"
+      },
+      "configuration": "select 1;"
+    }
+  ]
+}

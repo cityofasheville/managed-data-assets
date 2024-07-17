@@ -1,19 +1,19 @@
 {
-  "asset_id": "b27d040a6237ea4fda42",
+  "asset_id": "cc095bac87f02ea94619",
   "asset_name": "aetna.s3",
   "description": "",
   "location": {
     "path": "aetna/",
     "filename": "aetna_asheville_${YYYY}${MM}${DD}.csv",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "58c81d468d2328a2874a"
+    "0f247927acaf8e753f4a"
   ],
   "tags": []
 }

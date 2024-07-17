@@ -1,12 +1,12 @@
 {
   "asset_name": "pcard_statement_status_history.lib",
-  "asset_id": "3daa548c9f94300a5f42",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "8fb31f3249e2ec1e3466",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "4ab453831702ae0068f9",
-      "asset_id": "3daa548c9f94300a5f42",
+      "task_id": "cd249504c11a635b07a1",
+      "asset_id": "8fb31f3249e2ec1e3466",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,15 +1,15 @@
 {
-  "asset_id": "d328a93aec7a04ab498a",
+  "asset_id": "4ec2b5edfc6691afe6a6",
   "asset_name": "workforce_development.goog",
   "description": "Workforce and Career Development Resources-Google Sheet",
   "location": {
     "tab": "Sheet1",
     "range": "A2:O",
     "filename": "Workforce and Career Development Resources",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "11KoQdsfrGYaa3e4E5zUy2d_UniCOZhSnaD5KcdEyqWE"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

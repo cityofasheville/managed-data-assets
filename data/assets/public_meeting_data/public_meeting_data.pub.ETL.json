@@ -1,12 +1,12 @@
 {
   "asset_name": "public_meeting_data.pub",
-  "asset_id": "b985cc492f5dc38f116e",
-  "run_group_id": "36db8e948e5d05ff3904",
+  "asset_id": "83ac1a91e0717d7d59df",
+  "run_group_id": "5394d8878051c0d71dc9",
   "active": true,
   "tasks": [
     {
-      "task_id": "d73cb729780badfbef5e",
-      "asset_id": "b985cc492f5dc38f116e",
+      "task_id": "da345172bb15ec239026",
+      "asset_id": "83ac1a91e0717d7d59df",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -15,7 +15,8 @@
         "asset": "public_meeting_data.lib"
       },
       "target": {
-        "asset": "public_meeting_data.pub"
+        "asset": "public_meeting_data.pub",
+        "email": "only_on_error"
       },
       "configuration": null
     }

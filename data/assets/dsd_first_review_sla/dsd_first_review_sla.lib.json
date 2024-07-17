@@ -1,19 +1,19 @@
 {
-  "asset_id": "b9c324a276d80f762a8a",
+  "asset_id": "186eef1932228cd43d8d",
   "asset_name": "dsd_first_review_sla.lib",
   "description": "DSD first-review SLA performance",
   "location": {
     "tablename": "dsd_first_review_sla",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "6e64ee149650043f4633"
+    "67d76f41c7eb02999691"
   ],
   "tags": []
 }

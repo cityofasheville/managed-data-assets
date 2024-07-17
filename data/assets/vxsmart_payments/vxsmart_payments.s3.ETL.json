@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_payments.s3",
-  "asset_id": "03dedf133fd4e94ddf8c",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "91fefcbbbadd28ef4232",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "ae923d3d1ad8a0f17642",
-      "asset_id": "03dedf133fd4e94ddf8c",
+      "task_id": "ccaebe735170c99a3732",
+      "asset_id": "91fefcbbbadd28ef4232",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

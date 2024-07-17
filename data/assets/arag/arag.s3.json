@@ -1,19 +1,19 @@
 {
-  "asset_id": "8b0d3f5461db88a0d318",
+  "asset_id": "5840c7e3738dde7636f3",
   "asset_name": "arag.s3",
   "description": "",
   "location": {
     "path": "arag/",
     "filename": "arag_asheville_${YYYY}${MM}${DD}.csv",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "3977c6b9a6a9a1850163"
+    "af78e9eece6182437edd"
   ],
   "tags": []
 }

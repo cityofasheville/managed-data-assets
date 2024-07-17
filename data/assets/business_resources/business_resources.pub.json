@@ -1,19 +1,19 @@
 {
-  "asset_id": "bb778d391a6c91f183b9",
+  "asset_id": "d3968b62ee5f4bca7cc4",
   "asset_name": "business_resources.pub",
   "description": "Planning and Development Business Resources-Public DB to be accessed from website",
   "location": {
     "tablename": "business_resources",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "a711e1da99881a03648d"
+    "7eef6dd9cc3df3062b91"
   ],
   "tags": []
 }

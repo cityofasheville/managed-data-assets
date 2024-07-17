@@ -1,19 +1,19 @@
 {
-  "asset_id": "f09a43af6f3ec8eff67b",
+  "asset_id": "a3af19fed3e213df7088",
   "asset_name": "iran_divestment_approved_companies.lib",
   "description": "Non-Iranian Companies with names similar to Iranian Companies",
   "location": {
     "tablename": "iran_divestment_approved_companies",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "74c2ef6656ee1c8f4a72"
+    "4b5742e066e688eae58a"
   ],
   "tags": []
 }

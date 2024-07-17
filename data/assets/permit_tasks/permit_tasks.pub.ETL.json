@@ -1,12 +1,12 @@
 {
   "asset_name": "permit_tasks.pub",
-  "asset_id": "b4df9759097ced557df8",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "af255afa580cb015d805",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "b351300331e3677ea0fa",
-      "asset_id": "b4df9759097ced557df8",
+      "task_id": "d9a71d2ddc4324090a6e",
+      "asset_id": "af255afa580cb015d805",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

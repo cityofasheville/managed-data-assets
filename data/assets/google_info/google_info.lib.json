@@ -1,19 +1,19 @@
 {
-  "asset_id": "f60f9a51b37cbe505d74",
+  "asset_id": "830646d89dc42022bd6c",
   "asset_name": "google_info.lib",
   "description": "",
   "location": {
     "tablename": "google_info",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "810c0d5d3ef691363c17"
+    "027e8906ae28da13b2df"
   ],
   "tags": []
 }

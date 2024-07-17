@@ -1,12 +1,12 @@
 {
   "asset_name": "bike_counters_by_type.pub",
-  "asset_id": "11d7bd1d5c4b54bcf33b",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "4421648d437d2e300188",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "88c9f6d843e5ffbef54e",
-      "asset_id": "11d7bd1d5c4b54bcf33b",
+      "task_id": "7df853886be240122cf1",
+      "asset_id": "4421648d437d2e300188",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

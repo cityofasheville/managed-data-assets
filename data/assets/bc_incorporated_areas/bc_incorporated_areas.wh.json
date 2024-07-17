@@ -1,13 +1,13 @@
 {
-  "asset_id": "6ecc0a3b0ec0aaf0d814",
+  "asset_id": "06de4edfc240a739c831",
   "asset_name": "bc_incorporated_areas.wh",
   "description": "",
   "location": {
     "tablename": "bc_incorporated_areas",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

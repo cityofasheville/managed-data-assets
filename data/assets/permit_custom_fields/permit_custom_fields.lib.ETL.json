@@ -1,12 +1,12 @@
 {
   "asset_name": "permit_custom_fields.lib",
-  "asset_id": "5162f1cadc30a8b5bd2d",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "11fa53f7002664cc5883",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "9359ed6c04178233b1aa",
-      "asset_id": "5162f1cadc30a8b5bd2d",
+      "task_id": "49a23c5603b3549f7303",
+      "asset_id": "11fa53f7002664cc5883",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

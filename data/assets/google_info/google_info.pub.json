@@ -1,19 +1,19 @@
 {
-  "asset_id": "86545bf2842b16990adb",
+  "asset_id": "fa99c29ab297e8287f2a",
   "asset_name": "google_info.pub",
   "description": "Google Group info",
   "location": {
     "tablename": "google_info",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f60f9a51b37cbe505d74"
+    "830646d89dc42022bd6c"
   ],
   "tags": []
 }

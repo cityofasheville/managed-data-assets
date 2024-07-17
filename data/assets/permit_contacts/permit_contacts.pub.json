@@ -1,19 +1,19 @@
 {
-  "asset_id": "6ee7e292a64081f540ce",
+  "asset_id": "7a40cdecde6cbdfbcc93",
   "asset_name": "permit_contacts.pub",
   "description": "Contacts associated with permits",
   "location": {
     "tablename": "permit_contacts",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "66f8f39556732d1d1c35"
+    "1e56aeb83c1ed6554445"
   ],
   "tags": []
 }

@@ -1,19 +1,19 @@
 {
-  "asset_id": "3bc0cf8d09bd5ba63ccc",
+  "asset_id": "387a0b3c41ab2c146417",
   "asset_name": "coa_cip_project_points.lib",
   "description": "",
   "location": {
     "tablename": "coa_cip_project_points",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "703f71fec729328654a4"
+    "38ed8e4302b999a50039"
   ],
   "tags": []
 }

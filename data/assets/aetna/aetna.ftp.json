@@ -1,19 +1,19 @@
 {
-  "asset_id": "f80c2a2f559014258135",
+  "asset_id": "aeb214f45a077f58e30b",
   "asset_name": "aetna.ftp",
   "description": "Uploaded staff data to Aetna",
   "location": {
     "path": "/AetnaSRC_Reports/toAetna/",
     "filename": "aetna_asheville_${YYYY}${MM}${DD}.csv",
-    "connection_id": "264959b678fb9e19804f"
+    "connection_id": "1027f99fa292ff120dae"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "b27d040a6237ea4fda42"
+    "cc095bac87f02ea94619"
   ],
   "tags": []
 }

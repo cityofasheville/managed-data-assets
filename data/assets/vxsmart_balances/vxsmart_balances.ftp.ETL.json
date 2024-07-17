@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_balances.ftp",
-  "asset_id": "d3a67e4118f0651fed83",
-  "run_group_id": "b05e6e5ebda3e6980a00",
+  "asset_id": "801f802961827a06d0c1",
+  "run_group_id": "b183d28e0764752fc145",
   "active": true,
   "tasks": [
     {
-      "task_id": "ced2a1080c5ab13ded62",
-      "asset_id": "d3a67e4118f0651fed83",
+      "task_id": "3341fb45ddcdca2db833",
+      "asset_id": "801f802961827a06d0c1",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

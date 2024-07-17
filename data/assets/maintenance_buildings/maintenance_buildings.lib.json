@@ -1,19 +1,19 @@
 {
-  "asset_id": "0f4466f31ab76f57ea63",
+  "asset_id": "511c2134e7a386a41ec4",
   "asset_name": "maintenance_buildings.lib",
   "description": "City Property Maintenance Responsibility Building List",
   "location": {
     "tablename": "maintenance_buildings",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "b5bff47d2f87dac8c013"
+    "98c77e13cfe8ddb675ac"
   ],
   "tags": []
 }

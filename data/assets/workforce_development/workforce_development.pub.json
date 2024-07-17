@@ -1,19 +1,19 @@
 {
-  "asset_id": "f714307bf52202601de4",
+  "asset_id": "648509c33ab9740d874f",
   "asset_name": "workforce_development.pub",
   "description": "Workforce and Career Development Resources-Public DB to be accessed from website",
   "location": {
     "tablename": "workforce_development",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f42f9f1966a442c1912a"
+    "3a068065bce524e1bcca"
   ],
   "tags": []
 }

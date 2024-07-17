@@ -1,15 +1,15 @@
 {
-  "asset_id": "65a49f87f01f6282ca5b",
+  "asset_id": "5e618382a1f4ab08a0ff",
   "asset_name": "public_meeting_data_archive.goog",
   "description": "",
   "location": {
     "tab": "MeetingArchive",
     "range": "A2:W",
     "filename": "public_meeting_data",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "11sK5YUKLDIA5cjzrXu_EzP5_5q_X1HbTPIkKyppR2SM"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

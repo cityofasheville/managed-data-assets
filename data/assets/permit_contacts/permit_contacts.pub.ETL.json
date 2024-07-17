@@ -1,12 +1,12 @@
 {
   "asset_name": "permit_contacts.pub",
-  "asset_id": "6ee7e292a64081f540ce",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "7a40cdecde6cbdfbcc93",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "e79a32b3270656b1f295",
-      "asset_id": "6ee7e292a64081f540ce",
+      "task_id": "359ccf186fce3623ce65",
+      "asset_id": "7a40cdecde6cbdfbcc93",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

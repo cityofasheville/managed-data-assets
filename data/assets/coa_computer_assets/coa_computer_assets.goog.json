@@ -1,21 +1,21 @@
 {
-  "asset_id": "5da7329b14383ce2747a",
+  "asset_id": "80ad9231fcf6e54f99ce",
   "asset_name": "coa_computer_assets.goog",
   "description": "Computers on our network",
   "location": {
     "tab": "ComputerAssets",
     "range": "A2:AO",
     "filename": "coa_computer_assets",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "1P9tdY7lawwoZXJmn09UgRMgH7JoauYG8h00MEkGzv8Q"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "7a32507e6ee67dbf4311"
+    "baefda106cb7d9b42d07"
   ],
   "tags": []
 }

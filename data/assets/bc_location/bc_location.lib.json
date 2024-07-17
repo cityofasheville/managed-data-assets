@@ -1,19 +1,19 @@
 {
-  "asset_id": "a09dc4ce563265a0289b",
+  "asset_id": "aabc882870ef2023b7ae",
   "asset_name": "bc_location.lib",
   "description": "Locations table from County",
   "location": {
     "tablename": "bc_location",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "4d081f1aa0d968d54a32"
+    "f9312c385b8d1f6a0635"
   ],
   "tags": []
 }

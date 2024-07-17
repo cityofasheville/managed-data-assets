@@ -1,19 +1,19 @@
 {
-  "asset_id": "b7a5a69c2e8d639fbaed",
+  "asset_id": "d6ecbf9ad606e9b14afb",
   "asset_name": "aclara.s3",
   "description": "",
   "location": {
     "path": "aclara/",
     "filename": "AccountImport_${YYYY}${MM}${DD}.imp",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "cc0db016b25109a86cfc"
+    "43b758768b62c6240b40"
   ],
   "tags": []
 }

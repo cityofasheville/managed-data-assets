@@ -1,19 +1,19 @@
 {
-  "asset_id": "17e1b89ef4c80b788121",
+  "asset_id": "32c08d3cec941c356f79",
   "asset_name": "coa_active_jurisdictions.lib",
   "description": "Asheville corporate limits",
   "location": {
     "tablename": "coa_active_jurisdictions",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "76bb977010f5ad3f9427"
+    "68913909062a157d7e0f"
   ],
   "tags": []
 }

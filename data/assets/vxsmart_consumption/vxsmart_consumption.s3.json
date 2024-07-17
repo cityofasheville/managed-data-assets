@@ -1,19 +1,19 @@
 {
-  "asset_id": "3b942b1aeaa7bc55439c",
+  "asset_id": "a0d302f355685029d8fb",
   "asset_name": "vxsmart_consumption.s3",
   "description": "",
   "location": {
     "path": "vxsmart/",
     "filename": "ch_${YYYY}${MM}${DD}.csv",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "6c959541a6301e8830fe"
+    "d0bf27ca9b600954f40c"
   ],
   "tags": []
 }

@@ -1,12 +1,12 @@
 {
   "asset_name": "maintenance_responsibilities.pub",
-  "asset_id": "20a42d5fe03d0aa6bf68",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "db58593d05de40a9faf5",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "4e5fb36da2f0fab77bfb",
-      "asset_id": "20a42d5fe03d0aa6bf68",
+      "task_id": "198dc2d92f4fa0584deb",
+      "asset_id": "db58593d05de40a9faf5",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

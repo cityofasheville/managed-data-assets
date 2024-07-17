@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_cip_project_points.lib",
-  "asset_id": "3bc0cf8d09bd5ba63ccc",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "387a0b3c41ab2c146417",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "5c7bebc69de79a7abd40",
-      "asset_id": "3bc0cf8d09bd5ba63ccc",
+      "task_id": "a5f084b3b8f46157a820",
+      "asset_id": "387a0b3c41ab2c146417",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

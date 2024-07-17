@@ -1,19 +1,19 @@
 {
-  "asset_id": "aadc27025cce9689e302",
+  "asset_id": "defb98aa3204ca7187e4",
   "asset_name": "paymentus_paper_suppression.mun",
   "description": "",
   "location": {
     "tablename": "Paymentus_Paper_Suppression_Table",
     "schemaname": "avl",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "a9b394aedc6619b12bfc"
+    "7c20c3fb70e8a5bd07aa"
   ],
   "tags": []
 }

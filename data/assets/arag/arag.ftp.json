@@ -1,19 +1,19 @@
 {
-  "asset_id": "3c1a3b32642dabbb0736",
+  "asset_id": "d97269daa6051031af19",
   "asset_name": "arag.ftp",
   "description": "Uploaded staff data to ARAG",
   "location": {
     "path": "/",
     "filename": "arag_asheville_${YYYY}${MM}${DD}.csv.pgp",
-    "connection_id": "c40ed9d9b2a1dd93e0fd"
+    "connection_id": "7bc265650e40d24eea0a"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "01c7c3fad3962b6b7156"
+    "2ada0a76d162e4e559fb"
   ],
   "tags": []
 }

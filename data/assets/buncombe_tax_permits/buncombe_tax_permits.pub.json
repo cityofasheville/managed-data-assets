@@ -1,19 +1,19 @@
 {
-  "asset_id": "b5763cfcda014ceadff0",
+  "asset_id": "7e3ebb64126ab941255b",
   "asset_name": "buncombe_tax_permits.pub",
   "description": "",
   "location": {
     "tablename": "buncombe_tax_permits",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "2439ccb7b5eecd3578ff"
+    "5df8ee5b83499f7eb0d6"
   ],
   "tags": []
 }

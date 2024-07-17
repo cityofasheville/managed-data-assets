@@ -1,19 +1,19 @@
 {
-  "asset_id": "508e078beda7da51b553",
+  "asset_id": "d78a80ef38f4c00c2499",
   "asset_name": "notification_permits.note",
   "description": "Recent Permits to be sent in Notification Emails",
   "location": {
     "tablename": "notification_permits",
     "schemaname": "note",
-    "connection_id": "1ceb7315e6fb40d691c5"
+    "connection_id": "bbdb18bd4af2d7c6a3c0"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "38310191b194d8b8058b"
+    "c515cfd6841b107230b2"
   ],
   "tags": []
 }

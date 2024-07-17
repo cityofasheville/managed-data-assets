@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_cip_project_polygons.lib",
-  "asset_id": "d4d82e9832d1214fa795",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "5657f242f5878d881f3d",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "9c49c3191ffba9cf3398",
-      "asset_id": "d4d82e9832d1214fa795",
+      "task_id": "74152bfaddf08a57f140",
+      "asset_id": "5657f242f5878d881f3d",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

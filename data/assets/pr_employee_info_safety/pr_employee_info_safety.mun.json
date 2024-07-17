@@ -1,13 +1,13 @@
 {
-  "asset_id": "8bbd8e73fdbab886fc00",
+  "asset_id": "75104a4c08a8923fd478",
   "asset_name": "pr_employee_info_safety.mun",
   "description": "",
   "location": {
     "tablename": "pr_employee_info_safety",
     "schemaname": "amd",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,20 +1,20 @@
 {
-  "asset_id": "09214d4992f0897839fe",
+  "asset_id": "1a14282de906fc90fd79",
   "asset_name": "paymentus_suspended_accounts.ftp",
   "description": "Paymentus Suspended Accounts",
   "location": {
     "path": "/suspended/",
     "filename": "Susp${YYYY}${MM}${DD}.csv",
-    "connection_id": "a06fcc45f3eccc0fb616"
+    "connection_id": "4954556c11fdd96fcfcf"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "819d0ef861c8bbe6d703",
-    "7a26987deb49f08005a8"
+    "f0561d2843f51ca0de56",
+    "71254280804a478a22fa"
   ],
   "tags": []
 }

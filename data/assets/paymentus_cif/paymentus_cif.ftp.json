@@ -1,19 +1,19 @@
 {
-  "asset_id": "915ab97af0d917009e20",
+  "asset_id": "f9527b461fa2e51b8e9e",
   "asset_name": "paymentus_cif.ftp",
   "description": "Paymentus CIF",
   "location": {
     "path": "/input/",
     "filename": "CIF${YYYY}${MM}${DD}.csv",
-    "connection_id": "a06fcc45f3eccc0fb616"
+    "connection_id": "4954556c11fdd96fcfcf"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "deeffc0a132a143e160f"
+    "fe80b608e755ddf2d09a"
   ],
   "tags": []
 }

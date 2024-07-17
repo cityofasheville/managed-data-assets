@@ -1,19 +1,19 @@
 {
-  "asset_id": "b5e546e5f8feaf749da1",
+  "asset_id": "84008254843d79041376",
   "asset_name": "maintenance_buildings.pub",
   "description": "City Facility Maintenance Responsibilties Buildings",
   "location": {
     "tablename": "maintenance_buildings",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "0f4466f31ab76f57ea63"
+    "511c2134e7a386a41ec4"
   ],
   "tags": []
 }

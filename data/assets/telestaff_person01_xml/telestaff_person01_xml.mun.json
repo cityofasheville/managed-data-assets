@@ -1,13 +1,13 @@
 {
-  "asset_id": "d2c28be7742c6ff1bf3e",
+  "asset_id": "8fcb838e324d542511b1",
   "asset_name": "telestaff_person01_xml.mun",
   "description": "",
   "location": {
     "tablename": "telestaff_person01_xml",
     "schemaname": "avl",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,19 +1,19 @@
 {
-  "asset_id": "5c62223a889837b88d71",
+  "asset_id": "8f5600d0410d5cf76178",
   "asset_name": "workplans.pub",
   "description": "Organizational Work Plan",
   "location": {
     "tablename": "workplans",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "90979c3aaa45e661b6bd"
+    "5f6c94689d1988c4abd4"
   ],
   "tags": []
 }

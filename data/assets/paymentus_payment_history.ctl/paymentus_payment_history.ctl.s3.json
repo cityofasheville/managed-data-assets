@@ -1,19 +1,19 @@
 {
-  "asset_id": "ef47ed716a901fc5977a",
+  "asset_id": "0134b9ebf08ad2fb543f",
   "asset_name": "paymentus_payment_history.ctl.s3",
   "description": "paymentus_payment_history control file",
   "location": {
     "path": "paymentus/",
     "filename": "Payment${YYYY}${MM}${DD}.ctl",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "1914119f042afe1716ca"
+    "664f7aba6ae25fc13458"
   ],
   "tags": []
 }

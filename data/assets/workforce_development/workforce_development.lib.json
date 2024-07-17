@@ -1,19 +1,19 @@
 {
-  "asset_id": "f42f9f1966a442c1912a",
+  "asset_id": "3a068065bce524e1bcca",
   "asset_name": "workforce_development.lib",
   "description": "Workforce and Career Development Resources",
   "location": {
     "tablename": "workforce_development",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "d328a93aec7a04ab498a"
+    "4ec2b5edfc6691afe6a6"
   ],
   "tags": []
 }

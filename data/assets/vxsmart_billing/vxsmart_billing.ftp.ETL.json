@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_billing.ftp",
-  "asset_id": "04b9203d2a82997428e1",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "0f3a9e4ea10f163089ff",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "bdba848d630946d06d83",
-      "asset_id": "04b9203d2a82997428e1",
+      "task_id": "771a5e862b22c16a3a13",
+      "asset_id": "0f3a9e4ea10f163089ff",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

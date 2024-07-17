@@ -1,12 +1,12 @@
 {
   "asset_name": "aip.ftp",
-  "asset_id": "40fd001f828d889d2b02",
-  "run_group_id": "d3f4bfb4279a4bd089ad",
+  "asset_id": "ddadac2033771f8e28a1",
+  "run_group_id": "1df4d3a918ed01b53ce4",
   "active": true,
   "tasks": [
     {
-      "task_id": "2301b2bff63d1b99a4ed",
-      "asset_id": "40fd001f828d889d2b02",
+      "task_id": "fa3d7643903e55db98fa",
+      "asset_id": "ddadac2033771f8e28a1",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

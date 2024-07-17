@@ -1,19 +1,19 @@
 {
-  "asset_id": "d3a67e4118f0651fed83",
+  "asset_id": "801f802961827a06d0c1",
   "asset_name": "vxsmart_balances.ftp",
   "description": "Uploaded Balance data to vxsmart_balances",
   "location": {
     "path": "/uploads/",
     "filename": "balances_${YYYY}${MM}${DD}.csv",
-    "connection_id": "60ed5f60d83ea4a88607"
+    "connection_id": "6591ff66a24d73c99892"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "f6f79fc1b13d532cdbd8"
+    "635bf5bc5c18e4776a12"
   ],
   "tags": []
 }

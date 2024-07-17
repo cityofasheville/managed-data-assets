@@ -1,13 +1,13 @@
 {
-  "asset_id": "d157fe35c1d2cec7bcdf",
+  "asset_id": "57e53b69808dcd14b4cb",
   "asset_name": "equity_students_completed.lib",
   "description": "List of MWBE vendors registered in Munis (not necessarily certified)",
   "location": {
     "tablename": "equity_students_completed",
     "schemaname": "aux",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

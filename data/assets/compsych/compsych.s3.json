@@ -1,19 +1,19 @@
 {
-  "asset_id": "218e6e00f5f7dfb889fd",
+  "asset_id": "d9d7e4dcd7ce89f8631a",
   "asset_name": "compsych.s3",
   "description": "",
   "location": {
     "path": "compsych/",
     "filename": "compsych_CityofAsheville_${YYYY}${MM}${DD}.csv",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "26e9408d04256344e22a"
+    "32d6e3e6a1f6ad4c9027"
   ],
   "tags": []
 }

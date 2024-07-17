@@ -1,13 +1,13 @@
 {
-  "asset_id": "282031bab7fc6ee41113",
-  "asset_name": "testdatafrom.bed",
+  "asset_id": "957d8bb5fe96fc74a1f1",
+  "asset_name": "testdata.from",
   "description": "Table fer testing data source",
   "location": {
     "tablename": "fromtable",
     "schemaname": "testdata",
-    "connection_id": "dc0538253f5654641cf9"
+    "connection_id": "992dd889a5f1654ef8e0"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,12 +1,12 @@
 {
   "asset_name": "safetyskills.ftp",
-  "asset_id": "8a0aadd3cca1ed55fe93",
-  "run_group_id": "e747c5a0b687527f0528",
+  "asset_id": "02a158c263c91a36199c",
+  "run_group_id": "d80fc7adf0b5750fc44d",
   "active": true,
   "tasks": [
     {
-      "task_id": "9f716fe9a9ba550257ca",
-      "asset_id": "8a0aadd3cca1ed55fe93",
+      "task_id": "53f04738b4d916174546",
+      "asset_id": "02a158c263c91a36199c",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",

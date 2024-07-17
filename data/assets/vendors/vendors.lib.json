@@ -1,19 +1,19 @@
 {
-  "asset_id": "215487f998d49277853b",
+  "asset_id": "87c9cdf43b9988be5493",
   "asset_name": "vendors.lib",
   "description": "City Vendors",
   "location": {
     "tablename": "vendors",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "8c2723aa960799acb30d"
+    "4bd2db733e36148ed17f"
   ],
   "tags": []
 }

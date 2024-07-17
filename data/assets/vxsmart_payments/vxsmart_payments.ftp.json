@@ -1,19 +1,19 @@
 {
-  "asset_id": "a434f1152b209d6d9836",
+  "asset_id": "ae82eca6437b0e7debbf",
   "asset_name": "vxsmart_payments.ftp",
   "description": "Uploaded Payment data to vxsmart_payments",
   "location": {
     "path": "/uploads/",
     "filename": "payments_${YYYY}${MM}${DD}.csv",
-    "connection_id": "60ed5f60d83ea4a88607"
+    "connection_id": "6591ff66a24d73c99892"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "03dedf133fd4e94ddf8c"
+    "91fefcbbbadd28ef4232"
   ],
   "tags": []
 }

@@ -1,19 +1,19 @@
 {
-  "asset_id": "5868deac1b86e3acbf9f",
+  "asset_id": "55e0e7c6dc7b1a2b1ad8",
   "asset_name": "coa_cip_project_lines.lib",
   "description": "",
   "location": {
     "tablename": "coa_cip_project_lines",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "9b7a9af4dca14b323d20"
+    "f5bd600412dedee0e6b2"
   ],
   "tags": []
 }

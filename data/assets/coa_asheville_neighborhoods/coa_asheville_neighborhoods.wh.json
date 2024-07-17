@@ -1,13 +1,13 @@
 {
-  "asset_id": "0f1a7c5972dcfeb7d457",
+  "asset_id": "a8e882d8f84354df0d1a",
   "asset_name": "coa_asheville_neighborhoods.wh",
   "description": "",
   "location": {
     "tablename": "coa_asheville_neighborhoods",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,19 +1,19 @@
 {
-  "asset_id": "6d4a795a7fd0a93ba9c4",
+  "asset_id": "4a064c16f7c69796d7ae",
   "asset_name": "inspections.pub",
   "description": "",
   "location": {
     "tablename": "inspections",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "55afc075ba5b5c552625"
+    "5ad116255b11d04f02a0"
   ],
   "tags": []
 }

@@ -1,13 +1,13 @@
 {
-  "asset_id": "8294ca97bbaa295a0ea7",
+  "asset_id": "ae24e3ad0739ed5cbfb3",
   "asset_name": "permit_comments.acc",
   "description": "Permit comments data",
   "location": {
     "tablename": "permit_comments",
     "schemaname": "amd",
-    "connection_id": "daea2951c40fc63ef41d"
+    "connection_id": "71bb3ca357d11422abcb"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

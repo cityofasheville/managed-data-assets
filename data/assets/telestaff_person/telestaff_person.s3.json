@@ -1,19 +1,19 @@
 {
-  "asset_id": "28c605e8485bf45ec651",
+  "asset_id": "c48a064e909a2f5fb27e",
   "asset_name": "telestaff_person.s3",
   "description": "",
   "location": {
     "path": "telestaff-import-person/",
     "filename": "${YYYY}-${MM}-${DD}-Person.xml",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "d2c28be7742c6ff1bf3e"
+    "8fcb838e324d542511b1"
   ],
   "tags": []
 }

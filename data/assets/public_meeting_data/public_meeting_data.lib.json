@@ -1,19 +1,19 @@
 {
-  "asset_id": "11dbb44f493cf02da38b",
+  "asset_id": "6fd2ec27c823d4cb4e3c",
   "asset_name": "public_meeting_data.lib",
   "description": "",
   "location": {
     "tablename": "public_meeting_data",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "bea61725c2a66d86d11c"
+    "849c8404a4fb6a1c823b"
   ],
   "tags": []
 }

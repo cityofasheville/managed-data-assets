@@ -1,13 +1,13 @@
 {
-  "asset_id": "dfb7cf7490ecd98f139b",
+  "asset_id": "f86d49cdc1a468efd170",
   "asset_name": "coa_zip_code.wh",
   "description": "Asheville zip code areas",
   "location": {
     "tablename": "coa_zip_code",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

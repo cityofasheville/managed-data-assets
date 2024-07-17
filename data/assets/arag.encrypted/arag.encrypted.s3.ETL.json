@@ -1,12 +1,12 @@
 {
   "asset_name": "arag.encrypted.s3",
-  "asset_id": "01c7c3fad3962b6b7156",
-  "run_group_id": "956d6587b6ec61f98a93",
+  "asset_id": "2ada0a76d162e4e559fb",
+  "run_group_id": "fc83c3ae39c4178d57f2",
   "active": true,
   "tasks": [
     {
-      "task_id": "d370502ba4b840a85030",
-      "asset_id": "01c7c3fad3962b6b7156",
+      "task_id": "508e75e6e16b50e7053e",
+      "asset_id": "2ada0a76d162e4e559fb",
       "seq_number": 0,
       "description": null,
       "type": "encrypt",

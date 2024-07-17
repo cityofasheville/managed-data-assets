@@ -1,12 +1,12 @@
 {
   "asset_name": "nc_benchmarks.pub",
-  "asset_id": "c70d182921fc69a3fb29",
-  "run_group_id": "cecd32c4d12e570f1c73",
+  "asset_id": "0ec8ffbf8fa885d12063",
+  "run_group_id": "91b36b68aed3a0736f90",
   "active": true,
   "tasks": [
     {
-      "task_id": "aa82d75228bf3990a36a",
-      "asset_id": "c70d182921fc69a3fb29",
+      "task_id": "cdcfb108557ede306aab",
+      "asset_id": "0ec8ffbf8fa885d12063",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

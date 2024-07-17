@@ -1,29 +1,29 @@
 {
-  "asset_id": "1f9954fc0b1e2cb1785a",
+  "asset_id": "b4bb63e5a564a873e005",
   "asset_name": "coa_bc_address_master.lib",
   "description": "Master address table",
   "location": {
     "loctype": "db",
     "tablename": "coa_bc_address_mastery",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": "14",
   "notes": "Try this now.\nBut also this!",
   "link": null,
   "active": true,
   "depends": [
-    "e1151c92c51bb32f29b8",
-    "82ad5d6992de48b4300a",
-    "c129d25c46e2013de453",
-    "27bf6221c374d6ca2236",
-    "a1a8492e69e1fd325dbc",
-    "f2cbd4603d0a22c9ac85",
-    "a09dc4ce563265a0289b",
-    "c323ed09c671f3dd7af6",
-    "17e1b89ef4c80b788121",
-    "6356ba2a2acb5200c7dd"
+    "1e1671c5852245a34a75",
+    "e46ea0f93706b7837e4a",
+    "8879a0687fba25054551",
+    "14bb5a890b6e59eb574d",
+    "13b1100797637b49863c",
+    "c7c50122348b9b515ca1",
+    "aabc882870ef2023b7ae",
+    "79caafe5789993bf2ca4",
+    "32c08d3cec941c356f79",
+    "df0567e039129c13f03a"
   ],
   "tags": []
 }

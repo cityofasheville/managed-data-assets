@@ -1,13 +1,13 @@
 {
-  "asset_id": "3977c6b9a6a9a1850163",
+  "asset_id": "af78e9eece6182437edd",
   "asset_name": "pr_arag_feed.mun",
   "description": "",
   "location": {
     "tablename": "PR_ARAG_Feed_2024",
     "schemaname": "avl",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

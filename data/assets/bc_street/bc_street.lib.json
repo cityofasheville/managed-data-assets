@@ -1,19 +1,19 @@
 {
-  "asset_id": "8ad85b57a8d37b144602",
+  "asset_id": "a452fb1ad05a9f737b28",
   "asset_name": "bc_street.lib",
   "description": "",
   "location": {
     "tablename": "bc_street",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "ecb801d84bfc11895db8"
+    "4fcbace603cad45ee6d4"
   ],
   "tags": []
 }

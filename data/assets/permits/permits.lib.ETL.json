@@ -1,12 +1,12 @@
 {
   "asset_name": "permits.lib",
-  "asset_id": "01e08845a571648a2dde",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "4022dd557e3d6aacf76c",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "b094e5554da35311470a",
-      "asset_id": "01e08845a571648a2dde",
+      "task_id": "7a238467156c586de3b4",
+      "asset_id": "4022dd557e3d6aacf76c",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "e5b4502ef5f61f88fb72",
-      "asset_id": "01e08845a571648a2dde",
+      "task_id": "f1b019301c24aa2df6b2",
+      "asset_id": "4022dd557e3d6aacf76c",
       "seq_number": 1,
       "description": null,
       "type": "sql",

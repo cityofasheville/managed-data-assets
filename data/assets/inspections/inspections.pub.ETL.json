@@ -1,12 +1,12 @@
 {
   "asset_name": "inspections.pub",
-  "asset_id": "6d4a795a7fd0a93ba9c4",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "4a064c16f7c69796d7ae",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "f44751ce6407ba3cac06",
-      "asset_id": "6d4a795a7fd0a93ba9c4",
+      "task_id": "8c3437bd195f96f58b1a",
+      "asset_id": "4a064c16f7c69796d7ae",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_payment_history.ftp",
-  "asset_id": "7a26987deb49f08005a8",
-  "run_group_id": "7054a71026d318d4203b",
+  "asset_id": "f0561d2843f51ca0de56",
+  "run_group_id": "d51eb005dfa802bb5db5",
   "active": true,
   "tasks": [
     {
-      "task_id": "e1a0bb5b84578baebf0e",
-      "asset_id": "7a26987deb49f08005a8",
+      "task_id": "1fa61522ca60f68a64a8",
+      "asset_id": "f0561d2843f51ca0de56",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "165066c497692d9304fe",
-      "asset_id": "7a26987deb49f08005a8",
+      "task_id": "bb85b78dce7b7075f642",
+      "asset_id": "f0561d2843f51ca0de56",
       "seq_number": 1,
       "description": null,
       "type": "file_copy",

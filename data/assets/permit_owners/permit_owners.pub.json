@@ -1,19 +1,19 @@
 {
-  "asset_id": "618566dcf70cca648a93",
+  "asset_id": "35e6f81758e8cfa88c2e",
   "asset_name": "permit_owners.pub",
   "description": "Owners associated with permits",
   "location": {
     "tablename": "permit_owners",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "3bf3c7d5b64f81eb3700"
+    "3c319823b4e9067acdbf"
   ],
   "tags": []
 }

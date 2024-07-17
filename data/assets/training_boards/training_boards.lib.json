@@ -1,19 +1,19 @@
 {
-  "asset_id": "f055702ae2c95f493540",
+  "asset_id": "ef610e1b338a100cf47e",
   "asset_name": "training_boards.lib",
   "description": "Training records for board and commission members",
   "location": {
     "tablename": "training_boards",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "08a05ea17ac41c4a0e6f"
+    "02e02945145950ceedee"
   ],
   "tags": []
 }

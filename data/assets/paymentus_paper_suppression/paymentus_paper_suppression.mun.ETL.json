@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_paper_suppression.mun",
-  "asset_id": "aadc27025cce9689e302",
-  "run_group_id": "ae5d4ccbdb06842b2a93",
+  "asset_id": "defb98aa3204ca7187e4",
+  "run_group_id": "859df74974849341d737",
   "active": true,
   "tasks": [
     {
-      "task_id": "f0a833cc2054c1501b11",
-      "asset_id": "aadc27025cce9689e302",
+      "task_id": "ac9467f2a8739eeac411",
+      "asset_id": "defb98aa3204ca7187e4",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -21,8 +21,8 @@
       "configuration": null
     },
     {
-      "task_id": "a6f76bca9317f87a7075",
-      "asset_id": "aadc27025cce9689e302",
+      "task_id": "b2cebe89a44dab010965",
+      "asset_id": "defb98aa3204ca7187e4",
       "seq_number": 1,
       "description": null,
       "type": "sql",

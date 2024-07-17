@@ -1,12 +1,12 @@
 {
   "asset_name": "abi_outreach_vendors.commodity.goog",
-  "asset_id": "f5f015e51d901243105e",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "5f218dd38448a21c2735",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "6feac5ba3b73c1b33f3d",
-      "asset_id": "f5f015e51d901243105e",
+      "task_id": "34e6ef4aa01b697d2c5f",
+      "asset_id": "5f218dd38448a21c2735",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

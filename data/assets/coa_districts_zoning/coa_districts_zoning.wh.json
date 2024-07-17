@@ -1,13 +1,13 @@
 {
-  "asset_id": "29f168bc13d872de40a4",
+  "asset_id": "5d42ce45338179d3a9c8",
   "asset_name": "coa_districts_zoning.wh",
   "description": "Asheville zoning districts",
   "location": {
     "tablename": "coa_districts_zoning",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

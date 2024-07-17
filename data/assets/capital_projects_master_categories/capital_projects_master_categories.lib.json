@@ -1,19 +1,19 @@
 {
-  "asset_id": "fced305985643c062d4b",
+  "asset_id": "abe9ad6c53ce2c7f443e",
   "asset_name": "capital_projects_master_categories.lib",
   "description": "Capital Projects Category List",
   "location": {
     "tablename": "capital_projects_master_categories",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "13a453767955070f7ba3"
+    "6300317d21d2c07ac9c5"
   ],
   "tags": []
 }

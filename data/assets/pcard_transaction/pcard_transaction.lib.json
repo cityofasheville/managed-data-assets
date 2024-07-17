@@ -1,19 +1,19 @@
 {
-  "asset_id": "0a6af0c974b17b343c4a",
+  "asset_id": "a9a42bc74fe3b669ad1e",
   "asset_name": "pcard_transaction.lib",
   "description": "PCard transaction",
   "location": {
     "tablename": "pcard_transaction",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "41df23a649229ea2e67e"
+    "66df68e51e90ae145745"
   ],
   "tags": []
 }

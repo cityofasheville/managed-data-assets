@@ -1,19 +1,19 @@
 {
-  "asset_id": "5c20902f8431bb0978e0",
+  "asset_id": "375bdf3f9d72864e6c70",
   "asset_name": "coa_zoning_overlays.lib",
   "description": "Asheville zoning overlays",
   "location": {
     "tablename": "coa_zoning_overlays",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "2d90c0ef7d4f1d562864"
+    "bdeacace2c91a6c53a9d"
   ],
   "tags": []
 }

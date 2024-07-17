@@ -1,13 +1,13 @@
 {
-  "asset_id": "cec38f0ac43ebfe9989a",
+  "asset_id": "93ee761f50545cf826ad",
   "asset_name": "paymentus_payment_history.mun",
   "description": "Paymentus Payment History",
   "location": {
     "tablename": "ub_pm_payment_history_loader_today_no_ivr",
     "schemaname": "amd",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

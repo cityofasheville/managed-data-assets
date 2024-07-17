@@ -1,19 +1,19 @@
 {
-  "asset_id": "aa4962997f0bd39bd022",
+  "asset_id": "5db59b67fb969fb97f17",
   "asset_name": "permit_workflows.lib",
   "description": "Permits data",
   "location": {
     "tablename": "permit_workflows",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "23f07bf12e1f77953ed8"
+    "60ccb85d3cbcccc418cd"
   ],
   "tags": []
 }

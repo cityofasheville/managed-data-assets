@@ -1,19 +1,19 @@
 {
-  "asset_id": "8a0aadd3cca1ed55fe93",
+  "asset_id": "02a158c263c91a36199c",
   "asset_name": "safetyskills.ftp",
   "description": "Uploaded staff data to Safety Skills",
   "location": {
     "path": "/35408/",
     "filename": "users.csv",
-    "connection_id": "71967ef302852e0f4905"
+    "connection_id": "84f4b4f86b9041513452"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "7ac2a18bf8be5fe14099"
+    "3461163f050d4545e454"
   ],
   "tags": []
 }

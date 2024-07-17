@@ -1,13 +1,13 @@
 {
-  "asset_id": "17b2b902bd75343e2557",
+  "asset_id": "8aac9962b601f6c37765",
   "asset_name": "coa_apd_public_incidents.wh",
   "description": "",
   "location": {
     "tablename": "coa_apd_public_incidents",
     "schemaname": "coagis",
-    "connection_id": "25d477911d1dbe059521"
+    "connection_id": "afc223f01a9cdcc95812"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

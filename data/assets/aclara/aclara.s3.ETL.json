@@ -1,12 +1,12 @@
 {
   "asset_name": "aclara.s3",
-  "asset_id": "b7a5a69c2e8d639fbaed",
-  "run_group_id": "62e40d8d2c82353fd694",
+  "asset_id": "d6ecbf9ad606e9b14afb",
+  "run_group_id": "6ff0e0ab9d68f2562846",
   "active": true,
   "tasks": [
     {
-      "task_id": "e959403fd20bfb88d1e0",
-      "asset_id": "b7a5a69c2e8d639fbaed",
+      "task_id": "18cb34880bc543f88cf2",
+      "asset_id": "d6ecbf9ad606e9b14afb",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

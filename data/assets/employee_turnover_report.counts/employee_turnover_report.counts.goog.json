@@ -1,21 +1,21 @@
 {
-  "asset_id": "84630941a4875aabb644",
+  "asset_id": "cc725d985bf9f10fd6a5",
   "asset_name": "employee_turnover_report.counts.goog",
   "description": "",
   "location": {
     "tab": "Counts",
     "range": "A2:P",
     "filename": "Employee Turnover Report",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "1yE8pfp9nZ9nETDd2ypN4h6y8-m06giQ5O797ghBQHYc"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "65e5c62806bcc9ddb9ae"
+    "f547d129016dfcbcc149"
   ],
   "tags": []
 }

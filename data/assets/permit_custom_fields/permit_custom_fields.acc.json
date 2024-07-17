@@ -1,13 +1,13 @@
 {
-  "asset_id": "b9a455482dcca9075f52",
+  "asset_id": "6a0da1bebe057ca69d86",
   "asset_name": "permit_custom_fields.acc",
   "description": "Permit custom fields data ADD THIS depends BACK!!!! \"permits\"",
   "location": {
     "tablename": "permit_custom_fields",
     "schemaname": "amd",
-    "connection_id": "daea2951c40fc63ef41d"
+    "connection_id": "71bb3ca357d11422abcb"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

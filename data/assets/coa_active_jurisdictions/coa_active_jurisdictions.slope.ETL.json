@@ -1,12 +1,12 @@
 {
   "asset_name": "coa_active_jurisdictions.slope",
-  "asset_id": "5c9aa0b4ace2354c57a2",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "d21d1391f57d3b25b970",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "eef7042aa259cfac77df",
-      "asset_id": "5c9aa0b4ace2354c57a2",
+      "task_id": "e29e98854d9b1ba515b2",
+      "asset_id": "d21d1391f57d3b25b970",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,19 +1,19 @@
 {
-  "asset_id": "32cedbfb0b3dc59dbb58",
+  "asset_id": "f997409a84ad787b7bb8",
   "asset_name": "coa_asheville_neighborhoods.lib",
   "description": "",
   "location": {
     "tablename": "coa_asheville_neighborhoods",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "0f1a7c5972dcfeb7d457"
+    "a8e882d8f84354df0d1a"
   ],
   "tags": []
 }

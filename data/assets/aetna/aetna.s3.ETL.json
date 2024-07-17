@@ -1,12 +1,12 @@
 {
   "asset_name": "aetna.s3",
-  "asset_id": "b27d040a6237ea4fda42",
-  "run_group_id": "f7b4de7d62be94258595",
+  "asset_id": "cc095bac87f02ea94619",
+  "run_group_id": "3919bf320c5e550ceeef",
   "active": true,
   "tasks": [
     {
-      "task_id": "3724e57eceb63b3bdc85",
-      "asset_id": "b27d040a6237ea4fda42",
+      "task_id": "419bdbc8404ce1395421",
+      "asset_id": "cc095bac87f02ea94619",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

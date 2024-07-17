@@ -1,19 +1,19 @@
 {
-  "asset_id": "ba91ba935490e0dbea75",
+  "asset_id": "8229f8a44b12bbb38d76",
   "asset_name": "aclara.ftp",
   "description": "Uploaded Accounting data to Aclara",
   "location": {
     "path": "/AclaraAccountImportFiles/",
     "filename": "AccountImport.imp",
-    "connection_id": "0d51a2c75dee16ec229b"
+    "connection_id": "fe7f360ce541469eac84"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "b7a5a69c2e8d639fbaed"
+    "d6ecbf9ad606e9b14afb"
   ],
   "tags": []
 }

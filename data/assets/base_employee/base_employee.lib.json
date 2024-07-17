@@ -1,19 +1,19 @@
 {
-  "asset_id": "839ca35b356ece66c7e5",
+  "asset_id": "bce73b210b272da5096b",
   "asset_name": "base_employee.lib",
   "description": "Standard Employee",
   "location": {
     "tablename": "base_employee",
     "schemaname": "standard",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "0f701df280978a81fbae"
+    "703cb45b3ebf683e7997"
   ],
   "tags": []
 }

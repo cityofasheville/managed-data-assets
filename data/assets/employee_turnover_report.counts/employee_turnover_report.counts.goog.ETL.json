@@ -1,12 +1,12 @@
 {
   "asset_name": "employee_turnover_report.counts.goog",
-  "asset_id": "84630941a4875aabb644",
-  "run_group_id": "cb0ff118a087b8cb6744",
+  "asset_id": "cc725d985bf9f10fd6a5",
+  "run_group_id": "9b99acec10176064f937",
   "active": true,
   "tasks": [
     {
-      "task_id": "29063fded89b86ef7643",
-      "asset_id": "84630941a4875aabb644",
+      "task_id": "5d55cd378a510b1dab8c",
+      "asset_id": "cc725d985bf9f10fd6a5",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

@@ -1,19 +1,19 @@
 {
-  "asset_id": "20a42d5fe03d0aa6bf68",
+  "asset_id": "db58593d05de40a9faf5",
   "asset_name": "maintenance_responsibilities.pub",
   "description": "City Facility Maintenance Responsibilties",
   "location": {
     "tablename": "maintenance_responsibilities",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "dbd76caa6d2baf49fc28"
+    "a930db223d599939c8c0"
   ],
   "tags": []
 }

@@ -1,12 +1,12 @@
 {
   "asset_name": "maintenance_responsibilities.lib",
-  "asset_id": "dbd76caa6d2baf49fc28",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "a930db223d599939c8c0",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "1035b6f69b0929dfdc98",
-      "asset_id": "dbd76caa6d2baf49fc28",
+      "task_id": "ec692fe6cba55f020b8c",
+      "asset_id": "a930db223d599939c8c0",
       "seq_number": 0,
       "description": null,
       "type": "aggregate",
@@ -24,8 +24,8 @@
       "configuration": null
     },
     {
-      "task_id": "0efdfeaea6a1aae65a3e",
-      "asset_id": "dbd76caa6d2baf49fc28",
+      "task_id": "4785564748a3cb646cde",
+      "asset_id": "a930db223d599939c8c0",
       "seq_number": 1,
       "description": null,
       "type": "sql",

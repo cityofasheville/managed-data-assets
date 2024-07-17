@@ -1,19 +1,19 @@
 {
-  "asset_id": "0e68259001fe3d14bcbb",
+  "asset_id": "7ed75c1e6ed9b18c9a65",
   "asset_name": "delta_dental.ftp",
   "description": "Uploaded staff and customer data to Delta Dental",
   "location": {
     "path": "/in/",
     "filename": "deltadental_asheville_${YYYY}${MM}${DD}.txt.asc",
-    "connection_id": "51bee86fc5ed37b50f70"
+    "connection_id": "c75fdd136f912364b21b"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "ec2db11e23bc9623d83e"
+    "e8669189a9819f957586"
   ],
   "tags": []
 }

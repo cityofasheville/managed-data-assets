@@ -1,13 +1,13 @@
 {
-  "asset_id": "debeea3fa4decd0598fa",
+  "asset_id": "762a650bb46f3654ce2a",
   "asset_name": "permit_owners.acc",
   "description": "Owners associated with permits",
   "location": {
     "tablename": "permit_owners",
     "schemaname": "amd",
-    "connection_id": "daea2951c40fc63ef41d"
+    "connection_id": "71bb3ca357d11422abcb"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

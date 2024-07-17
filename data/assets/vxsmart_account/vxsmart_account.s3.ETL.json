@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_account.s3",
-  "asset_id": "4226961cc50d6bc79c2c",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "d3f889a73ea455be83cd",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "6b10af0d60593f4b1a01",
-      "asset_id": "4226961cc50d6bc79c2c",
+      "task_id": "7237757d19984f41ecc5",
+      "asset_id": "d3f889a73ea455be83cd",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

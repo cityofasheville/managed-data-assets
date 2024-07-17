@@ -1,19 +1,19 @@
 {
-  "asset_id": "aafd4f9a61f5bf287dd9",
+  "asset_id": "6aba0e716dec7bda22d5",
   "asset_name": "public_meeting_data_categories.pub",
   "description": "Meeting categories and contact info - Public DB to be accessed from website",
   "location": {
     "tablename": "public_meeting_data_categories",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "bd59e44e80875cab677b"
+    "86ef7de3b37cc6b1532a"
   ],
   "tags": []
 }

@@ -1,19 +1,19 @@
 {
-  "asset_id": "c70d182921fc69a3fb29",
+  "asset_id": "0ec8ffbf8fa885d12063",
   "asset_name": "nc_benchmarks.pub",
   "description": "",
   "location": {
     "tablename": "nc_benchmarks",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "cea526d57e5ad19a5e00"
+    "21d83a4c51a036e7650d"
   ],
   "tags": []
 }

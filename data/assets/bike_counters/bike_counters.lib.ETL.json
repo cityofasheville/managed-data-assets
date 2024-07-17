@@ -1,12 +1,12 @@
 {
   "asset_name": "bike_counters.lib",
-  "asset_id": "77d0b1c3f85e6cf4760d",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "5752135d7875f42bf8c0",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "638af9b8ae380fb59fdd",
-      "asset_id": "77d0b1c3f85e6cf4760d",
+      "task_id": "f81abc7c2ced5df97cad",
+      "asset_id": "5752135d7875f42bf8c0",
       "seq_number": 0,
       "description": "Pull yesterday's Eco-Visio data from API using ecovisio Lambda",
       "type": "run_lambda",

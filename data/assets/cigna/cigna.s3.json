@@ -1,19 +1,19 @@
 {
-  "asset_id": "cede2e36f47cdd9ac46b",
+  "asset_id": "6413a40f4393ae436add",
   "asset_name": "cigna.s3",
   "description": "",
   "location": {
     "path": "cigna/",
     "filename": "XO16000__xo10001i.77103.${YYYY}${MM}${DD}.txt",
-    "connection_id": "ae370d224b4e968e6508"
+    "connection_id": "120a7bca9bbd89d15ae2"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "1ed601a94392b34a098e"
+    "d48baeb8f6e73a1db2c2"
   ],
   "tags": []
 }

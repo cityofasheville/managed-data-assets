@@ -1,12 +1,12 @@
 {
   "asset_name": "abi_outreach_vendors.goog",
-  "asset_id": "0dff1cc5dd5713aebef0",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "7981143bf76225ee593c",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "35867441d2660128e92e",
-      "asset_id": "0dff1cc5dd5713aebef0",
+      "task_id": "171161aeefdb31ae3a6b",
+      "asset_id": "7981143bf76225ee593c",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",
@@ -21,8 +21,8 @@
       "configuration": null
     },
     {
-      "task_id": "8cf4351e03b47328dc19",
-      "asset_id": "0dff1cc5dd5713aebef0",
+      "task_id": "96d619722bfeedcdbe23",
+      "asset_id": "7981143bf76225ee593c",
       "seq_number": 1,
       "description": null,
       "type": "table_copy",

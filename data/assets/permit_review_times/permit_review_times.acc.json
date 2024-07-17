@@ -1,13 +1,13 @@
 {
-  "asset_id": "18b977c56d9544520961",
+  "asset_id": "5c26f3afc9bcc256a3fc",
   "asset_name": "permit_review_times.acc",
   "description": "Count days to review permits",
   "location": {
     "tablename": "permit_review_times",
     "schemaname": "dbo",
-    "connection_id": "daea2951c40fc63ef41d"
+    "connection_id": "71bb3ca357d11422abcb"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

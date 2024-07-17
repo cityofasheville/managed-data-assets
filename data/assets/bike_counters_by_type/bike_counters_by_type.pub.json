@@ -1,21 +1,21 @@
 {
-  "asset_id": "11d7bd1d5c4b54bcf33b",
+  "asset_id": "4421648d437d2e300188",
   "asset_name": "bike_counters_by_type.pub",
   "description": "Eco_Visio greenway pedestrian and bike counts-PublicDB",
   "location": {
     "tablename": "bike_counters_by_type",
     "schemaname": "open",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "53323f85527d8095f86a",
-    "77d0b1c3f85e6cf4760d",
-    "a2420dcbc5a0dc616b52"
+    "5752135d7875f42bf8c0",
+    "fef366e4891d0039fa59",
+    "19c2c445a5ef9452941a"
   ],
   "tags": []
 }

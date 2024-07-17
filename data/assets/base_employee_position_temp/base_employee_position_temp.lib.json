@@ -1,19 +1,19 @@
 {
-  "asset_id": "f6e4b815fafc40358cf5",
+  "asset_id": "2f997d1a37a0521efc14",
   "asset_name": "base_employee_position_temp.lib",
   "description": "",
   "location": {
     "tablename": "base_employee_position_temp",
     "schemaname": "temp",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "8bd9ed3c3ded00822c53"
+    "ee54cd9e7add6a051753"
   ],
   "tags": []
 }

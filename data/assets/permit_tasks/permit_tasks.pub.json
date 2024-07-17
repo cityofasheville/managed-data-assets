@@ -1,19 +1,19 @@
 {
-  "asset_id": "b4df9759097ced557df8",
+  "asset_id": "af255afa580cb015d805",
   "asset_name": "permit_tasks.pub",
   "description": "Permit tasks data",
   "location": {
     "tablename": "permit_tasks",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "5e2e213ca1e77f54b92b"
+    "52d0c121263309752d0c"
   ],
   "tags": []
 }

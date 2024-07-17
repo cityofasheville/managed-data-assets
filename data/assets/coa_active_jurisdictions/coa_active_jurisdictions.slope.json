@@ -1,19 +1,19 @@
 {
-  "asset_id": "5c9aa0b4ace2354c57a2",
+  "asset_id": "d21d1391f57d3b25b970",
   "asset_name": "coa_active_jurisdictions.slope",
   "description": "Asheville corporate limits",
   "location": {
     "tablename": "coa_active_jurisdictions",
     "schemaname": "public",
-    "connection_id": "802bf044e2f0fd4c6923"
+    "connection_id": "ba36bfd76693db1206e1"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "76bb977010f5ad3f9427"
+    "68913909062a157d7e0f"
   ],
   "tags": []
 }

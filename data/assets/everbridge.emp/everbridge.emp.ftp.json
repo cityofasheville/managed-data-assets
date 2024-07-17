@@ -1,19 +1,19 @@
 {
-  "asset_id": "537398fe5d46d7a6f2e6",
+  "asset_id": "e926515c86eb235a3b14",
   "asset_name": "everbridge.emp.ftp",
   "description": "",
   "location": {
     "path": "/replace/",
     "filename": "avl.PR_City_Employees_Everbridge.csv",
-    "connection_id": "8c9c45d66e9be9ba8f97"
+    "connection_id": "2c6c5c83678c126987f6"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "60ac7ac79ef7caf516ad"
+    "5a1fbe6c04c937e1c0bb"
   ],
   "tags": []
 }

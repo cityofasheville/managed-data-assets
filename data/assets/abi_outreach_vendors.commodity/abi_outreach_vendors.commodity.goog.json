@@ -1,21 +1,21 @@
 {
-  "asset_id": "f5f015e51d901243105e",
+  "asset_id": "5f218dd38448a21c2735",
   "asset_name": "abi_outreach_vendors.commodity.goog",
   "description": "List of MWBE vendors registered in Munis (not necessarily certified)",
   "location": {
     "tab": "Vendors By Commodity Code",
     "range": "A2:Z",
     "filename": "abi_outreach_vendors",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "1lm_LdZS6yhniDEuVGyaj3vdD7ACU8Eo_pCkmNr81TvA"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "043472358841c6c8fee2"
+    "944edf08c76d1ea4558c"
   ],
   "tags": []
 }

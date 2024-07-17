@@ -1,13 +1,13 @@
 {
-  "asset_id": "1914119f042afe1716ca",
+  "asset_id": "664f7aba6ae25fc13458",
   "asset_name": "paymentus.empty_control_file.lib",
   "description": "Paymentus Uploads require an empty file to be uploaded after data is sent to let them know upload is ready",
   "location": {
     "tablename": "emptydata",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

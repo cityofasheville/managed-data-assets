@@ -1,19 +1,19 @@
 {
-  "asset_id": "010dd32fd282ead17f99",
+  "asset_id": "a2627e7bb0f516464821",
   "asset_name": "permit_contractors.pub",
   "description": "Permit contractors data",
   "location": {
     "tablename": "permit_contractors",
     "schemaname": "bc",
-    "connection_id": "eac6512abbdaec9b8780"
+    "connection_id": "330682bd6ce6a16061e7"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "3ee0d169d3e5c36f3751"
+    "1e942a3f43c2ad2c3d34"
   ],
   "tags": []
 }

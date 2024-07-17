@@ -1,12 +1,12 @@
 {
   "asset_name": "vxsmart_balances.s3",
-  "asset_id": "f6f79fc1b13d532cdbd8",
-  "run_group_id": "b05e6e5ebda3e6980a00",
+  "asset_id": "635bf5bc5c18e4776a12",
+  "run_group_id": "b183d28e0764752fc145",
   "active": true,
   "tasks": [
     {
-      "task_id": "36546d55057f6e01b6b7",
-      "asset_id": "f6f79fc1b13d532cdbd8",
+      "task_id": "f76178d00b41393894da",
+      "asset_id": "635bf5bc5c18e4776a12",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

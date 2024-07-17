@@ -1,12 +1,12 @@
 {
   "asset_name": "paymentus_cif.ftp",
-  "asset_id": "915ab97af0d917009e20",
-  "run_group_id": "0a719cef7d43f4d70713",
+  "asset_id": "f9527b461fa2e51b8e9e",
+  "run_group_id": "f841a57b2545a779ae6c",
   "active": true,
   "tasks": [
     {
-      "task_id": "fd019659c078970bd0ba",
-      "asset_id": "915ab97af0d917009e20",
+      "task_id": "cc93c4d475cfde3a120d",
+      "asset_id": "f9527b461fa2e51b8e9e",
       "seq_number": 0,
       "description": null,
       "type": "file_copy",
@@ -20,8 +20,8 @@
       "configuration": null
     },
     {
-      "task_id": "a21e7aacf4697edbb0db",
-      "asset_id": "915ab97af0d917009e20",
+      "task_id": "3cf55ec8820d28127d09",
+      "asset_id": "f9527b461fa2e51b8e9e",
       "seq_number": 1,
       "description": null,
       "type": "file_copy",

@@ -1,19 +1,19 @@
 {
-  "asset_id": "5711ef1d3c3f6e561f00",
+  "asset_id": "e6ec0bfebc5bb81b0c27",
   "asset_name": "sog_purchased_water_volume.ncb",
   "description": "Water SOG Benchmark: Purchased Water Volume",
   "location": {
     "tab": "purchased_water_volume",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "1m2xD4JyH4BEBey_ybsEgrvYopsl0PjWNmY_PEv3l6D4"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [],
   "tags": [
-    "3235facdc581c9017e34"
+    "4e29687e5bd02a435d13"
   ]
 }

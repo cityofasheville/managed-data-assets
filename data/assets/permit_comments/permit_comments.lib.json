@@ -1,19 +1,19 @@
 {
-  "asset_id": "52e4d0bfdc6db85b1df6",
+  "asset_id": "ede4c2d3a9b1d9c01924",
   "asset_name": "permit_comments.lib",
   "description": "Permit comments data",
   "location": {
     "tablename": "permit_comments",
     "schemaname": "internal",
-    "connection_id": "102a9c5a0293e2afad3a"
+    "connection_id": "e418bd4e42cc8409ec28"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [
-    "8294ca97bbaa295a0ea7"
+    "ae24e3ad0739ed5cbfb3"
   ],
   "tags": []
 }

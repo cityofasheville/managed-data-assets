@@ -1,19 +1,19 @@
 {
-  "asset_id": "e583a5d9780639e4a44d",
+  "asset_id": "28a31f0f4cf0b9c48b61",
   "asset_name": "maint_Vacant_Lots.maint",
   "description": "Maintenance Responsibilities: Vacant Lots",
   "location": {
     "tab": "Vacant Lots",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "16rZUoAlISFIAmvcnSMHmhaE0qObj2OMpHQX3ddRoEwg"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
   "active": true,
   "depends": [],
   "tags": [
-    "7c827b6f0023ddab55c1"
+    "d427f9c40fae3238c820"
   ]
 }

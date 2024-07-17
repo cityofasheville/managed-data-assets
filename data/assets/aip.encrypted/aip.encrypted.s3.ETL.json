@@ -1,12 +1,12 @@
 {
   "asset_name": "aip.encrypted.s3",
-  "asset_id": "87b4a86e458158b4db9c",
-  "run_group_id": "d3f4bfb4279a4bd089ad",
+  "asset_id": "8687aa7de748f7427412",
+  "run_group_id": "1df4d3a918ed01b53ce4",
   "active": true,
   "tasks": [
     {
-      "task_id": "84addd9dff5d3a611868",
-      "asset_id": "87b4a86e458158b4db9c",
+      "task_id": "44f3fd5cefa8c350ddce",
+      "asset_id": "8687aa7de748f7427412",
       "seq_number": 0,
       "description": null,
       "type": "encrypt",

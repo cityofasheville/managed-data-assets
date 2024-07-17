@@ -1,12 +1,12 @@
 {
   "asset_name": "telestaff_person.s3",
-  "asset_id": "28c605e8485bf45ec651",
-  "run_group_id": "c1eb20ee50203635e5a7",
+  "asset_id": "c48a064e909a2f5fb27e",
+  "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "66175f5edb3480b08f7d",
-      "asset_id": "28c605e8485bf45ec651",
+      "task_id": "e068d118a172961cdf2d",
+      "asset_id": "c48a064e909a2f5fb27e",
       "seq_number": 0,
       "description": null,
       "type": "table_copy",

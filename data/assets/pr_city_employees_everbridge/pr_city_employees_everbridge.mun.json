@@ -1,13 +1,13 @@
 {
-  "asset_id": "c320bed16f62094469a3",
+  "asset_id": "7542203255f74c08abe3",
   "asset_name": "pr_city_employees_everbridge.mun",
   "description": "",
   "location": {
     "tablename": "PR_City_Employees_Everbridge",
     "schemaname": "avl",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

@@ -1,13 +1,13 @@
 {
-  "asset_id": "8ef40ec689a1b845d061",
+  "asset_id": "3144e1de990b1bdaa8b6",
   "asset_name": "gl_master.mun",
   "description": "Master general ledger history",
   "location": {
     "tablename": "gl_master",
     "schemaname": "amd",
-    "connection_id": "7668210537257f3b9b43"
+    "connection_id": "c22000b25e133beee869"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,

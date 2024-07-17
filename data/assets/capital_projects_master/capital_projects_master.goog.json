@@ -1,15 +1,15 @@
 {
-  "asset_id": "dc2c582335e614c2060a",
+  "asset_id": "d9a393f1f179d44e30b4",
   "asset_name": "capital_projects_master.goog",
   "description": "Capital Projects General Project Information",
   "location": {
     "tab": "General Project Information",
     "range": "A2:Z",
     "filename": "Capital Projects Master",
-    "connection_id": "0f8f90d2690a17e70b42",
+    "connection_id": "76085554183a536a7fae",
     "spreadsheetid": "1IepJrSjqbGK7UcTmFHqknNUD6Iyx6-3_zpj6qHprBgY"
   },
-  "asset_type_id": "8d6c0d30ff71acc6763f",
+  "asset_type_id": "45132247aedb1d59b221",
   "owner_id": null,
   "notes": null,
   "link": null,
