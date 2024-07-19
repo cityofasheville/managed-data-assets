@@ -32,8 +32,8 @@
       },
       "target": {
         "asset": "public_meeting_data.lib",
-        "append": true,
-        "email": "only_on_error"
+        "email": "only_on_error",
+        "append": true
       },
       "configuration": null
     }
