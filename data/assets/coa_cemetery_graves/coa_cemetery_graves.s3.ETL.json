@@ -1,0 +1,24 @@
+{
+  "asset_name": "coa_cemetery_graves.s3",
+  "asset_id": "25a700d961dced8554e",
+  "run_group_id": "d902a00cece8f31aafff",
+  "active": true,
+  "tasks": [
+    {
+      "task_id": "9eb396770fe7f2ca6",
+      "asset_id": "25a700d961dced8554e",
+      "seq_number": 0,
+      "description": null,
+      "type": "table_copy",
+      "active": true,
+      "source": {
+        "asset": "coa_cemetery_graves.wh",
+        "fixedwidth_noquotes": true
+      },
+      "target": {
+        "asset": "coa_cemetery_graves.s3"
+      },
+      "configuration": null
+    }
+  ]
+}

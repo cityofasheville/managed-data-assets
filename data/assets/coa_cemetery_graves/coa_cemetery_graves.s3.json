@@ -1,0 +1,22 @@
+{
+  "asset_id": "25a700d961dced8554e",
+  "asset_name": "coa_cemetery_graves.s3",
+  "description": "JSON formatted data: Riverside Cemetery graves",
+  "location": {
+    "path": "data/",
+    "filename": "gravedata2.json",
+    "connection_id": "5331e01149312ca6bc99"
+  },
+  "asset_type_id": "45132247aedb1d59b221",
+  "owner_id": null,
+  "notes": null,
+  "link": null,
+  "active": true,
+  "depends": [
+    {
+      "dependent_asset_id": "54e2bf0d0a014641fe35",
+      "relation_type": "PULLS_FROM"
+    }
+  ],
+  "tags": []
+}

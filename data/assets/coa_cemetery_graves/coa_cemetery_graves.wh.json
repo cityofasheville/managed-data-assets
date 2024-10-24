@@ -1,0 +1,17 @@
+{
+  "asset_id": "54e2bf0d0a014641fe35",
+  "asset_name": "coa_cemetery_graves.wh",
+  "description": "Riverside Cemetery graves",
+  "location": {
+    "tablename": "coa_cemetery_graves",
+    "schemaname": "coagis",
+    "connection_id": "afc223f01a9cdcc95812"
+  },
+  "asset_type_id": "45132247aedb1d59b221",
+  "owner_id": null,
+  "notes": null,
+  "link": null,
+  "active": true,
+  "depends": [],
+  "tags": []
+}
