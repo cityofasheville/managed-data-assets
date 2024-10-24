@@ -13,10 +13,22 @@
   "link": null,
   "active": true,
   "depends": [
-    "16285a33b5f69b9752eb",
-    "19883fc8b9afcd0026b1",
-    "22775d07bfe8d508034c",
-    "bce73b210b272da5096b"
+    {
+      "dependent_asset_id": "16285a33b5f69b9752eb",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "19883fc8b9afcd0026b1",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "22775d07bfe8d508034c",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "bce73b210b272da5096b",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

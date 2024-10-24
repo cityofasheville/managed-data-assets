@@ -13,8 +13,14 @@
   "link": null,
   "active": true,
   "depends": [
-    "62e201a9c7a7ba80e181",
-    "f9527b461fa2e51b8e9e"
+    {
+      "dependent_asset_id": "62e201a9c7a7ba80e181",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "f9527b461fa2e51b8e9e",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

@@ -13,9 +13,18 @@
   "link": null,
   "active": true,
   "depends": [
-    "5752135d7875f42bf8c0",
-    "19c2c445a5ef9452941a",
-    "fef366e4891d0039fa59"
+    {
+      "dependent_asset_id": "19c2c445a5ef9452941a",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "5752135d7875f42bf8c0",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "fef366e4891d0039fa59",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

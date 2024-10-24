@@ -25,3 +25,4 @@
 "6591ff66a24d73c99892","VXSmart SFTP Site","vxsmart_ftp","file"
 "bbdb18bd4af2d7c6a3c0","Notification DB","pubrecdb1/notifications/dbadmin","db"
 "992dd889a5f1654ef8e0","BedrockDB itself (for testdata schema)","pubrecdb1/bedrock/bedrock_user","db"
+"5331e01149312ca6bc99","Riverside Cemetery Website S3","s3_riversidecemetery","file" 

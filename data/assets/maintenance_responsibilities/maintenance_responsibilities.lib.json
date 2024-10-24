@@ -13,24 +13,78 @@
   "link": null,
   "active": true,
   "depends": [
-    "acf9f7b4747339d48f18",
-    "e99ec3efd719b25fac05",
-    "0a2d7445563716953f5e",
-    "64be66138c6d96e32a68",
-    "16d574c612a6b713d6cd",
-    "47a038c47986607d0f6c",
-    "f1f1bf7484e3d849d695",
-    "efe77032393a5581d729",
-    "36318590e584838c765b",
-    "2435a500bb232ec8ae32",
-    "b7566a634bf6a7eb696e",
-    "bbd04f7fe68f2d603ba0",
-    "ac50d0aa9b3be18bbd42",
-    "534c310d2dbd050f468f",
-    "e740d34dec2ac558b9be",
-    "b800f67d1ce60ffd8e6e",
-    "28a31f0f4cf0b9c48b61",
-    "1bc7397dd763d08a3240"
+    {
+      "dependent_asset_id": "0a2d7445563716953f5e",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "16d574c612a6b713d6cd",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "1bc7397dd763d08a3240",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "2435a500bb232ec8ae32",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "28a31f0f4cf0b9c48b61",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "36318590e584838c765b",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "47a038c47986607d0f6c",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "534c310d2dbd050f468f",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "64be66138c6d96e32a68",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "ac50d0aa9b3be18bbd42",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "acf9f7b4747339d48f18",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "b7566a634bf6a7eb696e",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "b800f67d1ce60ffd8e6e",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "bbd04f7fe68f2d603ba0",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "e740d34dec2ac558b9be",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "e99ec3efd719b25fac05",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "efe77032393a5581d729",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "f1f1bf7484e3d849d695",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

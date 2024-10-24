@@ -13,28 +13,94 @@
   "link": null,
   "active": true,
   "depends": [
-    "9ded19078edf3674135c",
-    "599ba4b3e67ee87af66c",
-    "441cd25a901de2b61a1d",
-    "f30e60be99dd7fefde40",
-    "d3a34739a13c5321642f",
-    "4afc8561d085eeecb335",
-    "b57dd9844c8f35a19e04",
-    "4fd1a87d1270f7fbd3a5",
-    "3fd694f18aaaaec20d44",
-    "12038ec42f0985d76b0b",
-    "40fa42cd629751777011",
-    "bb55455755c0ff728fca",
-    "80f23daef8c3a01ab209",
-    "8951383363e0d9e7e8f7",
-    "d511a5e72e17ac10cb57",
-    "fd7e7f045511eed8eca5",
-    "5217f4098dde360cdbc1",
-    "fe09e13e3a795e625b3f",
-    "e6ec0bfebc5bb81b0c27",
-    "f2ecd8f43be91e51e8fa",
-    "84d6a93e0d11fefa3247",
-    "2912b00ee6d7216aaf8a"
+    {
+      "dependent_asset_id": "12038ec42f0985d76b0b",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "2912b00ee6d7216aaf8a",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "3fd694f18aaaaec20d44",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "40fa42cd629751777011",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "441cd25a901de2b61a1d",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "4afc8561d085eeecb335",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "4fd1a87d1270f7fbd3a5",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "5217f4098dde360cdbc1",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "599ba4b3e67ee87af66c",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "80f23daef8c3a01ab209",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "84d6a93e0d11fefa3247",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "8951383363e0d9e7e8f7",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "9ded19078edf3674135c",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "b57dd9844c8f35a19e04",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "bb55455755c0ff728fca",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "d3a34739a13c5321642f",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "d511a5e72e17ac10cb57",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "e6ec0bfebc5bb81b0c27",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "f2ecd8f43be91e51e8fa",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "f30e60be99dd7fefde40",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "fd7e7f045511eed8eca5",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "fe09e13e3a795e625b3f",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

@@ -14,16 +14,46 @@
   "link": null,
   "active": true,
   "depends": [
-    "1e1671c5852245a34a75",
-    "e46ea0f93706b7837e4a",
-    "8879a0687fba25054551",
-    "14bb5a890b6e59eb574d",
-    "13b1100797637b49863c",
-    "c7c50122348b9b515ca1",
-    "aabc882870ef2023b7ae",
-    "79caafe5789993bf2ca4",
-    "32c08d3cec941c356f79",
-    "df0567e039129c13f03a"
+    {
+      "dependent_asset_id": "13b1100797637b49863c",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "14bb5a890b6e59eb574d",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "1e1671c5852245a34a75",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "32c08d3cec941c356f79",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "79caafe5789993bf2ca4",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "8879a0687fba25054551",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "aabc882870ef2023b7ae",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "c7c50122348b9b515ca1",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "df0567e039129c13f03a",
+      "relation_type": "PULLS_FROM"
+    },
+    {
+      "dependent_asset_id": "e46ea0f93706b7837e4a",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }

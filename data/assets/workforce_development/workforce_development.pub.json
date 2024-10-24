@@ -13,7 +13,10 @@
   "link": null,
   "active": true,
   "depends": [
-    "3a068065bce524e1bcca"
+    {
+      "dependent_asset_id": "3a068065bce524e1bcca",
+      "relation_type": "PULLS_FROM"
+    }
   ],
   "tags": []
 }
