@@ -1,11 +1,11 @@
 {
-  "asset_id": "zeeY5TX8oUrGo0Se",
-  "asset_name": "coa_cemetery_graves.s3",
+  "asset_id": "b4uAEnRCsvtpxl6y",
+  "asset_name": "coa_cemetery_graves.lib",
   "description": "Data for grave lookup table, riverside cemetery website.",
   "location": {
-    "path": "data/",
-    "filename": "gravedata.csv",
-    "connection_id": "5331e01149312ca6bc99"
+    "tablename": "coa_cemetery_graves",
+    "schemaname": "internal",
+    "connection_id": "e418bd4e42cc8409ec28"
   },
   "asset_type_id": "45132247aedb1d59b221",
   "owner_id": "53e6209a5797ae928f61",
@@ -14,7 +14,7 @@
   "active": true,
   "depends": [
     {
-      "dependent_asset_id": "b4uAEnRCsvtpxl6y",
+      "dependent_asset_id": "wSTVTY877B0jPEG4",
       "relation_type": "PULLS_FROM"
     }
   ],

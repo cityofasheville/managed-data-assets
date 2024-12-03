@@ -1,19 +1,18 @@
 {
   "asset_name": "coa_cemetery_graves.s3",
-  "asset_id": "25a700d961dced8554e",
+  "asset_id": "zeeY5TX8oUrGo0Se",
   "run_group_id": "d902a00cece8f31aafff",
   "active": true,
   "tasks": [
     {
-      "task_id": "9eb396770fe7f2ca6",
-      "asset_id": "25a700d961dced8554e",
+      "task_id": "ZwYZC1oYe9CPT2Ld",
+      "asset_id": "zeeY5TX8oUrGo0Se",
       "seq_number": 0,
-      "description": null,
+      "description": "Copying file to s3",
       "type": "table_copy",
       "active": true,
       "source": {
-        "asset": "coa_cemetery_graves.wh",
-        "fixedwidth_noquotes": true
+        "asset": "coa_cemetery_graves.lib"
       },
       "target": {
         "asset": "coa_cemetery_graves.s3"

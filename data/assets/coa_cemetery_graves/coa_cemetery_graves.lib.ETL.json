@@ -1,0 +1,24 @@
+{
+  "asset_name": "coa_cemetery_graves.lib",
+  "asset_id": "b4uAEnRCsvtpxl6y",
+  "run_group_id": "d902a00cece8f31aafff",
+  "active": true,
+  "tasks": [
+    {
+      "task_id": "uP12SwNYnGHAqh41",
+      "asset_id": "b4uAEnRCsvtpxl6y",
+      "seq_number": 0,
+      "description": "Copying table from gis wharehouse to bedrock data library.",
+      "type": "table_copy",
+      "active": true,
+      "source": {
+        "asset": "coa_cemetery_graves.wh",
+        "sortasc": "last_name"
+      },
+      "target": {
+        "asset": "coa_cemetery_graves.lib"
+      },
+      "configuration": null
+    }
+  ]
+}

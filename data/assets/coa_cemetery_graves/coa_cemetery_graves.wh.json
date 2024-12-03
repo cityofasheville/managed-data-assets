@@ -1,14 +1,14 @@
 {
-  "asset_id": "54e2bf0d0a014641fe35",
+  "asset_id": "wSTVTY877B0jPEG4",
   "asset_name": "coa_cemetery_graves.wh",
-  "description": "Riverside Cemetery graves",
+  "description": "Data for grave lookup table, riverside cemetery website.",
   "location": {
     "tablename": "coa_cemetery_graves",
     "schemaname": "coagis",
     "connection_id": "afc223f01a9cdcc95812"
   },
   "asset_type_id": "45132247aedb1d59b221",
-  "owner_id": null,
+  "owner_id": "53e6209a5797ae928f61",
   "notes": null,
   "link": null,
   "active": true,
